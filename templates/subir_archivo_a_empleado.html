@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Buscar Empleado para Subir Archivo</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      padding: 2rem;
+      background: #f5f5f5;
+      color: #004442;
+      text-align: center;
+    }
+    h1 {
+      margin-bottom: 2rem;
+    }
+    form {
+      margin-bottom: 1.5rem;
+    }
+    input[type="text"] {
+      padding: 10px;
+      width: 300px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      padding: 10px 20px;
+      background: #CDA043;
+      border: none;
+      color: white;
+      border-radius: 5px;
+      margin-left: 10px;
+      cursor: pointer;
+    }
+    .error {
+      color: red;
+      margin-top: 1rem;
+    }
+    .volver {
+      display: inline-block;
+      margin-top: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      color: #004442;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>📤 Subir Archivo a Empleado</h1>
+
+  <form method="POST">
+    <input type="text" name="consulta" placeholder="Legajo, CUIL o Nombre Completo" required>
+    <button type="submit">Buscar</button>
+  </form>
+
+  {% if error %}
+    <p class="error">{{ error }}</p>
+  {% endif %}
+
+  <a href="/panel" class="volver">⬅️ Volver al Panel</a>
+
+</body>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="/static/img/favicon.ico" type="image/x-icon" /> 
+  <title>Editar Empleado</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f4f4f4;
+      padding: 2rem;
+      color: #004442;
+    }
+    h1 {
+      text-align: center;
+      color: #004442;
+    }
+    form {
+      max-width: 600px;
+      margin: auto;
+      background-color: white;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: 500;
+    }
+    input {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      margin-top: 20px;
+      background-color: #1976d2;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #1565c0;
+    }
+    .volver {
+      display: block;
+      margin: 20px auto 0;
+      text-align: center;
+      text-decoration: none;
+      color: #004442;
+    }
+  </style>
+</head>
+<body>
+
+<h1>✏️ Editar Empleado</h1>
+
+<form action="/editar/{{ legajo }}" method="POST">
+  <label>Nombre completo</label>
+  <input type="text" name="nombre" value="{{ empleado.nombre }}" required>
+
+  <label>CUIL</label>
+  <input type="text" name="cuil" value="{{ empleado.cuil }}" required>
+
+  <label>Sector</label>
+  <input type="text" name="sector" value="{{ empleado.sector }}" required>
+
+  <label>Fecha de ingreso</label>
+  <input type="date" name="fecha_ingreso" value="{{ empleado.fecha_ingreso }}">
+
+  <label>Fecha de nacimiento</label>
+  <input type="date" name="fecha_nacimiento" value="{{ empleado.fecha_nacimiento }}">
+
+  <label>Teléfono</label>
+  <input type="text" name="telefono" value="{{ empleado.telefono }}">
+
+  <label>Dirección</label>
+  <input type="text" name="direccion" value="{{ empleado.direccion }}">
+
+  <label>Email</label>
+  <input type="email" name="email" value="{{ empleado.email }}">
+
+  <label>Días de vacaciones</label>
+  <input type="number" name="vacaciones" value="{{ empleado.vacaciones or 0 }}">
+
+  <button type="submit">Guardar Cambios</button>
+</form>
+
+<a href="/ver_todos" class="volver">⬅️ Volver a la lista</a>
+
+</body>
+</html>

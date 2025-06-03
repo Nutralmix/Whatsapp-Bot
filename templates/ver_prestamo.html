@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Préstamo de {{ empleado.nombre }} {{ empleado.apellido }}</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&display=swap">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f4f4f4;
+      padding: 2rem;
+      color: #004442;
+    }
+    h1 {
+      text-align: center;
+    }
+    .ficha {
+      background: white;
+      max-width: 600px;
+      margin: auto;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .dato {
+      margin-bottom: 10px;
+    }
+    .volver {
+      display: block;
+      text-align: center;
+      margin-top: 20px;
+      text-decoration: none;
+      color: #004442;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>💰 Préstamo de {{ empleado.nombre }} {{ empleado.apellido }}</h1>
+
+  <div class="ficha">
+    {% if prestamo %}
+      <div class="dato"><strong>Fecha del préstamo:</strong> {{ prestamo.fecha_prestamo }}</div>
+      <div class="dato"><strong>Monto:</strong> ${{ prestamo.monto | int | format_num }}</div>
+      <div class="dato"><strong>Cuotas:</strong> {{ prestamo.cuotas }}</div>
+      <div class="dato"><strong>Cancelado:</strong> ${{ prestamo.cancelado | int | format_num }}</div>
+      <div class="dato"><strong>Pendiente:</strong> ${{ prestamo.pendiente | int | format_num }}</div>
+      <div class="dato"><strong>Próxima cuota:</strong> ${{ prestamo.proxima_cuota | int | format_num }}</div>
+      <div class="dato"><strong>Cuotas pendientes:</strong> {{ prestamo.cuotas_pendientes }}</div>
+      <div class="dato"><strong>Fecha de cancelación:</strong> {{ prestamo.fecha_cancelacion }}</div>
+    {% else %}
+      <p style="text-align:center;">❌ Este empleado no tiene un préstamo registrado.</p>
+    {% endif %}
+  </div>
+
+  <a href="/prestamos" class="volver">⬅️ Volver al listado de préstamos</a>
+
+</body>
+</html>

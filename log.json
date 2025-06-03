@@ -1,0 +1,56 @@
+[
+    {
+        "timestamp": "2025-05-27 11:57:16",
+        "usuario": {
+            "telefono": "whatsapp:+5492317558435",
+            "nombre": "No Registrado",
+            "rol": "N/A"
+        },
+        "accion": "Intento de acceso sin registro."
+    },
+    {
+        "timestamp": "2025-05-27 11:58:20",
+        "usuario": {
+            "telefono": "whatsapp:+5492317558435",
+            "nombre": "No Registrado",
+            "rol": "N/A"
+        },
+        "accion": "Intento de acceso sin registro."
+    },
+    {
+        "timestamp": "2025-05-27 12:00:22",
+        "usuario": {
+            "telefono": "whatsapp:+5492317558435",
+            "nombre": "No Registrado",
+            "rol": "N/A"
+        },
+        "accion": "Intento de acceso sin registro."
+    },
+    {
+        "timestamp": "2025-05-27 12:13:08",
+        "usuario": {
+            "telefono": "2317558435",
+            "nombre": "Seba",
+            "rol": "admin"
+        },
+        "accion": "Accedió al menú de administrador."
+    },
+    {
+        "timestamp": "2025-05-27 13:43:54",
+        "usuario": {
+            "telefono": "2317558435",
+            "nombre": "Seba",
+            "rol": "admin"
+        },
+        "accion": "Admin consultó 'Ver todos los empleados'."
+    },
+    {
+        "timestamp": "2025-05-27 13:44:16",
+        "usuario": {
+            "telefono": "2317558435",
+            "nombre": "Seba",
+            "rol": "admin"
+        },
+        "accion": "Admin inició 'Editar empleado'."
+    }
+]

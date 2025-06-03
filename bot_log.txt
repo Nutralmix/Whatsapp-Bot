@@ -1,0 +1,21 @@
+[2025-05-27 10:31:34] [Usuario: Seba (Rol: empleado)] Accedió al menú de empleado.
+[2025-05-27 10:31:38] [Usuario: Seba (Rol: empleado)] Empleado eligió subir un archivo.
+[2025-05-27 10:31:51] [Usuario: Seba (Rol: empleado)] Error al descargar archivo desde https://api.twilio.com/2010-04-01/Accounts/AC09479e549f93af79f206cf0b82cc6db4/Messages/MM4f521771731690e58e1301defd23168c/Media/ME7542c433329b15427e691e835119dd2f (HTTP Error): 401 Client Error: Unauthorized for url: https://api.twilio.com/2010-04-01/Accounts/AC09479e549f93af79f206cf0b82cc6db4/Messages/MM4f521771731690e58e1301defd23168c/Media/ME7542c433329b15427e691e835119dd2f
+[2025-05-27 10:48:29] [Usuario: Seba (Rol: empleado)] Accedió al menú de empleado.
+[2025-05-27 10:48:33] [Usuario: Seba (Rol: empleado)] Empleado eligió subir un archivo.
+[2025-05-27 10:48:47] [Usuario: Seba (Rol: empleado)] Subió archivo 'archivo_adjunto_20250527_104845.jpeg' a archivos\Seba desde WhatsApp.
+[2025-05-27 10:49:40] [Usuario: Seba (Rol: admin)] Accedió al menú de administrador.
+[2025-05-27 10:49:46] [Usuario: Seba (Rol: admin)] Eligió subir archivo a empleado. Esperando nombre del empleado.
+[2025-05-27 10:49:51] [Usuario: Seba (Rol: admin)] Admin eligió subir archivo para juan. Esperando archivo.
+[2025-05-27 10:50:07] [Usuario: Seba (Rol: admin)] Subió archivo 'archivo_adjunto_20250527_105006.jpeg' a archivos\Juan desde WhatsApp.
+[2025-05-27 14:15:56] Usuario: Seba - Acción: Admin cerró sesión.
+[2025-05-28 12:55:57] Usuario: Seba - Acción: Admin cerró sesión.
+[2025-05-28 14:38:54] Usuario: Seba - Acción: Empleado subió archivo a su carpeta personal.
+[2025-05-28 14:40:39] Usuario: Seba - Acción: Admin cerró sesión.
+[2025-05-28 14:41:54] Usuario: Seba - Acción: Admin consultó info de empleado: 2
+[2025-05-28 14:43:13] Usuario: Seba - Acción: Admin subió archivo a Juan.
+[2025-05-28 14:44:19] Usuario: Seba - Acción: Admin subió archivo a Juan.
+[2025-05-30 15:35:53] Usuario: No Registrado - Acción: Intento de acceso sin registro: hola
+[2025-06-02 14:55:22] Usuario: No Registrado - Acción: Intento sin registro: hola
+[2025-06-02 14:55:42] Usuario: No Registrado - Acción: Intento sin registro: hola
+[2025-06-02 15:00:37] Usuario: No Registrado - Acción: Intento sin registro: hola

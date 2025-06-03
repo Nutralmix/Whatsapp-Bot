@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="/static/img/favicon.ico" type="image/x-icon" />
+  <title>Consultar Empleado</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f4f4f4;
+      padding: 2rem;
+      color: #004442;
+    }
+    h1 {
+      text-align: center;
+    }
+    form {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    input[type="text"] {
+      padding: 10px;
+      width: 300px;
+      font-size: 1rem;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 1rem;
+      margin-left: 10px;
+      background-color: #CDA043;
+      color: #004442;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .ficha {
+      background: white;
+      max-width: 600px;
+      margin: auto;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .dato {
+      margin-bottom: 10px;
+    }
+    .volver {
+      display: block;
+      text-align: center;
+      margin-top: 20px;
+      text-decoration: none;
+      color: #004442;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🔎 Consultar Información de Empleado</h1>
+
+  <form method="POST">
+    <input type="text" name="consulta" placeholder="Buscar por CUIL, nombre o legajo" required>
+    <button type="submit">Buscar</button>
+  </form>
+
+  {% if resultado %}
+  <div class="ficha">
+    <h2>{{ resultado.nombre }} {{ resultado.apellido }}</h2>
+    <div class="dato"><strong>Legajo:</strong> {{ resultado.legajo }}</div>
+    <div class="dato"><strong>CUIL:</strong> {{ resultado.cuil }}</div>
+    <div class="dato"><strong>Sector:</strong> {{ resultado.sector }}</div>
+    <div class="dato"><strong>Fecha de ingreso:</strong> {{ resultado.fecha_ingreso }}</div>
+    <div class="dato"><strong>Fecha de nacimiento:</strong> {{ resultado.fecha_nacimiento }}</div>
+    <div class="dato"><strong>Teléfono:</strong> {{ resultado.telefono }}</div>
+    <div class="dato"><strong>Dirección:</strong> {{ resultado.direccion }}</div>
+    <div class="dato"><strong>Email:</strong> {{ resultado.email }}</div>
+    <div class="dato"><strong>Vacaciones:</strong> {{ resultado.vacaciones or 0 }}</div>
+    
+    <div style="text-align: center; margin-top: 20px; display: flex; justify-content: center; gap: 15px;">
+      <a href="/editar/{{ resultado.legajo }}" style="text-decoration: none;">
+        <button style="background-color: #1976d2; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
+          ✏️ Editar este empleado
+        </button>
+      </a>
+      <a href="/archivos/{{ resultado.legajo }}" style="text-decoration: none;">
+        <button style="margin-top: 10px; background-color: #004442; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
+          📁 Ver archivos
+        </button>
+      </a>
+      <a href="/prestamo/{{ resultado.legajo }}" style="text-decoration: none;">
+        <button style="margin-top: 10px; background-color: #cda043; color: #004442; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
+          💰 Ver préstamo
+        </button>
+      </a>
+      <a href="/eliminar/{{ resultado.legajo }}" style="text-decoration: none;" onclick="return confirm('¿Seguro que querés eliminar este empleado?');">
+        <button style="background-color: #d32f2f; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
+          🗑️ Eliminar empleado
+        </button>
+      </a>
+    </div>
+  </div>
+
+  {% elif request.method == 'POST' %}
+    <p style="text-align:center;">❌ No se encontró ningún empleado con ese dato.</p>
+  {% endif %}
+
+  <a href="/panel" class="volver">⬅️ Volver al Panel</a>
+</body>
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/static/img/favicon.ico" type="image/x-icon" /> 
+    <title>Empleados</title>
+    <link rel="stylesheet" href="/static/css/estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f6f8fa;
+            padding: 20px;
+            color: #333;
+        }
+        h1 {
+            color: #1976d2;
+        }
+        input#buscador {
+            width: 100%;
+            padding: 10px;
+            font-size: 1rem;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        th {
+            background-color: #e3f2fd;
+        }
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+        .acciones button {
+            margin-right: 5px;
+            cursor: pointer;
+        }
+        .volver {
+            margin-top: 20px;
+            display: inline-block;
+            background-color: #1976d2;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>👥 Lista de Empleados</h1>
+
+    <input type="text" id="buscador" placeholder="🔍 Buscar empleado...">
+
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Apellido</th>
+                <th>Nombre</th>
+                <th>CUIL</th>
+                <th>Sector</th>
+                <th>Ingreso</th>
+                <th>Vacaciones</th>
+                <th>Teléfono</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for emp_id, emp in empleados.items() %}
+            <tr>
+                <td>{{ emp_id }}</td>
+                <td>{{ emp.apellido }}</td>
+                <td>{{ emp.nombre }}</td>
+                <td>{{ emp.cuil }}</td>
+                <td>{{ emp.sector }}</td>
+                <td>{{ emp.fecha_ingreso }}</td>
+                <td>{{ emp.vacaciones or 0 }}</td>
+                <td>{{ emp.telefono }}</td>
+                <td class="acciones">
+                   <a href="/editar/{{ emp_id }}" title="Editar">✏️</a>
+                   <a href="/eliminar/{{ emp_id }}" title="Eliminar" onclick="return confirm('¿Estás seguro que querés eliminar este empleado?')">🗑️</a>
+                   <a href="/archivos/{{ emp_id }}" title="Ver archivos">📁</a>
+                   <a href="/prestamo/{{ emp_id }}" title="Ver préstamo">💰</a>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <a href="/panel" class="volver">⬅️ Volver al Panel</a>
+
+    <script>
+        document.getElementById("buscador").addEventListener("keyup", function() {
+            const filtro = this.value.toLowerCase();
+            const filas = document.querySelectorAll("tbody tr");
+
+            filas.forEach(fila => {
+                const textoFila = fila.innerText.toLowerCase();
+                fila.style.display = textoFila.includes(filtro) ? "" : "none";
+            });
+        });
+    </script>
+
+</body>
+</html>
