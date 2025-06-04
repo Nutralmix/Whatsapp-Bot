@@ -1,4 +1,3 @@
-# whatsapp_bot.py
 from flask import Flask, request
 from bot import (
     obtener_usuario_por_telefono,
@@ -18,6 +17,7 @@ from meta_config import ACCESS_TOKEN, PHONE_NUMBER_ID, API_VERSION, VERIFY_TOKEN
 
 app = Flask(__name__)
 user_states = {}
+BASE_URL = os.getenv("BASE_URL", "https://whatsapp-bot-1wj3.onrender.com")
 
 def limpiar_numero(numero):
     numero = numero.replace("+", "")
@@ -33,16 +33,16 @@ def webhook():
         mode = request.args.get("hub.mode")
         token = request.args.get("hub.verify_token")
         challenge = request.args.get("hub.challenge")
-        print(f"🪝 GET /webhook | mode: {mode}, token: {token}")
         if mode == "subscribe" and token == VERIFY_TOKEN:
+            print("✅ Verificación webhook exitosa")
             return challenge, 200
+        print("❌ Falló la verificación del webhook")
         return "Invalid verification", 403
 
     if request.method == "POST":
         data = request.get_json()
-        print("📥 POST /webhook recibido:")
+        print("📥 LLEGÓ UN MENSAJE POST")
         print(json.dumps(data, indent=2))
-
         try:
             for entry in data.get("entry", []):
                 for change in entry.get("changes", []):
@@ -50,8 +50,8 @@ def webhook():
                     if "messages" in value:
                         mensaje = value["messages"][0]
                         from_number = limpiar_numero(mensaje["from"])
-                        print(f"📨 Mensaje de {from_number}")
 
+                        # Adjuntos
                         if "image" in mensaje or "document" in mensaje:
                             tipo = "image" if "image" in mensaje else "document"
                             media = mensaje[tipo]
@@ -61,7 +61,6 @@ def webhook():
                             url_media = f"https://graph.facebook.com/v18.0/{media_id}"
                             headers = {"Authorization": f"Bearer {ACCESS_TOKEN}"}
                             res = requests.get(url_media, headers=headers)
-
                             if res.status_code == 200:
                                 media_url = res.json().get("url")
                                 r = guardar_archivo_enviado_por_whatsapp(
@@ -75,14 +74,14 @@ def webhook():
                         texto = mensaje.get("text", {}).get("body", "")
                         procesar_mensaje(texto, from_number)
         except Exception as e:
-            print("❌ Error al procesar mensaje:", e)
+            print("❌ Error al procesar:", e)
         return "OK", 200
 
 def procesar_mensaje(texto, from_number):
     texto = texto.strip().lower()
     usuario = obtener_usuario_por_telefono(from_number)
-    print(f"👤 Usuario detectado: {usuario}")
-    print(f"✉️ Texto recibido: {texto}")
+    print(f"📞 {from_number} dijo: {texto}")
+    print("🧑 Usuario:", usuario)
 
     if from_number not in user_states:
         user_states[from_number] = {"estado": None, "data": {}}
@@ -111,9 +110,9 @@ def procesar_mensaje(texto, from_number):
 
     if estado in ["menu_admin", "menu_empleado"] and texto.isdigit():
         if usuario["rol"] == "admin":
-            respuesta, nuevo_estado = procesar_opcion_admin(usuario, texto, estado, "")
+            respuesta, nuevo_estado = procesar_opcion_admin(usuario, texto, estado, BASE_URL)
         else:
-            respuesta, nuevo_estado = procesar_opcion_empleado(usuario, texto, "")
+            respuesta, nuevo_estado = procesar_opcion_empleado(usuario, texto, BASE_URL)
         user_states[from_number]["estado"] = nuevo_estado or estado
         enviar_mensaje(from_number, respuesta)
         return
