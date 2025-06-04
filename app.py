@@ -5,6 +5,8 @@ import unicodedata
 from werkzeug.utils import secure_filename
 from datetime import datetime, timedelta
 
+# Normalizador
+
 def normalizar(texto):
     if not texto:
         return ""
@@ -13,8 +15,10 @@ def normalizar(texto):
     texto = ''.join(c for c in texto if unicodedata.category(c) != 'Mn')
     return texto
 
+# App Flask
 app = Flask(__name__)
 
+# Filtro personalizado
 @app.template_filter('format_num')
 def format_num(value):
     return f"{int(value):,}".replace(",", ".")
@@ -51,11 +55,10 @@ def agregar():
 
         legajo = request.form["legajo"]
 
+        empleados = {}
         if os.path.exists("empleados.json"):
             with open("empleados.json", "r", encoding="utf-8") as f:
                 empleados = json.load(f)
-        else:
-            empleados = {}
 
         empleados[legajo] = nuevo_empleado
 
@@ -66,48 +69,41 @@ def agregar():
 
     return render_template("agregar_empleado.html")
 
-@app.route('/editar/<legajo>', methods=['GET'])
+@app.route('/editar/<legajo>', methods=['GET', 'POST'])
 def editar_empleado(legajo):
     with open("empleados.json", "r", encoding="utf-8") as f:
         empleados = json.load(f)
+
+    if request.method == 'POST':
+        empleados[legajo] = {
+            "apellido": request.form["apellido"],
+            "nombre": request.form["nombre"],
+            "cuil": request.form["cuil"],
+            "sector": request.form["sector"],
+            "fecha_ingreso": request.form["fecha_ingreso"],
+            "fecha_nacimiento": request.form["fecha_nacimiento"],
+            "telefono": request.form["telefono"],
+            "direccion": request.form["direccion"],
+            "email": request.form["email"],
+            "vacaciones": int(request.form["vacaciones"] or 0)
+        }
+
+        with open("empleados.json", "w", encoding="utf-8") as f:
+            json.dump(empleados, f, ensure_ascii=False, indent=4)
+
+        return redirect(url_for('ver_todos'))
+
     empleado = empleados.get(legajo)
     if not empleado:
         return f"<h2>No se encontró el empleado con legajo {legajo}</h2>"
     return render_template("editar_empleado.html", empleado=empleado, legajo=legajo)
 
-@app.route('/editar/<legajo>', methods=['POST'])
-def guardar_empleado_editado(legajo):
-    with open("empleados.json", "r", encoding="utf-8") as f:
-        empleados = json.load(f)
-
-    if legajo not in empleados:
-        return f"<h2>Empleado con legajo {legajo} no encontrado</h2>"
-
-    empleados[legajo] = {
-        "apellido": request.form["apellido"],
-        "nombre": request.form["nombre"],
-        "cuil": request.form["cuil"],
-        "sector": request.form["sector"],
-        "fecha_ingreso": request.form["fecha_ingreso"],
-        "fecha_nacimiento": request.form["fecha_nacimiento"],
-        "telefono": request.form["telefono"],
-        "direccion": request.form["direccion"],
-        "email": request.form["email"],
-        "vacaciones": int(request.form["vacaciones"] or 0)
-    }
-
-    with open("empleados.json", "w", encoding="utf-8") as f:
-        json.dump(empleados, f, ensure_ascii=False, indent=4)
-
-    return redirect(url_for('ver_todos'))
-
 @app.route("/eliminar/<legajo>")
 def eliminar(legajo):
+    empleados = {}
     if os.path.exists("empleados.json"):
         with open("empleados.json", "r", encoding="utf-8") as f:
             empleados = json.load(f)
-    else:
-        empleados = {}
 
     if legajo in empleados:
         del empleados[legajo]
@@ -151,25 +147,25 @@ def ver_archivos(legajo):
     nombre = empleado.get("nombre", "sin_nombre").strip().replace(" ", "_")
     carpeta = os.path.join("static", "archivos", f"{apellido}_{nombre}")
 
-    if os.path.exists(carpeta):
-        archivos = os.listdir(carpeta)
-    else:
-        archivos = []
+    archivos = os.listdir(carpeta) if os.path.exists(carpeta) else []
 
     return render_template("ver_archivos.html", legajo=legajo, archivos=archivos, empleado=empleado)
 
 @app.route("/archivos/<legajo>/subir", methods=["POST"])
 def subir_archivo(legajo):
-    archivo = request.files["archivo"]
-    if archivo.filename == "":
-        return "No se seleccionó ningún archivo"
+    archivo = request.files.get("archivo")
+    if not archivo or archivo.filename == "":
+        return "❌ No se seleccionó ningún archivo."
+
+    if not os.path.exists("empleados.json"):
+        return "❌ No se encontró la base de empleados."
 
     with open("empleados.json", "r", encoding="utf-8") as f:
         empleados = json.load(f)
 
     empleado = empleados.get(legajo)
     if not empleado:
-        return f"No se encontró el empleado con legajo {legajo}"
+        return f"❌ No se encontró el empleado con legajo {legajo}"
 
     apellido = empleado.get("apellido", "sin_apellido").strip().replace(" ", "_")
     nombre = empleado.get("nombre", "sin_nombre").strip().replace(" ", "_")
@@ -229,7 +225,6 @@ def cumples():
 
                 dias_para_cumple = (cumple_este_anio - hoy).days
 
-                # Antigüedad
                 try:
                     fecha_ingreso = datetime.strptime(ingreso_str, "%d-%m-%Y")
                     antiguedad = hoy.year - fecha_ingreso.year
@@ -274,7 +269,6 @@ def ver_prestamo(legajo):
         return f"Empleado con legajo {legajo} no encontrado."
 
     prestamo = empleado.get("prestamo")
-
     return render_template("ver_prestamo.html", empleado=empleado, prestamo=prestamo)
 
 @app.route("/prestamos")
@@ -293,6 +287,5 @@ def ver_prestamos():
 
 if __name__ == "__main__":
     import os
-    port = int(os.environ.get("PORT", 5000))
+    port = int(os.environ.get("PORT", 5001))
     app.run(host="0.0.0.0", port=port)
-
