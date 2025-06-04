@@ -71,6 +71,8 @@ def agregar():
 
 @app.route('/editar/<legajo>', methods=['GET', 'POST'])
 def editar_empleado(legajo):
+    print("📝 Editando legajo:", legajo)
+    print("🧾 Datos recibidos:", request.form)
     with open("empleados.json", "r", encoding="utf-8") as f:
         empleados = json.load(f)
 

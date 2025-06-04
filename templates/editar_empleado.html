@@ -62,7 +62,10 @@
 <h1>✏️ Editar Empleado</h1>
 
 <form action="/editar/{{ legajo }}" method="POST">
-  <label>Nombre completo</label>
+  <label>Apellido</label>
+  <input type="text" name="apellido" value="{{ empleado.apellido }}" required>
+
+  <label>Nombre</label>
   <input type="text" name="nombre" value="{{ empleado.nombre }}" required>
 
   <label>CUIL</label>
@@ -72,10 +75,10 @@
   <input type="text" name="sector" value="{{ empleado.sector }}" required>
 
   <label>Fecha de ingreso</label>
-  <input type="date" name="fecha_ingreso" value="{{ empleado.fecha_ingreso }}">
+  <input type="text" name="fecha_ingreso" value="{{ empleado.fecha_ingreso }}">
 
   <label>Fecha de nacimiento</label>
-  <input type="date" name="fecha_nacimiento" value="{{ empleado.fecha_nacimiento }}">
+  <input type="text" name="fecha_nacimiento" value="{{ empleado.fecha_nacimiento }}">
 
   <label>Teléfono</label>
   <input type="text" name="telefono" value="{{ empleado.telefono }}">
