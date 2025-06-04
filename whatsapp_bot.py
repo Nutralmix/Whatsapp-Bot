@@ -12,13 +12,12 @@ from bot import (
 )
 import requests
 import json
+import os
 from datetime import datetime
+from meta_config import ACCESS_TOKEN, PHONE_NUMBER_ID, API_VERSION, VERIFY_TOKEN
 
 app = Flask(__name__)
 user_states = {}
-
-VERIFY_TOKEN = "nutralmix-bot-verif-2025"
-BASE_URL = "https://e565-190-52-84-28.ngrok-free.app"  # Asegurate de cambiar esto por la URL de Render
 
 def limpiar_numero(numero):
     numero = numero.replace("+", "")
@@ -34,12 +33,16 @@ def webhook():
         mode = request.args.get("hub.mode")
         token = request.args.get("hub.verify_token")
         challenge = request.args.get("hub.challenge")
+        print(f"🪝 GET /webhook | mode: {mode}, token: {token}")
         if mode == "subscribe" and token == VERIFY_TOKEN:
             return challenge, 200
         return "Invalid verification", 403
 
     if request.method == "POST":
         data = request.get_json()
+        print("📥 POST /webhook recibido:")
+        print(json.dumps(data, indent=2))
+
         try:
             for entry in data.get("entry", []):
                 for change in entry.get("changes", []):
@@ -47,18 +50,18 @@ def webhook():
                     if "messages" in value:
                         mensaje = value["messages"][0]
                         from_number = limpiar_numero(mensaje["from"])
+                        print(f"📨 Mensaje de {from_number}")
 
-                        # 📎 ARCHIVOS ADJUNTOS
                         if "image" in mensaje or "document" in mensaje:
                             tipo = "image" if "image" in mensaje else "document"
                             media = mensaje[tipo]
                             media_id = media.get("id")
                             filename = media.get("filename", None)
 
-                            access_token = __import__("meta_config").ACCESS_TOKEN
                             url_media = f"https://graph.facebook.com/v18.0/{media_id}"
-                            headers = {"Authorization": f"Bearer {access_token}"}
+                            headers = {"Authorization": f"Bearer {ACCESS_TOKEN}"}
                             res = requests.get(url_media, headers=headers)
+
                             if res.status_code == 200:
                                 media_url = res.json().get("url")
                                 r = guardar_archivo_enviado_por_whatsapp(
@@ -72,19 +75,18 @@ def webhook():
                         texto = mensaje.get("text", {}).get("body", "")
                         procesar_mensaje(texto, from_number)
         except Exception as e:
-            print("❌ Error al procesar:", e)
+            print("❌ Error al procesar mensaje:", e)
         return "OK", 200
 
 def procesar_mensaje(texto, from_number):
     texto = texto.strip().lower()
-
     usuario = obtener_usuario_por_telefono(from_number)
-    print("🧑 Usuario encontrado:", usuario)
+    print(f"👤 Usuario detectado: {usuario}")
+    print(f"✉️ Texto recibido: {texto}")
 
     if from_number not in user_states:
         user_states[from_number] = {"estado": None, "data": {}}
     estado = user_states[from_number]["estado"]
-    print("📍 Estado actual:", estado)
 
     if not usuario:
         enviar_mensaje(from_number, "❌ No estás registrado. Pedí acceso al administrador.")
@@ -109,9 +111,9 @@ def procesar_mensaje(texto, from_number):
 
     if estado in ["menu_admin", "menu_empleado"] and texto.isdigit():
         if usuario["rol"] == "admin":
-            respuesta, nuevo_estado = procesar_opcion_admin(usuario, texto, estado, BASE_URL)
+            respuesta, nuevo_estado = procesar_opcion_admin(usuario, texto, estado, "")
         else:
-            respuesta, nuevo_estado = procesar_opcion_empleado(usuario, texto, BASE_URL)
+            respuesta, nuevo_estado = procesar_opcion_empleado(usuario, texto, "")
         user_states[from_number]["estado"] = nuevo_estado or estado
         enviar_mensaje(from_number, respuesta)
         return
@@ -126,7 +128,6 @@ def procesar_mensaje(texto, from_number):
     enviar_mensaje(from_number, "🤖 No entendí tu mensaje. Escribí 'menu' para ver opciones.")
 
 def enviar_mensaje(numero, texto):
-    from meta_config import ACCESS_TOKEN, PHONE_NUMBER_ID, API_VERSION
     url = f"https://graph.facebook.com/{API_VERSION}/{PHONE_NUMBER_ID}/messages"
     headers = {
         "Authorization": f"Bearer {ACCESS_TOKEN}",
@@ -143,7 +144,5 @@ def enviar_mensaje(numero, texto):
     print("📨", r.status_code, r.text)
 
 if __name__ == "__main__":
-    import os
     port = int(os.environ.get("PORT", 5000))
     app.run(host="0.0.0.0", port=port)
-
