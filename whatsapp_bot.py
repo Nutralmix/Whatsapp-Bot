@@ -51,24 +51,34 @@ def webhook():
                         mensaje = value["messages"][0]
                         from_number = limpiar_numero(mensaje["from"])
 
-                        # Adjuntos
+                        # Archivos adjuntos (imagen o documento)
                         if "image" in mensaje or "document" in mensaje:
                             tipo = "image" if "image" in mensaje else "document"
                             media = mensaje[tipo]
                             media_id = media.get("id")
                             filename = media.get("filename", None)
+                            mime_type = media.get("mime_type", "")
 
-                            url_media = f"https://graph.facebook.com/v18.0/{media_id}"
+                            url_media_info = f"https://graph.facebook.com/v19.0/{media_id}"
                             headers = {"Authorization": f"Bearer {ACCESS_TOKEN}"}
-                            res = requests.get(url_media, headers=headers)
-                            if res.status_code == 200:
-                                media_url = res.json().get("url")
-                                r = guardar_archivo_enviado_por_whatsapp(
-                                    from_number, media_url, media.get("mime_type", ""), filename
-                                )
-                                enviar_mensaje(from_number, r)
+
+                            # Paso 1: Obtener la URL real del archivo
+                            res_url = requests.get(url_media_info, headers=headers)
+                            if res_url.status_code == 200:
+                                media_url = res_url.json().get("url")
+
+                                # Paso 2: Descargar el archivo usando esa URL
+                                res_file = requests.get(media_url, headers=headers, stream=True)
+                                if res_file.status_code == 200:
+                                    r = guardar_archivo_enviado_por_whatsapp(
+                                        from_number, media_url, mime_type, filename
+                                    )
+                                    enviar_mensaje(from_number, r)
+                                else:
+                                    enviar_mensaje(from_number, f"❌ No se pudo descargar el archivo (status {res_file.status_code}).")
                             else:
-                                enviar_mensaje(from_number, "❌ No se pudo descargar el archivo.")
+                                enviar_mensaje(from_number, f"❌ No se pudo obtener la URL del archivo (status {res_url.status_code}).")
+
                             return "OK", 200
 
                         texto = mensaje.get("text", {}).get("body", "")
@@ -145,5 +155,3 @@ def enviar_mensaje(numero, texto):
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
     app.run(host="0.0.0.0", port=port)
-
-
