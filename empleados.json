@@ -2116,23 +2116,16 @@
         "prestamo": {}
     },
     "196": {
-        "legajo": "196",
-        "cuil": "20-30830857-0",
         "apellido": "Zega",
         "nombre": "Maximiliano",
+        "cuil": "20-30830857-0",
         "sector": "RRHH",
-        "sede": "9 de Julio",
         "fecha_ingreso": "14-09-2022",
-        "estado": "Activo",
-        "fecha_baja": "",
-        "motivo_baja": "",
         "fecha_nacimiento": "07-07-1984",
-        "antiguedad": "",
-        "edad": 0,
-        "telefono": "",
-        "rol": "empleado",
-        "notas": "",
-        "prestamo": {}
+        "telefono": "2317415313",
+        "direccion": "",
+        "email": "",
+        "vacaciones": 0
     },
     "197": {
         "legajo": "197",

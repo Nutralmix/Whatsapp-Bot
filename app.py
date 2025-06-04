@@ -132,6 +132,18 @@ def info():
                 consulta in normalizar(emp.get("apellido", "")) or
                 consulta in normalizar(emp.get("cuil", ""))):
                 resultado = {"legajo": legajo, **emp}
+
+                # 👇 Agregar cálculo de antigüedad
+                try:
+                    ingreso = datetime.strptime(emp.get("fecha_ingreso", ""), "%d-%m-%Y")
+                    hoy = datetime.now()
+                    antiguedad = hoy.year - ingreso.year
+                    if (hoy.month, hoy.day) < (ingreso.month, ingreso.day):
+                        antiguedad -= 1
+                    resultado["antiguedad"] = antiguedad
+                except:
+                    resultado["antiguedad"] = "?"
+
                 break
 
     return render_template("consultar_info.html", resultado=resultado)
