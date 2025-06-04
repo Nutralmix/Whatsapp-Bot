@@ -18,7 +18,7 @@ app = Flask(__name__)
 user_states = {}
 
 VERIFY_TOKEN = "nutralmix-bot-verif-2025"
-BASE_URL = "https://e565-190-52-84-28.ngrok-free.app"
+BASE_URL = "https://e565-190-52-84-28.ngrok-free.app"  # Asegurate de cambiar esto por la URL de Render
 
 def limpiar_numero(numero):
     numero = numero.replace("+", "")
@@ -47,7 +47,7 @@ def webhook():
                     if "messages" in value:
                         mensaje = value["messages"][0]
                         from_number = limpiar_numero(mensaje["from"])
-                        
+
                         # 📎 ARCHIVOS ADJUNTOS
                         if "image" in mensaje or "document" in mensaje:
                             tipo = "image" if "image" in mensaje else "document"
@@ -77,11 +77,14 @@ def webhook():
 
 def procesar_mensaje(texto, from_number):
     texto = texto.strip().lower()
+
     usuario = obtener_usuario_por_telefono(from_number)
+    print("🧑 Usuario encontrado:", usuario)
 
     if from_number not in user_states:
         user_states[from_number] = {"estado": None, "data": {}}
     estado = user_states[from_number]["estado"]
+    print("📍 Estado actual:", estado)
 
     if not usuario:
         enviar_mensaje(from_number, "❌ No estás registrado. Pedí acceso al administrador.")
