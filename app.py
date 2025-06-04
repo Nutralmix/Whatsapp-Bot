@@ -5,8 +5,9 @@ import unicodedata
 from werkzeug.utils import secure_filename
 from datetime import datetime, timedelta
 
-# Normalizador
-
+# ---------------------------
+# Función para normalizar texto
+# ---------------------------
 def normalizar(texto):
     if not texto:
         return ""
@@ -15,13 +16,21 @@ def normalizar(texto):
     texto = ''.join(c for c in texto if unicodedata.category(c) != 'Mn')
     return texto
 
-# App Flask
+# ---------------------------
+# Configuración de Flask
+# ---------------------------
 app = Flask(__name__)
 
-# Filtro personalizado
+# ---------------------------
+# Filtro para formatear números
+# ---------------------------
 @app.template_filter('format_num')
 def format_num(value):
     return f"{int(value):,}".replace(",", ".")
+
+# ---------------------------
+# Rutas
+# ---------------------------
 
 @app.route("/")
 def portada():
@@ -71,8 +80,6 @@ def agregar():
 
 @app.route('/editar/<legajo>', methods=['GET', 'POST'])
 def editar_empleado(legajo):
-    print("📝 Editando legajo:", legajo)
-    print("🧾 Datos recibidos:", request.form)
     with open("empleados.json", "r", encoding="utf-8") as f:
         empleados = json.load(f)
 
@@ -98,6 +105,7 @@ def editar_empleado(legajo):
     empleado = empleados.get(legajo)
     if not empleado:
         return f"<h2>No se encontró el empleado con legajo {legajo}</h2>"
+
     return render_template("editar_empleado.html", empleado=empleado, legajo=legajo)
 
 @app.route("/eliminar/<legajo>")
@@ -132,19 +140,18 @@ def info():
                 consulta in normalizar(emp.get("apellido", "")) or
                 consulta in normalizar(emp.get("cuil", ""))):
                 resultado = {"legajo": legajo, **emp}
-
-                # 👇 Agregar cálculo de antigüedad
-                try:
-                    ingreso = datetime.strptime(emp.get("fecha_ingreso", ""), "%d-%m-%Y")
-                    hoy = datetime.now()
-                    antiguedad = hoy.year - ingreso.year
-                    if (hoy.month, hoy.day) < (ingreso.month, ingreso.day):
-                        antiguedad -= 1
-                    resultado["antiguedad"] = antiguedad
-                except:
-                    resultado["antiguedad"] = "?"
-
                 break
+
+        if resultado:
+            try:
+                from dateutil.relativedelta import relativedelta
+                hoy = datetime.now()
+                ingreso_str = resultado.get("fecha_ingreso", "")
+                fecha_ingreso = datetime.strptime(ingreso_str, "%d-%m-%Y")
+                diferencia = relativedelta(hoy, fecha_ingreso)
+                resultado["antiguedad"] = f"{diferencia.years} años y {diferencia.months} meses"
+            except:
+                resultado["antiguedad"] = "?"
 
     return render_template("consultar_info.html", resultado=resultado)
 
@@ -160,7 +167,6 @@ def ver_archivos(legajo):
     apellido = empleado.get("apellido", "sin_apellido").strip().replace(" ", "_")
     nombre = empleado.get("nombre", "sin_nombre").strip().replace(" ", "_")
     carpeta = os.path.join("static", "archivos", f"{apellido}_{nombre}")
-
     archivos = os.listdir(carpeta) if os.path.exists(carpeta) else []
 
     return render_template("ver_archivos.html", legajo=legajo, archivos=archivos, empleado=empleado)
@@ -184,7 +190,6 @@ def subir_archivo(legajo):
     apellido = empleado.get("apellido", "sin_apellido").strip().replace(" ", "_")
     nombre = empleado.get("nombre", "sin_nombre").strip().replace(" ", "_")
     carpeta = os.path.join("static", "archivos", f"{apellido}_{nombre}")
-
     os.makedirs(carpeta, exist_ok=True)
 
     nombre_seguro = secure_filename(archivo.filename)
@@ -204,10 +209,10 @@ def elegir_empleado_para_subir_archivo():
 
         for legajo, emp in empleados.items():
             if (
-                entrada == normalizar(legajo)
-                or entrada == normalizar(emp.get("cuil", ""))
-                or entrada == normalizar(f"{emp.get('nombre', '')} {emp.get('apellido', '')}")
-                or entrada == normalizar(f"{emp.get('apellido', '')} {emp.get('nombre', '')}")
+                entrada == normalizar(legajo) or
+                entrada == normalizar(emp.get("cuil", "")) or
+                entrada == normalizar(f"{emp.get('nombre', '')} {emp.get('apellido', '')}") or
+                entrada == normalizar(f"{emp.get('apellido', '')} {emp.get('nombre', '')}")
             ):
                 return redirect(url_for("ver_archivos", legajo=legajo))
 
@@ -299,7 +304,9 @@ def ver_prestamos():
 
     return render_template("ver_prestamos.html", empleados=empleados_con_prestamo)
 
+# ---------------------------
+# Ejecutar la app
+# ---------------------------
 if __name__ == "__main__":
-    import os
     port = int(os.environ.get("PORT", 5001))
     app.run(host="0.0.0.0", port=port)
