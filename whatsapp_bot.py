@@ -65,20 +65,19 @@ def webhook():
                             # Paso 1: Obtener la URL real del archivo
                             res_url = requests.get(url_media_info, headers=headers)
                             if res_url.status_code == 200:
-                                media_url = res_url.json().get("url")
+                                 media_url = res_url.json().get("url")
 
-                                # Paso 2: Descargar el archivo usando esa URL
-                                media_url_con_token = f"{media_url}?access_token={ACCESS_TOKEN}"
-                                res_file = requests.get(media_url_con_token, stream=True)
-                                if res_file.status_code == 200:
-                                    r = guardar_archivo_enviado_por_whatsapp(
-                                        from_number, media_url_con_token, mime_type, filename
-                                    ) 
-                                    enviar_mensaje(from_number, r)
-                                else:
-                                    enviar_mensaje(from_number, f"❌ No se pudo descargar el archivo (status {res_file.status_code}).")
+                                 # Paso 2: Descargar el archivo usando esa URL (usamos headers con token)
+                                 res_file = requests.get(media_url, headers=headers, stream=True)
+                                 if res_file.status_code == 200:
+                                     r = guardar_archivo_enviado_por_whatsapp(
+                                    from_number, media_url, mime_type, filename
+                                     )
+                                     enviar_mensaje(from_number, r)
+                                 else:
+                                     enviar_mensaje(from_number, f"❌ No se pudo descargar el archivo (status {res_file.status_code}).")
                             else:
-                                enviar_mensaje(from_number, f"❌ No se pudo obtener la URL del archivo (status {res_url.status_code}).")
+                                 enviar_mensaje(from_number, f"❌ No se pudo obtener la URL del archivo (status {res_url.status_code}).")
 
                             return "OK", 200
 
