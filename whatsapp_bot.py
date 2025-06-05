@@ -59,7 +59,7 @@ def webhook():
                             filename = media.get("filename", None)
                             mime_type = media.get("mime_type", "")
 
-                            url_media_info = f"https://graph.facebook.com/v19.0/{media_id}"
+                            url_media_info = f"https://graph.facebook.com/v23.0/{media_id}"
                             headers = {"Authorization": f"Bearer {ACCESS_TOKEN}"}
 
                             # Paso 1: Obtener la URL real del archivo
