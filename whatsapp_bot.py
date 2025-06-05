@@ -59,25 +59,34 @@ def webhook():
                             filename = media.get("filename", None)
                             mime_type = media.get("mime_type", "")
 
-                            url_media_info = f"https://graph.facebook.com/v23.0/{media_id}"
+                            print(f"📎 Tipo: {tipo}")
+                            print(f"🆔 media_id: {media_id}")
+                            print(f"📄 filename: {filename}")
+                            print(f"🧾 mime_type: {mime_type}")
+
+                            url_media_info = f"https://graph.facebook.com/{API_VERSION}/{media_id}"
                             headers = {"Authorization": f"Bearer {ACCESS_TOKEN}"}
 
                             # Paso 1: Obtener la URL real del archivo
                             res_url = requests.get(url_media_info, headers=headers)
-                            if res_url.status_code == 200:
-                                 media_url = res_url.json().get("url")
+                            print(f"🌐 Media info response: {res_url.status_code} - {res_url.text}")
 
-                                 # Paso 2: Descargar el archivo usando esa URL (usamos headers con token)
-                                 res_file = requests.get(media_url, headers=headers, stream=True)
-                                 if res_file.status_code == 200:
-                                     r = guardar_archivo_enviado_por_whatsapp(
-                                    from_number, media_url, mime_type, filename
-                                     )
-                                     enviar_mensaje(from_number, r)
-                                 else:
-                                     enviar_mensaje(from_number, f"❌ No se pudo descargar el archivo (status {res_file.status_code}).")
+                            if res_url.status_code == 200:
+                                media_url = res_url.json().get("url")
+
+                                # Paso 2: Descargar el archivo (sin header de auth acá)
+                                res_file = requests.get(media_url, stream=True)
+                                print(f"⬇️ Descarga: {res_file.status_code}")
+
+                                if res_file.status_code == 200:
+                                    r = guardar_archivo_enviado_por_whatsapp(
+                                        from_number, media_url, mime_type, filename
+                                    )
+                                    enviar_mensaje(from_number, r)
+                                else:
+                                    enviar_mensaje(from_number, f"❌ No se pudo descargar el archivo (status {res_file.status_code}).")
                             else:
-                                 enviar_mensaje(from_number, f"❌ No se pudo obtener la URL del archivo (status {res_url.status_code}).")
+                                enviar_mensaje(from_number, f"❌ No se pudo obtener la URL del archivo (status {res_url.status_code}).")
 
                             return "OK", 200
 
