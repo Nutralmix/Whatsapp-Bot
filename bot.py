@@ -124,12 +124,11 @@ def mostrar_menu_empleado(nombre_empleado, telefono_empleado=None):
         "📋 Menú Principal - Empleado\n\n"
         "1️⃣ Vacaciones 🏖️\n"
         "2️⃣ Préstamo 💰\n"
-        "3️⃣ Cumpleaños y Edad 🎂\n"
-        "4️⃣ Mi Información 🧾\n"
-        "5️⃣ Mis Archivos 📁\n"
-        "6️⃣ Subir Archivo ⬆️\n"
-        "7️⃣ Próximos Cumples 📅\n"
-        "8️⃣ Salir ❌"
+        "3️⃣ Mi Información 🧾\n"
+        "4️⃣ Mis Archivos 📁\n"
+        "5️⃣ Subir Archivo ⬆️\n"
+        "6️⃣ Próximos Cumples 📅\n"
+        "7️⃣ Salir ❌"
     )
     return menu_text
 
@@ -189,28 +188,24 @@ def procesar_opcion_empleado(usuario, opcion, base_url=""):
         response_text = consultar_prestamo(usuario["telefono"])
         next_state = "menu_empleado"
     elif opcion == "3":
-        # Esta opción en tu menú original era "Ver cumpleaños y edad" para el propio empleado
-        response_text = consultar_cumpleanos_y_edad(usuario["telefono"]) 
-        next_state = "menu_empleado"
-    elif opcion == "4":
         response_text = ver_informacion_completa(usuario["telefono"])
         next_state = "menu_empleado"
-    elif opcion == "5":
+    elif opcion == "4":
         response_text = listar_archivos_empleado(usuario["telefono"], base_url)
         next_state = "menu_empleado"
-    elif opcion == "6":
-        response_text = "📎Por favor, adjuntá el archivo que quieres subir a tu carpeta personal."
+    elif opcion == "5":
+        response_text = "📎Por favor, adjuntá el archivo que querés subir a tu carpeta personal."
         next_state = "esperando_archivo_empleado"
-    elif opcion == "7": # Esta es la nueva posición para "Ver próximos cumpleaños"
+    elif opcion == "6":
         response_text = obtener_proximos_cumpleanos()
-        next_state = "menu_empleado" # Vuelve al menú después de mostrar
-    elif opcion == "8": # Esta es la nueva posición para "Salir"
+        next_state = "menu_empleado"
+    elif opcion == "7":
         response_text = "Sesión finalizada. ¡Hasta luego!"
         registrar_log(usuario, "Empleado cerró sesión.")
-        next_state = "cerrar" # Indica al manejador principal que limpie el estado
+        next_state = "cerrar"
     else:
         response_text = "❌ Opción no válida. Por favor, elegí una opción del menú."
-        next_state = "menu_empleado" # Si la opción es inválida, vuelve a mostrar el menú.
+        next_state = "menu_empleado"
 
     return response_text, next_state
 
