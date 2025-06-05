@@ -568,6 +568,7 @@ def obtener_proximos_cumpleanos():
     """
     Obtiene una lista de los próximos cumpleaños (en los próximos 30 días)
     ordenados por fecha, incluyendo la edad que cumplirán.
+    Solo incluye empleados con estado "activo".
     """
     empleados_data = {}
     try:
@@ -582,28 +583,26 @@ def obtener_proximos_cumpleanos():
     cumpleanos_proximos = []
 
     for emp_id, emp_info in empleados_data.items():
+        # ⚠️ Filtrar por estado
+        if emp_info.get("estado", "").lower() != "activo":
+            continue
+
         if "fecha_nacimiento" in emp_info and emp_info["fecha_nacimiento"]:
             try:
                 dia, mes, anio_nacimiento = map(int, emp_info["fecha_nacimiento"].split('-'))
                 
-                # Calcular la edad actual
                 edad_actual = hoy.year - anio_nacimiento - ((hoy.month, hoy.day) < (mes, dia))
-
-                # Crear una fecha de cumpleaños para el año actual
                 cumple_este_anio = datetime(hoy.year, mes, dia)
 
-                # Si el cumpleaños ya pasó este año, considerar el del próximo año
                 if cumple_este_anio < hoy:
                     cumple_proximo_ocasion = datetime(hoy.year + 1, mes, dia)
                     edad_a_cumplir = edad_actual + 1
                 else:
                     cumple_proximo_ocasion = cumple_este_anio
                     edad_a_cumplir = edad_actual
-                
-                # Calcular la diferencia de días
+
                 dias_restantes = (cumple_proximo_ocasion - hoy).days
 
-                # Si está dentro de los próximos 30 días o es hoy, agrégalo
                 if 0 <= dias_restantes <= 30:
                     cumpleanos_proximos.append({
                         "nombre": emp_info["nombre"],
