@@ -114,23 +114,17 @@
         "prestamo": {}
     },
     "9": {
-        "legajo": "9",
-        "cuil": "20-27850573-2",
         "apellido": "Cañas",
         "nombre": "Pablo Damián",
+        "cuil": "20-27850573-2",
         "sector": "Administracion",
-        "sede": "9 de Julio",
         "fecha_ingreso": "01-03-2007",
-        "estado": "Activo",
-        "fecha_baja": "",
-        "motivo_baja": "",
         "fecha_nacimiento": "13-01-1980",
-        "antiguedad": "",
-        "edad": 0,
-        "telefono": "",
-        "rol": "empleado",
-        "notas": "",
-        "prestamo": {}
+        "telefono": "2317508259",
+        "direccion": "",
+        "email": "",
+        "vacaciones": 0,
+        "estado": "Activo"
     },
     "10": {
         "legajo": "10",
