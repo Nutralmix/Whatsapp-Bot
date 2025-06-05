@@ -2819,23 +2819,17 @@
         "prestamo": {}
     },
     "276": {
-        "legajo": "276",
-        "cuil": "20-39291932-6",
         "apellido": "Diaz",
         "nombre": "Federico",
+        "cuil": "20-39291932-6",
         "sector": "Logistica",
-        "sede": "nan",
         "fecha_ingreso": "13-01-2025",
-        "estado": "Activo",
-        "fecha_baja": "",
-        "motivo_baja": "",
         "fecha_nacimiento": "",
-        "antiguedad": "",
-        "edad": 0,
-        "telefono": "",
-        "rol": "empleado",
-        "notas": "",
-        "prestamo": {}
+        "telefono": "2317465748",
+        "direccion": "",
+        "email": "",
+        "vacaciones": 0,
+        "estado": "Activo"
     },
     "278": {
         "legajo": "278",
