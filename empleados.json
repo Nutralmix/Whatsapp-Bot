@@ -1276,23 +1276,17 @@
         "prestamo": {}
     },
     "104": {
-        "legajo": "104",
-        "cuil": "20-34974786-4",
         "apellido": "Zola",
         "nombre": "Francisco",
+        "cuil": "20-34974786-4",
         "sector": "Logistica",
-        "sede": "9 de Julio",
         "fecha_ingreso": "11-09-2017",
-        "estado": "Activo",
-        "fecha_baja": "",
-        "motivo_baja": "",
         "fecha_nacimiento": "18-04-1990",
-        "antiguedad": "",
-        "edad": 0,
-        "telefono": "",
-        "rol": "empleado",
-        "notas": "",
-        "prestamo": {}
+        "telefono": "2317474064",
+        "direccion": "",
+        "email": "",
+        "vacaciones": 0,
+        "estado": "Activo"
     },
     "109": {
         "legajo": "109",
