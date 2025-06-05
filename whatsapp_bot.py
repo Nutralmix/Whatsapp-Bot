@@ -68,11 +68,12 @@ def webhook():
                                 media_url = res_url.json().get("url")
 
                                 # Paso 2: Descargar el archivo usando esa URL
-                                res_file = requests.get(media_url, headers=headers, stream=True)
+                                media_url_con_token = f"{media_url}?access_token={ACCESS_TOKEN}"
+                                res_file = requests.get(media_url_con_token, stream=True)
                                 if res_file.status_code == 200:
                                     r = guardar_archivo_enviado_por_whatsapp(
-                                        from_number, media_url, mime_type, filename
-                                    )
+                                        from_number, media_url_con_token, mime_type, filename
+                                    ) 
                                     enviar_mensaje(from_number, r)
                                 else:
                                     enviar_mensaje(from_number, f"❌ No se pudo descargar el archivo (status {res_file.status_code}).")
