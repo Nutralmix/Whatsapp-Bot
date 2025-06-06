@@ -328,7 +328,7 @@
         "fecha_nacimiento": "11-10-1983",
         "edad": 0,
         "telefono": "2317558435",
-        "rol": "empleado",
+        "rol": "admin",
         "notas": "",
         "prestamo": {}
     },
