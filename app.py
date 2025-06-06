@@ -209,8 +209,10 @@ def cumples():
             cumple_este_anio = fecha_nac.replace(year=hoy.year)
             edad = hoy.year - fecha_nac.year
 
+            # Si ya pasó el cumpleaños este año, usar el del año siguiente
             if cumple_este_anio < hoy:
-                continue
+                cumple_este_anio = fecha_nac.replace(year=hoy.year + 1)
+                edad += 1
 
             dias_para_cumple = (cumple_este_anio - hoy).days
 
@@ -222,13 +224,22 @@ def cumples():
             except:
                 antiguedad = "?"
 
+            # Agregar mensaje especial según la cercanía
+            if dias_para_cumple == 0:
+                mensaje_extra = "🎉 ¡Cumple HOY!"
+            elif dias_para_cumple == 1:
+                mensaje_extra = "🎈 Cumple mañana"
+            else:
+                mensaje_extra = ""
+
             data = {
                 "legajo": legajo,
                 "nombre": emp.get("nombre", ""),
                 "apellido": emp.get("apellido", ""),
                 "fecha": cumple_este_anio.strftime("%d/%m"),
                 "edad": edad,
-                "antiguedad": antiguedad
+                "antiguedad": antiguedad,
+                "mensaje_extra": mensaje_extra
             }
 
             if dias_para_cumple <= 30:
@@ -309,26 +320,85 @@ def exportar_excel():
 def subir_archivo_empleado():
     log_debug("Acceso a subir archivo a empleado (privado)")
     mensaje = ""
+    resultado = None
+
+    try:
+        with open("empleados.json", "r", encoding="utf-8") as f:
+            empleados = json.load(f)
+    except:
+        empleados = {}
 
     if request.method == 'POST':
-        legajo = request.form.get("legajo")
+        if 'consulta' in request.form:
+            consulta = normalizar(request.form['consulta'])
+
+            for legajo, emp in empleados.items():
+                if (consulta in normalizar(legajo) or
+                    consulta in normalizar(emp.get("nombre", "")) or
+                    consulta in normalizar(emp.get("apellido", "")) or
+                    consulta in normalizar(emp.get("cuil", ""))):
+                    resultado = {"legajo": legajo, **emp}
+                    break
+
+            if not resultado:
+                mensaje = "❌ No se encontró ningún empleado con ese dato."
+                log_debug(mensaje)
+
+        elif 'archivo' in request.files and 'legajo' in request.form:
+            legajo = request.form.get("legajo")
+            archivo = request.files.get("archivo")
+
+            if not legajo or not archivo:
+                mensaje = "❌ Faltan datos: legajo o archivo."
+                log_debug(mensaje)
+            else:
+                emp = empleados.get(legajo)
+                if not emp:
+                    mensaje = "❌ Legajo no válido."
+                else:
+                    # Carpeta: static/archivos/Apellido_Nombre
+                    nombre = emp.get("nombre", "nombre")
+                    apellido = emp.get("apellido", "apellido")
+                    carpeta_nombre = f"{apellido}_{nombre}".replace(" ", "_")
+                    carpeta_destino = os.path.join("static", "archivos", carpeta_nombre)
+                    os.makedirs(carpeta_destino, exist_ok=True)
+
+                    filename = secure_filename(archivo.filename)
+                    ruta_archivo = os.path.join(carpeta_destino, filename)
+                    try:
+                        archivo.save(ruta_archivo)
+                        mensaje = f"✅ Archivo <strong>{filename}</strong> subido correctamente."
+                        log_debug(f"Archivo {filename} subido a {carpeta_destino}")
+                        registrar_log_simple(f"📁 Archivo subido por panel: {filename} en {carpeta_destino}")
+                    except Exception as e:
+                        mensaje = f"❌ Error al guardar archivo: {e}"
+                        log_debug(mensaje)
+
+                    resultado = {"legajo": legajo, **emp}
+
+    return render_template("subir_archivo_empleado.html", mensaje=mensaje, resultado=resultado)
+
+@app.route('/subir_archivo_publico', methods=['GET', 'POST'])
+def subir_archivo_publico():
+    log_debug("Acceso a subir archivo público")
+    mensaje = ""
+
+    if request.method == 'POST':
         archivo = request.files.get("archivo")
-
-        if not legajo or not archivo:
-            mensaje = "❌ Faltan datos: legajo o archivo."
+        if not archivo:
+            mensaje = "❌ No se seleccionó ningún archivo."
             log_debug(mensaje)
-            return render_template("subir_archivo_empleado.html", mensaje=mensaje)
+        else:
+            filename = secure_filename(archivo.filename)
+            carpeta_destino = os.path.join("static", "archivos", "publicos")
+            os.makedirs(carpeta_destino, exist_ok=True)
+            ruta_archivo = os.path.join(carpeta_destino, filename)
+            archivo.save(ruta_archivo)
 
-        filename = secure_filename(archivo.filename)
-        carpeta_destino = os.path.join("archivos_empleados", legajo)
-        os.makedirs(carpeta_destino, exist_ok=True)
-        ruta_archivo = os.path.join(carpeta_destino, filename)
-        archivo.save(ruta_archivo)
+            mensaje = f"✅ Archivo público {filename} subido correctamente."
+            log_debug(mensaje)
 
-        mensaje = f"✅ Archivo {filename} subido para legajo {legajo}."
-        log_debug(mensaje)
-
-    return render_template("subir_archivo_empleado.html", mensaje=mensaje)
+    return render_template("subir_archivo_publico.html", mensaje=mensaje)
 
 # ---------------------------
 # Ejecutar la app

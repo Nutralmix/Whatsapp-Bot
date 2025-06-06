@@ -1,1 +1,7 @@
 [2025-06-06 09:56:01] 🔄 Exportación de empleados a Excel realizada desde el panel web.
+[2025-06-06 10:18:50] 🔄 Exportación de empleados a Excel realizada desde el panel web.
+[2025-06-06 11:08:44] 📁 Archivo subido por panel: Concentrado_Novillo_con_sombra.png en static\archivos\Zega_Maximiliano
+[2025-06-06 11:09:07] 📁 Archivo subido por panel: Balanceado_Iniciador_con_sombra.png en static\archivos\Cañas_Pablo_Damián
+[2025-06-06 11:15:06] 📁 Archivo subido por panel: BOLSA.521.png en static\archivos\Macchione_Guadalupe
+[2025-06-06 11:15:28] 🔄 Exportación de empleados a Excel realizada desde el panel web.
+[2025-06-06 11:16:47] 🔄 Exportación de empleados a Excel realizada desde el panel web.

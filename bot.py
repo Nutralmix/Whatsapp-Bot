@@ -123,8 +123,10 @@ def mostrar_menu_empleado(nombre_empleado, telefono_empleado=None):
         "4️⃣ Mis Archivos 📁\n"
         "5️⃣ Subir Archivo ⬆️\n"
         "6️⃣ Próximos Cumples 📅\n"
-        "7️⃣ Salir ❌"
+        "7️⃣ Archivos Públicos 📂\n"
+        "8️⃣ Salir ❌"
     )
+
     return menu_text
 # --- Funciones de Procesamiento de Opciones ---
 
@@ -170,36 +172,56 @@ def procesar_opcion_admin(usuario, opcion, current_state=None, base_url=""):
 
     return response_text, next_state
 
-def procesar_opcion_empleado(usuario, opcion, base_url=""):
-    log_debug(f"Empleado {usuario['nombre']} seleccionó opción {opcion}")
-    response_text = ""
-    next_state = None
-
+def procesar_opcion_empleado(usuario, opcion, base_url):
     if opcion == "1":
-        response_text = consultar_dias_vacaciones(usuario["telefono"])
-        next_state = "menu_empleado"
+        return "📆 Tus días de vacaciones disponibles son: {} días.".format(
+            usuario.get("vacaciones", 0)
+        ), "menu_empleado"
+
     elif opcion == "2":
-        response_text = consultar_prestamo(usuario["telefono"])
-        next_state = "menu_empleado"
+        prestamo = usuario.get("prestamo")
+        if prestamo:
+            return (
+                f"💳 Tenés un préstamo activo:\n"
+                f"- Monto: ${prestamo.get('monto')}\n"
+                f"- Cuotas: {prestamo.get('cuotas')}\n"
+                f"- Restan pagar: {prestamo.get('restan')}",
+                "menu_empleado"
+            )
+        else:
+            return "💸 No tenés préstamos activos registrados.", "menu_empleado"
+
     elif opcion == "3":
-        response_text = ver_informacion_completa(usuario["telefono"])
-        next_state = "menu_empleado"
+        return (
+            f"📄 Información:\n"
+            f"Nombre: {usuario.get('nombre')} {usuario.get('apellido')}\n"
+            f"Legajo: {usuario.get('legajo')}\n"
+            f"CUIL: {usuario.get('cuil')}\n"
+            f"Sector: {usuario.get('sector')}\n"
+            f"Fecha de ingreso: {usuario.get('fecha_ingreso')}\n"
+            f"Antigüedad: {usuario.get('antiguedad')} años",
+            "menu_empleado"
+        )
+
     elif opcion == "4":
-        response_text = listar_archivos_empleado(usuario["telefono"], base_url)
-        next_state = "menu_empleado"
+        url = f"{base_url}/archivos/{usuario['legajo']}"
+        return f"📁 Podés ver tus archivos acá:\n{url}", "menu_empleado"
+
     elif opcion == "5":
-        response_text = "📎Por favor, adjuntá el archivo que querés subir a tu carpeta personal."
-        next_state = "esperando_archivo_empleado"
+        return "📤 Para subir un archivo, ingresá al siguiente enlace:\n" \
+               f"{base_url}/subir_archivo_empleado", "menu_empleado"
+
     elif opcion == "6":
-        response_text = obtener_proximos_cumpleanos()
-        next_state = "menu_empleado"
+        return f"🎉 Consultá los próximos cumpleaños acá:\n{base_url}/cumples", "menu_empleado"
+
     elif opcion == "7":
-        response_text = "Sesión finalizada. ¡Hasta luego!"
-        registrar_log(usuario, "Empleado cerró sesión.")
-        next_state = "cerrar"
+        return f"📂 Archivos públicos disponibles:\n{base_url}/archivos/publicos", "menu_empleado"
+
+    elif opcion == "8":
+        return "👋 Hasta luego. Escribí 'menu' para volver a empezar.", None
+
     else:
-        response_text = "❌ Opción no válida. Por favor, elegí una opción del menú."
-        next_state = "menu_empleado"
+        return "❌ Opción no válida. Escribí 'menu' para volver a empezar.", "menu_empleado"
 
     return response_text, next_state
 

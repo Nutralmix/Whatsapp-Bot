@@ -2,13 +2,14 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Buscar Empleado para Subir Archivo</title>
+  <title>Subir Archivo Público</title>
+  <link rel="icon" href="/static/img/favicon.ico" type="image/x-icon" />
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
   <style>
     body {
       font-family: 'Poppins', sans-serif;
+      background-color: #f4f4f4;
       padding: 2rem;
-      background: #f5f5f5;
       color: #004442;
       text-align: center;
     }
@@ -18,24 +19,26 @@
     form {
       margin-bottom: 1.5rem;
     }
-    input[type="text"] {
+    input[type="file"] {
       padding: 10px;
       width: 300px;
-      border: 1px solid #ccc;
+      font-size: 1rem;
       border-radius: 5px;
+      border: 1px solid #ccc;
+      margin-bottom: 1rem;
     }
     button {
       padding: 10px 20px;
-      background: #CDA043;
-      border: none;
+      font-size: 1rem;
+      background-color: #CDA043;
       color: white;
+      border: none;
       border-radius: 5px;
-      margin-left: 10px;
       cursor: pointer;
     }
-    .error {
-      color: red;
+    .mensaje {
       margin-top: 1rem;
+      font-weight: bold;
     }
     .volver {
       display: inline-block;
@@ -48,15 +51,15 @@
 </head>
 <body>
 
-  <h1>📤 Subir Archivo a Empleado</h1>
+  <h1>📁 Subir Archivo Público</h1>
 
-  <form method="POST">
-    <input type="text" name="consulta" placeholder="Legajo, CUIL o Nombre Completo" required>
-    <button type="submit">Buscar</button>
+  <form method="POST" enctype="multipart/form-data">
+    <input type="file" name="archivo" required><br>
+    <button type="submit">Subir</button>
   </form>
 
-  {% if error %}
-    <p class="error">{{ error }}</p>
+  {% if mensaje %}
+    <p class="mensaje">{{ mensaje }}</p>
   {% endif %}
 
   <a href="/panel" class="volver">⬅️ Volver al Panel</a>

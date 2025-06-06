@@ -127,6 +127,12 @@ def procesar_mensaje(texto, from_number):
         registrar_log(usuario, "📋 Entró al menú principal")
         enviar_mensaje(from_number, respuesta)
         return
+    
+    if texto == "archivos publicos":
+        respuesta = listar_archivos_publicos()
+        registrar_log(usuario, "📂 Vió archivos públicos")
+        enviar_mensaje(from_number, respuesta)
+        return
 
     if texto == "cancelar":
         user_states[from_number] = {"estado": None, "data": {}}
@@ -171,6 +177,22 @@ def enviar_mensaje(numero, texto):
     r = requests.post(url, headers=headers, json=payload)
     print(f"➡️ Enviado a {numero}: {texto}")
     print("📨", r.status_code, r.text)
+    
+def listar_archivos_publicos():
+    carpeta = os.path.join("static", "archivos", "publicos")
+    if not os.path.exists(carpeta):
+        return "📁 No hay archivos públicos disponibles."
+
+    archivos = os.listdir(carpeta)
+    if not archivos:
+        return "📁 No hay archivos públicos aún."
+
+    mensaje = "📂 Archivos públicos disponibles:\n\n"
+    for nombre in archivos:
+        url = f"{BASE_URL}/static/archivos/publicos/{nombre}"
+        mensaje += f"📎 {nombre}\n🔗 {url}\n\n"
+    return mensaje.strip()
+   
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))

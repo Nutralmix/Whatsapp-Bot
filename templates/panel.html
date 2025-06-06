@@ -93,10 +93,14 @@
       <img src="{{ url_for('static', filename='img/icon_info.png') }}" alt="Info">
       <span>Consultar Info</span>
     </a>
-    <a href="/subir_archivo_a_empleado" class="card">
-      <img src="{{ url_for('static', filename='img/icon_subir.png') }}" alt="Subir">
-      <span>Subir Archivo a empleado</span>
-    </a>
+   <a href="{{ url_for('subir_archivo_empleado') }}" class="card">
+  <img src="{{ url_for('static', filename='img/icon_subir_empleado.png') }}" alt="Subir archivo a empleado">
+  <span>Subir archivo a empleado</span>
+  </a>
+  <a href="/subir_archivo_publico" class="card">
+  <img src="{{ url_for('static', filename='img/icon_subir_publico.png') }}" alt="Subir archivo público">
+  <span>Subir archivo público</span>
+   </a>
     <a href="{{ url_for('cumples') }}" class="card">
   <img src="{{ url_for('static', filename='img/icon_cumple.png') }}" alt="Cumples">
   <span>Próximos Cumples</span>
@@ -106,12 +110,10 @@
   <img src="{{ url_for('static', filename='img/icon_prestamo.png') }}" alt="Préstamos">
   <span>Préstamos</span>
    </a>
-<div class="card">
-  <a href="{{ url_for('exportar_excel') }}">
-    <img src="{{ url_for('static', filename='img/icon_exportar.png') }}" alt="Exportar Excel" width="80">
-    <p>Exportar Excel</p>
-  </a>
-</div>
+<a href="{{ url_for('exportar_excel') }}" class="card">
+  <img src="{{ url_for('static', filename='img/icon_exportar.png') }}" alt="Exportar Excel">
+  <span>Exportar Excel</span>
+</a>
 
     <a href="/logout" class="card">
       <img src="{{ url_for('static', filename='img/icon_cerrar.png') }}" alt="Salir">

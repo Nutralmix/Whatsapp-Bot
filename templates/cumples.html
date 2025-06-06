@@ -13,21 +13,23 @@
     }
     h1, h2 {
       text-align: center;
-      margin-bottom: 1rem;
+      margin-bottom: 1.5rem;
+      font-size: 1.6rem;
     }
-    ul {
-      list-style: none;
-      padding: 0;
-      max-width: 700px;
-      margin: 0 auto;
-    }
-    li {
+    .tarjeta {
       background: white;
-      margin: 10px 0;
-      padding: 1rem;
-      border-radius: 8px;
-      box-shadow: 0 0 6px rgba(0,0,0,0.1);
-      font-size: 1.1rem;
+      margin: 10px auto;
+      padding: 1.2rem;
+      border-radius: 10px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.1);
+      font-size: 1.15rem;
+      max-width: 600px;
+      line-height: 1.6;
+    }
+    .mensaje-extra {
+      color: crimson;
+      font-weight: bold;
+      margin-top: 0.6rem;
     }
     .volver {
       display: block;
@@ -36,6 +38,7 @@
       text-decoration: none;
       color: #004442;
       font-weight: bold;
+      font-size: 1.1rem;
     }
   </style>
 </head>
@@ -44,12 +47,15 @@
   <h1>🎂 Cumpleaños en los próximos 30 días</h1>
 
   {% if empleados %}
-    <ul>
-      {% for emp in empleados %}
-        <li>🎉 {{ emp.fecha }} - {{ emp.nombre }} {{ emp.apellido }} (Legajo: {{ emp.legajo }})<br>
-        Cumple {{ emp.edad }} años | Antigüedad: {{ emp.antiguedad }} años</li>
-      {% endfor %}
-    </ul>
+    {% for emp in empleados %}
+      <div class="tarjeta">
+        🎉 <strong>{{ emp.fecha }}</strong> - {{ emp.nombre }} {{ emp.apellido }} (Legajo: {{ emp.legajo }})<br>
+        Cumple {{ emp.edad }} años | Antigüedad: {{ emp.antiguedad }} años
+        {% if emp.mensaje_extra %}
+          <div class="mensaje-extra">{{ emp.mensaje_extra }}</div>
+        {% endif %}
+      </div>
+    {% endfor %}
   {% else %}
     <p style="text-align:center;">No hay cumpleaños dentro de los próximos 30 días.</p>
   {% endif %}
@@ -57,12 +63,12 @@
   <h2>📅 Cumpleaños en lo que resta del año</h2>
 
   {% if restantes %}
-    <ul>
-      {% for emp in restantes %}
-        <li>🎉 {{ emp.fecha }} - {{ emp.nombre }} {{ emp.apellido }} (Legajo: {{ emp.legajo }})<br>
-        Cumple {{ emp.edad }} años | Antigüedad: {{ emp.antiguedad }} años</li>
-      {% endfor %}
-    </ul>
+    {% for emp in restantes %}
+      <div class="tarjeta">
+        🎉 <strong>{{ emp.fecha }}</strong> - {{ emp.nombre }} {{ emp.apellido }} (Legajo: {{ emp.legajo }})<br>
+        Cumple {{ emp.edad }} años | Antigüedad: {{ emp.antiguedad }} años
+      </div>
+    {% endfor %}
   {% else %}
     <p style="text-align:center;">No hay más cumpleaños en lo que queda del año.</p>
   {% endif %}

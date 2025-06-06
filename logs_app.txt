@@ -57,3 +57,269 @@
 [2025-06-06 10:01:10] Servidor Flask iniciado
 [2025-06-06 10:01:16] Acceso a portada
 [2025-06-06 10:01:18] Acceso a panel
+[2025-06-06 10:04:02] Servidor Flask iniciado
+[2025-06-06 10:04:19] Acceso a portada
+[2025-06-06 10:04:21] Acceso a panel
+[2025-06-06 10:04:23] Consulta de todos los préstamos
+[2025-06-06 10:04:23] Empleados activos cargados correctamente
+[2025-06-06 10:04:24] Acceso a panel
+[2025-06-06 10:05:23] Servidor Flask iniciado
+[2025-06-06 10:05:30] Acceso a portada
+[2025-06-06 10:05:32] Acceso a panel
+[2025-06-06 10:06:51] Servidor Flask iniciado
+[2025-06-06 10:08:05] Servidor Flask iniciado
+[2025-06-06 10:08:09] Acceso a portada
+[2025-06-06 10:08:10] Acceso a panel
+[2025-06-06 10:08:14] Acceso a panel
+[2025-06-06 10:08:18] Acceso a subir archivo a empleado (privado)
+[2025-06-06 10:08:35] Servidor Flask iniciado
+[2025-06-06 10:08:38] Acceso a panel
+[2025-06-06 10:08:42] Acceso a subir archivo a empleado (privado)
+[2025-06-06 10:08:45] Consulta de todos los préstamos
+[2025-06-06 10:08:45] Empleados activos cargados correctamente
+[2025-06-06 10:09:24] Acceso a panel
+[2025-06-06 10:14:13] Servidor Flask iniciado
+[2025-06-06 10:14:16] Acceso a panel
+[2025-06-06 10:14:26] Acceso a subir archivo a empleado (privado)
+[2025-06-06 10:18:30] Servidor Flask iniciado
+[2025-06-06 10:18:34] Acceso a panel
+[2025-06-06 10:18:38] Acceso a subir archivo a empleado (privado)
+[2025-06-06 10:18:41] Empleados activos cargados correctamente
+[2025-06-06 10:18:41] Consulta de próximos cumpleaños
+[2025-06-06 10:18:41] Fecha de nacimiento inválida para Federico
+[2025-06-06 10:18:41] Fecha de nacimiento inválida para Raul Alberto
+[2025-06-06 10:18:41] Fecha de nacimiento inválida para Rafael
+[2025-06-06 10:18:41] Fecha de nacimiento inválida para Nahuel Ezequiel
+[2025-06-06 10:18:46] Consulta de todos los préstamos
+[2025-06-06 10:18:46] Empleados activos cargados correctamente
+[2025-06-06 10:18:47] Acceso a panel
+[2025-06-06 10:22:11] Servidor Flask iniciado
+[2025-06-06 10:22:20] Acceso a panel
+[2025-06-06 10:25:50] Servidor Flask iniciado
+[2025-06-06 10:25:53] Acceso a panel
+[2025-06-06 10:29:06] Servidor Flask iniciado
+[2025-06-06 10:29:10] Acceso a panel
+[2025-06-06 10:29:12] Acceso a subir archivo a empleado (privado)
+[2025-06-06 10:30:48] Servidor Flask iniciado
+[2025-06-06 10:30:53] Acceso a subir archivo a empleado (privado)
+[2025-06-06 10:31:05] Acceso a subir archivo a empleado (privado)
+[2025-06-06 10:31:05] ✅ Archivo 057E454F-B135-48CD-AD75-339BD3460D8C-1.png subido para legajo atia.
+[2025-06-06 10:31:35] Acceso a panel
+[2025-06-06 10:39:03] Servidor Flask iniciado
+[2025-06-06 10:39:06] Acceso a panel
+[2025-06-06 10:39:08] Acceso a subir archivo a empleado (privado)
+[2025-06-06 10:39:26] Acceso a subir archivo a empleado (privado)
+[2025-06-06 10:39:26] ✅ Archivo Bolsa_generica_con_sombra.png subido para legajo zega.
+[2025-06-06 10:39:58] Acceso a panel
+[2025-06-06 10:40:01] Consulta de info iniciada
+[2025-06-06 10:40:01] Empleados activos cargados correctamente
+[2025-06-06 10:40:04] Consulta de info iniciada
+[2025-06-06 10:40:04] Empleados activos cargados correctamente
+[2025-06-06 10:40:04] Búsqueda de: zega
+[2025-06-06 10:40:11] Consulta de info iniciada
+[2025-06-06 10:40:11] Empleados activos cargados correctamente
+[2025-06-06 10:40:15] Consulta de info iniciada
+[2025-06-06 10:40:15] Empleados activos cargados correctamente
+[2025-06-06 10:40:15] Búsqueda de: atia
+[2025-06-06 10:40:20] Consulta de info iniciada
+[2025-06-06 10:40:20] Empleados activos cargados correctamente
+[2025-06-06 10:44:41] Servidor Flask iniciado
+[2025-06-06 10:44:45] Acceso a portada
+[2025-06-06 10:45:13] Acceso a panel
+[2025-06-06 10:45:26] Acceso a subir archivo a empleado (privado)
+[2025-06-06 10:45:29] Acceso a subir archivo a empleado (privado)
+[2025-06-06 10:45:29] ❌ Faltan datos: legajo o archivo.
+[2025-06-06 10:46:18] Acceso a panel
+[2025-06-06 10:47:48] Servidor Flask iniciado
+[2025-06-06 10:47:52] Acceso a panel
+[2025-06-06 10:47:54] Acceso a subir archivo a empleado (privado)
+[2025-06-06 10:47:58] Acceso a subir archivo a empleado (privado)
+[2025-06-06 10:47:58] ❌ Faltan datos: legajo o archivo.
+[2025-06-06 10:48:00] Acceso a subir archivo a empleado (privado)
+[2025-06-06 10:48:00] ❌ Faltan datos: legajo o archivo.
+[2025-06-06 10:48:10] Acceso a subir archivo a empleado (privado)
+[2025-06-06 10:48:10] ❌ Faltan datos: legajo o archivo.
+[2025-06-06 10:48:22] Acceso a subir archivo a empleado (privado)
+[2025-06-06 10:48:22] ❌ Faltan datos: legajo o archivo.
+[2025-06-06 10:48:26] Acceso a subir archivo a empleado (privado)
+[2025-06-06 10:48:26] ❌ Faltan datos: legajo o archivo.
+[2025-06-06 10:48:30] Acceso a subir archivo a empleado (privado)
+[2025-06-06 10:48:30] ❌ Faltan datos: legajo o archivo.
+[2025-06-06 10:48:36] Acceso a subir archivo a empleado (privado)
+[2025-06-06 10:48:36] ❌ Faltan datos: legajo o archivo.
+[2025-06-06 10:49:43] Servidor Flask iniciado
+[2025-06-06 10:49:47] Acceso a subir archivo a empleado (privado)
+[2025-06-06 10:49:50] Acceso a subir archivo a empleado (privado)
+[2025-06-06 10:49:50] ❌ Faltan datos: legajo o archivo.
+[2025-06-06 10:50:09] Acceso a subir archivo a empleado (privado)
+[2025-06-06 10:50:09] ❌ Faltan datos: legajo o archivo.
+[2025-06-06 10:54:19] Servidor Flask iniciado
+[2025-06-06 10:54:22] Acceso a subir archivo a empleado (privado)
+[2025-06-06 10:54:23] Acceso a panel
+[2025-06-06 10:54:25] Acceso a subir archivo a empleado (privado)
+[2025-06-06 10:54:28] Acceso a subir archivo a empleado (privado)
+[2025-06-06 10:54:28] ❌ Faltan datos: legajo o archivo.
+[2025-06-06 10:54:33] Acceso a subir archivo a empleado (privado)
+[2025-06-06 10:54:33] ❌ Faltan datos: legajo o archivo.
+[2025-06-06 10:54:43] Acceso a subir archivo a empleado (privado)
+[2025-06-06 10:54:43] ❌ Faltan datos: legajo o archivo.
+[2025-06-06 10:56:26] Servidor Flask iniciado
+[2025-06-06 10:56:30] Acceso a subir archivo a empleado (privado)
+[2025-06-06 10:56:35] Acceso a subir archivo a empleado (privado)
+[2025-06-06 10:56:35] ❌ Faltan datos: legajo o archivo.
+[2025-06-06 10:56:42] Acceso a subir archivo a empleado (privado)
+[2025-06-06 10:56:42] ❌ Faltan datos: legajo o archivo.
+[2025-06-06 10:56:56] Acceso a subir archivo a empleado (privado)
+[2025-06-06 10:56:56] ❌ Faltan datos: legajo o archivo.
+[2025-06-06 10:59:11] Servidor Flask iniciado
+[2025-06-06 10:59:16] Acceso a subir archivo a empleado (privado)
+[2025-06-06 10:59:19] Acceso a subir archivo a empleado (privado)
+[2025-06-06 10:59:19] ❌ Faltan datos: legajo o archivo.
+[2025-06-06 11:00:35] Servidor Flask iniciado
+[2025-06-06 11:00:38] Acceso a subir archivo a empleado (privado)
+[2025-06-06 11:00:40] Acceso a subir archivo a empleado (privado)
+[2025-06-06 11:00:40] ❌ Faltan datos: legajo o archivo.
+[2025-06-06 11:00:44] Acceso a panel
+[2025-06-06 11:00:45] Consulta de info iniciada
+[2025-06-06 11:00:45] Empleados activos cargados correctamente
+[2025-06-06 11:00:47] Consulta de info iniciada
+[2025-06-06 11:00:47] Empleados activos cargados correctamente
+[2025-06-06 11:00:47] Búsqueda de: atia
+[2025-06-06 11:00:49] Acceso a panel
+[2025-06-06 11:00:55] Acceso a subir archivo a empleado (privado)
+[2025-06-06 11:00:58] Acceso a subir archivo a empleado (privado)
+[2025-06-06 11:00:58] ❌ Faltan datos: legajo o archivo.
+[2025-06-06 11:02:33] Servidor Flask iniciado
+[2025-06-06 11:02:38] Acceso a subir archivo a empleado (privado)
+[2025-06-06 11:02:40] Acceso a subir archivo a empleado (privado)
+[2025-06-06 11:02:47] Acceso a subir archivo a empleado (privado)
+[2025-06-06 11:02:47] ✅ Archivo BOLSA.519.png subido para legajo 35.
+[2025-06-06 11:08:31] Servidor Flask iniciado
+[2025-06-06 11:08:34] Acceso a subir archivo a empleado (privado)
+[2025-06-06 11:08:38] Acceso a subir archivo a empleado (privado)
+[2025-06-06 11:08:44] Acceso a subir archivo a empleado (privado)
+[2025-06-06 11:08:44] Archivo Concentrado_Novillo_con_sombra.png subido a static\archivos\Zega_Maximiliano
+[2025-06-06 11:09:03] Acceso a subir archivo a empleado (privado)
+[2025-06-06 11:09:07] Acceso a subir archivo a empleado (privado)
+[2025-06-06 11:09:07] Archivo Balanceado_Iniciador_con_sombra.png subido a static\archivos\Cañas_Pablo_Damián
+[2025-06-06 11:13:08] Servidor Flask iniciado
+[2025-06-06 11:13:13] Acceso a subir archivo a empleado (privado)
+[2025-06-06 11:13:17] Acceso a panel
+[2025-06-06 11:13:18] Acceso a subir archivo a empleado (privado)
+[2025-06-06 11:13:24] Acceso a panel
+[2025-06-06 11:13:37] Servidor Flask iniciado
+[2025-06-06 11:13:39] Acceso a subir archivo a empleado (privado)
+[2025-06-06 11:13:42] Acceso a subir archivo a empleado (privado)
+[2025-06-06 11:14:53] Servidor Flask iniciado
+[2025-06-06 11:14:56] Acceso a subir archivo a empleado (privado)
+[2025-06-06 11:15:01] Acceso a subir archivo a empleado (privado)
+[2025-06-06 11:15:06] Acceso a subir archivo a empleado (privado)
+[2025-06-06 11:15:06] Archivo BOLSA.521.png subido a static\archivos\Macchione_Guadalupe
+[2025-06-06 11:15:24] Acceso a panel
+[2025-06-06 11:16:42] Servidor Flask iniciado
+[2025-06-06 11:16:44] Acceso a panel
+[2025-06-06 11:16:50] Empleados activos cargados correctamente
+[2025-06-06 11:16:50] Consulta de próximos cumpleaños
+[2025-06-06 11:16:50] Fecha de nacimiento inválida para Federico
+[2025-06-06 11:16:50] Fecha de nacimiento inválida para Raul Alberto
+[2025-06-06 11:16:50] Fecha de nacimiento inválida para Rafael
+[2025-06-06 11:16:50] Fecha de nacimiento inválida para Nahuel Ezequiel
+[2025-06-06 11:19:53] Servidor Flask iniciado
+[2025-06-06 11:20:02] Empleados activos cargados correctamente
+[2025-06-06 11:20:02] Consulta de próximos cumpleaños
+[2025-06-06 11:20:02] Fecha de nacimiento inválida para Federico
+[2025-06-06 11:20:02] Fecha de nacimiento inválida para Raul Alberto
+[2025-06-06 11:20:02] Fecha de nacimiento inválida para Rafael
+[2025-06-06 11:20:02] Fecha de nacimiento inválida para Nahuel Ezequiel
+[2025-06-06 11:20:06] Empleados activos cargados correctamente
+[2025-06-06 11:20:06] Consulta de próximos cumpleaños
+[2025-06-06 11:20:06] Fecha de nacimiento inválida para Federico
+[2025-06-06 11:20:06] Fecha de nacimiento inválida para Raul Alberto
+[2025-06-06 11:20:06] Fecha de nacimiento inválida para Rafael
+[2025-06-06 11:20:06] Fecha de nacimiento inválida para Nahuel Ezequiel
+[2025-06-06 11:20:15] Servidor Flask iniciado
+[2025-06-06 11:20:20] Acceso a portada
+[2025-06-06 11:20:21] Acceso a panel
+[2025-06-06 11:20:23] Empleados activos cargados correctamente
+[2025-06-06 11:20:23] Consulta de próximos cumpleaños
+[2025-06-06 11:20:23] Fecha de nacimiento inválida para Federico
+[2025-06-06 11:20:23] Fecha de nacimiento inválida para Raul Alberto
+[2025-06-06 11:20:23] Fecha de nacimiento inválida para Rafael
+[2025-06-06 11:20:23] Fecha de nacimiento inválida para Nahuel Ezequiel
+[2025-06-06 11:22:04] Servidor Flask iniciado
+[2025-06-06 11:22:08] Empleados activos cargados correctamente
+[2025-06-06 11:22:08] Consulta de próximos cumpleaños
+[2025-06-06 11:22:08] Fecha de nacimiento inválida para Federico
+[2025-06-06 11:22:08] Fecha de nacimiento inválida para Raul Alberto
+[2025-06-06 11:22:08] Fecha de nacimiento inválida para Rafael
+[2025-06-06 11:22:08] Fecha de nacimiento inválida para Nahuel Ezequiel
+[2025-06-06 11:28:57] Servidor Flask iniciado
+[2025-06-06 11:29:00] Empleados activos cargados correctamente
+[2025-06-06 11:29:00] Consulta de próximos cumpleaños
+[2025-06-06 11:29:00] Fecha de nacimiento inválida para Federico
+[2025-06-06 11:29:00] Fecha de nacimiento inválida para Raul Alberto
+[2025-06-06 11:29:00] Fecha de nacimiento inválida para Rafael
+[2025-06-06 11:29:00] Fecha de nacimiento inválida para Nahuel Ezequiel
+[2025-06-06 11:30:01] Servidor Flask iniciado
+[2025-06-06 11:30:04] Empleados activos cargados correctamente
+[2025-06-06 11:30:04] Consulta de próximos cumpleaños
+[2025-06-06 11:30:04] Fecha de nacimiento inválida para Federico
+[2025-06-06 11:30:04] Fecha de nacimiento inválida para Raul Alberto
+[2025-06-06 11:30:04] Fecha de nacimiento inválida para Rafael
+[2025-06-06 11:30:04] Fecha de nacimiento inválida para Nahuel Ezequiel
+[2025-06-06 11:30:07] Empleados activos cargados correctamente
+[2025-06-06 11:30:07] Consulta de próximos cumpleaños
+[2025-06-06 11:30:07] Fecha de nacimiento inválida para Federico
+[2025-06-06 11:30:07] Fecha de nacimiento inválida para Raul Alberto
+[2025-06-06 11:30:07] Fecha de nacimiento inválida para Rafael
+[2025-06-06 11:30:07] Fecha de nacimiento inválida para Nahuel Ezequiel
+[2025-06-06 11:38:34] Servidor Flask iniciado
+[2025-06-06 11:38:38] Empleados activos cargados correctamente
+[2025-06-06 11:38:38] Consulta de próximos cumpleaños
+[2025-06-06 11:38:38] Fecha de nacimiento inválida para Federico
+[2025-06-06 11:38:38] Fecha de nacimiento inválida para Raul Alberto
+[2025-06-06 11:38:38] Fecha de nacimiento inválida para Rafael
+[2025-06-06 11:38:38] Fecha de nacimiento inválida para Nahuel Ezequiel
+[2025-06-06 11:43:17] Servidor Flask iniciado
+[2025-06-06 11:43:20] Empleados activos cargados correctamente
+[2025-06-06 11:43:20] Consulta de próximos cumpleaños
+[2025-06-06 11:43:20] Fecha de nacimiento inválida para Federico
+[2025-06-06 11:43:20] Fecha de nacimiento inválida para Raul Alberto
+[2025-06-06 11:43:20] Fecha de nacimiento inválida para Rafael
+[2025-06-06 11:43:20] Fecha de nacimiento inválida para Nahuel Ezequiel
+[2025-06-06 11:46:40] Servidor Flask iniciado
+[2025-06-06 11:46:43] Empleados activos cargados correctamente
+[2025-06-06 11:46:43] Consulta de próximos cumpleaños
+[2025-06-06 11:46:43] Fecha de nacimiento inválida para Federico
+[2025-06-06 11:46:43] Fecha de nacimiento inválida para Raul Alberto
+[2025-06-06 11:46:43] Fecha de nacimiento inválida para Rafael
+[2025-06-06 11:46:43] Fecha de nacimiento inválida para Nahuel Ezequiel
+[2025-06-06 11:47:57] Servidor Flask iniciado
+[2025-06-06 11:48:00] Empleados activos cargados correctamente
+[2025-06-06 11:48:00] Consulta de próximos cumpleaños
+[2025-06-06 11:48:00] Fecha de nacimiento inválida para Federico
+[2025-06-06 11:48:00] Fecha de nacimiento inválida para Raul Alberto
+[2025-06-06 11:48:00] Fecha de nacimiento inválida para Rafael
+[2025-06-06 11:48:00] Fecha de nacimiento inválida para Nahuel Ezequiel
+[2025-06-06 11:49:38] Acceso a panel
+[2025-06-06 11:49:40] Consulta de info iniciada
+[2025-06-06 11:49:40] Empleados activos cargados correctamente
+[2025-06-06 11:49:42] Consulta de info iniciada
+[2025-06-06 11:49:42] Empleados activos cargados correctamente
+[2025-06-06 11:49:42] Búsqueda de: atia
+[2025-06-06 11:49:47] Acceso a panel
+[2025-06-06 11:54:14] Servidor Flask iniciado
+[2025-06-06 11:54:17] Acceso a panel
+[2025-06-06 11:54:20] Acceso a subir archivo público
+[2025-06-06 11:57:41] Servidor Flask iniciado
+[2025-06-06 11:57:45] Acceso a panel
+[2025-06-06 11:57:47] Acceso a subir archivo público
+[2025-06-06 11:59:33] Servidor Flask iniciado
+[2025-06-06 11:59:36] Acceso a subir archivo público
+[2025-06-06 11:59:39] Acceso a subir archivo público
+[2025-06-06 11:59:44] Acceso a subir archivo público
+[2025-06-06 11:59:44] ✅ Archivo público BOLSA.520.png subido correctamente.
+[2025-06-06 12:00:23] Acceso a panel
+[2025-06-06 12:00:25] Acceso a subir archivo a empleado (privado)
+[2025-06-06 12:00:27] Acceso a subir archivo a empleado (privado)
+[2025-06-06 12:00:34] Acceso a panel
