@@ -32,3 +32,28 @@
 [2025-06-06 09:23:09] Consulta de todos los préstamos
 [2025-06-06 09:23:09] Empleados activos cargados correctamente
 [2025-06-06 09:23:10] Acceso a panel
+[2025-06-06 09:32:43] Servidor Flask iniciado
+[2025-06-06 09:35:00] Acceso a panel
+[2025-06-06 09:35:02] Consulta de info iniciada
+[2025-06-06 09:35:02] Empleados activos cargados correctamente
+[2025-06-06 09:35:05] Consulta de info iniciada
+[2025-06-06 09:35:05] Empleados activos cargados correctamente
+[2025-06-06 09:35:05] Búsqueda de: zega
+[2025-06-06 09:35:08] Entrando a editar empleado 196
+[2025-06-06 09:36:01] Entrando a editar empleado 196
+[2025-06-06 09:36:01] Empleado 196 actualizado
+[2025-06-06 09:36:01] Empleados activos cargados correctamente
+[2025-06-06 09:36:01] Visualización de todos los empleados
+[2025-06-06 09:36:30] Entrando a editar empleado 217
+[2025-06-06 09:36:41] Entrando a editar empleado 217
+[2025-06-06 09:36:41] Empleado 217 actualizado
+[2025-06-06 09:36:41] Empleados activos cargados correctamente
+[2025-06-06 09:36:41] Visualización de todos los empleados
+[2025-06-06 09:49:14] Acceso a panel
+[2025-06-06 09:51:33] Servidor Flask iniciado
+[2025-06-06 09:51:37] Acceso a panel
+[2025-06-06 09:55:51] Servidor Flask iniciado
+[2025-06-06 09:55:56] Acceso a panel
+[2025-06-06 10:01:10] Servidor Flask iniciado
+[2025-06-06 10:01:16] Acceso a portada
+[2025-06-06 10:01:18] Acceso a panel

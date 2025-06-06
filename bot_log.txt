@@ -1,0 +1,1 @@
+[2025-06-06 09:56:01] 🔄 Exportación de empleados a Excel realizada desde el panel web.

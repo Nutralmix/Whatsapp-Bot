@@ -327,7 +327,7 @@
         "motivo_baja": "",
         "fecha_nacimiento": "11-10-1983",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2317558435",
         "rol": "empleado",
         "notas": "",
         "prestamo": {}
@@ -1197,22 +1197,17 @@
         "prestamo": {}
     },
     "196": {
-        "legajo": "196",
-        "cuil": "20-30830857-0",
         "apellido": "Zega",
         "nombre": "Maximiliano",
+        "cuil": "20-30830857-0",
         "sector": "RRHH",
-        "sede": "9 de Julio",
         "fecha_ingreso": "14-09-2022",
-        "estado": "Activo",
-        "fecha_baja": "",
-        "motivo_baja": "",
         "fecha_nacimiento": "07-07-1984",
-        "edad": 0,
-        "telefono": "",
-        "rol": "empleado",
-        "notas": "",
-        "prestamo": {}
+        "telefono": "2317415313",
+        "direccion": "",
+        "email": "",
+        "vacaciones": 0,
+        "estado": "Activo"
     },
     "197": {
         "legajo": "197",
@@ -1341,22 +1336,17 @@
         "prestamo": {}
     },
     "217": {
-        "legajo": "217",
-        "cuil": "20-34717582-0",
         "apellido": "Anca",
         "nombre": "Ezequiel",
+        "cuil": "20-34717582-0",
         "sector": "Sistemas",
-        "sede": "9 de Julio",
         "fecha_ingreso": "02-05-2023",
-        "estado": "Activo",
-        "fecha_baja": "",
-        "motivo_baja": "",
         "fecha_nacimiento": "10-08-1989",
-        "edad": 0,
-        "telefono": "",
-        "rol": "empleado",
-        "notas": "",
-        "prestamo": {}
+        "telefono": "2317577632",
+        "direccion": "",
+        "email": "",
+        "vacaciones": 0,
+        "estado": "Activo"
     },
     "216": {
         "legajo": "216",

@@ -22,6 +22,11 @@ def normalizar(texto):
 def log_debug(mensaje):
     with open("logs_app.txt", "a", encoding="utf-8") as f:
         f.write(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] {mensaje}\n")
+        
+def registrar_log_simple(mensaje):
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    with open("bot_log.txt", "a", encoding="utf-8") as f:
+        f.write(f"[{timestamp}] {mensaje}\n")        
 
 # ---------------------------
 # Cargar solo empleados activos
@@ -269,6 +274,61 @@ def ver_prestamos():
     }
 
     return render_template("ver_prestamos.html", empleados=empleados_con_prestamo)
+
+@app.route("/exportar_excel")
+def exportar_excel():
+    import pandas as pd
+
+    try:
+        with open("empleados.json", "r", encoding="utf-8") as f:
+            empleados = json.load(f)
+    except Exception as e:
+        return f"❌ Error al leer empleados.json: {e}"
+
+    empleados_lista = []
+    for legajo, datos in empleados.items():
+        fila = {"legajo": legajo}
+        fila.update(datos)
+
+        if isinstance(fila.get("prestamo"), dict):
+            for k, v in fila["prestamo"].items():
+                fila[f"prestamo_{k}"] = v
+            del fila["prestamo"]
+
+        empleados_lista.append(fila)
+
+    df = pd.DataFrame(empleados_lista)
+    output_path = os.path.join("static", "exportados", "empleados_exportados.xlsx")
+    os.makedirs(os.path.dirname(output_path), exist_ok=True)
+    df.to_excel(output_path, index=False)
+
+    registrar_log_simple("🔄 Exportación de empleados a Excel realizada desde el panel web.")
+    return redirect("/static/exportados/empleados_exportados.xlsx")
+
+@app.route('/subir_archivo_empleado', methods=['GET', 'POST'])
+def subir_archivo_empleado():
+    log_debug("Acceso a subir archivo a empleado (privado)")
+    mensaje = ""
+
+    if request.method == 'POST':
+        legajo = request.form.get("legajo")
+        archivo = request.files.get("archivo")
+
+        if not legajo or not archivo:
+            mensaje = "❌ Faltan datos: legajo o archivo."
+            log_debug(mensaje)
+            return render_template("subir_archivo_empleado.html", mensaje=mensaje)
+
+        filename = secure_filename(archivo.filename)
+        carpeta_destino = os.path.join("archivos_empleados", legajo)
+        os.makedirs(carpeta_destino, exist_ok=True)
+        ruta_archivo = os.path.join(carpeta_destino, filename)
+        archivo.save(ruta_archivo)
+
+        mensaje = f"✅ Archivo {filename} subido para legajo {legajo}."
+        log_debug(mensaje)
+
+    return render_template("subir_archivo_empleado.html", mensaje=mensaje)
 
 # ---------------------------
 # Ejecutar la app
