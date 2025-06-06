@@ -495,7 +495,7 @@ def obtener_proximos_cumpleanos():
     except (FileNotFoundError, json.JSONDecodeError):
         return "❌ Error al leer los datos."
 
-    hoy = datetime.now()
+    hoy = datetime.now().date()
     cumpleanos = []
 
     for emp in empleados_data.values():
@@ -506,7 +506,7 @@ def obtener_proximos_cumpleanos():
 
         try:
             dia, mes, anio = map(int, emp["fecha_nacimiento"].split("-"))
-            fecha = datetime(hoy.year, mes, dia)
+            fecha = datetime(hoy.year, mes, dia).date()
             if fecha < hoy:
                 fecha = datetime(hoy.year + 1, mes, dia)
 
@@ -514,11 +514,12 @@ def obtener_proximos_cumpleanos():
             if dias_faltantes <= 30:
                 edad = hoy.year - anio + (1 if fecha.year > hoy.year else 0)
                 cumpleanos.append({
-                    "nombre": emp["nombre"],
+                    "nombre": f"{emp.get('nombre', '')} {emp.get('apellido', '')}".strip(),
                     "fecha": fecha,
                     "dias": dias_faltantes,
                     "edad": edad
                 })
+
         except Exception as e:
             log_debug(f"Error parseando fecha para {emp.get('nombre')}: {e}")
             continue

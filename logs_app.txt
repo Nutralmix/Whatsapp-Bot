@@ -327,3 +327,4 @@
 [2025-06-06 12:20:59] Acceso a panel
 [2025-06-06 12:21:04] Logout desde panel web
 [2025-06-06 12:21:05] Acceso a panel
+[2025-06-06 12:56:19] Servidor Flask iniciado
