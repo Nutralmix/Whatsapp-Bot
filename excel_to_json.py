@@ -43,7 +43,6 @@ for _, row in df_legajos.iterrows():
         "fecha_baja": row["Fecha de desvinculación"].strftime("%d-%m-%Y") if pd.notna(row.get("Fecha de desvinculación")) else "",
         "motivo_baja": str(row.get("Motivo de Baja", "")) if pd.notna(row.get("Motivo de Baja")) else "",
         "fecha_nacimiento": row["Fecha de nacimiento"].strftime("%d-%m-%Y") if pd.notna(row.get("Fecha de nacimiento")) else "",
-        "antiguedad": antiguedad,
         "edad": int(row.get("Edad", 0)) if not pd.isna(row.get("Edad")) else 0,
         "telefono": "",
         "rol": "empleado",
