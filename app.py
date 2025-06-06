@@ -17,18 +17,26 @@ def normalizar(texto):
     return texto
 
 # ---------------------------
+# Logging simple
+# ---------------------------
+def log_debug(mensaje):
+    with open("logs_app.txt", "a", encoding="utf-8") as f:
+        f.write(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] {mensaje}\n")
+
+# ---------------------------
 # Cargar solo empleados activos
 # ---------------------------
 def cargar_empleados_activos():
     try:
         with open("empleados.json", "r", encoding="utf-8") as f:
             empleados = json.load(f)
+        log_debug("Empleados activos cargados correctamente")
         return {
             legajo: datos for legajo, datos in empleados.items()
             if datos.get("estado", "").lower() == "activo"
         }
     except Exception as e:
-        print(f"Error al cargar empleados activos: {e}")
+        log_debug(f"Error al cargar empleados activos: {e}")
         return {}
 
 # ---------------------------
@@ -49,15 +57,18 @@ def format_num(value):
 
 @app.route("/")
 def portada():
+    log_debug("Acceso a portada")
     return render_template("portada.html")
 
 @app.route("/panel")
 def panel():
+    log_debug("Acceso a panel")
     return render_template("panel.html")
 
 @app.route("/ver_todos")
 def ver_todos():
     empleados = cargar_empleados_activos()
+    log_debug("Visualización de todos los empleados")
     return render_template("ver_empleados.html", empleados=empleados)
 
 @app.route('/agregar', methods=['GET', 'POST'])
@@ -76,7 +87,6 @@ def agregar():
             "vacaciones": int(request.form["vacaciones"] or 0),
             "estado": "Activo"
         }
-
         legajo = request.form["legajo"]
 
         empleados = {}
@@ -89,12 +99,14 @@ def agregar():
         with open("empleados.json", "w", encoding="utf-8") as f:
             json.dump(empleados, f, ensure_ascii=False, indent=4)
 
+        log_debug(f"Nuevo empleado agregado: {legajo} - {nuevo_empleado['nombre']}")
         return redirect(url_for('ver_todos'))
 
     return render_template("agregar_empleado.html")
 
 @app.route('/editar/<legajo>', methods=['GET', 'POST'])
 def editar_empleado(legajo):
+    log_debug(f"Entrando a editar empleado {legajo}")
     with open("empleados.json", "r", encoding="utf-8") as f:
         empleados = json.load(f)
 
@@ -116,16 +128,19 @@ def editar_empleado(legajo):
         with open("empleados.json", "w", encoding="utf-8") as f:
             json.dump(empleados, f, ensure_ascii=False, indent=4)
 
+        log_debug(f"Empleado {legajo} actualizado")
         return redirect(url_for('ver_todos'))
 
     empleado = empleados.get(legajo)
     if not empleado:
+        log_debug(f"No se encontró el empleado {legajo}")
         return f"<h2>No se encontró el empleado con legajo {legajo}</h2>"
 
     return render_template("editar_empleado.html", empleado=empleado, legajo=legajo)
 
 @app.route("/eliminar/<legajo>")
 def eliminar(legajo):
+    log_debug(f"Eliminando empleado {legajo}")
     empleados = {}
     if os.path.exists("empleados.json"):
         with open("empleados.json", "r", encoding="utf-8") as f:
@@ -135,17 +150,21 @@ def eliminar(legajo):
         del empleados[legajo]
         with open("empleados.json", "w", encoding="utf-8") as f:
             json.dump(empleados, f, ensure_ascii=False, indent=4)
+        log_debug(f"Empleado {legajo} eliminado")
         return redirect(url_for('ver_todos'))
     else:
+        log_debug(f"Intento fallido de eliminar legajo {legajo}")
         return f"<h2>Empleado con legajo {legajo} no encontrado</h2>"
 
 @app.route("/info", methods=["GET", "POST"])
 def info():
+    log_debug("Consulta de info iniciada")
     empleados = cargar_empleados_activos()
     resultado = None
 
     if request.method == "POST":
         consulta = normalizar(request.form["consulta"])
+        log_debug(f"Búsqueda de: {consulta}")
         for legajo, emp in empleados.items():
             if (consulta in normalizar(legajo) or
                 consulta in normalizar(emp.get("nombre", "")) or
@@ -174,6 +193,7 @@ def cumples():
     cumples_restantes = []
 
     empleados = cargar_empleados_activos()
+    log_debug("Consulta de próximos cumpleaños")
 
     for legajo, emp in empleados.items():
         fecha_nac_str = emp.get("fecha_nacimiento", "")
@@ -212,6 +232,7 @@ def cumples():
                 cumples_restantes.append(data)
 
         except ValueError:
+            log_debug(f"Fecha de nacimiento inválida para {emp.get('nombre', legajo)}")
             continue
 
     empleados_cumples.sort(key=lambda x: datetime.strptime(x["fecha"], "%d/%m"))
@@ -219,19 +240,20 @@ def cumples():
 
     return render_template("cumples.html", empleados=empleados_cumples, restantes=cumples_restantes)
 
-# ... (las demás rutas no fueron modificadas y siguen igual)
-
 @app.route("/logout")
 def logout():
+    log_debug("Logout desde panel web")
     return render_template("portada.html")
 
 @app.route("/prestamo/<legajo>")
 def ver_prestamo(legajo):
+    log_debug(f"Consulta de préstamo para {legajo}")
     with open("empleados.json", "r", encoding="utf-8") as f:
         empleados = json.load(f)
 
     empleado = empleados.get(legajo)
     if not empleado:
+        log_debug(f"No se encontró empleado con legajo {legajo} para ver préstamo")
         return f"Empleado con legajo {legajo} no encontrado."
 
     prestamo = empleado.get("prestamo")
@@ -239,6 +261,7 @@ def ver_prestamo(legajo):
 
 @app.route("/prestamos")
 def ver_prestamos():
+    log_debug("Consulta de todos los préstamos")
     empleados = cargar_empleados_activos()
 
     empleados_con_prestamo = {
@@ -252,4 +275,5 @@ def ver_prestamos():
 # ---------------------------
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5001))
+    log_debug("Servidor Flask iniciado")
     app.run(host="0.0.0.0", port=port)

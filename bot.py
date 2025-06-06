@@ -2,6 +2,12 @@ import json
 from datetime import datetime, timedelta
 import os
 
+# --- LOGGING SIMPLE ---
+def log_debug(msg):
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    with open("bot_debug.log", "a", encoding="utf-8") as f:
+        f.write(f"[{timestamp}] {msg}\n")
+
 # --- Funciones de Utilidad ---
 
 def _obtener_saludo_dinamico(nombre, last_interaction_date_str):
@@ -20,7 +26,6 @@ def _obtener_saludo_dinamico(nombre, last_interaction_date_str):
     if last_interaction_date_str:
         try:
             last_interaction_date = datetime.strptime(last_interaction_date_str, "%Y-%m-%d")
-            
             if last_interaction_date.date() == ahora.date():
                 bienvenida_parte = "! ¡Qué bueno verte de nuevo!"
             elif last_interaction_date.date() == (ahora - timedelta(days=1)).date():
@@ -34,7 +39,6 @@ def _obtener_saludo_dinamico(nombre, last_interaction_date_str):
 
     return f"{saludo_parte}, {nombre}{bienvenida_parte}"
 
-
 def _actualizar_last_interaction(telefono):
     """Actualiza la fecha de la última interacción del usuario en empleados.json."""
     empleados_data = {}
@@ -42,48 +46,41 @@ def _actualizar_last_interaction(telefono):
         with open("empleados.json", "r", encoding="utf-8") as f:
             empleados_data = json.load(f)
     except FileNotFoundError:
-        print("Error: empleados.json no encontrado al actualizar la interacción.")
+        log_debug("Error: empleados.json no encontrado al actualizar la interacción.")
         return
     except json.JSONDecodeError:
-        print("Error: Formato de empleados.json inválido al actualizar la interacción.")
+        log_debug("Error: Formato inválido de empleados.json al actualizar interacción.")
         return
 
     encontrado = False
-    # Limpiar el número de teléfono para la búsqueda (asumiendo que viene de Twilio como whatsapp:+XXXXXXXX)
     telefono_limpio = str(telefono).replace("whatsapp:", "").replace("+", "").strip()
 
     for emp_id, emp_info in empleados_data.items():
         emp_telefono_limpio = str(emp_info.get("telefono", "")).replace("+", "").strip()
-        
-        # Considerar si el número guardado en JSON puede ser el de Argentina sin el "9" o "549"
-        # y si el de Twilio siempre tiene el "549" después del +
+
         if emp_telefono_limpio == telefono_limpio:
             emp_info["last_interaction_date"] = datetime.now().strftime("%Y-%m-%d")
             encontrado = True
             break
-        # Si el número de Twilio es +54911xxxx y el de JSON es 11xxxx, coincidir
         if telefono_limpio.startswith("549") and emp_telefono_limpio == telefono_limpio[3:]:
-             emp_info["last_interaction_date"] = datetime.now().strftime("%Y-%m-%d")
-             encontrado = True
-             break
-        # Si el número de Twilio es +5411xxxx y el de JSON es 11xxxx, coincidir
+            emp_info["last_interaction_date"] = datetime.now().strftime("%Y-%m-%d")
+            encontrado = True
+            break
         if telefono_limpio.startswith("54") and emp_telefono_limpio == telefono_limpio[2:]:
             emp_info["last_interaction_date"] = datetime.now().strftime("%Y-%m-%d")
             encontrado = True
             break
 
-
     if encontrado:
         with open("empleados.json", "w", encoding="utf-8") as f:
             json.dump(empleados_data, f, indent=4, ensure_ascii=False)
-        # print(f"[DEBUG] last_interaction_date actualizado para {telefono}") # Descomentar para depuración
+        log_debug(f"✅ Se actualizó last_interaction_date para {telefono}")
     else:
-        print(f"[DEBUG] No se encontró al empleado con teléfono {telefono} para actualizar last_interaction_date.")
+        log_debug(f"⚠️ No se encontró empleado con teléfono {telefono} para actualizar last_interaction.")
 
 # --- Funciones de Menú ---
 
 def mostrar_menu_admin(nombre_admin, telefono_admin=None):
-    """Muestra el menú para el rol de administrador con saludo dinámico y estilo mejorado."""
     saludo = ""
     if telefono_admin:
         empleado_info = obtener_usuario_por_telefono(telefono_admin)
@@ -107,9 +104,7 @@ def mostrar_menu_admin(nombre_admin, telefono_admin=None):
     )
     return menu_text
 
-
 def mostrar_menu_empleado(nombre_empleado, telefono_empleado=None):
-    """Muestra el menú para el rol de empleado con saludo dinámico y estilo mejorado."""
     saludo = ""
     if telefono_empleado:
         empleado_info = obtener_usuario_por_telefono(telefono_empleado)
@@ -131,21 +126,21 @@ def mostrar_menu_empleado(nombre_empleado, telefono_empleado=None):
         "7️⃣ Salir ❌"
     )
     return menu_text
-
-
 # --- Funciones de Procesamiento de Opciones ---
 
 def procesar_opcion_admin(usuario, opcion, current_state=None, base_url=""):
-    """Procesa las opciones elegidas por un administrador."""
+    log_debug(f"Admin {usuario['nombre']} seleccionó opción {opcion}")
     response_text = ""
     next_state = None
-    
+
     if opcion == "1":
-        response_text = "Ingresá los datos del nuevo empleado en el siguiente formato:\n" \
-                        "nombre, rol, sector, fecha_nacimiento (DD-MM-YYYY), fecha_ingreso (DD-MM-YYYY), " \
-                        "vacaciones (días), préstamo (monto), notas, telefono (sin 'whatsapp:')\n" \
-                        "Ejemplo: Juan Pérez, empleado, Ventas, 15-06-1990, 01-01-2015, 10, 5000, " \
-                        "Buen rendimiento, 54911xxxxxxxx"
+        response_text = (
+            "Ingresá los datos del nuevo empleado en el siguiente formato:\n"
+            "nombre, rol, sector, fecha_nacimiento (DD-MM-YYYY), fecha_ingreso (DD-MM-YYYY), "
+            "vacaciones (días), préstamo (monto), notas, telefono (sin 'whatsapp:')\n"
+            "Ejemplo: Juan Pérez, empleado, Ventas, 15-06-1990, 01-01-2015, 10, 5000, "
+            "Buen rendimiento, 54911xxxxxxxx"
+        )
         next_state = "crear_empleado_paso_1_datos"
     elif opcion == "2":
         response_text = "Ingresá el ID del empleado que querés editar."
@@ -155,29 +150,28 @@ def procesar_opcion_admin(usuario, opcion, current_state=None, base_url=""):
         next_state = "eliminar_empleado_paso_1_id"
     elif opcion == "4":
         response_text = listar_todos_los_empleados()
-        next_state = "menu_admin" # Vuelve al menú después de listar
+        next_state = "menu_admin"
     elif opcion == "5":
         response_text = "Ingresá el nombre o ID del empleado a consultar."
         next_state = "esperando_nombre_info_empleado"
     elif opcion == "6":
         response_text = "Ingresá el nombre del empleado a quien querés subir un archivo."
         next_state = "esperando_nombre_subir_archivo_admin_paso_1"
-    elif opcion == "7": # Esta es la nueva posición para "Ver próximos cumpleaños"
+    elif opcion == "7":
         response_text = obtener_proximos_cumpleanos()
-        next_state = "menu_admin" # Vuelve al menú después de mostrar
-    elif opcion == "8": # Esta es la nueva posición para "Cerrar sesión"
+        next_state = "menu_admin"
+    elif opcion == "8":
         response_text = "Sesión cerrada. ¡Hasta luego!"
         registrar_log(usuario, "Admin cerró sesión.")
-        next_state = "cerrar" # Indica al manejador principal que limpie el estado
+        next_state = "cerrar"
     else:
         response_text = "❌ Opción no válida. Por favor, elegí una opción del menú."
-        next_state = current_state # Mantiene el estado actual si la opción no es válida
+        next_state = current_state
 
     return response_text, next_state
 
-
 def procesar_opcion_empleado(usuario, opcion, base_url=""):
-    """Procesa las opciones elegidas por un empleado."""
+    log_debug(f"Empleado {usuario['nombre']} seleccionó opción {opcion}")
     response_text = ""
     next_state = None
 
@@ -212,73 +206,59 @@ def procesar_opcion_empleado(usuario, opcion, base_url=""):
 # --- Funciones de Procesamiento de Empleados (EXISTENTES) ---
 
 def obtener_usuario_por_telefono(telefono):
-    """Busca un usuario por número de teléfono en empleados.json."""
-    # print(f"[DEBUG] Intentando cargar empleados desde: {os.path.abspath('empleados.json')}") # Descomentar para depuración
+    log_debug(f"Buscando usuario por teléfono: {telefono}")
     try:
         with open("empleados.json", "r", encoding="utf-8") as f:
             empleados_data = json.load(f)
-        # print(f"[DEBUG] Empleados cargados exitosamente.") # Descomentar para depuración
     except FileNotFoundError:
-        print("Error: empleados.json no encontrado.")
+        log_debug("Error: empleados.json no encontrado.")
         return None
     except json.JSONDecodeError:
-        print("Error: Formato de empleados.json inválido.")
+        log_debug("Error: Formato inválido de empleados.json.")
         return None
 
     telefono_limpio = str(telefono).replace("whatsapp:", "").replace("+", "").strip()
-    # print(f"[DEBUG] Número recibido de Twilio: {telefono}") # Descomentar para depuración
-    # print(f"[DEBUG] Número después de quitar 'whatsapp:': {telefono.replace('whatsapp:', '')}") # Descomentar para depuración
-    # print(f"[DEBUG] Buscando usuario con teléfono limpio (final): {telefono_limpio}") # Descomentar para depuración
 
     for emp_id, emp_info in empleados_data.items():
-        # Normalizar el teléfono guardado también por si tiene prefijos o espacios
         emp_telefono_limpio = str(emp_info.get("telefono", "")).replace("+", "").strip()
-        
-        # Considerar múltiples formatos posibles
+
         if emp_telefono_limpio == telefono_limpio:
-            # print(f"[DEBUG] Usuario encontrado: {emp_info.get('nombre')}") # Descomentar para depuración
             return emp_info
-        # Si el número de Twilio es +54911xxxx y el de JSON es 11xxxx (sin 549)
         if telefono_limpio.startswith("549") and emp_telefono_limpio == telefono_limpio[3:]:
-            # print(f"[DEBUG] Usuario encontrado (coincidencia parcial 549): {emp_info.get('nombre')}") # Descomentar para depuración
             return emp_info
-        # Si el número de Twilio es +5411xxxx y el de JSON es 11xxxx (sin 54)
         if telefono_limpio.startswith("54") and emp_telefono_limpio == telefono_limpio[2:]:
-            # print(f"[DEBUG] Usuario encontrado (coincidencia parcial 54): {emp_info.get('nombre')}") # Descomentar para depuración
             return emp_info
 
-    # print(f"[DEBUG] No se encontró usuario para el teléfono: {telefono_limpio}") # Descomentar para depuración
+    log_debug(f"⚠️ No se encontró usuario con teléfono {telefono_limpio}")
     return None
 
 def registrar_log(usuario_info, mensaje):
-    """Registra las acciones del bot en un archivo de log."""
     log_file = "bot_log.txt"
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     user_identifier = usuario_info.get("nombre", usuario_info.get("telefono", "Desconocido"))
     log_entry = f"[{timestamp}] Usuario: {user_identifier} - Acción: {mensaje}\n"
     with open(log_file, "a", encoding="utf-8") as f:
         f.write(log_entry)
+    log_debug(f"Registrado en log: {mensaje} para usuario {user_identifier}")
 
 def procesar_datos_nuevo_empleado(message_body):
-    """Procesa los datos para crear un nuevo empleado."""
+    log_debug(f"Procesando alta de nuevo empleado con datos: {message_body}")
     try:
         data = [item.strip() for item in message_body.split(',')]
         if len(data) != 9:
             return "❌ Formato incorrecto. Deben ser 9 campos separados por comas.", None
 
         nombre, rol, sector, fecha_nacimiento, fecha_ingreso, vacaciones_str, prestamo_str, notas, telefono = data
-        
-        # Validaciones básicas
+
         if rol.lower() not in ["admin", "empleado"]:
             return "❌ Rol inválido. Debe ser 'admin' o 'empleado'.", None
-        
+
         try:
             vacaciones = int(vacaciones_str)
             prestamo = float(prestamo_str)
         except ValueError:
             return "❌ Vacaciones y Préstamo deben ser números válidos.", None
-        
-        # Validación de formato de fechas DD-MM-YYYY
+
         try:
             datetime.strptime(fecha_nacimiento, "%d-%m-%Y")
             datetime.strptime(fecha_ingreso, "%d-%m-%Y")
@@ -290,9 +270,8 @@ def procesar_datos_nuevo_empleado(message_body):
             with open("empleados.json", "r", encoding="utf-8") as f:
                 empleados_data = json.load(f)
         except (FileNotFoundError, json.JSONDecodeError):
-            empleados_data = {} # Si el archivo no existe o está vacío, crea un diccionario vacío
-        
-        # Generar un nuevo ID (el último ID + 1)
+            empleados_data = {}
+
         new_id = str(max([int(k) for k in empleados_data.keys()] or [0]) + 1)
 
         empleados_data[new_id] = {
@@ -304,20 +283,21 @@ def procesar_datos_nuevo_empleado(message_body):
             "vacaciones": vacaciones,
             "prestamo": prestamo,
             "notas": notas,
-            "telefono": telefono.replace("+", "").strip(), # Asegurar el formato del teléfono
-            "last_interaction_date": datetime.now().strftime("%Y-%m-%d") # Inicializar con la fecha actual
+            "telefono": telefono.replace("+", "").strip(),
+            "last_interaction_date": datetime.now().strftime("%Y-%m-%d")
         }
 
         with open("empleados.json", "w", encoding="utf-8") as f:
             json.dump(empleados_data, f, indent=4, ensure_ascii=False)
 
+        log_debug(f"Empleado {nombre} agregado con ID {new_id}")
         return f"✅ Empleado {nombre} agregado con ID {new_id}!", new_id
     except Exception as e:
+        log_debug(f"❌ Error procesando nuevo empleado: {e}")
         return f"❌ Error al procesar los datos: {e}. Asegurate del formato correcto.", None
 
 def procesar_edicion_empleado(empleado_id, campo, nuevo_valor):
-    """Procesa la edición de un empleado existente."""
-    empleados_data = {}
+    log_debug(f"Editando empleado {empleado_id}: campo {campo} → {nuevo_valor}")
     try:
         with open("empleados.json", "r", encoding="utf-8") as f:
             empleados_data = json.load(f)
@@ -328,24 +308,21 @@ def procesar_edicion_empleado(empleado_id, campo, nuevo_valor):
         return f"❌ Empleado con ID *{empleado_id}* no encontrado.", False
 
     empleado = empleados_data[empleado_id]
-    campo = campo.lower() # Normalizar el campo a minúsculas
-
-    # Lista de campos permitidos y sus tipos de conversión
+    campo = campo.lower()
     allowed_fields = {
-        "nombre": str, "rol": str, "sector": str, 
-        "fecha_nacimiento": str, "fecha_ingreso": str, 
-        "vacaciones": int, "prestamo": float, "notas": str, 
-        "telefono": str, "last_interaction_date": str # Añadir last_interaction_date
+        "nombre": str, "rol": str, "sector": str,
+        "fecha_nacimiento": str, "fecha_ingreso": str,
+        "vacaciones": int, "prestamo": float, "notas": str,
+        "telefono": str, "last_interaction_date": str
     }
 
     if campo not in allowed_fields:
         return f"❌ Campo '{campo}' no es válido para edición. Campos permitidos: {', '.join(allowed_fields.keys())}.", False
 
     try:
-        # Convertir el nuevo valor al tipo esperado por el campo
         if campo in ["vacaciones", "prestamo"]:
             converted_value = allowed_fields[campo](nuevo_valor)
-            if converted_value < 0: # Validación adicional para números no negativos
+            if converted_value < 0:
                 return f"❌ El valor para '{campo}' no puede ser negativo.", False
             empleado[campo] = converted_value
         elif campo == "rol":
@@ -353,10 +330,9 @@ def procesar_edicion_empleado(empleado_id, campo, nuevo_valor):
                 return "❌ Rol inválido. Debe ser 'admin' o 'empleado'.", False
             empleado[campo] = nuevo_valor.lower()
         elif campo in ["fecha_nacimiento", "fecha_ingreso", "last_interaction_date"]:
-            # Validar formato de fecha DD-MM-YYYY o YYYY-MM-DD para last_interaction_date
             if campo in ["fecha_nacimiento", "fecha_ingreso"]:
                 datetime.strptime(nuevo_valor, "%d-%m-%Y")
-            elif campo == "last_interaction_date":
+            else:
                 datetime.strptime(nuevo_valor, "%Y-%m-%d")
             empleado[campo] = nuevo_valor
         elif campo == "telefono":
@@ -367,15 +343,16 @@ def procesar_edicion_empleado(empleado_id, campo, nuevo_valor):
         with open("empleados.json", "w", encoding="utf-8") as f:
             json.dump(empleados_data, f, indent=4, ensure_ascii=False)
 
+        log_debug(f"Empleado ID {empleado_id} actualizado: {campo} = {nuevo_valor}")
         return f"✅ Empleado ID *{empleado_id}* actualizado. Campo '{campo}' ahora es '{nuevo_valor}'.", True
     except ValueError:
         return f"❌ Error de formato para el campo '{campo}'. El valor '{nuevo_valor}' no es válido para este tipo.", False
     except Exception as e:
+        log_debug(f"❌ Error al editar el empleado {empleado_id}: {e}")
         return f"❌ Error desconocido al editar el empleado: {e}", False
 
 def eliminar_empleado(empleado_id):
-    """Elimina un empleado por su ID."""
-    empleados_data = {}
+    log_debug(f"Intentando eliminar empleado con ID: {empleado_id}")
     try:
         with open("empleados.json", "r", encoding="utf-8") as f:
             empleados_data = json.load(f)
@@ -386,13 +363,13 @@ def eliminar_empleado(empleado_id):
         del empleados_data[empleado_id]
         with open("empleados.json", "w", encoding="utf-8") as f:
             json.dump(empleados_data, f, indent=4, ensure_ascii=False)
+        log_debug(f"Empleado {empleado_id} eliminado.")
         return f"✅ Empleado con ID *{empleado_id}* eliminado."
     else:
         return f"❌ Empleado con ID *{empleado_id}* no encontrado."
 
 def listar_todos_los_empleados():
-    """Lista todos los empleados con su ID y nombre."""
-    empleados_data = {}
+    log_debug("Listando todos los empleados.")
     try:
         with open("empleados.json", "r", encoding="utf-8") as f:
             empleados_data = json.load(f)
@@ -406,13 +383,8 @@ def listar_todos_los_empleados():
     for emp_id, emp_info in empleados_data.items():
         response_lines.append(f"• ID: {emp_id} - Nombre: {emp_info.get('nombre', 'N/A')} ({emp_info.get('rol', 'N/A')})")
     return "\n".join(response_lines)
-
 def obtener_info_empleado_por_nombre_o_id(query):
-    """
-    Obtiene información detallada de un empleado por nombre o ID,
-    incluyendo el cálculo de antigüedad.
-    """
-    empleados_data = {}
+    log_debug(f"Buscando info de empleado por query: {query}")
     try:
         with open("empleados.json", "r", encoding="utf-8") as f:
             empleados_data = json.load(f)
@@ -423,48 +395,39 @@ def obtener_info_empleado_por_nombre_o_id(query):
     if query.isdigit() and query in empleados_data:
         empleado_encontrado = empleados_data[query]
     else:
-        # Buscar por nombre (insensible a mayúsculas/minúsculas)
         for emp_id, emp_info in empleados_data.items():
             if emp_info.get('nombre', '').lower() == query.lower():
                 empleado_encontrado = emp_info
                 break
-    
+
     if empleado_encontrado:
-        info_lines = [f"ℹ️ *Información de {empleado_encontrado['nombre']}:*\n"]
+        info_lines = [f"ℹ️ *Información de {empleado_encontrado['nombre']}*:\n"]
         for key, value in empleado_encontrado.items():
-            if key != "telefono": # No mostrar el teléfono directamente por privacidad
+            if key != "telefono":
                 info_lines.append(f"• {key.replace('_', ' ').title()}: {value}")
-        
-        # --- Cálculo de Antigüedad ---
+
         fecha_ingreso_str = empleado_encontrado.get('fecha_ingreso')
         if fecha_ingreso_str:
             try:
                 fecha_ingreso = datetime.strptime(fecha_ingreso_str, '%d-%m-%Y')
                 hoy = datetime.now()
-                antiguedad_anos = hoy.year - fecha_ingreso.year - ((hoy.month, hoy.day) < (fecha_ingreso.month, fecha_ingreso.day))
-                antiguedad_meses = hoy.month - fecha_ingreso.month
-                if antiguedad_meses < 0:
-                    antiguedad_meses += 12
-
-                info_lines.append(f"• Antigüedad: {antiguedad_anos} años y {antiguedad_meses} meses")
+                anos = hoy.year - fecha_ingreso.year - ((hoy.month, hoy.day) < (fecha_ingreso.month, fecha_ingreso.day))
+                meses = (hoy.month - fecha_ingreso.month) % 12
+                info_lines.append(f"• Antigüedad: {anos} años y {meses} meses")
             except ValueError:
-                info_lines.append("• Antigüedad: Fecha de ingreso inválida")
-        else:
-            info_lines.append("• Antigüedad: No disponible")
-
+                info_lines.append("• Antigüedad: Fecha inválida")
         return "\n".join(info_lines)
-    else:
-        return f"❌ Empleado '{query}' no encontrado por nombre o ID."
+    return f"❌ Empleado '{query}' no encontrado por nombre o ID."
 
 def consultar_dias_vacaciones(telefono):
-    """Consulta los días de vacaciones de un empleado."""
+    log_debug(f"Consultando vacaciones para {telefono}")
     usuario = obtener_usuario_por_telefono(telefono)
     if usuario and "vacaciones" in usuario:
         return f"🏖️ Tenés {usuario['vacaciones']} días de vacaciones disponibles."
     return "❌ No se pudo obtener la información de vacaciones."
 
 def consultar_prestamo(telefono):
-    """Consulta el monto del préstamo de un empleado."""
+    log_debug(f"Consultando préstamo para {telefono}")
     usuario = obtener_usuario_por_telefono(telefono)
     if usuario:
         prestamo = usuario.get("prestamo")
@@ -475,170 +438,131 @@ def consultar_prestamo(telefono):
     return "❌ No se pudo obtener la información del préstamo."
 
 def consultar_cumpleanos_y_edad(telefono):
-    """
-    Consulta la fecha de cumpleaños y edad de un empleado,
-    calculando la edad que cumplirá y los días restantes.
-    """
+    log_debug(f"Consultando cumpleaños y edad para {telefono}")
     usuario = obtener_usuario_por_telefono(telefono)
-    if usuario and "fecha_nacimiento" in usuario and usuario["fecha_nacimiento"]:
+    if usuario and usuario.get("fecha_nacimiento"):
         try:
             nacimiento = datetime.strptime(usuario["fecha_nacimiento"], "%d-%m-%Y")
             hoy = datetime.now()
-            
-            # Calcular edad que cumplirá
-            edad_a_cumplir = hoy.year - nacimiento.year
-            proximo_cumple = datetime(hoy.year, nacimiento.month, nacimiento.day)
-            
-            if proximo_cumple < hoy:
-                proximo_cumple = datetime(hoy.year + 1, nacimiento.month, nacimiento.day)
-                edad_a_cumplir += 1
-            
-            dias_para_cumple = (proximo_cumple - hoy).days
+            edad = hoy.year - nacimiento.year
+            cumple = datetime(hoy.year, nacimiento.month, nacimiento.day)
 
-            response_text = f"🎂 Tu cumpleaños es el {nacimiento.strftime('%d de %B').replace('January', 'Enero').replace('February', 'Febrero').replace('March', 'Marzo').replace('April', 'Abril').replace('May', 'Mayo').replace('June', 'Junio').replace('July', 'Julio').replace('August', 'Agosto').replace('September', 'Septiembre').replace('October', 'Octubre').replace('November', 'Noviembre').replace('December', 'Diciembre')}."
-            
-            if dias_para_cumple == 0:
-                response_text += f" ¡Es hoy! 🎉 Cumplís {edad_a_cumplir} años."
-            elif dias_para_cumple == 1:
-                response_text += f" ¡Es mañana! 🎂 Cumplirás {edad_a_cumplir} años."
-            elif dias_para_cumple > 1:
-                response_text += f" Faltan {dias_para_cumple} días para tu próximo cumpleaños. Cumplirás {edad_a_cumplir} años."
-            return response_text
+            if cumple < hoy:
+                cumple = datetime(hoy.year + 1, nacimiento.month, nacimiento.day)
+                edad += 1
+
+            dias = (cumple - hoy).days
+
+            respuesta = f"🎂 Tu cumpleaños es el {nacimiento.strftime('%d/%m')}."
+            if dias == 0:
+                respuesta += f" ¡Es hoy! Cumplís {edad} años. 🎉"
+            elif dias == 1:
+                respuesta += f" ¡Es mañana! Cumplís {edad} años. 🎂"
+            else:
+                respuesta += f" Faltan {dias} días. Vas a cumplir {edad} años."
+            return respuesta
         except ValueError:
-            return "❌ Fecha de nacimiento no válida."
+            return "❌ Fecha de nacimiento inválida."
     return "❌ No se pudo obtener la información de cumpleaños."
 
-def listar_archivos_empleado(telefono, base_url):
-    """Lista los archivos de un empleado desde la carpeta static/archivos/Apellido_Nombre."""
-    usuario = obtener_usuario_por_telefono(telefono)
-    if not usuario:
-        return "❌ No se encontró tu información de empleado."
+def obtener_proximos_cumpleanos():
+    log_debug("Buscando próximos cumpleaños")
+    try:
+        with open("empleados.json", "r", encoding="utf-8") as f:
+            empleados_data = json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        return "❌ Error al leer los datos."
 
-    apellido = usuario.get("apellido", "SinApellido").strip().replace(" ", "_")
-    nombre = usuario.get("nombre", "SinNombre").strip().replace(" ", "_")
-    folder_name = f"{apellido}_{nombre}"
-    folder_path = os.path.join("static", "archivos", folder_name)
+    hoy = datetime.now()
+    cumpleanos = []
 
-    if not os.path.exists(folder_path) or not os.listdir(folder_path):
-        return f"📁 No tenés archivos subidos en tu carpeta personal."
+    for emp in empleados_data.values():
+        if emp.get("estado", "").lower() != "activo":
+            continue
+        if not emp.get("fecha_nacimiento"):
+            continue
 
-    response_lines = [f"📁 *Tus archivos ({usuario['nombre']}):*\n"]
-    for filename in os.listdir(folder_path):
-        file_url = f"{base_url}/static/archivos/{folder_name}/{filename}".replace(" ", "%20")
-        response_lines.append(f"• {filename} → {file_url}")  # Acá armamos el link completo
+        try:
+            dia, mes, anio = map(int, emp["fecha_nacimiento"].split("-"))
+            fecha = datetime(hoy.year, mes, dia)
+            if fecha < hoy:
+                fecha = datetime(hoy.year + 1, mes, dia)
 
-    return "\n".join(response_lines)
+            dias_faltantes = (fecha - hoy).days
+            if dias_faltantes <= 30:
+                edad = hoy.year - anio + (1 if fecha.year > hoy.year else 0)
+                cumpleanos.append({
+                    "nombre": emp["nombre"],
+                    "fecha": fecha,
+                    "dias": dias_faltantes,
+                    "edad": edad
+                })
+        except Exception as e:
+            log_debug(f"Error parseando fecha para {emp.get('nombre')}: {e}")
+            continue
 
+    cumpleanos.sort(key=lambda x: x["fecha"])
+    if not cumpleanos:
+        return "🎉 No hay cumpleaños en los próximos 30 días."
+
+    lineas = ["🎉 *Cumpleaños próximos:*\n"]
+    for c in cumpleanos:
+        fecha = c["fecha"].strftime("%d/%m")
+        if c["dias"] == 0:
+            lineas.append(f"• {c['nombre']}: ¡HOY! 🎉 Cumple {c['edad']} años.")
+        elif c["dias"] == 1:
+            lineas.append(f"• {c['nombre']} ({fecha}): Mañana. Cumple {c['edad']} años. 🎂")
+        else:
+            lineas.append(f"• {c['nombre']} ({fecha}): en {c['dias']} días. Cumple {c['edad']} años.")
+    return "\n".join(lineas)
 
 def ver_informacion_completa(telefono):
-    """
-    Muestra toda la información del empleado (excepto el teléfono directo),
-    incluyendo el cálculo de antigüedad.
-    """
+    log_debug(f"Consultando información completa para {telefono}")
     usuario = obtener_usuario_por_telefono(telefono)
     if not usuario:
         return "❌ No se pudo obtener tu información completa."
 
     info_lines = [f"ℹ️ *Tu Información Completa ({usuario['nombre']}):*\n"]
     for key, value in usuario.items():
-        if key != "telefono": # No mostrar el teléfono directamente por privacidad
+        if key != "telefono":
             info_lines.append(f"• {key.replace('_', ' ').title()}: {value}")
-    
-    # --- Cálculo de Antigüedad ---
+
     fecha_ingreso_str = usuario.get('fecha_ingreso')
     if fecha_ingreso_str:
         try:
             fecha_ingreso = datetime.strptime(fecha_ingreso_str, '%d-%m-%Y')
             hoy = datetime.now()
-            antiguedad_anos = hoy.year - fecha_ingreso.year - ((hoy.month, hoy.day) < (fecha_ingreso.month, fecha_ingreso.day))
-            antiguedad_meses = hoy.month - fecha_ingreso.month
-            if antiguedad_meses < 0:
-                antiguedad_meses += 12
-
-            info_lines.append(f"• Antigüedad: {antiguedad_anos} años y {antiguedad_meses} meses")
+            anos = hoy.year - fecha_ingreso.year - ((hoy.month, hoy.day) < (fecha_ingreso.month, fecha_ingreso.day))
+            meses = (hoy.month - fecha_ingreso.month) % 12
+            info_lines.append(f"• Antigüedad: {anos} años y {meses} meses")
         except ValueError:
-            info_lines.append("• Antigüedad: Fecha de ingreso inválida")
-    else:
-        info_lines.append("• Antigüedad: No disponible")
-
+            info_lines.append("• Antigüedad: Fecha inválida")
     return "\n".join(info_lines)
 
+def listar_archivos_empleado(telefono, base_url):
+    log_debug(f"Listando archivos para {telefono}")
+    usuario = obtener_usuario_por_telefono(telefono)
+    if not usuario:
+        return "❌ No se encontró tu información."
 
-def obtener_proximos_cumpleanos():
-    """
-    Obtiene una lista de los próximos cumpleaños (en los próximos 30 días)
-    ordenados por fecha, incluyendo la edad que cumplirán.
-    Solo incluye empleados con estado "activo".
-    """
-    empleados_data = {}
-    try:
-        with open("empleados.json", "r", encoding="utf-8") as f:
-            empleados_data = json.load(f)
-    except FileNotFoundError:
-        return "❌ Error: Archivo de empleados no encontrado."
-    except json.JSONDecodeError:
-        return "❌ Error: Formato de archivo de empleados inválido."
+    apellido = usuario.get("apellido", "SinApellido").strip().replace(" ", "_")
+    nombre = usuario.get("nombre", "SinNombre").strip().replace(" ", "_")
+    carpeta = os.path.join("static", "archivos", f"{apellido}_{nombre}")
 
-    hoy = datetime.now()
-    cumpleanos_proximos = []
+    if not os.path.exists(carpeta) or not os.listdir(carpeta):
+        return "📁 No tenés archivos subidos en tu carpeta personal."
 
-    for emp_id, emp_info in empleados_data.items():
-        # ⚠️ Filtrar por estado
-        if emp_info.get("estado", "").lower() != "activo":
-            continue
+    archivos = os.listdir(carpeta)
+    archivos.sort()
 
-        if "fecha_nacimiento" in emp_info and emp_info["fecha_nacimiento"]:
-            try:
-                dia, mes, anio_nacimiento = map(int, emp_info["fecha_nacimiento"].split('-'))
-                
-                edad_actual = hoy.year - anio_nacimiento - ((hoy.month, hoy.day) < (mes, dia))
-                cumple_este_anio = datetime(hoy.year, mes, dia)
+    lineas = [f"📂 *Tus archivos ({usuario['nombre']}):*\n"]
+    for archivo in archivos:
+        url = f"{base_url}/static/archivos/{apellido}_{nombre}/{archivo}".replace(" ", "%20")
+        lineas.append(f"• {archivo} → {url}")
+    return "\n".join(lineas)
 
-                if cumple_este_anio < hoy:
-                    cumple_proximo_ocasion = datetime(hoy.year + 1, mes, dia)
-                    edad_a_cumplir = edad_actual + 1
-                else:
-                    cumple_proximo_ocasion = cumple_este_anio
-                    edad_a_cumplir = edad_actual
-
-                dias_restantes = (cumple_proximo_ocasion - hoy).days
-
-                if 0 <= dias_restantes <= 30:
-                    cumpleanos_proximos.append({
-                        "nombre": emp_info["nombre"],
-                        "fecha": cumple_proximo_ocasion,
-                        "dias_restantes": dias_restantes,
-                        "edad_a_cumplir": edad_a_cumplir 
-                    })
-            except (ValueError, IndexError):
-                print(f"Advertencia: Fecha de nacimiento inválida para {emp_info.get('nombre', emp_id)}: {emp_info.get('fecha_nacimiento')}")
-                continue
-
-    cumpleanos_proximos.sort(key=lambda x: x["fecha"])
-
-    if not cumpleanos_proximos:
-        return "🎉 No hay próximos cumpleaños en los próximos 30 días."
-    
-    response_lines = ["🎉 *Próximos Cumpleaños (próximos 30 días):*\n"]
-    for cumple in cumpleanos_proximos:
-        fecha_formato = cumple["fecha"].strftime("%d de %B").replace("January", "Enero").replace("February", "Febrero") \
-                                     .replace("March", "Marzo").replace("April", "Abril").replace("May", "Mayo").replace("June", "Junio") \
-                                     .replace("July", "Julio").replace("August", "Agosto").replace("September", "Septiembre") \
-                                     .replace("October", "Octubre").replace("November", "Noviembre").replace("December", "Diciembre")
-
-        if cumple["dias_restantes"] == 0:
-            response_lines.append(f"• {cumple['nombre']}: ¡Es hoy! 🎉 Cumple {cumple['edad_a_cumplir']} años.")
-        elif cumple["dias_restantes"] == 1:
-            response_lines.append(f"• {cumple['nombre']} ({fecha_formato}): Mañana 🎂 Cumple {cumple['edad_a_cumplir']} años.")
-        else:
-            response_lines.append(f"• {cumple['nombre']} ({fecha_formato}): en {cumple['dias_restantes']} días. Cumplirá {cumple['edad_a_cumplir']} años.")
-    
-    return "\n".join(response_lines)
-
-import requests
-
-def guardar_archivo_enviado_por_whatsapp(telefono, media_url, media_type, media_filename=None):
-    """Guarda un archivo recibido por WhatsApp en la carpeta del empleado."""
+def guardar_archivo_enviado_por_whatsapp(telefono, media_path, mime_type, filename=None):
+    log_debug(f"Guardando archivo recibido por WhatsApp para {telefono}")
     usuario = obtener_usuario_por_telefono(telefono)
     if not usuario:
         return "❌ No se encontró tu información para guardar el archivo."
@@ -648,19 +572,17 @@ def guardar_archivo_enviado_por_whatsapp(telefono, media_url, media_type, media_
     carpeta = os.path.join("static", "archivos", f"{apellido}_{nombre}")
     os.makedirs(carpeta, exist_ok=True)
 
-    if not media_filename:
-        extension = media_type.split("/")[-1]  # ejemplo: image/jpeg → jpeg
-        media_filename = f"archivo_{datetime.now().strftime('%Y%m%d_%H%M%S')}.{extension}"
+    if not filename:
+        extension = mime_type.split("/")[-1]
+        filename = f"archivo_{datetime.now().strftime('%Y%m%d_%H%M%S')}.{extension}"
 
-    ruta_destino = os.path.join(carpeta, media_filename)
+    ruta_destino = os.path.join(carpeta, filename)
 
     try:
-        respuesta = requests.get(media_url)
-        if respuesta.status_code == 200:
-            with open(ruta_destino, "wb") as f:
-                f.write(respuesta.content)
-            return f"✅ Archivo recibido y guardado como *{media_filename}*."
-        else:
-            return f"❌ Error al descargar el archivo (status {respuesta.status_code})."
+        with open(media_path, "rb") as source, open(ruta_destino, "wb") as dest:
+            dest.write(source.read())
+        log_debug(f"Archivo guardado: {ruta_destino}")
+        return f"✅ Archivo recibido y guardado como *{filename}*."
     except Exception as e:
+        log_debug(f"Error al guardar archivo: {e}")
         return f"❌ Error al guardar el archivo: {e}"

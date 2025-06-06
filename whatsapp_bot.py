@@ -9,6 +9,7 @@ from bot import (
     registrar_log,
     guardar_archivo_enviado_por_whatsapp
 )
+import subprocess
 import requests
 import json
 import os
@@ -17,7 +18,7 @@ from meta_config import ACCESS_TOKEN, PHONE_NUMBER_ID, API_VERSION, VERIFY_TOKEN
 
 app = Flask(__name__)
 user_states = {}
-BASE_URL = os.getenv("BASE_URL", "https://whatsapp-bot-1wj3.onrender.com")
+BASE_URL = os.getenv("BASE_URL", "https://tu-url-produccion.com")
 
 def limpiar_numero(numero):
     numero = numero.replace("+", "")
@@ -27,6 +28,18 @@ def limpiar_numero(numero):
         numero = numero[1:]
     return numero
 
+def descargar_media_con_curl(media_url, token, filename_destino):
+    comando = [
+        "curl", "-L",
+        "-H", f"Authorization: Bearer {token}",
+        media_url,
+        "-o", filename_destino
+    ]
+    resultado = subprocess.run(comando, capture_output=True)
+    print("📄 CURL STDOUT:", resultado.stdout.decode())
+    print("⚠️ CURL STDERR:", resultado.stderr.decode())
+    return resultado.returncode == 0
+
 @app.route("/webhook", methods=["GET", "POST"])
 def webhook():
     if request.method == "GET":
@@ -34,15 +47,16 @@ def webhook():
         token = request.args.get("hub.verify_token")
         challenge = request.args.get("hub.challenge")
         if mode == "subscribe" and token == VERIFY_TOKEN:
-            print("✅ Verificación webhook exitosa")
+            print("✅ Webhook verificado correctamente.")
             return challenge, 200
-        print("❌ Falló la verificación del webhook")
+        print("❌ Verificación de webhook fallida.")
         return "Invalid verification", 403
 
     if request.method == "POST":
         data = request.get_json()
-        print("📥 LLEGÓ UN MENSAJE POST")
+        print("📥 LLEGÓ UN MENSAJE POST:")
         print(json.dumps(data, indent=2))
+
         try:
             for entry in data.get("entry", []):
                 for change in entry.get("changes", []):
@@ -50,57 +64,49 @@ def webhook():
                     if "messages" in value:
                         mensaje = value["messages"][0]
                         from_number = limpiar_numero(mensaje["from"])
+                        print(f"📲 Mensaje desde: {from_number}")
 
-                        # Archivos adjuntos (imagen o documento)
                         if "image" in mensaje or "document" in mensaje:
                             tipo = "image" if "image" in mensaje else "document"
                             media = mensaje[tipo]
                             media_id = media.get("id")
-                            filename = media.get("filename", None)
+                            filename = media.get("filename", f"{media_id}.bin")
                             mime_type = media.get("mime_type", "")
 
-                            print(f"📎 Tipo: {tipo}")
-                            print(f"🆔 media_id: {media_id}")
-                            print(f"📄 filename: {filename}")
-                            print(f"🧾 mime_type: {mime_type}")
+                            print(f"📎 Recibido archivo tipo: {tipo} - ID: {media_id} - Nombre: {filename} - MIME: {mime_type}")
 
                             url_media_info = f"https://graph.facebook.com/{API_VERSION}/{media_id}"
                             headers = {"Authorization": f"Bearer {ACCESS_TOKEN}"}
 
-                            # Paso 1: Obtener la URL real del archivo
                             res_url = requests.get(url_media_info, headers=headers)
-                            print(f"🌐 Media info response: {res_url.status_code} - {res_url.text}")
+                            print(f"🌐 Media info → {res_url.status_code} - {res_url.text}")
 
                             if res_url.status_code == 200:
                                 media_url = res_url.json().get("url")
+                                ruta_local = f"./temp/{media_id}.bin"
+                                os.makedirs("./temp", exist_ok=True)
 
-                                # Paso 2: Descargar el archivo (sin header de auth acá)
-                                res_file = requests.get(media_url, stream=True)
-                                print(f"⬇️ Descarga: {res_file.status_code}")
-
-                                if res_file.status_code == 200:
-                                    r = guardar_archivo_enviado_por_whatsapp(
-                                        from_number, media_url, mime_type, filename
-                                    )
+                                if descargar_media_con_curl(media_url, ACCESS_TOKEN, ruta_local):
+                                    r = guardar_archivo_enviado_por_whatsapp(from_number, ruta_local, mime_type, filename)
                                     enviar_mensaje(from_number, r)
                                 else:
-                                    enviar_mensaje(from_number, f"❌ No se pudo descargar el archivo (status {res_file.status_code}).")
+                                    enviar_mensaje(from_number, "❌ No se pudo descargar el archivo con curl.")
                             else:
                                 enviar_mensaje(from_number, f"❌ No se pudo obtener la URL del archivo (status {res_url.status_code}).")
-
                             return "OK", 200
 
                         texto = mensaje.get("text", {}).get("body", "")
                         procesar_mensaje(texto, from_number)
+
         except Exception as e:
-            print("❌ Error al procesar:", e)
+            print("❌ Error al procesar POST:", e)
         return "OK", 200
 
 def procesar_mensaje(texto, from_number):
     texto = texto.strip().lower()
     usuario = obtener_usuario_por_telefono(from_number)
-    print(f"📞 {from_number} dijo: {texto}")
-    print("🧑 Usuario:", usuario)
+    print(f"💬 Mensaje de {from_number}: '{texto}'")
+    print("👤 Usuario identificado:", usuario)
 
     if from_number not in user_states:
         user_states[from_number] = {"estado": None, "data": {}}
@@ -118,6 +124,7 @@ def procesar_mensaje(texto, from_number):
         else:
             respuesta = mostrar_menu_empleado(usuario["nombre"], from_number)
             user_states[from_number]["estado"] = "menu_empleado"
+        registrar_log(usuario, "📋 Entró al menú principal")
         enviar_mensaje(from_number, respuesta)
         return
 
@@ -125,6 +132,7 @@ def procesar_mensaje(texto, from_number):
         user_states[from_number] = {"estado": None, "data": {}}
         menu = mostrar_menu_admin(usuario["nombre"], from_number) if usuario["rol"] == "admin" else mostrar_menu_empleado(usuario["nombre"], from_number)
         enviar_mensaje(from_number, f"🛑 Operación cancelada.\n{menu}")
+        registrar_log(usuario, "⛔ Canceló operación")
         return
 
     if estado in ["menu_admin", "menu_empleado"] and texto.isdigit():
@@ -133,6 +141,7 @@ def procesar_mensaje(texto, from_number):
         else:
             respuesta, nuevo_estado = procesar_opcion_empleado(usuario, texto, BASE_URL)
         user_states[from_number]["estado"] = nuevo_estado or estado
+        registrar_log(usuario, f"Seleccionó opción {texto}")
         enviar_mensaje(from_number, respuesta)
         return
 
@@ -140,10 +149,12 @@ def procesar_mensaje(texto, from_number):
         respuesta = obtener_info_empleado_por_nombre_o_id(texto)
         user_states[from_number] = {"estado": "menu_admin", "data": {}}
         respuesta += "\n" + mostrar_menu_admin(usuario["nombre"], from_number)
+        registrar_log(usuario, f"Consultó info de: {texto}")
         enviar_mensaje(from_number, respuesta)
         return
 
     enviar_mensaje(from_number, "🤖 No entendí tu mensaje. Escribí 'menu' para ver opciones.")
+    registrar_log(usuario, f"Mensaje no reconocido: {texto}")
 
 def enviar_mensaje(numero, texto):
     url = f"https://graph.facebook.com/{API_VERSION}/{PHONE_NUMBER_ID}/messages"
