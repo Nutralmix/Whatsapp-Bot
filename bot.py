@@ -212,7 +212,7 @@ def procesar_opcion_empleado(usuario, opcion, base_url):
                f"{base_url}/subir_archivo_empleado", "menu_empleado"
 
     elif opcion == "6":
-        return f"🎉 Consultá los próximos cumpleaños acá:\n{base_url}/cumples", "menu_empleado"
+        return obtener_proximos_cumpleanos(), "menu_empleado"
 
     elif opcion == "7":
         return f"📂 Archivos públicos disponibles:\n{base_url}/archivos/publicos", "menu_empleado"

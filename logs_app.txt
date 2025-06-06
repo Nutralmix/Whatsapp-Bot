@@ -323,3 +323,7 @@
 [2025-06-06 12:00:25] Acceso a subir archivo a empleado (privado)
 [2025-06-06 12:00:27] Acceso a subir archivo a empleado (privado)
 [2025-06-06 12:00:34] Acceso a panel
+[2025-06-06 12:20:55] Servidor Flask iniciado
+[2025-06-06 12:20:59] Acceso a panel
+[2025-06-06 12:21:04] Logout desde panel web
+[2025-06-06 12:21:05] Acceso a panel
