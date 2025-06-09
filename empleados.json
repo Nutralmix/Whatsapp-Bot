@@ -328,7 +328,7 @@
         "fecha_nacimiento": "11-10-1983",
         "edad": 0,
         "telefono": "2317558435",
-        "rol": "admin",
+        "rol": "empleado",
         "notas": "",
         "prestamo": {}
     },
@@ -1343,6 +1343,7 @@
         "fecha_ingreso": "02-05-2023",
         "fecha_nacimiento": "10-08-1989",
         "telefono": "2317577632",
+        "rol": "empleado",
         "direccion": "",
         "email": "",
         "vacaciones": 0,
