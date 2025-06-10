@@ -328,3 +328,171 @@
 [2025-06-06 12:21:04] Logout desde panel web
 [2025-06-06 12:21:05] Acceso a panel
 [2025-06-06 12:56:19] Servidor Flask iniciado
+[2025-06-09 10:58:48] Servidor Flask iniciado
+[2025-06-09 10:59:12] Acceso a portada
+[2025-06-09 10:59:42] Acceso a portada
+[2025-06-09 11:00:36] Acceso a panel
+[2025-06-09 11:01:05] Empleados activos cargados correctamente
+[2025-06-09 11:01:05] Visualización de todos los empleados
+[2025-06-09 11:06:13] Consulta de préstamo para 196
+[2025-06-09 11:06:17] Consulta de todos los préstamos
+[2025-06-09 11:06:17] Empleados activos cargados correctamente
+[2025-06-09 11:06:24] Acceso a panel
+[2025-06-09 11:06:27] Empleados activos cargados correctamente
+[2025-06-09 11:06:27] Visualización de todos los empleados
+[2025-06-09 11:07:08] Acceso a panel
+[2025-06-09 11:07:13] Acceso a subir archivo público
+[2025-06-09 11:07:54] Acceso a subir archivo público
+[2025-06-09 11:07:54] ✅ Archivo público dia_del_camionero.jpg subido correctamente.
+[2025-06-09 11:07:56] Acceso a panel
+[2025-06-09 11:08:04] Acceso a subir archivo a empleado (privado)
+[2025-06-09 11:08:10] Acceso a subir archivo a empleado (privado)
+[2025-06-09 11:08:16] Acceso a subir archivo a empleado (privado)
+[2025-06-09 11:08:23] Acceso a subir archivo a empleado (privado)
+[2025-06-09 11:08:36] Acceso a subir archivo a empleado (privado)
+[2025-06-09 11:08:47] Acceso a subir archivo a empleado (privado)
+[2025-06-09 11:09:05] Acceso a subir archivo a empleado (privado)
+[2025-06-09 11:09:17] Acceso a subir archivo a empleado (privado)
+[2025-06-09 11:09:24] Acceso a subir archivo a empleado (privado)
+[2025-06-09 11:09:27] Acceso a subir archivo a empleado (privado)
+[2025-06-09 11:09:40] Acceso a subir archivo a empleado (privado)
+[2025-06-09 11:10:02] Acceso a subir archivo a empleado (privado)
+[2025-06-09 11:10:02] Archivo Imagen_de_fondo_Nutralmix.png subido a static\archivos\Zega_Maximiliano
+[2025-06-09 11:10:08] Acceso a panel
+[2025-06-10 11:03:50] Servidor Flask iniciado
+[2025-06-10 11:04:23] Acceso a portada
+[2025-06-10 11:20:26] Acceso a panel
+[2025-06-10 11:24:14] Consulta de todos los préstamos
+[2025-06-10 11:24:14] Empleados activos cargados correctamente
+[2025-06-10 11:24:20] Consulta de préstamo para 15
+[2025-06-10 11:24:43] Consulta de todos los préstamos
+[2025-06-10 11:24:43] Empleados activos cargados correctamente
+[2025-06-10 11:24:44] Acceso a panel
+[2025-06-10 11:24:52] Consulta de todos los préstamos
+[2025-06-10 11:24:52] Empleados activos cargados correctamente
+[2025-06-10 11:25:00] Consulta de préstamo para 250
+[2025-06-10 11:25:05] Consulta de todos los préstamos
+[2025-06-10 11:25:05] Empleados activos cargados correctamente
+[2025-06-10 11:25:09] Consulta de préstamo para 250
+[2025-06-10 11:25:13] Acceso a panel
+[2025-06-10 11:25:18] Consulta de todos los préstamos
+[2025-06-10 11:25:18] Empleados activos cargados correctamente
+[2025-06-10 11:25:47] Acceso a panel
+[2025-06-10 11:27:39] Acceso a subir archivo público
+[2025-06-10 11:27:41] Acceso a panel
+[2025-06-10 11:27:43] Acceso a subir archivo a empleado (privado)
+[2025-06-10 11:27:48] Acceso a subir archivo a empleado (privado)
+[2025-06-10 11:27:48] ❌ No se encontró ningún empleado con ese dato.
+[2025-06-10 11:27:50] Acceso a subir archivo a empleado (privado)
+[2025-06-10 11:27:53] Acceso a panel
+[2025-06-10 11:27:57] Empleados activos cargados correctamente
+[2025-06-10 11:27:57] Visualización de todos los empleados
+[2025-06-10 11:28:14] Consulta de info iniciada
+[2025-06-10 11:28:14] Empleados activos cargados correctamente
+[2025-06-10 11:28:16] Consulta de info iniciada
+[2025-06-10 11:28:16] Empleados activos cargados correctamente
+[2025-06-10 11:28:16] Búsqueda de: zeg
+[2025-06-10 11:28:34] Consulta de préstamo para 196
+[2025-06-10 11:28:37] Consulta de todos los préstamos
+[2025-06-10 11:28:37] Empleados activos cargados correctamente
+[2025-06-10 11:28:44] Consulta de todos los préstamos
+[2025-06-10 11:28:44] Empleados activos cargados correctamente
+[2025-06-10 11:28:50] Acceso a panel
+[2025-06-10 11:28:55] Empleados activos cargados correctamente
+[2025-06-10 11:28:55] Consulta de próximos cumpleaños
+[2025-06-10 11:28:55] Fecha de nacimiento inválida para Federico
+[2025-06-10 11:28:55] Fecha de nacimiento inválida para Raul Alberto
+[2025-06-10 11:28:55] Fecha de nacimiento inválida para Rafael
+[2025-06-10 11:28:55] Fecha de nacimiento inválida para Nahuel Ezequiel
+[2025-06-10 11:31:11] Consulta de info iniciada
+[2025-06-10 11:31:11] Empleados activos cargados correctamente
+[2025-06-10 11:31:16] Consulta de info iniciada
+[2025-06-10 11:31:16] Empleados activos cargados correctamente
+[2025-06-10 11:31:16] Búsqueda de: jua
+[2025-06-10 11:31:21] Consulta de info iniciada
+[2025-06-10 11:31:21] Empleados activos cargados correctamente
+[2025-06-10 11:31:21] Búsqueda de: die
+[2025-06-10 11:31:27] Consulta de info iniciada
+[2025-06-10 11:31:27] Empleados activos cargados correctamente
+[2025-06-10 11:31:27] Búsqueda de: max
+[2025-06-10 11:31:40] Consulta de info iniciada
+[2025-06-10 11:31:40] Empleados activos cargados correctamente
+[2025-06-10 14:35:54] Acceso a portada
+[2025-06-10 14:35:56] Acceso a panel
+[2025-06-10 14:35:59] Empleados activos cargados correctamente
+[2025-06-10 14:35:59] Visualización de todos los empleados
+[2025-06-10 14:39:49] Servidor Flask iniciado
+[2025-06-10 14:40:02] Empleados activos cargados correctamente
+[2025-06-10 14:40:09] Acceso a portada
+[2025-06-10 14:40:12] Acceso a panel
+[2025-06-10 14:40:14] Empleados activos cargados correctamente
+[2025-06-10 14:40:14] Visualización de todos los empleados
+[2025-06-10 14:40:15] Empleados activos cargados correctamente
+[2025-06-10 14:45:07] Servidor Flask iniciado
+[2025-06-10 14:45:48] Empleados activos cargados correctamente
+[2025-06-10 14:45:54] Empleados activos cargados correctamente
+[2025-06-10 14:46:55] Servidor Flask iniciado
+[2025-06-10 14:47:07] Acceso a portada
+[2025-06-10 14:47:08] Acceso a panel
+[2025-06-10 14:47:10] Empleados activos cargados correctamente
+[2025-06-10 14:47:10] Visualización de todos los empleados
+[2025-06-10 14:47:11] Empleados activos cargados correctamente
+[2025-06-10 15:08:43] Servidor Flask iniciado
+[2025-06-10 15:08:48] Vista web de archivos para 22
+[2025-06-10 15:08:57] Acceso a panel
+[2025-06-10 15:09:05] Empleados activos cargados correctamente
+[2025-06-10 15:09:05] Visualización de todos los empleados
+[2025-06-10 15:09:09] Vista web de archivos para 196
+[2025-06-10 15:09:20] Acceso a panel
+[2025-06-10 15:19:14] Servidor Flask iniciado
+[2025-06-10 15:19:19] Acceso a panel
+[2025-06-10 15:19:21] Consulta de info iniciada
+[2025-06-10 15:19:21] Empleados activos cargados correctamente
+[2025-06-10 15:19:24] Consulta de info iniciada
+[2025-06-10 15:19:24] Empleados activos cargados correctamente
+[2025-06-10 15:19:24] Búsqueda de: maxi
+[2025-06-10 15:19:31] Vista web de archivos para 46
+[2025-06-10 15:19:32] Acceso a panel
+[2025-06-10 15:19:33] Empleados activos cargados correctamente
+[2025-06-10 15:19:33] Visualización de todos los empleados
+[2025-06-10 15:19:39] Acceso a panel
+[2025-06-10 15:19:41] Consulta de info iniciada
+[2025-06-10 15:19:41] Empleados activos cargados correctamente
+[2025-06-10 15:19:44] Consulta de info iniciada
+[2025-06-10 15:19:44] Empleados activos cargados correctamente
+[2025-06-10 15:19:44] Búsqueda de: diego
+[2025-06-10 15:19:50] Consulta de préstamo para 28
+[2025-06-10 15:19:51] Consulta de todos los préstamos
+[2025-06-10 15:19:51] Empleados activos cargados correctamente
+[2025-06-10 15:20:32] Acceso a portada
+[2025-06-10 15:20:35] Acceso a panel
+[2025-06-10 15:20:37] Empleados activos cargados correctamente
+[2025-06-10 15:20:37] Visualización de todos los empleados
+[2025-06-10 15:21:24] Consulta de info iniciada
+[2025-06-10 15:21:24] Empleados activos cargados correctamente
+[2025-06-10 15:21:26] Consulta de info iniciada
+[2025-06-10 15:21:26] Empleados activos cargados correctamente
+[2025-06-10 15:21:26] Búsqueda de: zeg
+[2025-06-10 15:21:29] Consulta de info iniciada
+[2025-06-10 15:21:29] Empleados activos cargados correctamente
+[2025-06-10 15:21:29] Búsqueda de: max
+[2025-06-10 15:21:34] Vista web de archivos para 196
+[2025-06-10 15:21:46] Acceso a panel
+[2025-06-10 15:21:47] Consulta de info iniciada
+[2025-06-10 15:21:47] Empleados activos cargados correctamente
+[2025-06-10 15:21:51] Consulta de info iniciada
+[2025-06-10 15:21:51] Empleados activos cargados correctamente
+[2025-06-10 15:21:51] Búsqueda de: die
+[2025-06-10 15:22:11] Vista web de archivos para 134
+[2025-06-10 15:22:14] Vista web de archivos para 28
+[2025-06-10 15:22:17] Vista web de archivos para 29
+[2025-06-10 15:22:24] Consulta de info iniciada
+[2025-06-10 15:22:24] Empleados activos cargados correctamente
+[2025-06-10 15:22:24] Búsqueda de: zeg
+[2025-06-10 15:22:27] Entrando a editar empleado 196
+[2025-06-10 15:22:33] Empleados activos cargados correctamente
+[2025-06-10 15:22:33] Visualización de todos los empleados
+[2025-06-10 15:22:42] Entrando a editar empleado 196
+[2025-06-10 15:22:47] Acceso a panel
+[2025-06-10 15:22:53] Empleados activos cargados correctamente
+[2025-06-10 15:22:53] Visualización de todos los empleados

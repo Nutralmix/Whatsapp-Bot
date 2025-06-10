@@ -166,6 +166,7 @@ def info():
     log_debug("Consulta de info iniciada")
     empleados = cargar_empleados_activos()
     resultado = None
+    resultados = []
 
     if request.method == "POST":
         consulta = normalizar(request.form["consulta"])
@@ -175,10 +176,10 @@ def info():
                 consulta in normalizar(emp.get("nombre", "")) or
                 consulta in normalizar(emp.get("apellido", "")) or
                 consulta in normalizar(emp.get("cuil", ""))):
-                resultado = {"legajo": legajo, **emp}
-                break
+                resultados.append({"legajo": legajo, **emp})
 
-        if resultado:
+        if len(resultados) == 1:
+            resultado = resultados[0]
             try:
                 from dateutil.relativedelta import relativedelta
                 hoy = datetime.now()
@@ -188,8 +189,10 @@ def info():
                 resultado["antiguedad"] = f"{diferencia.years} años y {diferencia.months} meses"
             except:
                 resultado["antiguedad"] = "?"
+        else:
+            resultado = None
 
-    return render_template("consultar_info.html", resultado=resultado)
+    return render_template("consultar_info.html", resultado=resultado, resultados=resultados)
 
 @app.route("/cumples")
 def cumples():
@@ -399,6 +402,34 @@ def subir_archivo_publico():
             log_debug(mensaje)
 
     return render_template("subir_archivo_publico.html", mensaje=mensaje)
+
+@app.route("/archivos/<legajo>")
+def ver_archivos_empleado(legajo):
+    log_debug(f"Vista web de archivos para {legajo}")
+    try:
+        with open("empleados.json", "r", encoding="utf-8") as f:
+            empleados = json.load(f)
+    except Exception as e:
+        return f"❌ Error al cargar empleados: {e}"
+
+    emp = empleados.get(legajo)
+    if not emp:
+        return f"Empleado con legajo {legajo} no encontrado."
+
+    apellido = emp.get("apellido", "SinApellido").replace(" ", "_")
+    nombre = emp.get("nombre", "SinNombre").replace(" ", "_")
+    carpeta = os.path.join("static", "archivos", f"{apellido}_{nombre}")
+
+    archivos = []
+    if os.path.exists(carpeta):
+        for archivo in os.listdir(carpeta):
+            archivos.append({
+                "nombre": archivo,
+                "url": f"/static/archivos/{apellido}_{nombre}/{archivo}".replace(" ", "%20")
+            })
+
+    return render_template("ver_archivos_empleado.html", archivos=archivos, nombre_completo=f"{emp['nombre']} {emp['apellido']}")
+
 
 # ---------------------------
 # Ejecutar la app
