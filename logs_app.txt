@@ -504,3 +504,8 @@
 [2025-06-10 15:40:40] ✅ Archivo público 6M0A2793.jpg subido correctamente.
 [2025-06-10 15:40:43] Acceso a panel
 [2025-06-10 15:49:58] Servidor Flask iniciado
+[2025-06-10 16:39:20] Consulta de info iniciada
+[2025-06-10 16:39:20] Empleados activos cargados correctamente
+[2025-06-10 16:39:23] Consulta de info iniciada
+[2025-06-10 16:39:23] Empleados activos cargados correctamente
+[2025-06-10 16:39:23] Búsqueda de: atia
