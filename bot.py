@@ -210,13 +210,13 @@ def procesar_opcion_empleado(usuario, opcion, base_url):
      #   return "📤 Para subir un archivo, ingresá al siguiente enlace:\n" \
       #         f"{base_url}/subir_archivo_empleado", "menu_empleado"
 
-    elif opcion == "6":
+    elif opcion == "5":
         return obtener_proximos_cumpleanos(), "menu_empleado"
 
-    elif opcion == "7":
+    elif opcion == "6":
         return f"📂 Archivos públicos disponibles:\n{base_url}/archivos/publicos", "menu_empleado"
 
-    elif opcion == "8":
+    elif opcion == "7":
         return "👋 Hasta luego. Escribí 'menu' para volver a empezar.", None
 
     else:

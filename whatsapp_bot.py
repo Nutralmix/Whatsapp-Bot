@@ -18,7 +18,7 @@ from meta_config import ACCESS_TOKEN, PHONE_NUMBER_ID, API_VERSION, VERIFY_TOKEN
 
 app = Flask(__name__)
 user_states = {}
-BASE_URL = os.getenv("BASE_URL", "https://tu-url-produccion.com")
+BASE_URL = os.getenv("BASE_URL", "https://whatsapp-bot-1wj3.onrender.com")
 
 def limpiar_numero(numero):
     numero = numero.replace("+", "")
