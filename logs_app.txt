@@ -496,3 +496,11 @@
 [2025-06-10 15:22:47] Acceso a panel
 [2025-06-10 15:22:53] Empleados activos cargados correctamente
 [2025-06-10 15:22:53] Visualización de todos los empleados
+[2025-06-10 15:31:38] Servidor Flask iniciado
+[2025-06-10 15:40:14] Vista web de archivos para 196
+[2025-06-10 15:40:28] Acceso a panel
+[2025-06-10 15:40:32] Acceso a subir archivo público
+[2025-06-10 15:40:40] Acceso a subir archivo público
+[2025-06-10 15:40:40] ✅ Archivo público 6M0A2793.jpg subido correctamente.
+[2025-06-10 15:40:43] Acceso a panel
+[2025-06-10 15:49:58] Servidor Flask iniciado

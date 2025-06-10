@@ -115,17 +115,16 @@ def mostrar_menu_empleado(nombre_empleado, telefono_empleado=None):
         saludo = f"👋 ¡Hola {nombre_empleado}! Bienvenido al Bot de RRHH."
 
     menu_text = (
-        f"{saludo}\n\n"
-        "📋 Menú Principal - Empleado\n\n"
-        "1️⃣ Vacaciones 🏖️\n"
-        "2️⃣ Préstamo 💰\n"
-        "3️⃣ Mi Información 🧾\n"
-        "4️⃣ Mis Archivos 📁\n"
-        "5️⃣ Subir Archivo ⬆️\n"
-        "6️⃣ Próximos Cumples 📅\n"
-        "7️⃣ Archivos Públicos 📂\n"
-        "8️⃣ Salir ❌"
-    )
+       f"{saludo}\n\n"
+       "📋 Menú Principal - Empleado\n\n"
+       "1️⃣ Vacaciones 🏖️\n"
+       "2️⃣ Préstamo 💰\n"
+       "3️⃣ Mi Información 🧾\n"
+       "4️⃣ Mis Archivos 📁\n"
+       "5️⃣ Próximos Cumples 📅\n"
+       "6️⃣ Archivos Públicos 📂\n"
+       "7️⃣ Salir ❌"
+    ) 
 
     return menu_text
 # --- Funciones de Procesamiento de Opciones ---
@@ -207,9 +206,9 @@ def procesar_opcion_empleado(usuario, opcion, base_url):
         url = f"{base_url}/archivos/{usuario['legajo']}"
         return f"📁 Podés ver tus archivos acá:\n{url}", "menu_empleado"
 
-    elif opcion == "5":
-        return "📤 Para subir un archivo, ingresá al siguiente enlace:\n" \
-               f"{base_url}/subir_archivo_empleado", "menu_empleado"
+    #elif opcion == "5":
+     #   return "📤 Para subir un archivo, ingresá al siguiente enlace:\n" \
+      #         f"{base_url}/subir_archivo_empleado", "menu_empleado"
 
     elif opcion == "6":
         return obtener_proximos_cumpleanos(), "menu_empleado"
