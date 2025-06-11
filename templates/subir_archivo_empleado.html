@@ -81,6 +81,24 @@
   </form>
 
   {% if resultado %}
+  {% if resultados %}
+  <div class="ficha">
+    <h2>Se encontraron varios resultados:</h2>
+    <ul>
+      {% for r in resultados %}
+        <li style="margin-bottom: 10px;">
+          <strong>{{ r.nombre }} {{ r.apellido }}</strong> (Legajo: {{ r.legajo }})<br>
+          <form method="POST" style="margin-top: 5px;">
+            <input type="hidden" name="legajo" value="{{ r.legajo }}">
+            <input type="file" name="archivo" required>
+            <button type="submit">Subir Archivo</button>
+          </form>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+{% endif %}
+
   <div class="ficha">
     <div class="dato"><strong>Nombre:</strong> {{ resultado.nombre }}</div>
     <div class="dato"><strong>Apellido:</strong> {{ resultado.apellido }}</div>

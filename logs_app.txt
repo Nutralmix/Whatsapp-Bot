@@ -525,3 +525,26 @@
 [2025-06-11 09:09:58] Acceso a subir archivo a empleado (privado)
 [2025-06-11 09:09:58] Archivo Documentacion_de_Ingreso_.pdf subido a static\archivos\Atia_Sebastián
 [2025-06-11 09:10:01] Archivo Documentacion_de_Ingreso_.pdf subido a static\archivos\Atia_Sebastián
+[2025-06-11 12:10:54] Servidor Flask iniciado
+[2025-06-11 12:11:02] Acceso a portada
+[2025-06-11 12:11:04] Acceso a panel
+[2025-06-11 12:11:06] Acceso a subir archivo a empleado (privado)
+[2025-06-11 12:11:09] Acceso a subir archivo a empleado (privado)
+[2025-06-11 12:11:17] Acceso a subir archivo a empleado (privado)
+[2025-06-11 12:11:19] Archivo Caudit.txt subido a static\archivos\Atia_Sebastian
+[2025-06-11 12:11:25] Acceso a panel
+[2025-06-11 15:06:00] Acceso a subir archivo a empleado (privado)
+[2025-06-11 15:06:07] Acceso a subir archivo a empleado (privado)
+[2025-06-11 15:06:21] Acceso a subir archivo a empleado (privado)
+[2025-06-11 15:06:27] Acceso a subir archivo a empleado (privado)
+[2025-06-11 15:06:31] Acceso a subir archivo a empleado (privado)
+[2025-06-11 15:06:40] Acceso a subir archivo a empleado (privado)
+[2025-06-11 15:06:42] Archivo adobe-pdf3324.jpg subido a static\archivos\Anca_Ezequiel
+[2025-06-11 15:06:46] Acceso a panel
+[2025-06-11 15:06:49] Consulta de info iniciada
+[2025-06-11 15:06:49] Empleados activos cargados correctamente
+[2025-06-11 15:06:52] Consulta de info iniciada
+[2025-06-11 15:06:52] Empleados activos cargados correctamente
+[2025-06-11 15:06:52] Búsqueda de: eze
+[2025-06-11 15:15:44] Acceso a panel
+[2025-06-11 15:15:51] Acceso a subir archivo a empleado (privado)

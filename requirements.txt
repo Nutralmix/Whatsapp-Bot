@@ -9,3 +9,4 @@ certifi
 charset-normalizer
 idna
 urllib3
+gunicorn

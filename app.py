@@ -336,18 +336,20 @@ def subir_archivo_empleado():
     if request.method == 'POST':
         if 'consulta' in request.form:
             consulta = normalizar(request.form['consulta'])
-
+            resultados = []
             for legajo, emp in empleados.items():
-                if (consulta in normalizar(legajo) or
+                if (consulta in normalizar(str(legajo)) or
                     consulta in normalizar(emp.get("nombre", "")) or
                     consulta in normalizar(emp.get("apellido", "")) or
                     consulta in normalizar(emp.get("cuil", ""))):
-                    resultado = {"legajo": legajo, **emp}
-                    break
+                    resultados.append({"legajo": legajo, **emp})
 
-            if not resultado:
-                mensaje = "❌ No se encontró ningún empleado con ese dato."
-                log_debug(mensaje)
+        if len(resultados) == 1:
+            resultado = resultados[0]
+        elif len(resultados) == 0:
+            mensaje = "❌ No se encontró ningún empleado con ese dato."
+            log_debug(mensaje)
+
 
         elif 'archivo' in request.files and 'legajo' in request.form:
             legajo = request.form.get("legajo")
