@@ -203,8 +203,7 @@ def procesar_opcion_empleado(usuario, opcion, base_url):
         )
 
     elif opcion == "4":
-        url = f"{base_url}/archivos/{usuario['legajo']}"
-        return f"📁 Podés ver tus archivos acá:\n{url}", "menu_empleado"
+        return listar_archivos_empleado(usuario["telefono"], base_url), "menu_empleado"
 
     #elif opcion == "5":
      #   return "📤 Para subir un archivo, ingresá al siguiente enlace:\n" \
