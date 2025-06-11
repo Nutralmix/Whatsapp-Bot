@@ -438,6 +438,6 @@ def ver_archivos_empleado(legajo):
 # Ejecutar la app
 # ---------------------------
 if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 5001))
+    port = int(os.environ.get("PORT", 10000))
     log_debug("Servidor Flask iniciado")
     app.run(host="0.0.0.0", port=port)
