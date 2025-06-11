@@ -49,7 +49,7 @@ def cargar_empleados_activos():
 # ---------------------------
 # Configuración de Flask
 # ---------------------------
-app = Flask(__name__)
+app = Flask(__name__, static_url_path='/static', static_folder='static')
 
 # ---------------------------
 # Filtro para formatear números
