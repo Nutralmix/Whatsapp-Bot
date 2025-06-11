@@ -4,6 +4,8 @@ import os
 import unicodedata
 from werkzeug.utils import secure_filename
 from datetime import datetime, timedelta
+from auto_git_push import auto_push_archivos
+
 
 # ---------------------------
 # Función para normalizar texto
@@ -370,6 +372,7 @@ def subir_archivo_empleado():
                     ruta_archivo = os.path.join(carpeta_destino, filename)
                     try:
                         archivo.save(ruta_archivo)
+                        auto_push_archivos()
                         mensaje = f"✅ Archivo <strong>{filename}</strong> subido correctamente."
                         log_debug(f"Archivo {filename} subido a {carpeta_destino}")
                         registrar_log_simple(f"📁 Archivo subido por panel: {filename} en {carpeta_destino}")
@@ -397,7 +400,7 @@ def subir_archivo_publico():
             os.makedirs(carpeta_destino, exist_ok=True)
             ruta_archivo = os.path.join(carpeta_destino, filename)
             archivo.save(ruta_archivo)
-
+            auto_push_archivos()
             mensaje = f"✅ Archivo público {filename} subido correctamente."
             log_debug(mensaje)
 

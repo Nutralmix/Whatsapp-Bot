@@ -509,3 +509,19 @@
 [2025-06-10 16:39:23] Consulta de info iniciada
 [2025-06-10 16:39:23] Empleados activos cargados correctamente
 [2025-06-10 16:39:23] Búsqueda de: atia
+[2025-06-11 09:07:27] Servidor Flask iniciado
+[2025-06-11 09:09:08] Acceso a portada
+[2025-06-11 09:09:16] Acceso a panel
+[2025-06-11 09:09:20] Consulta de info iniciada
+[2025-06-11 09:09:20] Empleados activos cargados correctamente
+[2025-06-11 09:09:27] Consulta de info iniciada
+[2025-06-11 09:09:27] Empleados activos cargados correctamente
+[2025-06-11 09:09:27] Búsqueda de: atia
+[2025-06-11 09:09:32] Vista web de archivos para 35
+[2025-06-11 09:09:35] Acceso a panel
+[2025-06-11 09:09:37] Acceso a subir archivo a empleado (privado)
+[2025-06-11 09:09:41] Acceso a subir archivo a empleado (privado)
+[2025-06-11 09:09:57] Acceso a subir archivo a empleado (privado)
+[2025-06-11 09:09:58] Acceso a subir archivo a empleado (privado)
+[2025-06-11 09:09:58] Archivo Documentacion_de_Ingreso_.pdf subido a static\archivos\Atia_Sebastián
+[2025-06-11 09:10:01] Archivo Documentacion_de_Ingreso_.pdf subido a static\archivos\Atia_Sebastián

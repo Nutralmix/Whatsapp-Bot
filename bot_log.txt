@@ -8,3 +8,5 @@
 [2025-06-09 11:10:02] 📁 Archivo subido por panel: Imagen_de_fondo_Nutralmix.png en static\archivos\Zega_Maximiliano
 [2025-06-10 11:26:03] 🔄 Exportación de empleados a Excel realizada desde el panel web.
 [2025-06-10 11:28:54] 🔄 Exportación de empleados a Excel realizada desde el panel web.
+[2025-06-11 09:09:58] 📁 Archivo subido por panel: Documentacion_de_Ingreso_.pdf en static\archivos\Atia_Sebastián
+[2025-06-11 09:10:01] 📁 Archivo subido por panel: Documentacion_de_Ingreso_.pdf en static\archivos\Atia_Sebastián
