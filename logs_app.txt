@@ -548,3 +548,15 @@
 [2025-06-11 15:06:52] Búsqueda de: eze
 [2025-06-11 15:15:44] Acceso a panel
 [2025-06-11 15:15:51] Acceso a subir archivo a empleado (privado)
+[2025-06-11 15:25:52] Acceso a panel
+[2025-06-11 15:25:54] Acceso a subir archivo a empleado (privado)
+[2025-06-11 15:26:01] Acceso a subir archivo a empleado (privado)
+[2025-06-11 15:26:17] Acceso a panel
+[2025-06-11 15:26:19] Empleados activos cargados correctamente
+[2025-06-11 15:26:19] Visualización de todos los empleados
+[2025-06-11 15:26:22] Acceso a panel
+[2025-06-11 15:26:24] Consulta de info iniciada
+[2025-06-11 15:26:24] Empleados activos cargados correctamente
+[2025-06-11 15:26:27] Consulta de info iniciada
+[2025-06-11 15:26:27] Empleados activos cargados correctamente
+[2025-06-11 15:26:27] Búsqueda de: eze

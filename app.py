@@ -175,13 +175,15 @@ def info():
         log_debug(f"Búsqueda de: {consulta}")
         for legajo, emp in empleados.items():
             if (consulta in normalizar(legajo) or
-                consulta in normalizar(emp.get("nombre", "")) or
-                consulta in normalizar(emp.get("apellido", "")) or
-                consulta in normalizar(emp.get("cuil", ""))):
-                resultados.append({"legajo": legajo, **emp})
+               consulta in normalizar(emp.get("nombre", "")) or
+               consulta in normalizar(emp.get("apellido", "")) or
+               consulta in normalizar(emp.get("cuil", ""))):
+               resultados.append({"legajo": legajo, **emp})
 
         if len(resultados) == 1:
             resultado = resultados[0]
+        elif len(resultados) > 1:
+            resultado = None
             try:
                 from dateutil.relativedelta import relativedelta
                 hoy = datetime.now()
