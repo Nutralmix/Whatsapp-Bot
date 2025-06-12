@@ -531,22 +531,18 @@
         "prestamo": {}
     },
     "76": {
-        "legajo": "76",
-        "cuil": "20-29671429-2",
         "apellido": "Vanerio",
         "nombre": "Juan Pablo",
+        "cuil": "20-29671429-2",
         "sector": "Administracion",
-        "sede": "9 de Julio",
         "fecha_ingreso": "17-08-2015",
-        "estado": "Activo",
-        "fecha_baja": "",
-        "motivo_baja": "",
         "fecha_nacimiento": "10-01-1983",
-        "edad": 0,
-        "telefono": "",
+        "telefono": "2317518509",
         "rol": "empleado",
-        "notas": "",
-        "prestamo": {}
+        "direccion": "",
+        "email": "",
+        "vacaciones": 0,
+        "estado": "Activo"
     },
     "81": {
         "legajo": "81",
@@ -1204,10 +1200,9 @@
         "fecha_ingreso": "14-09-2022",
         "fecha_nacimiento": "07-07-1984",
         "telefono": "2317415313",
-        "rol": "empleado",
         "direccion": "",
         "email": "",
-        "vacaciones": 0,
+        "vacaciones": 8,
         "estado": "Activo"
     },
     "197": {

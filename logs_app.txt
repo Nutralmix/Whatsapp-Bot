@@ -573,3 +573,34 @@
 [2025-06-12 09:30:28] Servidor Flask iniciado
 [2025-06-12 09:31:39] Servidor Flask iniciado
 [2025-06-12 09:54:31] Servidor Flask iniciado
+[2025-06-12 10:37:07] Consulta de info iniciada
+[2025-06-12 10:37:07] Empleados activos cargados correctamente
+[2025-06-12 10:37:11] Consulta de info iniciada
+[2025-06-12 10:37:11] Empleados activos cargados correctamente
+[2025-06-12 10:37:11] Búsqueda de: zega
+[2025-06-12 10:37:16] Entrando a editar empleado 196
+[2025-06-12 10:37:28] Entrando a editar empleado 196
+[2025-06-12 10:37:28] Empleado 196 actualizado
+[2025-06-12 10:37:28] Empleados activos cargados correctamente
+[2025-06-12 10:37:28] Visualización de todos los empleados
+[2025-06-12 10:37:34] Vista web de archivos para 196
+[2025-06-12 10:37:37] Acceso a panel
+[2025-06-12 10:37:39] Acceso a subir archivo a empleado (privado)
+[2025-06-12 10:37:43] Acceso a subir archivo a empleado (privado)
+[2025-06-12 10:37:54] Acceso a subir archivo a empleado (privado)
+[2025-06-12 10:37:56] Archivo tano.ico subido a static\archivos\Zega_Maximiliano
+[2025-06-12 10:37:57] Acceso a panel
+[2025-06-12 10:37:59] Acceso a subir archivo público
+[2025-06-12 10:38:09] Acceso a subir archivo público
+[2025-06-12 10:38:11] ✅ Archivo público Bls.png subido correctamente.
+[2025-06-12 10:38:13] Acceso a panel
+[2025-06-12 11:23:02] Consulta de info iniciada
+[2025-06-12 11:23:02] Empleados activos cargados correctamente
+[2025-06-12 11:23:05] Consulta de info iniciada
+[2025-06-12 11:23:05] Empleados activos cargados correctamente
+[2025-06-12 11:23:05] Búsqueda de: juan
+[2025-06-12 11:23:08] Entrando a editar empleado 76
+[2025-06-12 11:23:31] Entrando a editar empleado 76
+[2025-06-12 11:23:31] Empleado 76 actualizado
+[2025-06-12 11:23:31] Empleados activos cargados correctamente
+[2025-06-12 11:23:31] Visualización de todos los empleados
