@@ -2,6 +2,7 @@ import json
 from datetime import datetime, timedelta
 import os
 from utils import calcular_antiguedad
+from meta_config import BASE_URL
 
 
 # --- LOGGING SIMPLE ---
