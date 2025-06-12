@@ -566,3 +566,6 @@
 [2025-06-12 08:06:51] Acceso a subir archivo a empleado (privado)
 [2025-06-12 08:06:54] Acceso a subir archivo a empleado (privado)
 [2025-06-12 08:14:17] Servidor Flask iniciado
+[2025-06-12 08:19:32] Acceso a subir archivo a empleado (privado)
+[2025-06-12 08:19:38] Acceso a subir archivo a empleado (privado)
+[2025-06-12 08:19:40] Acceso a panel

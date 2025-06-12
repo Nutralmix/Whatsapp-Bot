@@ -173,28 +173,29 @@ def info():
     if request.method == "POST":
         consulta = normalizar(request.form["consulta"])
         log_debug(f"Búsqueda de: {consulta}")
+
         for legajo, emp in empleados.items():
             if (consulta in normalizar(legajo) or
-               consulta in normalizar(emp.get("nombre", "")) or
-               consulta in normalizar(emp.get("apellido", "")) or
-               consulta in normalizar(emp.get("cuil", ""))):
-               resultados.append({"legajo": legajo, **emp})
+                consulta in normalizar(emp.get("nombre", "")) or
+                consulta in normalizar(emp.get("apellido", "")) or
+                consulta in normalizar(emp.get("cuil", ""))):
+
+                resultado_temp = {"legajo": legajo, **emp}
+
+                try:
+                    from dateutil.relativedelta import relativedelta
+                    hoy = datetime.now()
+                    ingreso_str = resultado_temp.get("fecha_ingreso", "")
+                    fecha_ingreso = datetime.strptime(ingreso_str, "%d-%m-%Y")
+                    diferencia = relativedelta(hoy, fecha_ingreso)
+                    resultado_temp["antiguedad"] = f"{diferencia.years}"
+                except:
+                    resultado_temp["antiguedad"] = "?"
+
+                resultados.append(resultado_temp)
 
         if len(resultados) == 1:
             resultado = resultados[0]
-        elif len(resultados) > 1:
-            resultado = None
-            try:
-                from dateutil.relativedelta import relativedelta
-                hoy = datetime.now()
-                ingreso_str = resultado.get("fecha_ingreso", "")
-                fecha_ingreso = datetime.strptime(ingreso_str, "%d-%m-%Y")
-                diferencia = relativedelta(hoy, fecha_ingreso)
-                resultado["antiguedad"] = f"{diferencia.years} años y {diferencia.months} meses"
-            except:
-                resultado["antiguedad"] = "?"
-        else:
-            resultado = None
 
     return render_template("consultar_info.html", resultado=resultado, resultados=resultados)
 
