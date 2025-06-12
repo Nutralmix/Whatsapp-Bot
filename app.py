@@ -165,6 +165,7 @@ def eliminar(legajo):
 
 @app.route("/info", methods=["GET", "POST"])
 def info():
+    from dateutil.relativedelta import relativedelta
     log_debug("Consulta de info iniciada")
     empleados = cargar_empleados_activos()
     resultado = None
@@ -182,16 +183,18 @@ def info():
 
                 resultado_temp = {"legajo": legajo, **emp}
 
+                # Calcular antigüedad
+                ingreso_str = emp.get("fecha_ingreso", "")
                 try:
-                   from dateutil.relativedelta import relativedelta
-                   hoy = datetime.now()
-                   ingreso_str = resultado_temp.get("fecha_ingreso", "")
-                   fecha_ingreso = datetime.strptime(ingreso_str, "%d-%m-%Y")
-                   diferencia = relativedelta(hoy, fecha_ingreso)
-                   resultado_temp["antiguedad"] = diferencia.years
+                    fecha_ingreso = datetime.strptime(ingreso_str, "%d-%m-%Y")
+                    hoy = datetime.now()
+                    diferencia = relativedelta(hoy, fecha_ingreso)
+                    resultado_temp["antiguedad"] = diferencia.years
                 except Exception as e:
-                   resultado_temp["antiguedad"] = 0
-                   print(f"❌ Error calculando antigüedad para {resultado_temp.get('legajo')}: {e}")
+                    log_debug(f"Error calculando antigüedad para {legajo}: {e}")
+                    resultado_temp["antiguedad"] = 0
+
+                resultados.append(resultado_temp)
 
         if len(resultados) == 1:
             resultado = resultados[0]
