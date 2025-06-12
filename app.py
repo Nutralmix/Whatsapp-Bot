@@ -183,16 +183,15 @@ def info():
                 resultado_temp = {"legajo": legajo, **emp}
 
                 try:
-                    from dateutil.relativedelta import relativedelta
-                    hoy = datetime.now()
-                    ingreso_str = resultado_temp.get("fecha_ingreso", "")
-                    fecha_ingreso = datetime.strptime(ingreso_str, "%d-%m-%Y")
-                    diferencia = relativedelta(hoy, fecha_ingreso)
-                    resultado_temp["antiguedad"] = f"{diferencia.years}"
-                except:
-                    resultado_temp["antiguedad"] = "?"
-
-                resultados.append(resultado_temp)
+                   from dateutil.relativedelta import relativedelta
+                   hoy = datetime.now()
+                   ingreso_str = resultado_temp.get("fecha_ingreso", "")
+                   fecha_ingreso = datetime.strptime(ingreso_str, "%d-%m-%Y")
+                   diferencia = relativedelta(hoy, fecha_ingreso)
+                   resultado_temp["antiguedad"] = diferencia.years
+                except Exception as e:
+                   resultado_temp["antiguedad"] = 0
+                   print(f"❌ Error calculando antigüedad para {resultado_temp.get('legajo')}: {e}")
 
         if len(resultados) == 1:
             resultado = resultados[0]
