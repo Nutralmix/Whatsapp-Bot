@@ -183,9 +183,7 @@ def info():
 
                 resultado_temp = {"legajo": legajo, **emp}
 
-                # Calcular antigüedad
                 ingreso_str = emp.get("fecha_ingreso", "")
-                log_debug(f"Fecha de ingreso a parsear: {ingreso_str}")
                 try:
                     fecha_ingreso = datetime.strptime(ingreso_str, "%d-%m-%Y")
                     hoy = datetime.now()
