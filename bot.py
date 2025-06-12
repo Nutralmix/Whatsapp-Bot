@@ -227,7 +227,7 @@ def procesar_opcion_empleado(usuario, opcion, base_url):
         return obtener_proximos_cumpleanos(), "menu_empleado"
 
     elif opcion == "6":
-        return f"📂 Archivos públicos disponibles:\n{base_url}/archivos/publicos", "menu_empleado"
+        return listar_archivos_publicos(), "menu_empleado"
 
     elif opcion == "7":
         return "👋 Hasta luego. Escribí 'menu' para volver a empezar.", None
@@ -417,6 +417,7 @@ def listar_todos_los_empleados():
     for emp_id, emp_info in empleados_data.items():
         response_lines.append(f"• ID: {emp_id} - Nombre: {emp_info.get('nombre', 'N/A')} ({emp_info.get('rol', 'N/A')})")
     return "\n".join(response_lines)
+
 def obtener_info_empleado_por_nombre_o_id(query):
     log_debug(f"Buscando info de empleado por query: {query}")
     try:
@@ -595,6 +596,21 @@ def listar_archivos_empleado(telefono, base_url):
         url = f"{base_url}/static/archivos/{apellido}_{nombre}/{archivo}".replace(" ", "%20")
         lineas.append(f"• {archivo} → {url}")
     return "\n".join(lineas)
+
+def listar_archivos_publicos():
+    carpeta = os.path.join("static", "archivos", "publicos")
+    if not os.path.exists(carpeta):
+        return "📁 No hay archivos públicos disponibles."
+
+    archivos = os.listdir(carpeta)
+    if not archivos:
+        return "📁 No hay archivos públicos aún."
+
+    mensaje = "📂 Archivos públicos disponibles:\n\n"
+    for nombre in archivos:
+        url = f"{BASE_URL}/static/archivos/publicos/{nombre}"
+        mensaje += f"📎 {nombre}\n🔗 {url}\n\n"
+    return mensaje.strip()
 
 def guardar_archivo_enviado_por_whatsapp(telefono, media_path, mime_type, filename=None):
     log_debug(f"Guardando archivo recibido por WhatsApp para {telefono}")
