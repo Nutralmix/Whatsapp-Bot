@@ -74,64 +74,41 @@
 
   <h1>📤 Subir Archivo a Empleado</h1>
 
-  <!-- Buscador -->
   <form method="POST">
     <input type="text" name="consulta" placeholder="Buscar por CUIL, nombre o legajo" required>
     <button type="submit">Buscar</button>
   </form>
 
-  {% if resultado %}
-  {% if resultados %}
-  <div class="ficha">
-    <h2>Se encontraron varios resultados:</h2>
-    <ul>
-      {% for r in resultados %}
-        <li style="margin-bottom: 10px;">
-          <strong>{{ r.nombre }} {{ r.apellido }}</strong> (Legajo: {{ r.legajo }})<br>
-          <form method="POST" style="margin-top: 5px;">
-            <input type="hidden" name="legajo" value="{{ r.legajo }}">
-            <input type="file" name="archivo" required>
-            <button type="submit">Subir Archivo</button>
-          </form>
-        </li>
-      {% endfor %}
-    </ul>
-  </div>
-{% endif %}
+  {% if mensaje %}
+    <p class="mensaje {% if '✅' in mensaje %}ok{% else %}error{% endif %}">{{ mensaje | safe }}</p>
+  {% endif %}
 
-{% if resultados and resultados|length > 1 %}
-  <div class="ficha">
-    <h2>Se encontraron varios resultados:</h2>
-    <ul>
-      {% for r in resultados %}
-        <li style="margin-bottom: 10px;">
-          <strong>{{ r.nombre }} {{ r.apellido }}</strong> (Legajo: {{ r.legajo }})<br>
-          <a href="/editar/{{ r.legajo }}">✏️ Editar</a> |
-          <a href="/archivos/{{ r.legajo }}">📁 Archivos</a> |
-          <a href="/prestamo/{{ r.legajo }}">💰 Préstamo</a> |
-          <a href="/eliminar/{{ r.legajo }}" onclick="return confirm('¿Eliminar a {{ r.nombre }} {{ r.apellido }}?')">🗑️ Eliminar</a>
-        </li>
-      {% endfor %}
-    </ul>
-  </div>
-{% endif %}
-
-  <div class="ficha">
-    <div class="dato"><strong>Nombre:</strong> {{ resultado.nombre }}</div>
-    <div class="dato"><strong>Apellido:</strong> {{ resultado.apellido }}</div>
-    <div class="dato"><strong>Legajo:</strong> {{ resultado.legajo }}</div>
-
-    <form method="POST" enctype="multipart/form-data" style="margin-top: 1rem;">
-      {% if mensaje %}
-        <p class="mensaje {% if '✅' in mensaje %}ok{% else %}error{% endif %}">{{ mensaje | safe }}</p>
-      {% endif %}
-      <input type="hidden" name="legajo" value="{{ resultado.legajo }}">
-      <input type="file" name="archivo" required><br>
-      <button type="submit" name="subir">Subir Archivo</button>
-    </form>
-  </div>
-  {% elif mensaje %}
-    <p class="mensaje error">{{ mensaje }}</p>
+  {% if resultados and resultados|length > 1 %}
+    <div class="ficha">
+      <h2>Se encontraron varios empleados:</h2>
+      <ul>
+        {% for r in resultados %}
+          <li style="margin-bottom: 10px;">
+            <strong>{{ r.nombre }} {{ r.apellido }}</strong> (Legajo: {{ r.legajo }})
+            <form method="POST" enctype="multipart/form-data" style="margin-top: 10px;">
+              <input type="hidden" name="legajo" value="{{ r.legajo }}">
+              <input type="file" name="archivo" required><br>
+              <button type="submit">Subir Archivo</button>
+            </form>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  {% elif resultado %}
+    <div class="ficha">
+      <h2>{{ resultado.nombre }} {{ resultado.apellido }}</h2>
+      <div class="dato"><strong>Legajo:</strong> {{ resultado.legajo }}</div>
+      <form method="POST" enctype="multipart/form-data" style="margin-top: 1rem;">
+        <input type="hidden" name="legajo" value="{{ resultado.legajo }}">
+        <input type="file" name="archivo" required><br>
+        <button type="submit">Subir Archivo</button>
+      </form>
+    </div>
   {% elif request.method == 'POST' %}
     <p class="mensaje error">❌ No se encontró ningún empleado con ese dato.</p>
   {% endif %}

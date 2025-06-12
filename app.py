@@ -328,6 +328,7 @@ def subir_archivo_empleado():
     log_debug("Acceso a subir archivo a empleado (privado)")
     mensaje = ""
     resultado = None
+    resultados = []
 
     try:
         with open("empleados.json", "r", encoding="utf-8") as f:
@@ -338,7 +339,6 @@ def subir_archivo_empleado():
     if request.method == 'POST':
         if 'consulta' in request.form:
             consulta = normalizar(request.form['consulta'])
-            resultados = []
             for legajo, emp in empleados.items():
                 if (consulta in normalizar(str(legajo)) or
                     consulta in normalizar(emp.get("nombre", "")) or
@@ -346,12 +346,11 @@ def subir_archivo_empleado():
                     consulta in normalizar(emp.get("cuil", ""))):
                     resultados.append({"legajo": legajo, **emp})
 
-        if len(resultados) == 1:
-            resultado = resultados[0]
-        elif len(resultados) == 0:
-            mensaje = "❌ No se encontró ningún empleado con ese dato."
-            log_debug(mensaje)
-
+            if len(resultados) == 1:
+                resultado = resultados[0]
+            elif len(resultados) == 0:
+                mensaje = "❌ No se encontró ningún empleado con ese dato."
+                log_debug(mensaje)
 
         elif 'archivo' in request.files and 'legajo' in request.form:
             legajo = request.form.get("legajo")
@@ -365,7 +364,6 @@ def subir_archivo_empleado():
                 if not emp:
                     mensaje = "❌ Legajo no válido."
                 else:
-                    # Carpeta: static/archivos/Apellido_Nombre
                     nombre = emp.get("nombre", "nombre")
                     apellido = emp.get("apellido", "apellido")
                     carpeta_nombre = f"{apellido}_{nombre}".replace(" ", "_")
@@ -380,13 +378,12 @@ def subir_archivo_empleado():
                         mensaje = f"✅ Archivo <strong>{filename}</strong> subido correctamente."
                         log_debug(f"Archivo {filename} subido a {carpeta_destino}")
                         registrar_log_simple(f"📁 Archivo subido por panel: {filename} en {carpeta_destino}")
+                        resultado = {"legajo": legajo, **emp}
                     except Exception as e:
                         mensaje = f"❌ Error al guardar archivo: {e}"
                         log_debug(mensaje)
 
-                    resultado = {"legajo": legajo, **emp}
-
-    return render_template("subir_archivo_empleado.html", mensaje=mensaje, resultado=resultado)
+    return render_template("subir_archivo_empleado.html", mensaje=mensaje, resultado=resultado, resultados=resultados)
 
 @app.route('/subir_archivo_publico', methods=['GET', 'POST'])
 def subir_archivo_publico():

@@ -560,3 +560,9 @@
 [2025-06-11 15:26:27] Consulta de info iniciada
 [2025-06-11 15:26:27] Empleados activos cargados correctamente
 [2025-06-11 15:26:27] Búsqueda de: eze
+[2025-06-12 08:06:47] Consulta de info iniciada
+[2025-06-12 08:06:47] Empleados activos cargados correctamente
+[2025-06-12 08:06:49] Acceso a panel
+[2025-06-12 08:06:51] Acceso a subir archivo a empleado (privado)
+[2025-06-12 08:06:54] Acceso a subir archivo a empleado (privado)
+[2025-06-12 08:14:17] Servidor Flask iniciado
