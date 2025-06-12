@@ -10,3 +10,4 @@ charset-normalizer
 idna
 urllib3
 gunicorn
+python-dateutil
