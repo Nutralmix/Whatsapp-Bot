@@ -1,6 +1,8 @@
 import json
 from datetime import datetime, timedelta
 import os
+from utils import calcular_antiguedad
+
 
 # --- LOGGING SIMPLE ---
 def log_debug(msg):
@@ -191,16 +193,28 @@ def procesar_opcion_empleado(usuario, opcion, base_url):
             return "💸 No tenés préstamos activos registrados.", "menu_empleado"
 
     elif opcion == "3":
+        from dateutil.relativedelta import relativedelta
+        from datetime import datetime
+
+        ingreso_str = usuario.get("fecha_ingreso", "")
+        try:
+           fecha_ingreso = datetime.strptime(ingreso_str, "%d-%m-%Y")
+           hoy = datetime.now()
+           diferencia = relativedelta(hoy, fecha_ingreso)
+           antiguedad = f"{diferencia.years} años y {diferencia.months} meses"
+        except:
+              antiguedad = "?"
+
         return (
-            f"📄 Información:\n"
-            f"Nombre: {usuario.get('nombre')} {usuario.get('apellido')}\n"
-            f"Legajo: {usuario.get('legajo')}\n"
-            f"CUIL: {usuario.get('cuil')}\n"
-            f"Sector: {usuario.get('sector')}\n"
-            f"Fecha de ingreso: {usuario.get('fecha_ingreso')}\n"
-            f"Antigüedad: {usuario.get('antiguedad')} años",
-            "menu_empleado"
-        )
+        f"📄 Información:\n"
+        f"👤 Nombre: {usuario.get('nombre')} {usuario.get('apellido')}\n"
+        f"🆔 Legajo: {usuario.get('legajo')}\n"
+        f"🧾 CUIL: {usuario.get('cuil')}\n"
+        f"🏢 Sector: {usuario.get('sector')}\n"
+        f"📅 Fecha de ingreso: {ingreso_str}\n"
+        f"📈 Antigüedad: {antiguedad}\n",
+        "menu_empleado"
+    )
 
     elif opcion == "4":
         return listar_archivos_empleado(usuario["telefono"], base_url), "menu_empleado"

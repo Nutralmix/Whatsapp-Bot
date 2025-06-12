@@ -5,6 +5,7 @@ import unicodedata
 from werkzeug.utils import secure_filename
 from datetime import datetime, timedelta
 from auto_git_push import auto_push_archivos
+from utils import calcular_antiguedad
 
 
 # ---------------------------
@@ -183,15 +184,7 @@ def info():
 
                 resultado_temp = {"legajo": legajo, **emp}
 
-                ingreso_str = emp.get("fecha_ingreso", "")
-                try:
-                    fecha_ingreso = datetime.strptime(ingreso_str, "%d-%m-%Y")
-                    hoy = datetime.now()
-                    diferencia = relativedelta(hoy, fecha_ingreso)
-                    resultado_temp["antiguedad"] = diferencia.years
-                except Exception as e:
-                    log_debug(f"Error calculando antigüedad para {legajo}: {e}")
-                    resultado_temp["antiguedad"] = 0
+                resultado_temp["antiguedad"] = calcular_antiguedad(emp.get("fecha_ingreso", ""))
 
                 resultados.append(resultado_temp)
 
