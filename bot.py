@@ -128,7 +128,7 @@ def mostrar_menu_empleado(nombre_empleado, telefono_empleado=None):
        "4️⃣ Mis Archivos 📁\n"
        "5️⃣ Próximos Cumples 📅\n"
        "6️⃣ Archivos Públicos 📂\n"
-       "7️⃣ Próximos Feriados 📂\n"
+       "7️⃣ Próximos Feriados 📅\n"
        "8️⃣ Salir ❌"
     ) 
 
