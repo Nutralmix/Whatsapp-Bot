@@ -234,27 +234,29 @@ def procesar_opcion_empleado(usuario, opcion, base_url):
         return listar_archivos_publicos(), "menu_empleado"
 
     elif opcion == "7":
-         prox = obtener_proximo_feriado()
-         if not prox:
-           respuesta = "✅ No quedan feriados en lo que resta del año."
-         else:
-             fecha = datetime.fromisoformat(prox["fecha"]).strftime("%d/%m/%Y")
-             estado = date.fromisoformat(prox["fecha"]) - date.today()
-             dias = estado.days
-             respuesta = (
-                 f"📅 Próximo feriado:\n"
-                 f"• {fecha}: {prox['nombre']}\n"
-                 f"Faltan {dias} días."
-             )
-         return respuesta, "menu_empleado"
+        feriados = obtener_proximos_feriados()
+        if not feriados:
+            respuesta = "✅ No quedan feriados en lo que resta del año."
+        else:
+            prox = feriados[0]  # asumiendo ya ordenados
+            from datetime import datetime, date
+            fecha = datetime.fromisoformat(prox["fecha"]).date()
+            hoy = date.today()
+            dias = (fecha - hoy).days
+            respuesta = (
+                f"📅 Próximo feriado:\n"
+                f"• {fecha.strftime('%d/%m/%Y')}: {prox['nombre']}\n"
+                f"Faltan {dias} días."
+            )
+        return respuesta, "menu_empleado"
 
-    
     elif opcion == "8":
         return "👋 Hasta luego. Escribí 'menu' para volver a empezar.", None
 
     else:
         return "❌ Opción no válida. Escribí 'menu' para volver a empezar.", "menu_empleado"
 
+    
     return response_text, next_state
 
 # --- Funciones de Procesamiento de Empleados (EXISTENTES) ---
