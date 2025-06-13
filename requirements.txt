@@ -11,3 +11,4 @@ idna
 urllib3
 gunicorn
 python-dateutil
+beautifulsoup4

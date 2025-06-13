@@ -3,6 +3,8 @@ from datetime import datetime, timedelta
 import os
 from utils import calcular_antiguedad
 from meta_config import BASE_URL
+from utils import obtener_proximos_feriados
+
 
 
 # --- LOGGING SIMPLE ---
@@ -126,7 +128,8 @@ def mostrar_menu_empleado(nombre_empleado, telefono_empleado=None):
        "4️⃣ Mis Archivos 📁\n"
        "5️⃣ Próximos Cumples 📅\n"
        "6️⃣ Archivos Públicos 📂\n"
-       "7️⃣ Salir ❌"
+       "7️⃣ Próximos Feriados 📂\n"
+       "8️⃣ Salir ❌"
     ) 
 
     return menu_text
@@ -231,6 +234,9 @@ def procesar_opcion_empleado(usuario, opcion, base_url):
         return listar_archivos_publicos(), "menu_empleado"
 
     elif opcion == "7":
+        return (obtener_proximos_feriados(), "menu_empleado")
+    
+    elif opcion == "8":
         return "👋 Hasta luego. Escribí 'menu' para volver a empezar.", None
 
     else:
