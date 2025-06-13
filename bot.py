@@ -234,7 +234,18 @@ def procesar_opcion_empleado(usuario, opcion, base_url):
         return listar_archivos_publicos(), "menu_empleado"
 
     elif opcion == "7":
-        return (obtener_proximos_feriados(), "menu_empleado")
+        from datetime import datetime
+        from utils import obtener_proximos_feriados
+
+        feriados = obtener_proximos_feriados()
+        if not feriados:
+            respuesta = "✅ No quedan feriados en lo que resta del año."
+        else:
+            respuesta = "📅 Feriados próximos:\n"
+            for f in feriados[:5]:  # mostrar los primeros 5
+                fecha = datetime.fromisoformat(f["fecha"]).strftime("%d/%m/%Y")
+                respuesta += f"\n• {fecha}: {f['nombre']}"
+        return respuesta, "menu_empleado"
     
     elif opcion == "8":
         return "👋 Hasta luego. Escribí 'menu' para volver a empezar.", None
