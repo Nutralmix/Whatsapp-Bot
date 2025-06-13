@@ -546,7 +546,7 @@ def obtener_proximos_cumpleanos():
     for c in cumpleanos:
         fecha = c["fecha"].strftime("%d/%m")
         if c["dias"] == 0:
-            lineas.append(f"• {c['nombre']}: <b>¡HOY!</b> 🎉 Cumple {c['edad']} años.")
+            lineas.append(f"━━━━━━━━━━━━━━\n🎈 *¡HOY!* 🎈\n👤 {c['nombre']}\n🎂 Cumple {c['edad']} años\n━━━━━━━━━━━━━━")
         elif c["dias"] == 1:
             lineas.append(f"• {c['nombre']} ({fecha}): Mañana. Cumple {c['edad']} años. 🎂")
         else:
