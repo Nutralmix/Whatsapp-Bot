@@ -1,1 +1,1 @@
-web: python whatsapp_bot.py
+web: gunicorn wsgi:app
