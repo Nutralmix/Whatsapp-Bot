@@ -234,18 +234,20 @@ def procesar_opcion_empleado(usuario, opcion, base_url):
         return listar_archivos_publicos(), "menu_empleado"
 
     elif opcion == "7":
-        from datetime import datetime
-        from utils import obtener_proximos_feriados
+         prox = obtener_proximo_feriado()
+         if not prox:
+           respuesta = "✅ No quedan feriados en lo que resta del año."
+         else:
+             fecha = datetime.fromisoformat(prox["fecha"]).strftime("%d/%m/%Y")
+             estado = date.fromisoformat(prox["fecha"]) - date.today()
+             dias = estado.days
+             respuesta = (
+                 f"📅 Próximo feriado:\n"
+                 f"• {fecha}: {prox['nombre']}\n"
+                 f"Faltan {dias} días."
+             )
+         return respuesta, "menu_empleado"
 
-        feriados = obtener_proximos_feriados()
-        if not feriados:
-            respuesta = "✅ No quedan feriados en lo que resta del año."
-        else:
-            respuesta = "📅 Feriados próximos:\n"
-            for f in feriados[:5]:  # mostrar los primeros 5
-                fecha = datetime.fromisoformat(f["fecha"]).strftime("%d/%m/%Y")
-                respuesta += f"\n• {fecha}: {f['nombre']}"
-        return respuesta, "menu_empleado"
     
     elif opcion == "8":
         return "👋 Hasta luego. Escribí 'menu' para volver a empezar.", None
@@ -629,6 +631,23 @@ def listar_archivos_publicos():
         url = f"{BASE_URL}/static/archivos/publicos/{nombre}"
         mensaje += f"📎 {nombre}\n🔗 {url}\n\n"
     return mensaje.strip()
+
+import requests
+from datetime import datetime, date
+
+def obtener_proximo_feriado():
+    hoy = date.today().isoformat()  # "2025-06-13"
+    resp = requests.get("https://api.argentinadatos.com/v1/feriados")
+    if resp.status_code != 200:
+        return None
+    feriados = resp.json()
+    # Ordenar y filtrar a los posteriores a hoy
+    futuros = [f for f in feriados if f["fecha"] > hoy]
+    if not futuros:
+        return None
+    # Tomar el más próximo
+    prox = min(futuros, key=lambda x: x["fecha"])
+    return prox
 
 def guardar_archivo_enviado_por_whatsapp(telefono, media_path, mime_type, filename=None):
     log_debug(f"Guardando archivo recibido por WhatsApp para {telefono}")
