@@ -238,17 +238,25 @@ def procesar_opcion_empleado(usuario, opcion, base_url):
         if not feriados:
             respuesta = "✅ No quedan feriados en lo que resta del año."
         else:
-            prox = feriados[0]  # asumiendo ya ordenados
+            prox = feriados[0]
             from datetime import datetime, date
             fecha = datetime.fromisoformat(prox["fecha"]).date()
             hoy = date.today()
             dias = (fecha - hoy).days
+
             respuesta = (
-                f"📅 Próximo feriado:\n"
-                f"• {fecha.strftime('%d/%m/%Y')}: {prox['nombre']}\n"
-                f"Faltan {dias} días."
+            f"📅 Próximo feriado:\n"
+            f"• {fecha.strftime('%d/%m/%Y')}: {prox['nombre']}\n"
+            f"🕒 Faltan {dias} días.\n\n"
             )
-        return respuesta, "menu_empleado"
+  
+        if len(feriados) > 1:
+            respuesta += "📆 Otros feriados próximos:\n"
+            for f in feriados[1:8]:  # mostrar hasta 7 más
+                fecha_f = datetime.fromisoformat(f["fecha"]).strftime("%d/%m/%Y")
+                respuesta += f"• {fecha_f}: {f['nombre']}\n"
+
+        return respuesta.strip(), "menu_empleado"
 
     elif opcion == "8":
         return "👋 Hasta luego. Escribí 'menu' para volver a empezar.", None
@@ -256,8 +264,7 @@ def procesar_opcion_empleado(usuario, opcion, base_url):
     else:
         return "❌ Opción no válida. Escribí 'menu' para volver a empezar.", "menu_empleado"
 
-    
-    return response_text, next_state
+        return response_text, next_state
 
 # --- Funciones de Procesamiento de Empleados (EXISTENTES) ---
 
