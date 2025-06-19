@@ -1204,7 +1204,17 @@
         "direccion": "",
         "email": "",
         "vacaciones": 8,
-        "estado": "Activo"
+        "estado": "Activo",
+        "prestamo": {
+            "fecha_prestamo": "04-05-2025",
+            "monto": 1560000.0,
+            "cuotas": 3,
+            "cancelado": 0.0,
+            "pendiente": -1560000.0,
+            "proxima_cuota": 520000.0,
+            "cuotas_pendientes": 3,
+            "fecha_cancelacion": "04-07-2025"
+        }
     },
     "197": {
         "legajo": "197",
