@@ -604,3 +604,57 @@
 [2025-06-12 11:23:31] Empleado 76 actualizado
 [2025-06-12 11:23:31] Empleados activos cargados correctamente
 [2025-06-12 11:23:31] Visualización de todos los empleados
+[2025-06-19 10:54:08] Servidor Flask iniciado
+[2025-06-19 10:55:31] Acceso a portada
+[2025-06-19 10:55:40] Acceso a portada
+[2025-06-19 10:55:44] Acceso a panel
+[2025-06-19 10:55:50] Consulta de todos los préstamos
+[2025-06-19 10:55:50] Empleados activos cargados correctamente
+[2025-06-19 10:55:55] Consulta de préstamo para 196
+[2025-06-19 11:22:04] Acceso a portada
+[2025-06-19 11:22:06] Acceso a panel
+[2025-06-25 15:12:32] Servidor Flask iniciado
+[2025-06-25 15:12:56] Acceso a portada
+[2025-06-25 15:12:57] Acceso a panel
+[2025-06-25 15:13:01] Consulta de todos los préstamos
+[2025-06-25 15:13:01] Empleados activos cargados correctamente
+[2025-06-25 15:13:09] Consulta de préstamo para 179
+[2025-06-25 15:13:10] Consulta de todos los préstamos
+[2025-06-25 15:13:10] Empleados activos cargados correctamente
+[2025-06-25 15:19:19] Servidor Flask iniciado
+[2025-06-25 15:21:15] Acceso a panel
+[2025-06-25 15:21:17] Consulta de info iniciada
+[2025-06-25 15:21:17] Empleados activos cargados correctamente
+[2025-06-25 15:21:20] Consulta de info iniciada
+[2025-06-25 15:21:20] Empleados activos cargados correctamente
+[2025-06-25 15:21:20] Búsqueda de: atia
+[2025-06-25 15:21:28] Acceso a panel
+[2025-06-25 15:21:31] Consulta de info iniciada
+[2025-06-25 15:21:31] Empleados activos cargados correctamente
+[2025-06-25 15:21:34] Consulta de info iniciada
+[2025-06-25 15:21:34] Empleados activos cargados correctamente
+[2025-06-25 15:21:34] Búsqueda de: atia
+[2025-06-25 15:21:52] Consulta de info iniciada
+[2025-06-25 15:21:52] Empleados activos cargados correctamente
+[2025-06-25 15:21:52] Búsqueda de: sebastian atia
+[2025-06-25 15:21:58] Consulta de info iniciada
+[2025-06-25 15:21:58] Empleados activos cargados correctamente
+[2025-06-25 15:21:58] Búsqueda de: atia
+[2025-06-25 15:22:02] Entrando a editar empleado 35
+[2025-06-25 15:25:09] Empleados activos cargados correctamente
+[2025-06-25 15:25:09] Visualización de todos los empleados
+[2025-06-25 15:25:45] Empleados activos cargados correctamente
+[2025-06-25 15:25:45] Visualización de todos los empleados
+[2025-06-25 15:25:49] Acceso a panel
+[2025-06-25 15:25:50] Consulta de info iniciada
+[2025-06-25 15:25:50] Empleados activos cargados correctamente
+[2025-06-25 15:25:55] Consulta de info iniciada
+[2025-06-25 15:25:55] Empleados activos cargados correctamente
+[2025-06-25 15:25:55] Búsqueda de: garc
+[2025-06-25 15:26:06] Consulta de info iniciada
+[2025-06-25 15:26:06] Empleados activos cargados correctamente
+[2025-06-25 15:26:06] Búsqueda de: 20304578182
+[2025-06-25 15:26:11] Consulta de info iniciada
+[2025-06-25 15:26:11] Empleados activos cargados correctamente
+[2025-06-25 15:26:11] Búsqueda de: 20-30457818-2
+[2025-06-25 15:27:56] Servidor Flask iniciado
