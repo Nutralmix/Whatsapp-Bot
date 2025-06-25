@@ -12,10 +12,11 @@
         "motivo_baja": "",
         "fecha_nacimiento": "13-07-1957",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2317417980",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {}
+        "prestamo": {},
+        "vacaciones": 35
     },
     "2": {
         "legajo": "2",
@@ -30,10 +31,11 @@
         "motivo_baja": "",
         "fecha_nacimiento": "17-02-1970",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2345652810",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {}
+        "prestamo": {},
+        "vacaciones": 35
     },
     "4": {
         "legajo": "4",
@@ -48,10 +50,11 @@
         "motivo_baja": "",
         "fecha_nacimiento": "13-06-1956",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2215540184",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {}
+        "prestamo": {},
+        "vacaciones": 35
     },
     "1002": {
         "legajo": "1002",
@@ -64,9 +67,9 @@
         "estado": "Activo",
         "fecha_baja": "",
         "motivo_baja": "",
-        "fecha_nacimiento": "15-05-1944",
+        "fecha_nacimiento": "15-05-1942",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2317519121",
         "rol": "empleado",
         "notas": "",
         "prestamo": {}
@@ -84,7 +87,7 @@
         "motivo_baja": "",
         "fecha_nacimiento": "04-01-1962",
         "edad": 0,
-        "telefono": "",
+        "telefono": "nan",
         "rol": "empleado",
         "notas": "",
         "prestamo": {}
@@ -102,10 +105,11 @@
         "motivo_baja": "",
         "fecha_nacimiento": "13-01-1980",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2317508259",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {}
+        "prestamo": {},
+        "vacaciones": 42
     },
     "10": {
         "legajo": "10",
@@ -120,10 +124,11 @@
         "motivo_baja": "",
         "fecha_nacimiento": "14-08-1973",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2317449596",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {}
+        "prestamo": {},
+        "vacaciones": 93
     },
     "11": {
         "legajo": "11",
@@ -138,10 +143,11 @@
         "motivo_baja": "",
         "fecha_nacimiento": "08-09-1972",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2314610860",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {}
+        "prestamo": {},
+        "vacaciones": 18
     },
     "12": {
         "legajo": "12",
@@ -156,10 +162,11 @@
         "motivo_baja": "",
         "fecha_nacimiento": "21-06-1982",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2317474481",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {}
+        "prestamo": {},
+        "vacaciones": 41
     },
     "14": {
         "legajo": "14",
@@ -174,10 +181,11 @@
         "motivo_baja": "",
         "fecha_nacimiento": "20-03-1986",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2317465115",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {}
+        "prestamo": {},
+        "vacaciones": 61
     },
     "15": {
         "legajo": "15",
@@ -192,7 +200,7 @@
         "motivo_baja": "",
         "fecha_nacimiento": "23-05-1979",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2317449822",
         "rol": "empleado",
         "notas": "",
         "prestamo": {
@@ -204,7 +212,8 @@
             "proxima_cuota": 127470.11,
             "cuotas_pendientes": 7,
             "fecha_cancelacion": "17-07-2025"
-        }
+        },
+        "vacaciones": 7
     },
     "16": {
         "legajo": "16",
@@ -219,10 +228,11 @@
         "motivo_baja": "",
         "fecha_nacimiento": "29-05-1979",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2317449590",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {}
+        "prestamo": {},
+        "vacaciones": 14
     },
     "20": {
         "legajo": "20",
@@ -237,10 +247,11 @@
         "motivo_baja": "",
         "fecha_nacimiento": "21-11-1978",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2317462999",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {}
+        "prestamo": {},
+        "vacaciones": 5
     },
     "24": {
         "legajo": "24",
@@ -255,7 +266,7 @@
         "motivo_baja": "",
         "fecha_nacimiento": "17-12-1984",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2317450257",
         "rol": "empleado",
         "notas": "",
         "prestamo": {
@@ -267,7 +278,8 @@
             "proxima_cuota": 250000.0,
             "cuotas_pendientes": 5,
             "fecha_cancelacion": "20-10-2025"
-        }
+        },
+        "vacaciones": 14
     },
     "25": {
         "legajo": "25",
@@ -282,7 +294,7 @@
         "motivo_baja": "",
         "fecha_nacimiento": "05-11-1992",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2317403313",
         "rol": "empleado",
         "notas": "",
         "prestamo": {
@@ -294,7 +306,8 @@
             "proxima_cuota": 75000.0,
             "cuotas_pendientes": 2,
             "fecha_cancelacion": "28-06-2025"
-        }
+        },
+        "vacaciones": 14
     },
     "22": {
         "legajo": "22",
@@ -309,10 +322,11 @@
         "motivo_baja": "",
         "fecha_nacimiento": "15-07-1990",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2364450678",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {}
+        "prestamo": {},
+        "vacaciones": 14
     },
     "23": {
         "legajo": "23",
@@ -327,16 +341,17 @@
         "motivo_baja": "",
         "fecha_nacimiento": "25-03-1988",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2317557964",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {}
+        "prestamo": {},
+        "vacaciones": 49
     },
     "35": {
         "legajo": "35",
         "cuil": "20-30457818-2",
         "apellido": "Atia",
-        "nombre": "Sebastian",
+        "nombre": "Sebastián",
         "sector": "Sistemas",
         "sede": "9 de Julio",
         "fecha_ingreso": "01-08-2012",
@@ -348,7 +363,8 @@
         "telefono": "2317558435",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {}
+        "prestamo": {},
+        "vacaciones": 47
     },
     "134": {
         "legajo": "134",
@@ -363,7 +379,7 @@
         "motivo_baja": "",
         "fecha_nacimiento": "09-09-1992",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2392568713",
         "rol": "empleado",
         "notas": "",
         "prestamo": {}
@@ -381,10 +397,11 @@
         "motivo_baja": "",
         "fecha_nacimiento": "29-04-1979",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2317537021",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {}
+        "prestamo": {},
+        "vacaciones": 21
     },
     "28": {
         "legajo": "28",
@@ -399,10 +416,11 @@
         "motivo_baja": "",
         "fecha_nacimiento": "24-04-1976",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2317463155",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {}
+        "prestamo": {},
+        "vacaciones": 40
     },
     "29": {
         "legajo": "29",
@@ -417,10 +435,11 @@
         "motivo_baja": "",
         "fecha_nacimiento": "06-10-1986",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2317536400",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {}
+        "prestamo": {},
+        "vacaciones": 21
     },
     "46": {
         "legajo": "46",
@@ -435,10 +454,11 @@
         "motivo_baja": "",
         "fecha_nacimiento": "10-02-1988",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2317572488",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {}
+        "prestamo": {},
+        "vacaciones": 30
     },
     "56": {
         "legajo": "56",
@@ -453,10 +473,11 @@
         "motivo_baja": "",
         "fecha_nacimiento": "01-08-1990",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2317405463",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {}
+        "prestamo": {},
+        "vacaciones": 7
     },
     "60": {
         "legajo": "60",
@@ -471,10 +492,11 @@
         "motivo_baja": "",
         "fecha_nacimiento": "25-03-1985",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2317526517",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {}
+        "prestamo": {},
+        "vacaciones": 15
     },
     "66": {
         "legajo": "66",
@@ -489,10 +511,11 @@
         "motivo_baja": "",
         "fecha_nacimiento": "21-01-1973",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2355525558",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {}
+        "prestamo": {},
+        "vacaciones": 21
     },
     "71": {
         "legajo": "71",
@@ -507,7 +530,7 @@
         "motivo_baja": "",
         "fecha_nacimiento": "06-11-1961",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2317517627",
         "rol": "empleado",
         "notas": "",
         "prestamo": {
@@ -519,7 +542,8 @@
             "proxima_cuota": 300000.0,
             "cuotas_pendientes": 3,
             "fecha_cancelacion": "11-09-2025"
-        }
+        },
+        "vacaciones": 3
     },
     "400": {
         "legajo": "400",
@@ -534,7 +558,7 @@
         "motivo_baja": "",
         "fecha_nacimiento": "02-03-1988",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2317471567",
         "rol": "empleado",
         "notas": "",
         "prestamo": {}
@@ -552,24 +576,30 @@
         "motivo_baja": "",
         "fecha_nacimiento": "05-09-1981",
         "edad": 0,
-        "telefono": "",
+        "telefono": "1163607451",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {}
+        "prestamo": {},
+        "vacaciones": 30
     },
     "76": {
+        "legajo": "76",
+        "cuil": "20-29671429-2",
         "apellido": "Vanerio",
         "nombre": "Juan Pablo",
-        "cuil": "20-29671429-2",
         "sector": "Administracion",
+        "sede": "9 de Julio",
         "fecha_ingreso": "17-08-2015",
+        "estado": "Activo",
+        "fecha_baja": "",
+        "motivo_baja": "",
         "fecha_nacimiento": "10-01-1983",
-        "telefono": "2317518509",
+        "edad": 0,
+        "telefono": "1161076080",
         "rol": "empleado",
-        "direccion": "",
-        "email": "",
-        "vacaciones": 0,
-        "estado": "Activo"
+        "notas": "",
+        "prestamo": {},
+        "vacaciones": 30
     },
     "81": {
         "legajo": "81",
@@ -584,10 +614,11 @@
         "motivo_baja": "",
         "fecha_nacimiento": "04-05-1988",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2317463460",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {}
+        "prestamo": {},
+        "vacaciones": 14
     },
     "64": {
         "legajo": "64",
@@ -602,10 +633,11 @@
         "motivo_baja": "",
         "fecha_nacimiento": "03-12-1980",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2317533054",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {}
+        "prestamo": {},
+        "vacaciones": 7
     },
     "87": {
         "legajo": "87",
@@ -620,10 +652,11 @@
         "motivo_baja": "",
         "fecha_nacimiento": "28-08-1981",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2317474366",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {}
+        "prestamo": {},
+        "vacaciones": 28
     },
     "92": {
         "legajo": "92",
@@ -638,10 +671,11 @@
         "motivo_baja": "",
         "fecha_nacimiento": "29-01-1984",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2317415639",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {}
+        "prestamo": {},
+        "vacaciones": 12
     },
     "93": {
         "legajo": "93",
@@ -656,10 +690,11 @@
         "motivo_baja": "",
         "fecha_nacimiento": "30-06-1986",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2317582325",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {}
+        "prestamo": {},
+        "vacaciones": 7
     },
     "99": {
         "legajo": "99",
@@ -674,7 +709,7 @@
         "motivo_baja": "",
         "fecha_nacimiento": "31-01-1997",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2317582468",
         "rol": "empleado",
         "notas": "",
         "prestamo": {
@@ -686,7 +721,8 @@
             "proxima_cuota": 100000.0,
             "cuotas_pendientes": 7,
             "fecha_cancelacion": "25-11-2025"
-        }
+        },
+        "vacaciones": 0
     },
     "96": {
         "legajo": "96",
@@ -701,10 +737,11 @@
         "motivo_baja": "",
         "fecha_nacimiento": "26-07-1978",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2317622491",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {}
+        "prestamo": {},
+        "vacaciones": 7
     },
     "106": {
         "legajo": "106",
@@ -719,10 +756,11 @@
         "motivo_baja": "",
         "fecha_nacimiento": "29-01-1996",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2317532468",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {}
+        "prestamo": {},
+        "vacaciones": 14
     },
     "104": {
         "legajo": "104",
@@ -737,10 +775,11 @@
         "motivo_baja": "",
         "fecha_nacimiento": "18-04-1990",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2317474064",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {}
+        "prestamo": {},
+        "vacaciones": 14
     },
     "109": {
         "legajo": "109",
@@ -755,7 +794,7 @@
         "motivo_baja": "",
         "fecha_nacimiento": "07-02-1986",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2317576730",
         "rol": "empleado",
         "notas": "",
         "prestamo": {
@@ -767,7 +806,8 @@
             "proxima_cuota": 116000.0,
             "cuotas_pendientes": 5,
             "fecha_cancelacion": "08-10-2025"
-        }
+        },
+        "vacaciones": 0
     },
     "113": {
         "legajo": "113",
@@ -782,7 +822,7 @@
         "motivo_baja": "",
         "fecha_nacimiento": "20-11-1988",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2317504260",
         "rol": "empleado",
         "notas": "",
         "prestamo": {
@@ -794,7 +834,8 @@
             "proxima_cuota": 225000.0,
             "cuotas_pendientes": 6,
             "fecha_cancelacion": "08-12-2025"
-        }
+        },
+        "vacaciones": 0
     },
     "121": {
         "legajo": "121",
@@ -809,10 +850,11 @@
         "motivo_baja": "",
         "fecha_nacimiento": "20-04-1993",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2317447906",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {}
+        "prestamo": {},
+        "vacaciones": 15
     },
     "122": {
         "legajo": "122",
@@ -827,10 +869,11 @@
         "motivo_baja": "",
         "fecha_nacimiento": "29-03-1982",
         "edad": 0,
-        "telefono": "",
+        "telefono": "1168226903",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {}
+        "prestamo": {},
+        "vacaciones": 32
     },
     "117": {
         "legajo": "117",
@@ -845,10 +888,11 @@
         "motivo_baja": "",
         "fecha_nacimiento": "10-12-1987",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2317585882",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {}
+        "prestamo": {},
+        "vacaciones": 21
     },
     "124": {
         "legajo": "124",
@@ -863,10 +907,11 @@
         "motivo_baja": "",
         "fecha_nacimiento": "16-04-1993",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2317516193",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {}
+        "prestamo": {},
+        "vacaciones": 7
     },
     "120": {
         "legajo": "120",
@@ -881,10 +926,11 @@
         "motivo_baja": "",
         "fecha_nacimiento": "11-05-1978",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2317584956",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {}
+        "prestamo": {},
+        "vacaciones": 0
     },
     "125": {
         "legajo": "125",
@@ -899,7 +945,7 @@
         "motivo_baja": "",
         "fecha_nacimiento": "27-02-1989",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2317400309",
         "rol": "empleado",
         "notas": "",
         "prestamo": {
@@ -911,25 +957,8 @@
             "proxima_cuota": 110485.53,
             "cuotas_pendientes": 4,
             "fecha_cancelacion": "04-09-2025"
-        }
-    },
-    "128": {
-        "legajo": "128",
-        "cuil": "20-31114244-6",
-        "apellido": "Lenain",
-        "nombre": "Joaquín Aníbal",
-        "sector": "Operaciones",
-        "sede": "9 de Julio",
-        "fecha_ingreso": "03-04-2019",
-        "estado": "Activo",
-        "fecha_baja": "",
-        "motivo_baja": "",
-        "fecha_nacimiento": "04-10-1984",
-        "edad": 0,
-        "telefono": "",
-        "rol": "empleado",
-        "notas": "",
-        "prestamo": {}
+        },
+        "vacaciones": 7
     },
     "129": {
         "legajo": "129",
@@ -944,7 +973,7 @@
         "motivo_baja": "",
         "fecha_nacimiento": "25-06-1990",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2317406172",
         "rol": "empleado",
         "notas": "",
         "prestamo": {
@@ -956,7 +985,8 @@
             "proxima_cuota": 500001.0,
             "cuotas_pendientes": 8,
             "fecha_cancelacion": "03-01-2026"
-        }
+        },
+        "vacaciones": 0
     },
     "135": {
         "legajo": "135",
@@ -971,10 +1001,11 @@
         "motivo_baja": "",
         "fecha_nacimiento": "30-12-1986",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2392540656",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {}
+        "prestamo": {},
+        "vacaciones": 0
     },
     "136": {
         "legajo": "136",
@@ -989,10 +1020,11 @@
         "motivo_baja": "",
         "fecha_nacimiento": "26-10-1984",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2392484152",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {}
+        "prestamo": {},
+        "vacaciones": 0
     },
     "137": {
         "legajo": "137",
@@ -1007,10 +1039,11 @@
         "motivo_baja": "",
         "fecha_nacimiento": "11-06-1991",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2392572784",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {}
+        "prestamo": {},
+        "vacaciones": 0
     },
     "141": {
         "legajo": "141",
@@ -1025,10 +1058,11 @@
         "motivo_baja": "",
         "fecha_nacimiento": "02-03-1980",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2392493707",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {}
+        "prestamo": {},
+        "vacaciones": 0
     },
     "139": {
         "legajo": "139",
@@ -1043,10 +1077,11 @@
         "motivo_baja": "",
         "fecha_nacimiento": "13-02-1989",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2392531248",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {}
+        "prestamo": {},
+        "vacaciones": 0
     },
     "144": {
         "legajo": "144",
@@ -1061,7 +1096,7 @@
         "motivo_baja": "Renuncia",
         "fecha_nacimiento": "09-07-1991",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2317534323",
         "rol": "empleado",
         "notas": "",
         "prestamo": {}
@@ -1079,7 +1114,7 @@
         "motivo_baja": "",
         "fecha_nacimiento": "19-02-1989",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2317525966",
         "rol": "empleado",
         "notas": "",
         "prestamo": {
@@ -1091,7 +1126,8 @@
             "proxima_cuota": 100000.0,
             "cuotas_pendientes": 5,
             "fecha_cancelacion": "04-10-2025"
-        }
+        },
+        "vacaciones": 0
     },
     "147": {
         "legajo": "147",
@@ -1106,10 +1142,11 @@
         "motivo_baja": "",
         "fecha_nacimiento": "20-10-1975",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2317402129",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {}
+        "prestamo": {},
+        "vacaciones": 19
     },
     "160": {
         "legajo": "160",
@@ -1124,10 +1161,11 @@
         "motivo_baja": "",
         "fecha_nacimiento": "06-01-1986",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2317530596",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {}
+        "prestamo": {},
+        "vacaciones": 0
     },
     "1033": {
         "legajo": "1033",
@@ -1142,10 +1180,11 @@
         "motivo_baja": "",
         "fecha_nacimiento": "01-01-1984",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2317534669",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {}
+        "prestamo": {},
+        "vacaciones": 0
     },
     "166": {
         "legajo": "166",
@@ -1160,10 +1199,11 @@
         "motivo_baja": "",
         "fecha_nacimiento": "14-05-1984",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2317446392",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {}
+        "prestamo": {},
+        "vacaciones": 22
     },
     "169": {
         "legajo": "169",
@@ -1178,7 +1218,7 @@
         "motivo_baja": "",
         "fecha_nacimiento": "19-11-1981",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2317581658",
         "rol": "empleado",
         "notas": "",
         "prestamo": {
@@ -1190,7 +1230,8 @@
             "proxima_cuota": 250000.0,
             "cuotas_pendientes": 2,
             "fecha_cancelacion": "09-07-2025"
-        }
+        },
+        "vacaciones": 0
     },
     "176": {
         "legajo": "176",
@@ -1205,7 +1246,7 @@
         "motivo_baja": "",
         "fecha_nacimiento": "31-10-1977",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2317418729",
         "rol": "empleado",
         "notas": "",
         "prestamo": {
@@ -1217,7 +1258,8 @@
             "proxima_cuota": 50000.0,
             "cuotas_pendientes": 3,
             "fecha_cancelacion": "21-08-2025"
-        }
+        },
+        "vacaciones": 0
     },
     "179": {
         "legajo": "179",
@@ -1232,7 +1274,7 @@
         "motivo_baja": "",
         "fecha_nacimiento": "12-01-1998",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2345535406",
         "rol": "empleado",
         "notas": "",
         "prestamo": {
@@ -1244,7 +1286,8 @@
             "proxima_cuota": 250000.0,
             "cuotas_pendientes": 8,
             "fecha_cancelacion": "27-02-2026"
-        }
+        },
+        "vacaciones": 7
     },
     "194": {
         "legajo": "194",
@@ -1259,7 +1302,7 @@
         "motivo_baja": "",
         "fecha_nacimiento": "09-01-2002",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2317537282",
         "rol": "empleado",
         "notas": "",
         "prestamo": {
@@ -1271,31 +1314,27 @@
             "proxima_cuota": 224350.5,
             "cuotas_pendientes": 26,
             "fecha_cancelacion": "07-08-2027"
-        }
+        },
+        "vacaciones": 0
     },
     "196": {
+        "legajo": "196",
+        "cuil": "20-30830857-0",
         "apellido": "Zega",
         "nombre": "Maximiliano",
-        "cuil": "20-30830857-0",
         "sector": "RRHH",
+        "sede": "9 de Julio",
         "fecha_ingreso": "14-09-2022",
+        "estado": "Activo",
+        "fecha_baja": "",
+        "motivo_baja": "",
         "fecha_nacimiento": "07-07-1984",
+        "edad": 0,
         "telefono": "2317415313",
         "rol": "empleado",
-        "direccion": "",
-        "email": "",
-        "vacaciones": 8,
-        "estado": "Activo",
-        "prestamo": {
-            "fecha_prestamo": "04-05-2025",
-            "monto": 1560000.0,
-            "cuotas": 3,
-            "cancelado": 0.0,
-            "pendiente": -1560000.0,
-            "proxima_cuota": 520000.0,
-            "cuotas_pendientes": 3,
-            "fecha_cancelacion": "04-07-2025"
-        }
+        "notas": "",
+        "prestamo": {},
+        "vacaciones": 35
     },
     "197": {
         "legajo": "197",
@@ -1310,28 +1349,11 @@
         "motivo_baja": "",
         "fecha_nacimiento": "07-07-1997",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2317513578",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {}
-    },
-    "198": {
-        "legajo": "198",
-        "cuil": "27-25153220-1",
-        "apellido": "Ponce",
-        "nombre": "Julieta",
-        "sector": "Maestranza",
-        "sede": "9 de Julio",
-        "fecha_ingreso": "03-10-2022",
-        "estado": "Activo",
-        "fecha_baja": "",
-        "motivo_baja": "",
-        "fecha_nacimiento": "29-06-1976",
-        "edad": 0,
-        "telefono": "",
-        "rol": "empleado",
-        "notas": "",
-        "prestamo": {}
+        "prestamo": {},
+        "vacaciones": 0
     },
     "204": {
         "legajo": "204",
@@ -1346,10 +1368,11 @@
         "motivo_baja": "",
         "fecha_nacimiento": "25-05-1975",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2317525902",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {}
+        "prestamo": {},
+        "vacaciones": 11
     },
     "205": {
         "legajo": "205",
@@ -1364,10 +1387,11 @@
         "motivo_baja": "",
         "fecha_nacimiento": "27-03-2002",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2317401052",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {}
+        "prestamo": {},
+        "vacaciones": 7
     },
     "206": {
         "legajo": "206",
@@ -1382,10 +1406,11 @@
         "motivo_baja": "",
         "fecha_nacimiento": "28-11-2000",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2317571969",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {}
+        "prestamo": {},
+        "vacaciones": 0
     },
     "211": {
         "legajo": "211",
@@ -1400,10 +1425,11 @@
         "motivo_baja": "",
         "fecha_nacimiento": "07-06-1992",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2317536169",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {}
+        "prestamo": {},
+        "vacaciones": 4
     },
     "213": {
         "legajo": "213",
@@ -1418,7 +1444,7 @@
         "motivo_baja": "",
         "fecha_nacimiento": "28-03-1981",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2317403039",
         "rol": "empleado",
         "notas": "",
         "prestamo": {
@@ -1430,22 +1456,27 @@
             "proxima_cuota": 100000.0,
             "cuotas_pendientes": 5,
             "fecha_cancelacion": "02-10-2025"
-        }
+        },
+        "vacaciones": 0
     },
     "217": {
         "legajo": "217",
+        "cuil": "20-34717582-0",
         "apellido": "Anca",
         "nombre": "Ezequiel",
-        "cuil": "20-34717582-0",
         "sector": "Sistemas",
+        "sede": "9 de Julio",
         "fecha_ingreso": "02-05-2023",
+        "estado": "Activo",
+        "fecha_baja": "",
+        "motivo_baja": "",
         "fecha_nacimiento": "10-08-1989",
-        "telefono": "2317577632",
+        "edad": 0,
+        "telefono": "2317403792",
         "rol": "empleado",
-        "direccion": "",
-        "email": "",
-        "vacaciones": 0,
-        "estado": "Activo"
+        "notas": "",
+        "prestamo": {},
+        "vacaciones": 2
     },
     "216": {
         "legajo": "216",
@@ -1460,10 +1491,11 @@
         "motivo_baja": "",
         "fecha_nacimiento": "02-05-1979",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2317578798",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {}
+        "prestamo": {},
+        "vacaciones": 6
     },
     "219": {
         "legajo": "219",
@@ -1478,10 +1510,11 @@
         "motivo_baja": "",
         "fecha_nacimiento": "16-05-1982",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2317452480",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {}
+        "prestamo": {},
+        "vacaciones": 0
     },
     "225": {
         "legajo": "225",
@@ -1496,10 +1529,11 @@
         "motivo_baja": "",
         "fecha_nacimiento": "02-03-1988",
         "edad": 0,
-        "telefono": "",
+        "telefono": "3512254029",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {}
+        "prestamo": {},
+        "vacaciones": 0
     },
     "227": {
         "legajo": "227",
@@ -1514,10 +1548,11 @@
         "motivo_baja": "",
         "fecha_nacimiento": "03-03-1991",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2317400309",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {}
+        "prestamo": {},
+        "vacaciones": 0
     },
     "229": {
         "legajo": "229",
@@ -1532,10 +1567,11 @@
         "motivo_baja": "",
         "fecha_nacimiento": "04-06-1996",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2983526492",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {}
+        "prestamo": {},
+        "vacaciones": 5
     },
     "243": {
         "legajo": "243",
@@ -1550,10 +1586,11 @@
         "motivo_baja": "",
         "fecha_nacimiento": "15-03-1998",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2317532224",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {}
+        "prestamo": {},
+        "vacaciones": 0
     },
     "238": {
         "legajo": "238",
@@ -1568,10 +1605,11 @@
         "motivo_baja": "",
         "fecha_nacimiento": "10-01-2002",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2317509138",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {}
+        "prestamo": {},
+        "vacaciones": 7
     },
     "239": {
         "legajo": "239",
@@ -1586,10 +1624,11 @@
         "motivo_baja": "",
         "fecha_nacimiento": "01-01-2001",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2317558529",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {}
+        "prestamo": {},
+        "vacaciones": 7
     },
     "242": {
         "legajo": "242",
@@ -1604,10 +1643,11 @@
         "motivo_baja": "",
         "fecha_nacimiento": "03-03-1996",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2317582205",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {}
+        "prestamo": {},
+        "vacaciones": 9
     },
     "246": {
         "legajo": "246",
@@ -1622,7 +1662,7 @@
         "motivo_baja": "",
         "fecha_nacimiento": "22-04-1988",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2317583804",
         "rol": "empleado",
         "notas": "",
         "prestamo": {
@@ -1634,7 +1674,8 @@
             "proxima_cuota": 224350.5,
             "cuotas_pendientes": 27,
             "fecha_cancelacion": "07-08-2027"
-        }
+        },
+        "vacaciones": 0
     },
     "247": {
         "legajo": "247",
@@ -1649,55 +1690,11 @@
         "motivo_baja": "",
         "fecha_nacimiento": "12-05-1987",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2317405943",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {}
-    },
-    "236": {
-        "legajo": "236",
-        "cuil": "20-38401596-5",
-        "apellido": "Veliz",
-        "nombre": "Kevin Sebastian",
-        "sector": "Operaciones",
-        "sede": "9 de Julio",
-        "fecha_ingreso": "01-07-2024",
-        "estado": "Activo",
-        "fecha_baja": "",
-        "motivo_baja": "",
-        "fecha_nacimiento": "24-07-1994",
-        "edad": 0,
-        "telefono": "",
-        "rol": "empleado",
-        "notas": "",
-        "prestamo": {
-            "fecha_prestamo": "08-05-2025",
-            "monto": 1194338.44,
-            "cuotas": 9,
-            "cancelado": 133000.0,
-            "pendiente": -1061338.44,
-            "proxima_cuota": 133000.0,
-            "cuotas_pendientes": 7,
-            "fecha_cancelacion": "08-01-2026"
-        }
-    },
-    "256": {
-        "legajo": "256",
-        "cuil": "20-35094783-4",
-        "apellido": "Pellegrotti",
-        "nombre": "Raul Eduardo",
-        "sector": "Extrusados",
-        "sede": "Extrusado",
-        "fecha_ingreso": "01-07-2024",
-        "estado": "Activo",
-        "fecha_baja": "",
-        "motivo_baja": "",
-        "fecha_nacimiento": "01-01-1991",
-        "edad": 0,
-        "telefono": "",
-        "rol": "empleado",
-        "notas": "",
-        "prestamo": {}
+        "prestamo": {},
+        "vacaciones": 0
     },
     "257": {
         "legajo": "257",
@@ -1712,10 +1709,58 @@
         "motivo_baja": "",
         "fecha_nacimiento": "20-07-1987",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2317508235",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {}
+        "prestamo": {},
+        "vacaciones": 0
+    },
+    "236": {
+        "legajo": "236",
+        "cuil": "20-38401596-5",
+        "apellido": "Veliz",
+        "nombre": "Kevin Sebastian",
+        "sector": "Operaciones",
+        "sede": "9 de Julio",
+        "fecha_ingreso": "01-07-2024",
+        "estado": "Activo",
+        "fecha_baja": "",
+        "motivo_baja": "",
+        "fecha_nacimiento": "24-07-1994",
+        "edad": 0,
+        "telefono": "2317557077",
+        "rol": "empleado",
+        "notas": "",
+        "prestamo": {
+            "fecha_prestamo": "08-05-2025",
+            "monto": 1194338.44,
+            "cuotas": 9,
+            "cancelado": 133000.0,
+            "pendiente": -1061338.44,
+            "proxima_cuota": 133000.0,
+            "cuotas_pendientes": 7,
+            "fecha_cancelacion": "08-01-2026"
+        },
+        "vacaciones": 0
+    },
+    "256": {
+        "legajo": "256",
+        "cuil": "20-35094783-4",
+        "apellido": "Pellegrotti",
+        "nombre": "Raul Eduardo",
+        "sector": "Extrusados",
+        "sede": "Extrusado",
+        "fecha_ingreso": "01-07-2024",
+        "estado": "Activo",
+        "fecha_baja": "",
+        "motivo_baja": "",
+        "fecha_nacimiento": "01-01-1991",
+        "edad": 0,
+        "telefono": "2317452668",
+        "rol": "empleado",
+        "notas": "",
+        "prestamo": {},
+        "vacaciones": 0
     },
     "258": {
         "legajo": "258",
@@ -1730,10 +1775,11 @@
         "motivo_baja": "",
         "fecha_nacimiento": "10-03-1990",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2392503913",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {}
+        "prestamo": {},
+        "vacaciones": 0
     },
     "241": {
         "legajo": "241",
@@ -1748,10 +1794,11 @@
         "motivo_baja": "",
         "fecha_nacimiento": "25-08-1990",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2317485242",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {}
+        "prestamo": {},
+        "vacaciones": 0
     },
     "268": {
         "legajo": "268",
@@ -1766,10 +1813,11 @@
         "motivo_baja": "",
         "fecha_nacimiento": "02-05-1997",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2317474365",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {}
+        "prestamo": {},
+        "vacaciones": 0
     },
     "271": {
         "legajo": "271",
@@ -1784,10 +1832,11 @@
         "motivo_baja": "",
         "fecha_nacimiento": "18-04-1996",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2317583257",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {}
+        "prestamo": {},
+        "vacaciones": 0
     },
     "275": {
         "legajo": "275",
@@ -1802,10 +1851,11 @@
         "motivo_baja": "",
         "fecha_nacimiento": "26-09-1998",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2317518412",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {}
+        "prestamo": {},
+        "vacaciones": 1
     },
     "249": {
         "legajo": "249",
@@ -1820,10 +1870,11 @@
         "motivo_baja": "",
         "fecha_nacimiento": "26-09-1998",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2392548263",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {}
+        "prestamo": {},
+        "vacaciones": 14
     },
     "250": {
         "legajo": "250",
@@ -1838,7 +1889,7 @@
         "motivo_baja": "",
         "fecha_nacimiento": "26-09-1998",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2317518412",
         "rol": "empleado",
         "notas": "",
         "prestamo": {
@@ -1850,7 +1901,8 @@
             "proxima_cuota": 100000.0,
             "cuotas_pendientes": 2,
             "fecha_cancelacion": "06-06-2025"
-        }
+        },
+        "vacaciones": 14
     },
     "276": {
         "legajo": "276",
@@ -1858,17 +1910,18 @@
         "apellido": "Diaz",
         "nombre": "Federico",
         "sector": "Logistica",
-        "sede": "nan",
+        "sede": "9 de Julio",
         "fecha_ingreso": "13-01-2025",
         "estado": "Activo",
         "fecha_baja": "",
         "motivo_baja": "",
-        "fecha_nacimiento": "",
+        "fecha_nacimiento": "19-12-1996",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2317465748",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {}
+        "prestamo": {},
+        "vacaciones": 0
     },
     "278": {
         "legajo": "278",
@@ -1881,33 +1934,13 @@
         "estado": "Activo",
         "fecha_baja": "",
         "motivo_baja": "",
-        "fecha_nacimiento": "",
+        "fecha_nacimiento": "19-07-1986",
         "edad": 0,
-        "telefono": "",
-        "rol": "empleado",
-        "notas": "",
-        "prestamo": {}
-    },
-    "nan": {
-        "legajo": "nan",
-        "cuil": "20-25137842-9",
-        "apellido": "Moglie Cabistañ",
-        "nombre": "Rafael",
-        "sector": "Administracion",
-        "sede": "Trenque Lauquen",
-        "fecha_ingreso": "02-06-2025",
-        "estado": "Activo",
-        "fecha_baja": "",
-        "motivo_baja": "",
-        "fecha_nacimiento": "",
-        "edad": 0,
-        "telefono": "",
+        "telefono": "2317558260",
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": {
-            "dias_disponibles": 0
-        }
+        "vacaciones": 0
     },
     "273": {
         "legajo": "273",
@@ -1920,9 +1953,47 @@
         "estado": "Activo",
         "fecha_baja": "",
         "motivo_baja": "",
-        "fecha_nacimiento": "",
+        "fecha_nacimiento": "11-03-1993",
         "edad": 0,
-        "telefono": "",
+        "telefono": "2392541242",
+        "rol": "empleado",
+        "notas": "",
+        "prestamo": {},
+        "vacaciones": 0
+    },
+    "288": {
+        "legajo": "288",
+        "cuil": "27-28433448-0",
+        "apellido": "Castellanos",
+        "nombre": "Yanina Raquel",
+        "sector": "Administracion",
+        "sede": "9 de Julio",
+        "fecha_ingreso": "05-05-2025",
+        "estado": "Activo",
+        "fecha_baja": "",
+        "motivo_baja": "",
+        "fecha_nacimiento": "21-12-1980",
+        "edad": 0,
+        "telefono": "2317458354",
+        "rol": "empleado",
+        "notas": "",
+        "prestamo": {},
+        "vacaciones": 0
+    },
+    "nan": {
+        "legajo": "nan",
+        "cuil": "27-29597820-7",
+        "apellido": "Del Pino",
+        "nombre": "Maria Soledad",
+        "sector": "Maestranza",
+        "sede": "9 de Julio",
+        "fecha_ingreso": "11-06-2025",
+        "estado": "Activo",
+        "fecha_baja": "",
+        "motivo_baja": "",
+        "fecha_nacimiento": "07-07-1982",
+        "edad": 0,
+        "telefono": "2317557647",
         "rol": "empleado",
         "notas": "",
         "prestamo": {}
