@@ -774,3 +774,13 @@
 [2025-06-26 09:38:06] Consulta de próximos cumpleaños
 [2025-06-26 09:39:50] Consulta de todos los préstamos
 [2025-06-26 09:39:50] Empleados activos cargados correctamente
+[2025-06-26 09:43:36] Acceso a panel
+[2025-06-26 09:44:06] Consulta de todos los préstamos
+[2025-06-26 09:44:06] Empleados activos cargados correctamente
+[2025-06-26 09:44:18] Consulta de préstamo para 35
+[2025-06-26 09:44:25] Consulta de todos los préstamos
+[2025-06-26 09:44:25] Empleados activos cargados correctamente
+[2025-06-26 09:46:13] Consulta de préstamo para 35
+[2025-06-26 09:47:18] Consulta de todos los préstamos
+[2025-06-26 09:47:18] Empleados activos cargados correctamente
+[2025-06-26 09:47:20] Acceso a panel
