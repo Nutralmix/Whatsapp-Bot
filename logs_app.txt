@@ -800,3 +800,25 @@
 [2025-06-26 09:50:15] Empleados activos cargados correctamente
 [2025-06-26 09:50:15] Visualización de todos los empleados
 [2025-06-26 09:50:22] Acceso a panel
+[2025-06-26 09:50:33] Acceso a panel
+[2025-06-26 09:50:47] Consulta de todos los préstamos
+[2025-06-26 09:50:47] Empleados activos cargados correctamente
+[2025-06-26 09:50:57] Acceso a panel
+[2025-06-26 09:50:57] Consulta de préstamo para 35
+[2025-06-26 09:51:00] Empleados activos cargados correctamente
+[2025-06-26 09:51:00] Visualización de todos los empleados
+[2025-06-26 09:51:03] Consulta de todos los préstamos
+[2025-06-26 09:51:03] Empleados activos cargados correctamente
+[2025-06-26 09:51:10] Acceso a panel
+[2025-06-26 09:51:12] Empleados activos cargados correctamente
+[2025-06-26 09:51:12] Visualización de todos los empleados
+[2025-06-26 09:51:21] Acceso a panel
+[2025-06-26 09:51:24] Consulta de info iniciada
+[2025-06-26 09:51:24] Empleados activos cargados correctamente
+[2025-06-26 09:51:30] Consulta de info iniciada
+[2025-06-26 09:51:30] Empleados activos cargados correctamente
+[2025-06-26 09:51:30] Búsqueda de: die
+[2025-06-26 09:51:36] Acceso a panel
+[2025-06-26 09:51:41] Acceso a subir archivo a empleado (privado)
+[2025-06-26 09:51:42] Acceso a panel
+[2025-06-26 09:51:45] Acceso a subir archivo a empleado (privado)
