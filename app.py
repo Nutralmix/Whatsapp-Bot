@@ -6,7 +6,8 @@ from werkzeug.utils import secure_filename
 from datetime import datetime, timedelta
 from auto_git_push import auto_push_archivos
 from utils import calcular_antiguedad
-
+import subprocess
+from flask import redirect
 
 # ---------------------------
 # Función para normalizar texto
@@ -428,6 +429,25 @@ def ver_archivos_empleado(legajo):
             })
 
     return render_template("ver_archivos_empleado.html", archivos=archivos, nombre_completo=f"{emp['nombre']} {emp['apellido']}")
+
+@app.route("/empleado/<legajo>")
+def ver_empleado(legajo):
+    with open("empleados.json", encoding="utf-8") as f:
+        empleados = json.load(f)
+    emp = empleados.get(str(legajo))
+    if not emp:
+        return "Empleado no encontrado", 404
+    return render_template("consultar_info.html", resultado=emp)
+
+@app.route("/actualizar_prestamos")
+def actualizar_prestamos():
+    subprocess.run(["python", "actualizar_prestamos.py"])
+    return redirect("/panel")
+
+@app.route("/actualizar_vacaciones")
+def actualizar_vacaciones():
+    subprocess.run(["python", "actualizar_vacaciones.py"])
+    return redirect("/panel")
 
 
 # ---------------------------

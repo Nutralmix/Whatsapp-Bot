@@ -71,13 +71,14 @@
       <h2>Se encontraron varios resultados:</h2>
       <ul>
         {% for r in resultados %}
-          <li style="margin-bottom: 10px;">
-            <strong>{{ r.nombre }} {{ r.apellido }}</strong> (Legajo: {{ r.legajo }})<br>
+          <<li style="margin-bottom: 10px;">
+            🔍 <a href="/empleado/{{ r.legajo }}"><strong>{{ r.nombre }} {{ r.apellido }}</strong></a> (Legajo: {{ r.legajo }})<br>
             <a href="/editar/{{ r.legajo }}">✏️ Editar</a> |
             <a href="/archivos/{{ r.legajo }}">📁 Archivos</a> |
             <a href="/prestamo/{{ r.legajo }}">💰 Préstamo</a> |
             <a href="/eliminar/{{ r.legajo }}" onclick="return confirm('¿Eliminar a {{ r.nombre }} {{ r.apellido }}?')">🗑️ Eliminar</a>
           </li>
+
         {% endfor %}
       </ul>
     </div>

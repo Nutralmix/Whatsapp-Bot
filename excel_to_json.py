@@ -3,15 +3,11 @@ import json
 from datetime import datetime
 
 # === ARCHIVOS DE ENTRADA ===
-ARCHIVO_LEGAJOS = "C:/Programas Pyt/Bot RRHH/Legajos y Prestamos/legajos para prueba.xlsx"
-ARCHIVO_PRESTAMOS = "C:/Programas Pyt/Bot RRHH/Legajos y Prestamos/Planilla PRESTAMOS AGUS.xlsx"
+ARCHIVO_LEGAJOS = "C:/Programas Pyt/Bot_RRHH/Legajos y Prestamos/legajos para prueba.xlsx"
 
-# === LEER EXCEL ===
-df_legajos = pd.read_excel(ARCHIVO_LEGAJOS)
-df_prestamos = pd.read_excel(ARCHIVO_PRESTAMOS)
-
+# === LEER EXCEL con Teléfono como texto ===
+df_legajos = pd.read_excel(ARCHIVO_LEGAJOS, dtype={"Telefono": str})
 df_legajos.columns = df_legajos.columns.str.strip()
-df_prestamos.columns = df_prestamos.columns.str.strip()
 
 empleados = {}
 
@@ -44,28 +40,14 @@ for _, row in df_legajos.iterrows():
         "motivo_baja": str(row.get("Motivo de Baja", "")) if pd.notna(row.get("Motivo de Baja")) else "",
         "fecha_nacimiento": row["Fecha de nacimiento"].strftime("%d-%m-%Y") if pd.notna(row.get("Fecha de nacimiento")) else "",
         "edad": int(row.get("Edad", 0)) if not pd.isna(row.get("Edad")) else 0,
-        "telefono": "",
+        "telefono": str(row.get("Telefono", "")).strip(),
         "rol": "empleado",
         "notas": "",
         "prestamo": {}
     }
 
     empleados[legajo] = empleado
-
-# --- CRUZAR CON PRÉSTAMOS ---
-for _, row in df_prestamos.iterrows():
-    legajo = str(row.get("Legajo", "")).strip()
-    if legajo in empleados:
-        empleados[legajo]["prestamo"] = {
-            "fecha_prestamo": row["Fecha Pedido"].strftime("%d-%m-%Y") if pd.notna(row["Fecha Pedido"]) else "",
-            "monto": float(row.get("Monto Pedido", 0)),
-            "cuotas": int(row.get("Cantidad de cuotas", 0)),
-            "cancelado": float(row.get("Cancelado", 0)),
-            "pendiente": float(row.get("Pendiente", 0)),
-            "proxima_cuota": float(row.get("Proxima Cuota", 0)),
-            "cuotas_pendientes": int(row.get("Cant Cuotas Pendientes", 0)),
-            "fecha_cancelacion": row["Fecha cancelacion"].strftime("%d-%m-%Y") if pd.notna(row.get("Fecha cancelacion")) else ""
-        }
+    print(f"📞 Legajo {legajo} - Teléfono: {empleado['telefono']}")
 
 # --- GUARDAR EN JSON ---
 with open("empleados.json", "w", encoding="utf-8") as f:

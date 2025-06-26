@@ -658,3 +658,110 @@
 [2025-06-25 15:26:11] Empleados activos cargados correctamente
 [2025-06-25 15:26:11] Búsqueda de: 20-30457818-2
 [2025-06-25 15:27:56] Servidor Flask iniciado
+[2025-06-25 15:34:00] Servidor Flask iniciado
+[2025-06-25 15:34:05] Entrando a editar empleado 35
+[2025-06-25 15:34:07] Empleados activos cargados correctamente
+[2025-06-25 15:34:07] Visualización de todos los empleados
+[2025-06-25 16:04:59] Servidor Flask iniciado
+[2025-06-25 16:05:10] Entrando a editar empleado 35
+[2025-06-25 16:18:21] Servidor Flask iniciado
+[2025-06-25 16:18:52] Empleados activos cargados correctamente
+[2025-06-25 16:18:52] Visualización de todos los empleados
+[2025-06-25 16:18:58] Acceso a panel
+[2025-06-25 16:19:01] Consulta de info iniciada
+[2025-06-25 16:19:01] Empleados activos cargados correctamente
+[2025-06-25 16:19:05] Consulta de info iniciada
+[2025-06-25 16:19:05] Empleados activos cargados correctamente
+[2025-06-25 16:19:05] Búsqueda de: zega
+[2025-06-25 16:19:09] Acceso a panel
+[2025-06-25 16:43:11] Consulta de info iniciada
+[2025-06-25 16:43:11] Empleados activos cargados correctamente
+[2025-06-25 16:43:13] Consulta de info iniciada
+[2025-06-25 16:43:13] Empleados activos cargados correctamente
+[2025-06-25 16:43:13] Búsqueda de: atia
+[2025-06-25 16:43:17] Entrando a editar empleado 35
+[2025-06-25 17:12:10] Empleados activos cargados correctamente
+[2025-06-25 17:12:10] Visualización de todos los empleados
+[2025-06-25 17:12:13] Acceso a panel
+[2025-06-25 17:12:14] Consulta de info iniciada
+[2025-06-25 17:12:14] Empleados activos cargados correctamente
+[2025-06-25 17:12:18] Consulta de info iniciada
+[2025-06-25 17:12:18] Empleados activos cargados correctamente
+[2025-06-25 17:12:18] Búsqueda de: atia
+[2025-06-25 17:12:39] Consulta de info iniciada
+[2025-06-25 17:12:39] Empleados activos cargados correctamente
+[2025-06-25 17:12:39] Búsqueda de: anca
+[2025-06-25 17:12:48] Acceso a panel
+[2025-06-25 17:22:12] Consulta de info iniciada
+[2025-06-25 17:22:12] Empleados activos cargados correctamente
+[2025-06-25 17:22:16] Consulta de info iniciada
+[2025-06-25 17:22:16] Empleados activos cargados correctamente
+[2025-06-25 17:22:16] Búsqueda de: atia
+[2025-06-25 17:23:05] Consulta de info iniciada
+[2025-06-25 17:23:05] Empleados activos cargados correctamente
+[2025-06-25 17:23:05] Búsqueda de: zega
+[2025-06-25 17:26:31] Consulta de info iniciada
+[2025-06-25 17:26:31] Empleados activos cargados correctamente
+[2025-06-25 17:26:35] Acceso a panel
+[2025-06-25 17:26:38] Consulta de info iniciada
+[2025-06-25 17:26:38] Empleados activos cargados correctamente
+[2025-06-25 17:38:17] Servidor Flask iniciado
+[2025-06-25 17:38:22] Consulta de info iniciada
+[2025-06-25 17:38:22] Empleados activos cargados correctamente
+[2025-06-25 17:38:22] Búsqueda de: atia
+[2025-06-25 17:39:16] Consulta de info iniciada
+[2025-06-25 17:39:16] Empleados activos cargados correctamente
+[2025-06-25 17:39:17] Consulta de info iniciada
+[2025-06-25 17:39:17] Empleados activos cargados correctamente
+[2025-06-25 17:39:17] Búsqueda de: atia
+[2025-06-25 17:42:24] Servidor Flask iniciado
+[2025-06-25 17:42:38] Acceso a portada
+[2025-06-25 17:42:40] Acceso a panel
+[2025-06-25 17:42:41] Consulta de info iniciada
+[2025-06-25 17:42:41] Empleados activos cargados correctamente
+[2025-06-25 17:42:43] Consulta de info iniciada
+[2025-06-25 17:42:43] Empleados activos cargados correctamente
+[2025-06-25 17:42:43] Búsqueda de: atia
+[2025-06-26 08:30:42] Acceso a portada
+[2025-06-26 08:30:44] Acceso a panel
+[2025-06-26 08:37:21] Servidor Flask iniciado
+[2025-06-26 08:37:25] Consulta de info iniciada
+[2025-06-26 08:37:25] Empleados activos cargados correctamente
+[2025-06-26 08:37:28] Consulta de info iniciada
+[2025-06-26 08:37:28] Empleados activos cargados correctamente
+[2025-06-26 08:37:28] Búsqueda de: atia
+[2025-06-26 08:38:33] Servidor Flask iniciado
+[2025-06-26 08:38:39] Acceso a panel
+[2025-06-26 08:38:40] Consulta de info iniciada
+[2025-06-26 08:38:40] Empleados activos cargados correctamente
+[2025-06-26 08:38:42] Consulta de info iniciada
+[2025-06-26 08:38:42] Empleados activos cargados correctamente
+[2025-06-26 08:38:42] Búsqueda de: atia
+[2025-06-26 08:38:46] Acceso a panel
+[2025-06-26 08:43:53] Acceso a portada
+[2025-06-26 08:45:08] Acceso a panel
+[2025-06-26 08:45:30] Acceso a portada
+[2025-06-26 08:47:02] Acceso a portada
+[2025-06-26 08:47:07] Acceso a panel
+[2025-06-26 08:47:09] Empleados activos cargados correctamente
+[2025-06-26 08:47:09] Visualización de todos los empleados
+[2025-06-26 08:48:17] Acceso a portada
+[2025-06-26 08:48:21] Acceso a panel
+[2025-06-26 08:48:26] Consulta de info iniciada
+[2025-06-26 08:48:26] Empleados activos cargados correctamente
+[2025-06-26 08:48:29] Acceso a panel
+[2025-06-26 08:53:49] Acceso a panel
+[2025-06-26 08:55:41] Acceso a portada
+[2025-06-26 08:55:43] Acceso a panel
+[2025-06-26 09:11:52] Servidor Flask iniciado
+[2025-06-26 09:12:12] Servidor Flask iniciado
+[2025-06-26 09:12:17] Acceso a panel
+[2025-06-26 09:13:03] Acceso a panel
+[2025-06-26 09:13:18] Acceso a panel
+[2025-06-26 09:16:19] Acceso a panel
+[2025-06-26 09:31:25] Consulta de todos los préstamos
+[2025-06-26 09:31:25] Empleados activos cargados correctamente
+[2025-06-26 09:34:34] Servidor Flask iniciado
+[2025-06-26 09:34:38] Acceso a panel
+[2025-06-26 09:34:57] Consulta de todos los préstamos
+[2025-06-26 09:34:57] Empleados activos cargados correctamente

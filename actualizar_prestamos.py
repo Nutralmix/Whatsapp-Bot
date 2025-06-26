@@ -42,3 +42,7 @@ with open(ARCHIVO_JSON, "w", encoding="utf-8") as f:
     json.dump(empleados, f, indent=4, ensure_ascii=False)
 
 print("✅ Actualización de préstamos finalizada.")
+
+import subprocess
+subprocess.run("python git_push.py", shell=True)
+

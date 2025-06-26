@@ -86,11 +86,13 @@
                 <td>{{ emp.vacaciones or 0 }}</td>
                 <td>{{ emp.telefono }}</td>
                 <td class="acciones">
-                   <a href="/editar/{{ emp_id }}" title="Editar">✏️</a>
-                   <a href="/eliminar/{{ emp_id }}" title="Eliminar" onclick="return confirm('¿Estás seguro que querés eliminar este empleado?')">🗑️</a>
-                   <a href="/archivos/{{ emp_id }}" title="Ver archivos">📁</a>
-                   <a href="/prestamo/{{ emp_id }}" title="Ver préstamo">💰</a>
+                 <a href="/empleado/{{ emp_id }}" title="Ver detalle">🔍</a>
+                 <a href="/editar/{{ emp_id }}" title="Editar">✏️</a>
+                 <a href="/eliminar/{{ emp_id }}" title="Eliminar" onclick="return confirm('¿Estás seguro que querés eliminar este empleado?')">🗑️</a>
+                 <a href="/archivos/{{ emp_id }}" title="Ver archivos">📁</a>
+                 <a href="/prestamo/{{ emp_id }}" title="Ver préstamo">💰</a>
                 </td>
+
             </tr>
             {% endfor %}
         </tbody>
