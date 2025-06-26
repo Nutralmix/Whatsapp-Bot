@@ -822,3 +822,36 @@
 [2025-06-26 09:51:41] Acceso a subir archivo a empleado (privado)
 [2025-06-26 09:51:42] Acceso a panel
 [2025-06-26 09:51:45] Acceso a subir archivo a empleado (privado)
+[2025-06-26 09:51:52] Acceso a panel
+[2025-06-26 09:52:23] Consulta de todos los préstamos
+[2025-06-26 09:52:23] Empleados activos cargados correctamente
+[2025-06-26 09:52:28] Consulta de préstamo para 35
+[2025-06-26 09:52:30] Consulta de todos los préstamos
+[2025-06-26 09:52:30] Empleados activos cargados correctamente
+[2025-06-26 09:52:32] Acceso a panel
+[2025-06-26 09:52:34] Empleados activos cargados correctamente
+[2025-06-26 09:52:34] Visualización de todos los empleados
+[2025-06-26 09:52:42] Consulta de préstamo para 35
+[2025-06-26 09:52:44] Consulta de todos los préstamos
+[2025-06-26 09:52:44] Empleados activos cargados correctamente
+[2025-06-26 09:52:47] Consulta de préstamo para 35
+[2025-06-26 09:52:48] Consulta de todos los préstamos
+[2025-06-26 09:52:48] Empleados activos cargados correctamente
+[2025-06-26 09:52:50] Acceso a panel
+[2025-06-26 09:52:51] Empleados activos cargados correctamente
+[2025-06-26 09:52:51] Visualización de todos los empleados
+[2025-06-26 09:52:57] Entrando a editar empleado 35
+[2025-06-26 09:53:02] Empleados activos cargados correctamente
+[2025-06-26 09:53:02] Visualización de todos los empleados
+[2025-06-26 09:56:50] Acceso a panel
+[2025-06-26 09:56:54] Empleados activos cargados correctamente
+[2025-06-26 09:56:54] Consulta de próximos cumpleaños
+[2025-06-26 09:58:12] Acceso a panel
+[2025-06-26 09:58:14] Empleados activos cargados correctamente
+[2025-06-26 09:58:14] Visualización de todos los empleados
+[2025-06-26 09:58:51] Acceso a panel
+[2025-06-26 09:59:02] Consulta de todos los préstamos
+[2025-06-26 09:59:02] Empleados activos cargados correctamente
+[2025-06-26 09:59:08] Acceso a panel
+[2025-06-26 09:59:16] Consulta de info iniciada
+[2025-06-26 09:59:16] Empleados activos cargados correctamente

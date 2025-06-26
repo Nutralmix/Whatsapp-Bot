@@ -1342,7 +1342,16 @@
         "telefono": "2317415313",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {},
+        "prestamo": {
+            "fecha_prestamo": "26-06-2025",
+            "monto": 300000.0,
+            "cuotas": 2,
+            "cancelado": 150000.0,
+            "pendiente": 150000.0,
+            "proxima_cuota": 150000.0,
+            "cuotas_pendientes": 2,
+            "fecha_cancelacion": "07-07-2025"
+        },
         "vacaciones": 35
     },
     "197": {
