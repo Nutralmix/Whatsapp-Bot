@@ -855,3 +855,12 @@
 [2025-06-26 09:59:08] Acceso a panel
 [2025-06-26 09:59:16] Consulta de info iniciada
 [2025-06-26 09:59:16] Empleados activos cargados correctamente
+[2025-06-26 09:59:17] Acceso a panel
+[2025-06-26 09:59:20] Acceso a panel
+[2025-06-26 09:59:21] Acceso a subir archivo público
+[2025-06-26 09:59:23] Consulta de todos los préstamos
+[2025-06-26 09:59:23] Empleados activos cargados correctamente
+[2025-06-26 09:59:32] Consulta de préstamo para 196
+[2025-06-26 09:59:36] Consulta de todos los préstamos
+[2025-06-26 09:59:36] Empleados activos cargados correctamente
+[2025-06-26 10:00:08] Acceso a panel
