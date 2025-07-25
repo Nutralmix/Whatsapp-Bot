@@ -13,3 +13,4 @@
 [2025-06-11 12:11:19] 📁 Archivo subido por panel: Caudit.txt en static\archivos\Atia_Sebastian
 [2025-06-11 15:06:42] 📁 Archivo subido por panel: adobe-pdf3324.jpg en static\archivos\Anca_Ezequiel
 [2025-06-12 10:37:56] 📁 Archivo subido por panel: tano.ico en static\archivos\Zega_Maximiliano
+[2025-07-25 16:12:32] 🔄 Exportación de empleados a Excel realizada desde el panel web.

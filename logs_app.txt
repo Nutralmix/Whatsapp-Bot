@@ -864,3 +864,97 @@
 [2025-06-26 09:59:36] Consulta de todos los préstamos
 [2025-06-26 09:59:36] Empleados activos cargados correctamente
 [2025-06-26 10:00:08] Acceso a panel
+[2025-06-26 10:00:16] Acceso a panel
+[2025-06-26 10:00:40] Consulta de todos los préstamos
+[2025-06-26 10:00:40] Empleados activos cargados correctamente
+[2025-06-26 10:00:47] Consulta de préstamo para 213
+[2025-06-26 10:01:06] Acceso a subir archivo público
+[2025-06-26 10:01:09] ✅ Archivo público Manual_del_Colaborador_v4.pdf subido correctamente.
+[2025-06-26 10:01:11] Acceso a panel
+[2025-06-26 10:01:37] Consulta de info iniciada
+[2025-06-26 10:01:37] Empleados activos cargados correctamente
+[2025-06-26 10:01:41] Consulta de info iniciada
+[2025-06-26 10:01:41] Empleados activos cargados correctamente
+[2025-06-26 10:01:41] Búsqueda de: marc
+[2025-06-26 10:01:45] Consulta de préstamo para 213
+[2025-06-26 10:02:12] Consulta de todos los préstamos
+[2025-06-26 10:02:12] Empleados activos cargados correctamente
+[2025-06-26 10:02:19] Consulta de préstamo para 196
+[2025-06-26 10:03:03] Servidor Flask iniciado
+[2025-06-26 10:03:09] Acceso a panel
+[2025-06-26 10:03:16] Acceso a panel
+[2025-06-26 10:03:17] Consulta de todos los préstamos
+[2025-06-26 10:03:17] Empleados activos cargados correctamente
+[2025-06-26 10:03:18] Acceso a panel
+[2025-06-26 10:03:20] Consulta de todos los préstamos
+[2025-06-26 10:03:20] Empleados activos cargados correctamente
+[2025-06-26 10:03:23] Acceso a panel
+[2025-06-26 10:03:25] Consulta de todos los préstamos
+[2025-06-26 10:03:25] Empleados activos cargados correctamente
+[2025-06-26 10:03:29] Consulta de todos los préstamos
+[2025-06-26 10:03:29] Empleados activos cargados correctamente
+[2025-06-26 10:03:29] Acceso a panel
+[2025-06-26 10:03:31] Acceso a panel
+[2025-06-26 10:03:33] Consulta de todos los préstamos
+[2025-06-26 10:03:33] Empleados activos cargados correctamente
+[2025-06-26 10:03:33] Empleados activos cargados correctamente
+[2025-06-26 10:03:33] Consulta de próximos cumpleaños
+[2025-06-26 10:03:34] Acceso a panel
+[2025-06-26 10:03:35] Empleados activos cargados correctamente
+[2025-06-26 10:03:35] Visualización de todos los empleados
+[2025-06-26 10:03:37] Acceso a panel
+[2025-06-26 10:03:37] Consulta de préstamo para 10
+[2025-06-26 10:03:38] Consulta de todos los préstamos
+[2025-06-26 10:03:38] Empleados activos cargados correctamente
+[2025-06-26 10:03:39] Consulta de todos los préstamos
+[2025-06-26 10:03:39] Empleados activos cargados correctamente
+[2025-06-26 10:03:39] Acceso a panel
+[2025-06-26 10:03:40] Acceso a panel
+[2025-06-26 10:03:42] Consulta de info iniciada
+[2025-06-26 10:03:42] Empleados activos cargados correctamente
+[2025-06-26 10:03:44] Consulta de todos los préstamos
+[2025-06-26 10:03:44] Empleados activos cargados correctamente
+[2025-06-26 10:03:45] Consulta de todos los préstamos
+[2025-06-26 10:03:45] Empleados activos cargados correctamente
+[2025-06-26 10:03:46] Consulta de info iniciada
+[2025-06-26 10:03:46] Empleados activos cargados correctamente
+[2025-06-26 10:03:46] Búsqueda de: zeg
+[2025-06-26 10:03:46] Acceso a panel
+[2025-06-26 10:03:56] Consulta de préstamo para 196
+[2025-06-26 10:03:59] Consulta de todos los préstamos
+[2025-06-26 10:03:59] Empleados activos cargados correctamente
+[2025-06-26 10:04:01] Acceso a panel
+[2025-06-26 10:04:48] Acceso a panel
+[2025-06-26 10:04:56] Consulta de info iniciada
+[2025-06-26 10:04:56] Empleados activos cargados correctamente
+[2025-06-26 10:04:58] Consulta de info iniciada
+[2025-06-26 10:04:58] Empleados activos cargados correctamente
+[2025-06-26 10:04:58] Búsqueda de: zeg
+[2025-06-26 10:05:01] Consulta de préstamo para 196
+[2025-06-26 10:05:02] Consulta de todos los préstamos
+[2025-06-26 10:05:02] Empleados activos cargados correctamente
+[2025-06-26 10:05:04] Acceso a panel
+[2025-06-26 10:07:43] Servidor Flask iniciado
+[2025-06-26 10:07:47] Acceso a panel
+[2025-06-26 10:07:50] Acceso a panel
+[2025-06-26 10:08:31] Servidor Flask iniciado
+[2025-06-26 10:08:34] Acceso a panel
+[2025-06-26 10:08:37] Acceso a panel
+[2025-06-26 10:11:35] Servidor Flask iniciado
+[2025-06-26 10:11:38] Acceso a panel
+[2025-06-26 10:11:42] Acceso a panel
+[2025-06-26 10:12:47] Acceso a panel
+[2025-06-26 10:12:53] Servidor Flask iniciado
+[2025-06-26 10:13:01] Acceso a panel
+[2025-06-26 10:16:21] Acceso a panel
+[2025-06-26 10:16:26] Empleados activos cargados correctamente
+[2025-06-26 10:16:26] Visualización de todos los empleados
+[2025-06-26 10:16:30] Acceso a panel
+[2025-06-26 10:16:31] Consulta de todos los préstamos
+[2025-06-26 10:16:31] Empleados activos cargados correctamente
+[2025-06-26 10:16:56] Acceso a panel
+[2025-06-30 15:15:37] Servidor Flask iniciado
+[2025-06-30 15:15:49] Acceso a portada
+[2025-07-25 16:12:07] Servidor Flask iniciado
+[2025-07-25 16:12:25] Acceso a portada
+[2025-07-25 16:12:26] Acceso a panel
