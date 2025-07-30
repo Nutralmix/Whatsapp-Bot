@@ -185,7 +185,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 61
+        "vacaciones": 47
     },
     "15": {
         "legajo": "15",
@@ -958,7 +958,7 @@
             "cuotas_pendientes": 4,
             "fecha_cancelacion": ""
         },
-        "vacaciones": 7
+        "vacaciones": 0
     },
     "129": {
         "legajo": "129",
@@ -1203,7 +1203,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 22
+        "vacaciones": 8
     },
     "169": {
         "legajo": "169",
@@ -1883,7 +1883,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 14
+        "vacaciones": 0
     },
     "250": {
         "legajo": "250",

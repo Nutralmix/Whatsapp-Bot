@@ -8,6 +8,11 @@ from auto_git_push import auto_push_archivos
 from utils import calcular_antiguedad
 import subprocess
 from flask import redirect
+import sys
+print("✅ Ejecutando con:", sys.executable)
+
+
+
 
 # ---------------------------
 # Función para normalizar texto
@@ -441,13 +446,35 @@ def ver_empleado(legajo):
 
 @app.route("/actualizar_prestamos")
 def actualizar_prestamos():
-    subprocess.run(["python", "actualizar_prestamos.py"])
-    return redirect("/panel")
+    import sys
+    import os
+
+    python_path = sys.executable
+    script_path = os.path.join(os.getcwd(), "actualizar_prestamos.py")
+
+    try:
+        resultado = subprocess.run([python_path, script_path], check=True)
+        return redirect("/panel")
+    except subprocess.CalledProcessError as e:
+        print(f"❌ Error ejecutando actualizar_prestamos.py: {e}")
+        return "❌ Error al ejecutar la actualización de préstamos", 500
+
 
 @app.route("/actualizar_vacaciones")
 def actualizar_vacaciones():
-    subprocess.run(["python", "actualizar_vacaciones.py"])
-    return redirect("/panel")
+    import sys
+    import os
+
+    python_path = sys.executable
+    script_path = os.path.join(os.getcwd(), "actualizar_vacaciones.py")
+
+    try:
+        resultado = subprocess.run([python_path, script_path], check=True)
+        return redirect("/panel")
+    except subprocess.CalledProcessError as e:
+        print(f"❌ Error ejecutando actualizar_vacaciones.py: {e}")
+        return "❌ Error al ejecutar la actualización de vacaciones", 500
+
 
 
 # ---------------------------

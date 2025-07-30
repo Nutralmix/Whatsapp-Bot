@@ -18,3 +18,5 @@ ejecutar_comando(f'git commit -m "{mensaje_commit}"')
 
 # Push a main
 ejecutar_comando("git push origin main")
+
+print("📤 Finalizó script de git_push.py")

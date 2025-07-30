@@ -962,3 +962,63 @@
 [2025-07-25 16:16:38] Acceso a panel
 [2025-07-25 16:17:09] Acceso a panel
 [2025-07-30 12:57:13] Servidor Flask iniciado
+[2025-07-30 13:55:49] Consulta de info iniciada
+[2025-07-30 13:55:49] Empleados activos cargados correctamente
+[2025-07-30 13:55:56] Consulta de info iniciada
+[2025-07-30 13:55:56] Empleados activos cargados correctamente
+[2025-07-30 13:55:56] Búsqueda de: toled
+[2025-07-30 13:56:23] Acceso a panel
+[2025-07-30 13:56:26] Acceso a panel
+[2025-07-30 13:56:28] Acceso a panel
+[2025-07-30 13:56:33] Acceso a panel
+[2025-07-30 13:56:34] Acceso a panel
+[2025-07-30 13:56:40] Consulta de info iniciada
+[2025-07-30 13:56:40] Empleados activos cargados correctamente
+[2025-07-30 13:56:44] Consulta de info iniciada
+[2025-07-30 13:56:44] Empleados activos cargados correctamente
+[2025-07-30 13:56:44] Búsqueda de: toled
+[2025-07-30 13:56:51] Consulta de préstamo para 125
+[2025-07-30 13:56:55] Consulta de todos los préstamos
+[2025-07-30 13:56:55] Empleados activos cargados correctamente
+[2025-07-30 13:57:08] Acceso a panel
+[2025-07-30 13:57:11] Empleados activos cargados correctamente
+[2025-07-30 13:57:11] Consulta de próximos cumpleaños
+[2025-07-30 14:04:54] Acceso a panel
+[2025-07-30 14:04:56] Consulta de info iniciada
+[2025-07-30 14:04:56] Empleados activos cargados correctamente
+[2025-07-30 14:05:02] Consulta de info iniciada
+[2025-07-30 14:05:02] Empleados activos cargados correctamente
+[2025-07-30 14:05:02] Búsqueda de: tole
+[2025-07-30 14:05:33] Acceso a panel
+[2025-07-30 14:05:35] Acceso a panel
+[2025-07-30 14:05:49] Acceso a panel
+[2025-07-30 14:05:58] Acceso a panel
+[2025-07-30 14:08:51] Acceso a panel
+[2025-07-30 14:09:50] Acceso a panel
+[2025-07-30 14:10:39] Acceso a panel
+[2025-07-30 14:10:46] Acceso a panel
+[2025-07-30 14:12:44] Servidor Flask iniciado
+[2025-07-30 14:12:51] Acceso a panel
+[2025-07-30 14:12:53] Acceso a panel
+[2025-07-30 14:14:41] Servidor Flask iniciado
+[2025-07-30 14:15:00] Acceso a panel
+[2025-07-30 14:16:57] Servidor Flask iniciado
+[2025-07-30 14:17:01] Acceso a panel
+[2025-07-30 14:17:05] Acceso a panel
+[2025-07-30 14:22:14] Servidor Flask iniciado
+[2025-07-30 14:24:54] Servidor Flask iniciado
+[2025-07-30 14:24:58] Acceso a panel
+[2025-07-30 14:25:04] Acceso a panel
+[2025-07-30 14:30:43] Servidor Flask iniciado
+[2025-07-30 14:39:11] Servidor Flask iniciado
+[2025-07-30 14:39:23] Acceso a panel
+[2025-07-30 14:39:35] Acceso a panel
+[2025-07-30 14:41:54] Servidor Flask iniciado
+[2025-07-30 14:41:59] Acceso a panel
+[2025-07-30 14:42:01] Acceso a panel
+[2025-07-30 14:45:24] Servidor Flask iniciado
+[2025-07-30 14:45:25] Acceso a panel
+[2025-07-30 14:45:29] Acceso a panel
+[2025-07-30 14:50:59] Servidor Flask iniciado
+[2025-07-30 14:58:56] Servidor Flask iniciado
+[2025-07-30 14:59:04] Acceso a panel

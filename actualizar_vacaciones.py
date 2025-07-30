@@ -5,7 +5,7 @@ import requests
 import subprocess
 
 # === CONFIGURACIÓN ===
-ARCHIVO_JSON = "C:/Programas Pyt/Bot_RRHH/empleados.json"
+ARCHIVO_JSON = "C:\Bot_RRHH/empleados.json"
 ARCHIVO_EXCEL = "vacaciones.xlsx"
 
 FILE_ID = "14tl_3tukdjrQigtartUbIOrAMvaBUo3f"
@@ -31,6 +31,9 @@ with open(ARCHIVO_JSON, "r", encoding="utf-8") as f:
 # === LEER HOJA DE EXCEL DESCARGADA ===
 df = pd.read_excel(ARCHIVO_EXCEL, sheet_name="Resumen para BOT")
 df.columns = df.columns.str.strip()
+
+print(f"🔍 Filas encontradas en hoja de vacaciones: {len(df)}")
+print(f"🔍 Columnas: {df.columns.tolist()}")
 
 # === ACTUALIZAR VACACIONES ===
 for _, row in df.iterrows():
@@ -59,4 +62,8 @@ print("✅ Actualización de vacaciones completada")
 print("📄 JSON guardado en:", os.path.abspath(ARCHIVO_JSON))
 
 # === EJECUTAR PUSH A GIT ===
-subprocess.run("python git_push.py", shell=True)
+resultado = subprocess.run("python git_push.py", shell=True)
+print("🔧 Resultado del push:", resultado.returncode)
+
+
+
