@@ -1022,3 +1022,11 @@
 [2025-07-30 14:50:59] Servidor Flask iniciado
 [2025-07-30 14:58:56] Servidor Flask iniciado
 [2025-07-30 14:59:04] Acceso a panel
+[2025-07-30 14:59:48] Acceso a panel
+[2025-07-30 15:00:05] Consulta de info iniciada
+[2025-07-30 15:00:05] Empleados activos cargados correctamente
+[2025-07-30 15:00:09] Consulta de info iniciada
+[2025-07-30 15:00:09] Empleados activos cargados correctamente
+[2025-07-30 15:00:09] Búsqueda de: tole
+[2025-07-30 15:00:13] Acceso a panel
+[2025-07-30 15:00:38] Acceso a panel

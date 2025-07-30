@@ -207,10 +207,10 @@
             "fecha_prestamo": "",
             "monto": 3059282.67,
             "cuotas": 24,
-            "cancelado": 2166991.8700000006,
-            "pendiente": -892290.7999999993,
+            "cancelado": 2294461.9800000004,
+            "pendiente": -764820.6899999995,
             "proxima_cuota": 127470.11,
-            "cuotas_pendientes": 7,
+            "cuotas_pendientes": 6,
             "fecha_cancelacion": ""
         },
         "vacaciones": 7
@@ -273,10 +273,10 @@
             "fecha_prestamo": "",
             "monto": 1500000.0,
             "cuotas": 6,
-            "cancelado": 250000.0,
-            "pendiente": -1250000.0,
+            "cancelado": 500000.0,
+            "pendiente": -1000000.0,
             "proxima_cuota": 250000.0,
-            "cuotas_pendientes": 5,
+            "cuotas_pendientes": 4,
             "fecha_cancelacion": ""
         },
         "vacaciones": 14
@@ -301,10 +301,10 @@
             "fecha_prestamo": "",
             "monto": 300000.0,
             "cuotas": 4,
-            "cancelado": 150000.0,
-            "pendiente": -150000.0,
+            "cancelado": 225000.0,
+            "pendiente": -75000.0,
             "proxima_cuota": 75000.0,
-            "cuotas_pendientes": 2,
+            "cuotas_pendientes": 1,
             "fecha_cancelacion": ""
         },
         "vacaciones": 14
@@ -400,7 +400,16 @@
         "telefono": "2317537021",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {},
+        "prestamo": {
+            "fecha_prestamo": "",
+            "monto": 333784.3,
+            "cuotas": 3,
+            "cancelado": 445045.73,
+            "pendiente": 111261.43,
+            "proxima_cuota": 111261.43,
+            "cuotas_pendientes": 3,
+            "fecha_cancelacion": ""
+        },
         "vacaciones": 21
     },
     "28": {
@@ -537,10 +546,10 @@
             "fecha_prestamo": "",
             "monto": 2000000.0,
             "cuotas": 7,
-            "cancelado": 900000.0,
-            "pendiente": -1100000.0,
+            "cancelado": 1200000.0,
+            "pendiente": -800000.0,
             "proxima_cuota": 300000.0,
-            "cuotas_pendientes": 3,
+            "cuotas_pendientes": 2,
             "fecha_cancelacion": ""
         },
         "vacaciones": 3
@@ -716,10 +725,10 @@
             "fecha_prestamo": "",
             "monto": 1000000.0,
             "cuotas": 10,
-            "cancelado": 300000.0,
-            "pendiente": -700000.0,
+            "cancelado": 400000.0,
+            "pendiente": -600000.0,
             "proxima_cuota": 100000.0,
-            "cuotas_pendientes": 7,
+            "cuotas_pendientes": 6,
             "fecha_cancelacion": ""
         },
         "vacaciones": 0
@@ -801,10 +810,10 @@
             "fecha_prestamo": "",
             "monto": 700000.0,
             "cuotas": 6,
-            "cancelado": 116000.0,
-            "pendiente": -584000.0,
+            "cancelado": 232000.0,
+            "pendiente": -468000.0,
             "proxima_cuota": 116000.0,
-            "cuotas_pendientes": 5,
+            "cuotas_pendientes": 4,
             "fecha_cancelacion": ""
         },
         "vacaciones": 0
@@ -829,10 +838,10 @@
             "fecha_prestamo": "",
             "monto": 2000000.0,
             "cuotas": 9,
-            "cancelado": 450000.0,
-            "pendiente": -1550000.0,
+            "cancelado": 675000.0,
+            "pendiente": -1325000.0,
             "proxima_cuota": 225000.0,
-            "cuotas_pendientes": 6,
+            "cuotas_pendientes": 5,
             "fecha_cancelacion": ""
         },
         "vacaciones": 0
@@ -952,10 +961,10 @@
             "fecha_prestamo": "",
             "monto": 883884.25,
             "cuotas": 8,
-            "cancelado": 441942.12,
-            "pendiente": -441942.13,
+            "cancelado": 552427.65,
+            "pendiente": -331456.6,
             "proxima_cuota": 110485.53,
-            "cuotas_pendientes": 4,
+            "cuotas_pendientes": 3,
             "fecha_cancelacion": ""
         },
         "vacaciones": 0
@@ -978,12 +987,12 @@
         "notas": "",
         "prestamo": {
             "fecha_prestamo": "",
-            "monto": 2800000.0,
-            "cuotas": 12,
-            "cancelado": 599999.0,
-            "pendiente": -2200001.0,
-            "proxima_cuota": 500001.0,
-            "cuotas_pendientes": 8,
+            "monto": 2000000.0,
+            "cuotas": 7,
+            "cancelado": 2000000.0,
+            "pendiente": 2000000.0,
+            "proxima_cuota": 300000.0,
+            "cuotas_pendientes": 7,
             "fecha_cancelacion": ""
         },
         "vacaciones": 0
@@ -1121,10 +1130,10 @@
             "fecha_prestamo": "",
             "monto": 500000.0,
             "cuotas": 5,
-            "cancelado": 0.0,
-            "pendiente": -500000.0,
+            "cancelado": 100000.0,
+            "pendiente": -400000.0,
             "proxima_cuota": 100000.0,
-            "cuotas_pendientes": 5,
+            "cuotas_pendientes": 4,
             "fecha_cancelacion": ""
         },
         "vacaciones": 0
@@ -1225,10 +1234,10 @@
             "fecha_prestamo": "",
             "monto": 1000000.0,
             "cuotas": 4,
-            "cancelado": 500000.0,
-            "pendiente": -500000.0,
+            "cancelado": 750000.0,
+            "pendiente": -250000.0,
             "proxima_cuota": 250000.0,
-            "cuotas_pendientes": 2,
+            "cuotas_pendientes": 1,
             "fecha_cancelacion": ""
         },
         "vacaciones": 0
@@ -1253,10 +1262,10 @@
             "fecha_prestamo": "",
             "monto": 200000.0,
             "cuotas": 4,
-            "cancelado": 50000.0,
-            "pendiente": -150000.0,
+            "cancelado": 100000.0,
+            "pendiente": -100000.0,
             "proxima_cuota": 50000.0,
-            "cuotas_pendientes": 3,
+            "cuotas_pendientes": 2,
             "fecha_cancelacion": ""
         },
         "vacaciones": 0
@@ -1281,10 +1290,10 @@
             "fecha_prestamo": "",
             "monto": 2485430.64,
             "cuotas": 10,
-            "cancelado": 250000.0,
-            "pendiente": -2235430.64,
+            "cancelado": 500000.0,
+            "pendiente": -1985430.6400000001,
             "proxima_cuota": 250000.0,
-            "cuotas_pendientes": 8,
+            "cuotas_pendientes": 7,
             "fecha_cancelacion": ""
         },
         "vacaciones": 7
@@ -1309,10 +1318,10 @@
             "fecha_prestamo": "",
             "monto": 6730514.9,
             "cuotas": 30,
-            "cancelado": 673051.5,
-            "pendiente": -6057463.4,
+            "cancelado": 897402.0,
+            "pendiente": -5833112.9,
             "proxima_cuota": 224350.5,
-            "cuotas_pendientes": 26,
+            "cuotas_pendientes": 25,
             "fecha_cancelacion": ""
         },
         "vacaciones": 0
@@ -1333,16 +1342,7 @@
         "telefono": "2317415313",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {
-            "fecha_prestamo": "",
-            "monto": 300000.0,
-            "cuotas": 2,
-            "cancelado": 150000.0,
-            "pendiente": 150000.0,
-            "proxima_cuota": 150000.0,
-            "cuotas_pendientes": 2,
-            "fecha_cancelacion": ""
-        },
+        "prestamo": {},
         "vacaciones": 35
     },
     "197": {
@@ -1460,10 +1460,10 @@
             "fecha_prestamo": "",
             "monto": 500000.0,
             "cuotas": 5,
-            "cancelado": 0.0,
-            "pendiente": -500000.0,
+            "cancelado": 100000.0,
+            "pendiente": -400000.0,
             "proxima_cuota": 100000.0,
-            "cuotas_pendientes": 5,
+            "cuotas_pendientes": 4,
             "fecha_cancelacion": ""
         },
         "vacaciones": 0
@@ -1655,7 +1655,16 @@
         "telefono": "2317582205",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {},
+        "prestamo": {
+            "fecha_prestamo": "",
+            "monto": 500000.0,
+            "cuotas": 2,
+            "cancelado": 750000.0,
+            "pendiente": 250000.0,
+            "proxima_cuota": 250000.0,
+            "cuotas_pendientes": 2,
+            "fecha_cancelacion": ""
+        },
         "vacaciones": 9
     },
     "246": {
@@ -1678,10 +1687,10 @@
             "fecha_prestamo": "",
             "monto": 6732285.52,
             "cuotas": 30,
-            "cancelado": 673050.5,
-            "pendiente": -6059235.02,
+            "cancelado": 897401.0,
+            "pendiente": -5834884.52,
             "proxima_cuota": 224350.5,
-            "cuotas_pendientes": 27,
+            "cuotas_pendientes": 26,
             "fecha_cancelacion": ""
         },
         "vacaciones": 0
@@ -1744,10 +1753,10 @@
             "fecha_prestamo": "",
             "monto": 1194338.44,
             "cuotas": 9,
-            "cancelado": 133000.0,
-            "pendiente": -1061338.44,
+            "cancelado": 266000.0,
+            "pendiente": -928338.44,
             "proxima_cuota": 133000.0,
-            "cuotas_pendientes": 7,
+            "cuotas_pendientes": 6,
             "fecha_cancelacion": ""
         },
         "vacaciones": 0
@@ -1905,10 +1914,10 @@
             "fecha_prestamo": "",
             "monto": 600000.0,
             "cuotas": 6,
-            "cancelado": 400000.0,
-            "pendiente": -200000.0,
+            "cancelado": 500000.0,
+            "pendiente": -100000.0,
             "proxima_cuota": 100000.0,
-            "cuotas_pendientes": 2,
+            "cuotas_pendientes": 1,
             "fecha_cancelacion": ""
         },
         "vacaciones": 14

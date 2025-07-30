@@ -3,6 +3,8 @@ import json
 import os
 import requests
 from datetime import datetime
+import subprocess
+
 
 # === RUTAS ===
 ARCHIVO_JSON = "empleados.json"
@@ -68,3 +70,7 @@ with open(ARCHIVO_JSON, "w", encoding="utf-8") as f:
 
 print("✅ Actualización de préstamos completada.")
 print("📄 JSON guardado en:", os.path.abspath(ARCHIVO_JSON))
+
+# === EJECUTAR PUSH A GIT ===
+resultado = subprocess.run("python git_push.py", shell=True)
+print("🔧 Resultado del push:", resultado.returncode)
