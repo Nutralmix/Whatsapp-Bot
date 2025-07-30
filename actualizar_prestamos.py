@@ -1,21 +1,37 @@
 import pandas as pd
 import json
+import os
+import requests
 from datetime import datetime
 
 # === RUTAS ===
 ARCHIVO_JSON = "empleados.json"
-
+ARCHIVO_EXCEL = "prestamos.xlsx"
 
 # === LINK DE GOOGLE DRIVE (formato Excel) ===
-FILE_ID = "16wSPIFXfitC4hh7n6GOJnhx3OiLHZq5n"  # Reemplazalo con el tuyo si cambia
-url = f"https://docs.google.com/spreadsheets/d/{FILE_ID}/export?format=xlsx"
+FILE_ID = "16wSPIFXfitC4hh7n6GOJnhx3OiLHZq5n"
+URL = f"https://docs.google.com/spreadsheets/d/{FILE_ID}/export?format=xlsx"
 
-# === CARGA JSON ===
+# === DESCARGAR ARCHIVO DESDE GOOGLE SHEETS ===
+def descargar_excel_desde_google(url, destino):
+    response = requests.get(url)
+    if response.status_code == 200:
+        with open(destino, "wb") as f:
+            f.write(response.content)
+        print("✅ Excel de préstamos descargado correctamente.")
+    else:
+        print(f"❌ Error al descargar el archivo: {response.status_code}")
+        exit(1)
+
+# Descarga el Excel
+descargar_excel_desde_google(URL, ARCHIVO_EXCEL)
+
+# === CARGA JSON EXISTENTE ===
 with open(ARCHIVO_JSON, "r", encoding="utf-8") as f:
     empleados = json.load(f)
 
-# === CARGA EXCEL ===
-df = pd.read_excel(url, sheet_name=0)
+# === CARGA EXCEL DESCARGADO ===
+df = pd.read_excel(ARCHIVO_EXCEL, sheet_name=0)
 df.columns = df.columns.str.strip()
 
 legajos_con_prestamo = set()
@@ -51,3 +67,4 @@ with open(ARCHIVO_JSON, "w", encoding="utf-8") as f:
     json.dump(empleados, f, indent=4, ensure_ascii=False)
 
 print("✅ Actualización de préstamos completada.")
+print("📄 JSON guardado en:", os.path.abspath(ARCHIVO_JSON))

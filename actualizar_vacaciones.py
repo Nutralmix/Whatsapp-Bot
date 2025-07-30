@@ -1,24 +1,41 @@
 import pandas as pd
 import json
 import os
+import requests
+import subprocess
 
 # === CONFIGURACIÓN ===
 ARCHIVO_JSON = "C:/Programas Pyt/Bot_RRHH/empleados.json"
-FILE_ID = "14tl_3tukdjrQigtartUbIOrAMvaBUo3f"  # ID de Google Sheets
-url = f"https://docs.google.com/spreadsheets/d/{FILE_ID}/export?format=xlsx"
+ARCHIVO_EXCEL = "vacaciones.xlsx"
+
+FILE_ID = "14tl_3tukdjrQigtartUbIOrAMvaBUo3f"
+URL = f"https://docs.google.com/spreadsheets/d/{FILE_ID}/export?format=xlsx"
+
+# === DESCARGAR ARCHIVO DESDE GOOGLE SHEETS ===
+def descargar_excel_desde_google(url, destino):
+    response = requests.get(url)
+    if response.status_code == 200:
+        with open(destino, "wb") as f:
+            f.write(response.content)
+        print("✅ Excel de vacaciones descargado correctamente.")
+    else:
+        print(f"❌ Error al descargar el archivo: {response.status_code}")
+        exit(1)
+
+descargar_excel_desde_google(URL, ARCHIVO_EXCEL)
 
 # === LEER JSON EXISTENTE ===
 with open(ARCHIVO_JSON, "r", encoding="utf-8") as f:
     empleados = json.load(f)
 
-# === LEER HOJA DE EXCEL DESDE GOOGLE SHEETS ===
-df = pd.read_excel(url, sheet_name="Resumen para BOT")
+# === LEER HOJA DE EXCEL DESCARGADA ===
+df = pd.read_excel(ARCHIVO_EXCEL, sheet_name="Resumen para BOT")
 df.columns = df.columns.str.strip()
 
 # === ACTUALIZAR VACACIONES ===
 for _, row in df.iterrows():
     if pd.isna(row["Legajo"]):
-        continue  # Evita error si hay filas vacías
+        continue
 
     legajo = str(int(row["Legajo"])).strip()
     dias = row.get("Dias Disponibles", 0)
@@ -41,6 +58,5 @@ with open(ARCHIVO_JSON, "w", encoding="utf-8") as f:
 print("✅ Actualización de vacaciones completada")
 print("📄 JSON guardado en:", os.path.abspath(ARCHIVO_JSON))
 
-import subprocess
+# === EJECUTAR PUSH A GIT ===
 subprocess.run("python git_push.py", shell=True)
-
