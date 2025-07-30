@@ -47,7 +47,8 @@
       <div class="dato"><strong>Pendiente:</strong> ${{ prestamo.pendiente | int | format_num }}</div>
       <div class="dato"><strong>Próxima cuota:</strong> ${{ prestamo.proxima_cuota | int | format_num }}</div>
       <div class="dato"><strong>Cuotas pendientes:</strong> {{ prestamo.cuotas_pendientes }}</div>
-      <div class="dato"><strong>Fecha de cancelación:</strong> {{ prestamo.fecha_cancelacion }}</div>
+      <div class="dato"><strong>Fecha de cancelación:</strong> {{ prestamo["fecha_cancelacion"] }}</div>
+      
     {% else %}
       <p style="text-align:center;">❌ Este empleado no tiene un préstamo registrado.</p>
     {% endif %}

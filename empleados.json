@@ -207,11 +207,11 @@
             "fecha_prestamo": "",
             "monto": 3059282.67,
             "cuotas": 24,
-            "cancelado": 2294461.9800000004,
-            "pendiente": -764820.6899999995,
+            "cancelado": 2294461.98,
+            "pendiente": -764820.69,
             "proxima_cuota": 127470.11,
             "cuotas_pendientes": 6,
-            "fecha_cancelacion": ""
+            "fecha_cancelacion": "17-07-2025"
         },
         "vacaciones": 7
     },
@@ -277,7 +277,7 @@
             "pendiente": -1000000.0,
             "proxima_cuota": 250000.0,
             "cuotas_pendientes": 4,
-            "fecha_cancelacion": ""
+            "fecha_cancelacion": "20-10-2025"
         },
         "vacaciones": 14
     },
@@ -305,7 +305,7 @@
             "pendiente": -75000.0,
             "proxima_cuota": 75000.0,
             "cuotas_pendientes": 1,
-            "fecha_cancelacion": ""
+            "fecha_cancelacion": "28-06-2025"
         },
         "vacaciones": 14
     },
@@ -404,11 +404,11 @@
             "fecha_prestamo": "",
             "monto": 333784.3,
             "cuotas": 3,
-            "cancelado": 445045.73,
-            "pendiente": 111261.43,
+            "cancelado": 222522.87,
+            "pendiente": -111261.43,
             "proxima_cuota": 111261.43,
-            "cuotas_pendientes": 3,
-            "fecha_cancelacion": ""
+            "cuotas_pendientes": 1,
+            "fecha_cancelacion": "01-09-2025"
         },
         "vacaciones": 21
     },
@@ -550,7 +550,7 @@
             "pendiente": -800000.0,
             "proxima_cuota": 300000.0,
             "cuotas_pendientes": 2,
-            "fecha_cancelacion": ""
+            "fecha_cancelacion": "11-09-2025"
         },
         "vacaciones": 3
     },
@@ -729,7 +729,7 @@
             "pendiente": -600000.0,
             "proxima_cuota": 100000.0,
             "cuotas_pendientes": 6,
-            "fecha_cancelacion": ""
+            "fecha_cancelacion": "01-12-2025"
         },
         "vacaciones": 0
     },
@@ -814,7 +814,7 @@
             "pendiente": -468000.0,
             "proxima_cuota": 116000.0,
             "cuotas_pendientes": 4,
-            "fecha_cancelacion": ""
+            "fecha_cancelacion": "08-10-2025"
         },
         "vacaciones": 0
     },
@@ -842,7 +842,7 @@
             "pendiente": -1325000.0,
             "proxima_cuota": 225000.0,
             "cuotas_pendientes": 5,
-            "fecha_cancelacion": ""
+            "fecha_cancelacion": "08-12-2025"
         },
         "vacaciones": 0
     },
@@ -965,7 +965,7 @@
             "pendiente": -331456.6,
             "proxima_cuota": 110485.53,
             "cuotas_pendientes": 3,
-            "fecha_cancelacion": ""
+            "fecha_cancelacion": "04-09-2025"
         },
         "vacaciones": 0
     },
@@ -993,7 +993,7 @@
             "pendiente": 2000000.0,
             "proxima_cuota": 300000.0,
             "cuotas_pendientes": 7,
-            "fecha_cancelacion": ""
+            "fecha_cancelacion": "01-01-2026"
         },
         "vacaciones": 0
     },
@@ -1134,7 +1134,7 @@
             "pendiente": -400000.0,
             "proxima_cuota": 100000.0,
             "cuotas_pendientes": 4,
-            "fecha_cancelacion": ""
+            "fecha_cancelacion": "04-10-2025"
         },
         "vacaciones": 0
     },
@@ -1238,7 +1238,7 @@
             "pendiente": -250000.0,
             "proxima_cuota": 250000.0,
             "cuotas_pendientes": 1,
-            "fecha_cancelacion": ""
+            "fecha_cancelacion": "09-07-2025"
         },
         "vacaciones": 0
     },
@@ -1266,7 +1266,7 @@
             "pendiente": -100000.0,
             "proxima_cuota": 50000.0,
             "cuotas_pendientes": 2,
-            "fecha_cancelacion": ""
+            "fecha_cancelacion": "21-08-2025"
         },
         "vacaciones": 0
     },
@@ -1291,10 +1291,10 @@
             "monto": 2485430.64,
             "cuotas": 10,
             "cancelado": 500000.0,
-            "pendiente": -1985430.6400000001,
+            "pendiente": -1985430.64,
             "proxima_cuota": 250000.0,
             "cuotas_pendientes": 7,
-            "fecha_cancelacion": ""
+            "fecha_cancelacion": "27-02-2026"
         },
         "vacaciones": 7
     },
@@ -1322,7 +1322,7 @@
             "pendiente": -5833112.9,
             "proxima_cuota": 224350.5,
             "cuotas_pendientes": 25,
-            "fecha_cancelacion": ""
+            "fecha_cancelacion": "07-08-2027"
         },
         "vacaciones": 0
     },
@@ -1464,7 +1464,7 @@
             "pendiente": -400000.0,
             "proxima_cuota": 100000.0,
             "cuotas_pendientes": 4,
-            "fecha_cancelacion": ""
+            "fecha_cancelacion": "02-10-2025"
         },
         "vacaciones": 0
     },
@@ -1659,11 +1659,11 @@
             "fecha_prestamo": "",
             "monto": 500000.0,
             "cuotas": 2,
-            "cancelado": 750000.0,
-            "pendiente": 250000.0,
+            "cancelado": 250000.0,
+            "pendiente": -250000.0,
             "proxima_cuota": 250000.0,
-            "cuotas_pendientes": 2,
-            "fecha_cancelacion": ""
+            "cuotas_pendientes": 1,
+            "fecha_cancelacion": "01-08-2025"
         },
         "vacaciones": 9
     },
@@ -1691,7 +1691,7 @@
             "pendiente": -5834884.52,
             "proxima_cuota": 224350.5,
             "cuotas_pendientes": 26,
-            "fecha_cancelacion": ""
+            "fecha_cancelacion": "07-08-2027"
         },
         "vacaciones": 0
     },
@@ -1757,7 +1757,7 @@
             "pendiente": -928338.44,
             "proxima_cuota": 133000.0,
             "cuotas_pendientes": 6,
-            "fecha_cancelacion": ""
+            "fecha_cancelacion": "08-01-2026"
         },
         "vacaciones": 0
     },
@@ -1918,7 +1918,7 @@
             "pendiente": -100000.0,
             "proxima_cuota": 100000.0,
             "cuotas_pendientes": 1,
-            "fecha_cancelacion": ""
+            "fecha_cancelacion": "06-06-2025"
         },
         "vacaciones": 14
     },

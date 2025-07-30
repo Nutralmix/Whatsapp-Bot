@@ -1030,3 +1030,138 @@
 [2025-07-30 15:00:09] Búsqueda de: tole
 [2025-07-30 15:00:13] Acceso a panel
 [2025-07-30 15:00:38] Acceso a panel
+[2025-07-30 15:01:46] Acceso a panel
+[2025-07-30 15:10:30] Empleados activos cargados correctamente
+[2025-07-30 15:10:30] Visualización de todos los empleados
+[2025-07-30 15:10:31] Empleados activos cargados correctamente
+[2025-07-30 15:10:31] Visualización de todos los empleados
+[2025-07-30 15:10:34] Acceso a panel
+[2025-07-30 15:10:39] Acceso a panel
+[2025-07-30 15:11:36] Acceso a panel
+[2025-07-30 15:12:55] Acceso a portada
+[2025-07-30 15:12:57] Acceso a panel
+[2025-07-30 15:13:03] Acceso a panel
+[2025-07-30 15:13:08] Acceso a panel
+[2025-07-30 15:13:12] Consulta de info iniciada
+[2025-07-30 15:13:12] Empleados activos cargados correctamente
+[2025-07-30 15:13:16] Consulta de info iniciada
+[2025-07-30 15:13:16] Empleados activos cargados correctamente
+[2025-07-30 15:13:16] Búsqueda de: toled
+[2025-07-30 15:13:35] Acceso a panel
+[2025-07-30 15:13:37] Consulta de info iniciada
+[2025-07-30 15:13:37] Empleados activos cargados correctamente
+[2025-07-30 15:13:39] Consulta de info iniciada
+[2025-07-30 15:13:39] Empleados activos cargados correctamente
+[2025-07-30 15:13:39] Búsqueda de: zeg
+[2025-07-30 15:13:44] Consulta de préstamo para 196
+[2025-07-30 15:14:42] Consulta de todos los préstamos
+[2025-07-30 15:14:42] Empleados activos cargados correctamente
+[2025-07-30 15:14:49] Acceso a panel
+[2025-07-30 15:14:56] Consulta de info iniciada
+[2025-07-30 15:14:56] Empleados activos cargados correctamente
+[2025-07-30 15:14:59] Consulta de info iniciada
+[2025-07-30 15:14:59] Empleados activos cargados correctamente
+[2025-07-30 15:14:59] Búsqueda de: zeg
+[2025-07-30 15:18:45] Acceso a panel
+[2025-07-30 15:18:51] Acceso a panel
+[2025-07-30 15:18:58] Acceso a panel
+[2025-07-30 15:19:03] Consulta de info iniciada
+[2025-07-30 15:19:03] Empleados activos cargados correctamente
+[2025-07-30 15:19:05] Consulta de info iniciada
+[2025-07-30 15:19:05] Empleados activos cargados correctamente
+[2025-07-30 15:19:05] Búsqueda de: zeg
+[2025-07-30 15:19:09] Consulta de préstamo para 196
+[2025-07-30 15:20:52] Consulta de todos los préstamos
+[2025-07-30 15:20:52] Empleados activos cargados correctamente
+[2025-07-30 15:20:54] Acceso a panel
+[2025-07-30 15:21:10] Acceso a panel
+[2025-07-30 15:21:16] Acceso a panel
+[2025-07-30 15:21:25] Consulta de info iniciada
+[2025-07-30 15:21:25] Empleados activos cargados correctamente
+[2025-07-30 15:21:28] Consulta de info iniciada
+[2025-07-30 15:21:28] Empleados activos cargados correctamente
+[2025-07-30 15:21:28] Búsqueda de: zeg
+[2025-07-30 15:21:31] Consulta de préstamo para 196
+[2025-07-30 15:21:34] Consulta de todos los préstamos
+[2025-07-30 15:21:34] Empleados activos cargados correctamente
+[2025-07-30 15:21:58] Consulta de préstamo para 213
+[2025-07-30 15:22:36] Acceso a portada
+[2025-07-30 15:22:38] Acceso a panel
+[2025-07-30 15:22:40] Consulta de todos los préstamos
+[2025-07-30 15:22:40] Empleados activos cargados correctamente
+[2025-07-30 15:22:47] Consulta de préstamo para 213
+[2025-07-30 15:23:00] Consulta de todos los préstamos
+[2025-07-30 15:23:00] Empleados activos cargados correctamente
+[2025-07-30 15:24:24] Acceso a panel
+[2025-07-30 15:24:26] Consulta de info iniciada
+[2025-07-30 15:24:26] Empleados activos cargados correctamente
+[2025-07-30 15:24:30] Consulta de info iniciada
+[2025-07-30 15:24:30] Empleados activos cargados correctamente
+[2025-07-30 15:24:32] Consulta de info iniciada
+[2025-07-30 15:24:32] Empleados activos cargados correctamente
+[2025-07-30 15:24:32] Búsqueda de: atia
+[2025-07-30 15:25:22] Consulta de préstamo para 35
+[2025-07-30 15:25:23] Consulta de todos los préstamos
+[2025-07-30 15:25:23] Empleados activos cargados correctamente
+[2025-07-30 15:25:25] Consulta de préstamo para 113
+[2025-07-30 15:25:26] Consulta de todos los préstamos
+[2025-07-30 15:25:26] Empleados activos cargados correctamente
+[2025-07-30 15:25:29] Consulta de préstamo para 99
+[2025-07-30 15:25:36] Consulta de todos los préstamos
+[2025-07-30 15:25:36] Empleados activos cargados correctamente
+[2025-07-30 15:25:40] Consulta de préstamo para 125
+[2025-07-30 15:25:47] Consulta de todos los préstamos
+[2025-07-30 15:25:47] Empleados activos cargados correctamente
+[2025-07-30 15:26:17] Consulta de préstamo para 39
+[2025-07-30 15:26:22] Consulta de todos los préstamos
+[2025-07-30 15:26:22] Empleados activos cargados correctamente
+[2025-07-30 15:26:23] Consulta de préstamo para 35
+[2025-07-30 15:26:31] Consulta de info iniciada
+[2025-07-30 15:26:31] Empleados activos cargados correctamente
+[2025-07-30 15:26:38] Consulta de info iniciada
+[2025-07-30 15:26:38] Empleados activos cargados correctamente
+[2025-07-30 15:27:31] Consulta de info iniciada
+[2025-07-30 15:27:31] Empleados activos cargados correctamente
+[2025-07-30 15:27:31] Búsqueda de: atia
+[2025-07-30 15:53:44] Acceso a panel
+[2025-07-30 16:15:47] Acceso a portada
+[2025-07-30 16:15:48] Acceso a panel
+[2025-07-30 16:15:48] Consulta de info iniciada
+[2025-07-30 16:15:48] Empleados activos cargados correctamente
+[2025-07-30 16:15:51] Consulta de info iniciada
+[2025-07-30 16:15:51] Empleados activos cargados correctamente
+[2025-07-30 16:15:51] Búsqueda de: atia
+[2025-07-30 16:15:55] Acceso a panel
+[2025-07-30 16:27:19] Acceso a panel
+[2025-07-30 16:28:14] Acceso a portada
+[2025-07-30 16:28:16] Acceso a panel
+[2025-07-30 16:28:21] Acceso a panel
+[2025-07-30 16:29:14] Consulta de info iniciada
+[2025-07-30 16:29:14] Empleados activos cargados correctamente
+[2025-07-30 16:29:18] Consulta de info iniciada
+[2025-07-30 16:29:18] Empleados activos cargados correctamente
+[2025-07-30 16:29:18] Búsqueda de: legu
+[2025-07-30 16:29:19] Consulta de préstamo para 213
+[2025-07-30 16:29:52] Consulta de préstamo para 213
+[2025-07-30 16:29:53] Consulta de todos los préstamos
+[2025-07-30 16:29:53] Empleados activos cargados correctamente
+[2025-07-30 16:32:18] Consulta de préstamo para 145
+[2025-07-30 16:38:27] Consulta de préstamo para 145
+[2025-07-30 16:38:29] Consulta de préstamo para 145
+[2025-07-30 16:39:02] Servidor Flask iniciado
+[2025-07-30 16:39:06] Consulta de préstamo para 145
+[2025-07-30 16:39:10] Consulta de préstamo para 145
+[2025-07-30 16:39:29] Consulta de préstamo para 145
+[2025-07-30 16:39:35] Servidor Flask iniciado
+[2025-07-30 16:39:37] Consulta de préstamo para 145
+[2025-07-30 16:56:58] Servidor Flask iniciado
+[2025-07-30 16:57:03] Consulta de préstamo para 145
+[2025-07-30 16:57:09] Consulta de préstamo para 145
+[2025-07-30 16:57:15] Consulta de todos los préstamos
+[2025-07-30 16:57:15] Empleados activos cargados correctamente
+[2025-07-30 16:57:19] Consulta de préstamo para 213
+[2025-07-30 16:59:19] Servidor Flask iniciado
+[2025-07-30 16:59:22] Consulta de préstamo para 213
+[2025-07-30 17:03:16] Consulta de todos los préstamos
+[2025-07-30 17:03:16] Empleados activos cargados correctamente
+[2025-07-30 17:03:19] Acceso a panel

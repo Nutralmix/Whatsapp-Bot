@@ -50,7 +50,7 @@ for _, row in df.iterrows():
             "pendiente": float(row.get("Pendiente", 0)),
             "proxima_cuota": float(row.get("Proxima Cuota", 0)),
             "cuotas_pendientes": int(row.get("Cant Cuotas Pendientes", 0)),
-            "fecha_cancelacion": row["Fecha cancelacion"].strftime("%d-%m-%Y") if pd.notna(row.get("Fecha cancelacion")) else ""
+            "fecha_cancelacion": row["Fecha Cancelacion"].strftime("%d-%m-%Y") if pd.notna(row.get("Fecha Cancelacion")) else "",
         }
         legajos_con_prestamo.add(legajo)
         print(f"✅ Prestamo actualizado para legajo {legajo}")

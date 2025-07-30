@@ -185,16 +185,26 @@ def procesar_opcion_empleado(usuario, opcion, base_url):
 
     elif opcion == "2":
         prestamo = usuario.get("prestamo")
-        if prestamo:
+        if prestamo and prestamo.get("monto", 0) > 0:
+            monto = prestamo.get("monto", 0)
+            cuotas = prestamo.get("cuotas", 0)
+            cuotas_pendientes = prestamo.get("cuotas_pendientes", 0)
+            proxima_cuota = prestamo.get("proxima_cuota", 0)
+            pendiente = abs(prestamo.get("pendiente", 0))
+
             return (
                 f"💳 Tenés un préstamo activo:\n"
-                f"- Monto: ${prestamo.get('monto')}\n"
-                f"- Cuotas: {prestamo.get('cuotas')}\n"
-                f"- Restan pagar: {prestamo.get('restan')}",
+                f"• Monto: ${monto:,.0f}".replace(",", ".") + "\n"
+                f"• Cuotas: {cuotas}\n"
+                f"• Cuotas pendientes: {cuotas_pendientes}\n"
+                f"• Próxima cuota: ${proxima_cuota:,.0f}".replace(",", ".") + "\n"
+                f"• Monto pendiente: ${pendiente:,.0f}".replace(",", "."),
                 "menu_empleado"
             )
         else:
             return "💸 No tenés préstamos activos registrados.", "menu_empleado"
+
+
 
     elif opcion == "3":
         from dateutil.relativedelta import relativedelta
