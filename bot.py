@@ -129,7 +129,8 @@ def mostrar_menu_empleado(nombre_empleado, telefono_empleado=None):
        "5️⃣ Próximos Cumples 📅\n"
        "6️⃣ Archivos Públicos 📂\n"
        "7️⃣ Próximos Feriados 📅\n"
-       "8️⃣ Salir ❌"
+       "8️⃣ Ver Mis Gastos 🧾\n"
+       "9️⃣ Salir ❌"
     ) 
 
     return menu_text
@@ -267,8 +268,17 @@ def procesar_opcion_empleado(usuario, opcion, base_url):
                 respuesta += f"• {fecha_f}: {f['nombre']}\n"
 
         return respuesta.strip(), "menu_empleado"
-
+    
     elif opcion == "8":
+             legajo = usuario.get("legajo")
+             if legajo:
+                url = f"{base_url}/gastos/{legajo}"
+                return f"🧾 Podés ver tus gastos acá:\n🔗 {url}", "menu_empleado"
+             else:
+                return "❌ No se encontró tu número de legajo para mostrar tus gastos.", "menu_empleado"
+
+
+    elif opcion == "9":
         return "👋 Hasta luego. Escribí 'menu' para volver a empezar.", None
 
     else:
