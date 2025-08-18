@@ -80,7 +80,7 @@ def agrupar_por_mes_y_articulo(df, legajo):
         return {}
 
     # Columnas (robusto a variaciones)
-    c_leg   = col(df, "LEGAJO", "LEG", "LEGAJ")
+    c_leg   = col(df, "LEGAJO", "LEG", "LEGAJ","Legajo")
     c_fecha = col(df, "FECHA")
     c_prov  = col(df, "PROVEEDOR", "PROV")
     c_comp  = col(df, "COMPROBANTE", "COMPROBAN", "COMPROB")
