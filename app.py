@@ -63,7 +63,13 @@ app = Flask(__name__, static_url_path='/static', static_folder='static')
 # ---------------------------
 @app.template_filter('format_num')
 def format_num(value):
-    return f"{int(value):,}".replace(",", ".")
+    try:
+        if isinstance(value, list):
+            value = sum(v for v in value if isinstance(v, (int, float)))
+        return f"{float(value):,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")
+    except Exception:
+        return value
+
 
 # ---------------------------
 # Rutas
@@ -492,17 +498,34 @@ def actualizar_gastos():
         return "❌ Error al ejecutar la actualización de gastos", 500
 
 
-@app.route("/gastos/<legajo>")
-def ver_gastos_agrupados(legajo):
-    with open("empleados.json", "r", encoding="utf-8") as f:
+@app.route('/gastos/<legajo>')
+def ver_gastos_empleado(legajo):
+    with open('empleados.json', 'r', encoding='utf-8') as f:
         empleados = json.load(f)
 
-    emp = empleados.get(str(legajo))
-    if not emp:
-        return f"❌ Empleado con legajo {legajo} no encontrado."
+    empleado = empleados.get(str(legajo))
 
-    gastos = emp.get("gastos_agrupados", {})
-    return render_template("ver_gastos_empleados.html", empleado=emp, gastos=gastos)
+    if not empleado or 'gastos_agrupados' not in empleado:
+        return f"❌ Empleado con legajo {legajo} no encontrado o sin gastos."
+
+    return render_template('ver_gastos_empleados.html', empleado=empleado)
+
+
+@app.route('/gastos')
+def todos_gastos():
+    with open("empleados.json", "r", encoding="utf-8") as f:
+        empleados = json.load(f)
+    empleados_con_gastos = {
+        k: v for k, v in empleados.items()
+        if v.get("gastos_agrupados")
+    }
+    return render_template("todos_gastos.html", empleados=empleados_con_gastos)
+
+
+
+
+
+
 
 
 # ---------------------------

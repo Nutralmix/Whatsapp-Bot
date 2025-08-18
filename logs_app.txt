@@ -1282,3 +1282,152 @@
 [2025-08-18 14:39:18] Servidor Flask iniciado
 [2025-08-18 14:39:28] Acceso a panel
 [2025-08-18 14:43:08] Servidor Flask iniciado
+[2025-08-18 14:43:16] Acceso a panel
+[2025-08-18 14:45:33] Servidor Flask iniciado
+[2025-08-18 14:47:40] Servidor Flask iniciado
+[2025-08-18 14:51:50] Servidor Flask iniciado
+[2025-08-18 14:56:41] Servidor Flask iniciado
+[2025-08-18 15:06:42] Servidor Flask iniciado
+[2025-08-18 15:07:51] Servidor Flask iniciado
+[2025-08-18 15:08:59] Servidor Flask iniciado
+[2025-08-18 15:10:23] Servidor Flask iniciado
+[2025-08-18 15:11:41] Servidor Flask iniciado
+[2025-08-18 15:12:34] Servidor Flask iniciado
+[2025-08-18 15:13:26] Servidor Flask iniciado
+[2025-08-18 15:14:14] Servidor Flask iniciado
+[2025-08-18 15:15:19] Servidor Flask iniciado
+[2025-08-18 15:22:17] Servidor Flask iniciado
+[2025-08-18 15:24:26] Servidor Flask iniciado
+[2025-08-18 15:26:51] Servidor Flask iniciado
+[2025-08-18 15:27:26] Servidor Flask iniciado
+[2025-08-18 15:28:48] Servidor Flask iniciado
+[2025-08-18 15:29:41] Servidor Flask iniciado
+[2025-08-18 15:30:35] Empleados activos cargados correctamente
+[2025-08-18 15:30:35] Visualización de todos los empleados
+[2025-08-18 15:30:41] Consulta de préstamo para 1003
+[2025-08-18 15:30:42] Consulta de todos los préstamos
+[2025-08-18 15:30:42] Empleados activos cargados correctamente
+[2025-08-18 15:30:45] Acceso a panel
+[2025-08-18 15:30:48] Consulta de todos los préstamos
+[2025-08-18 15:30:48] Empleados activos cargados correctamente
+[2025-08-18 15:30:50] Consulta de préstamo para 99
+[2025-08-18 15:30:56] Consulta de todos los préstamos
+[2025-08-18 15:30:56] Empleados activos cargados correctamente
+[2025-08-18 15:33:23] Servidor Flask iniciado
+[2025-08-18 15:35:01] Servidor Flask iniciado
+[2025-08-18 15:38:28] Servidor Flask iniciado
+[2025-08-18 15:39:41] Servidor Flask iniciado
+[2025-08-18 15:39:56] Acceso a panel
+[2025-08-18 15:40:02] Acceso a portada
+[2025-08-18 15:44:13] Servidor Flask iniciado
+[2025-08-18 15:46:29] Servidor Flask iniciado
+[2025-08-18 15:46:53] Servidor Flask iniciado
+[2025-08-18 15:47:14] Acceso a panel
+[2025-08-18 15:48:10] Acceso a panel
+[2025-08-18 15:48:14] Consulta de info iniciada
+[2025-08-18 15:48:14] Empleados activos cargados correctamente
+[2025-08-18 15:48:18] Consulta de info iniciada
+[2025-08-18 15:48:18] Empleados activos cargados correctamente
+[2025-08-18 15:48:18] Búsqueda de: atia
+[2025-08-18 15:48:27] Acceso a panel
+[2025-08-18 15:48:29] Empleados activos cargados correctamente
+[2025-08-18 15:48:29] Visualización de todos los empleados
+[2025-08-18 15:49:00] Consulta de info iniciada
+[2025-08-18 15:49:00] Empleados activos cargados correctamente
+[2025-08-18 15:49:01] Acceso a panel
+[2025-08-18 15:49:02] Empleados activos cargados correctamente
+[2025-08-18 15:49:02] Visualización de todos los empleados
+[2025-08-18 15:49:27] Acceso a panel
+[2025-08-18 15:49:29] Consulta de info iniciada
+[2025-08-18 15:49:29] Empleados activos cargados correctamente
+[2025-08-18 15:49:32] Consulta de info iniciada
+[2025-08-18 15:49:32] Empleados activos cargados correctamente
+[2025-08-18 15:49:32] Búsqueda de: atia
+[2025-08-18 15:50:38] Acceso a panel
+[2025-08-18 15:50:41] Acceso a portada
+[2025-08-18 15:52:27] Servidor Flask iniciado
+[2025-08-18 15:52:45] Servidor Flask iniciado
+[2025-08-18 15:52:57] Servidor Flask iniciado
+[2025-08-18 15:53:21] Consulta de todos los préstamos
+[2025-08-18 15:53:21] Empleados activos cargados correctamente
+[2025-08-18 15:53:24] Acceso a panel
+[2025-08-18 15:55:24] Servidor Flask iniciado
+[2025-08-18 15:55:38] Acceso a portada
+[2025-08-18 15:57:06] Servidor Flask iniciado
+[2025-08-18 15:57:25] Servidor Flask iniciado
+[2025-08-18 15:57:46] Acceso a panel
+[2025-08-18 16:03:13] Acceso a panel
+[2025-08-18 16:03:17] Servidor Flask iniciado
+[2025-08-18 16:03:19] Acceso a panel
+[2025-08-18 16:04:25] Servidor Flask iniciado
+[2025-08-18 16:04:28] Acceso a panel
+[2025-08-18 16:05:53] Acceso a panel
+[2025-08-18 16:06:51] Servidor Flask iniciado
+[2025-08-18 16:06:55] Acceso a panel
+[2025-08-18 16:07:12] Servidor Flask iniciado
+[2025-08-18 16:07:14] Acceso a panel
+[2025-08-18 16:08:01] Servidor Flask iniciado
+[2025-08-18 16:08:04] Acceso a panel
+[2025-08-18 16:11:13] Servidor Flask iniciado
+[2025-08-18 16:11:20] Acceso a portada
+[2025-08-18 16:11:21] Acceso a panel
+[2025-08-18 16:12:09] Servidor Flask iniciado
+[2025-08-18 16:12:21] Acceso a portada
+[2025-08-18 16:12:23] Acceso a panel
+[2025-08-18 16:23:13] Servidor Flask iniciado
+[2025-08-18 16:23:16] Acceso a panel
+[2025-08-18 16:25:33] Servidor Flask iniciado
+[2025-08-18 16:25:59] Acceso a panel
+[2025-08-18 16:26:03] Consulta de todos los préstamos
+[2025-08-18 16:26:03] Empleados activos cargados correctamente
+[2025-08-18 16:26:46] Servidor Flask iniciado
+[2025-08-18 16:28:41] Servidor Flask iniciado
+[2025-08-18 16:28:47] Acceso a portada
+[2025-08-18 16:28:48] Acceso a panel
+[2025-08-18 16:29:42] Servidor Flask iniciado
+[2025-08-18 16:30:01] Servidor Flask iniciado
+[2025-08-18 16:32:03] Servidor Flask iniciado
+[2025-08-18 16:32:10] Acceso a portada
+[2025-08-18 16:32:12] Acceso a panel
+[2025-08-18 16:35:08] Servidor Flask iniciado
+[2025-08-18 16:35:14] Acceso a portada
+[2025-08-18 16:35:15] Acceso a panel
+[2025-08-18 16:40:25] Servidor Flask iniciado
+[2025-08-18 16:40:36] Acceso a portada
+[2025-08-18 16:40:38] Acceso a panel
+[2025-08-18 16:41:49] Servidor Flask iniciado
+[2025-08-18 16:41:57] Acceso a portada
+[2025-08-18 16:41:59] Acceso a panel
+[2025-08-18 16:43:10] Servidor Flask iniciado
+[2025-08-18 16:43:30] Acceso a panel
+[2025-08-18 16:43:38] Acceso a panel
+[2025-08-18 16:43:41] Consulta de todos los préstamos
+[2025-08-18 16:43:41] Empleados activos cargados correctamente
+[2025-08-18 16:43:45] Acceso a panel
+[2025-08-18 16:44:23] Acceso a panel
+[2025-08-18 16:44:26] Consulta de info iniciada
+[2025-08-18 16:44:26] Empleados activos cargados correctamente
+[2025-08-18 16:44:51] Servidor Flask iniciado
+[2025-08-18 16:44:55] Acceso a panel
+[2025-08-18 16:45:04] Acceso a panel
+[2025-08-18 16:45:16] Servidor Flask iniciado
+[2025-08-18 16:45:45] Acceso a panel
+[2025-08-18 16:45:48] Consulta de info iniciada
+[2025-08-18 16:45:48] Empleados activos cargados correctamente
+[2025-08-18 16:45:51] Acceso a panel
+[2025-08-18 16:46:35] Servidor Flask iniciado
+[2025-08-18 16:46:47] Acceso a panel
+[2025-08-18 16:48:48] Servidor Flask iniciado
+[2025-08-18 16:48:59] Acceso a panel
+[2025-08-18 16:51:38] Acceso a panel
+[2025-08-18 16:53:21] Servidor Flask iniciado
+[2025-08-18 16:53:30] Acceso a panel
+[2025-08-18 16:53:36] Servidor Flask iniciado
+[2025-08-18 16:54:24] Servidor Flask iniciado
+[2025-08-18 16:54:53] Servidor Flask iniciado
+[2025-08-18 16:54:54] Acceso a panel
+[2025-08-18 16:54:58] Acceso a panel
+[2025-08-18 16:55:20] Servidor Flask iniciado
+[2025-08-18 16:55:23] Acceso a panel
+[2025-08-18 16:56:47] Servidor Flask iniciado
+[2025-08-18 16:56:54] Acceso a panel

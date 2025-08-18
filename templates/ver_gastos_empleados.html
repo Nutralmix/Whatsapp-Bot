@@ -1,79 +1,106 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <title>Gastos de {{ empleado.nombre }} {{ empleado.apellido }}</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
-  <style>
-    body{font-family:'Poppins',sans-serif;background:#f4f4f4;color:#004442;margin:0;padding:2rem}
-    h1{text-align:center;margin:0 0 10px}
-    .sub{max-width:980px;margin:0 auto;text-align:center;color:#507371}
-    details{background:#fff;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,.08);margin:12px auto;max-width:980px;overflow:hidden}
-    summary{cursor:pointer;list-style:none;padding:14px 18px;font-weight:600;display:flex;justify-content:space-between;align-items:center}
-    summary::-webkit-details-marker{display:none}
-    .pill{background:#e7f3f2;border-radius:999px;padding:4px 10px;font-size:.9rem}
-    .inner{padding:0 18px 14px}
-    table{width:100%;border-collapse:collapse;margin-top:10px}
-    th,td{padding:10px;border-bottom:1px solid #eee;text-align:left}
-    th{background:#004442;color:#fff;position:sticky;top:0}
-    .back{display:inline-block;margin:14px auto 0;text-decoration:none;color:#004442}
-  </style>
-</head>
-<body>
+{% extends "base.html" %}
 
-  <h1>🧾 Gastos de {{ empleado.nombre }} {{ empleado.apellido }}</h1>
-  <div class="sub">Expandí un mes y luego cada artículo para ver el detalle.</div>
+{% block content %}
+<h1 style="text-align: center;">🧾 Gastos de {{ empleado.nombre }} {{ empleado.apellido }}</h1>
+<p style="text-align: center;">Expandí un mes y luego cada artículo para ver el detalle.</p>
 
-  {% if gastos %}
-    {% for mes, data in gastos|dictsort %}
-    <details>
-      <summary>
-        <span>📅 {{ mes }}</span>
-        <span class="pill">Total mes: ${{ data.total_mes | round(2) }}</span>
-      </summary>
-      <div class="inner">
-        {% for articulo, bloque in data.por_articulo.items() %}
-        <details>
-          <summary>
-            <span>🏷️ {{ articulo }}</span>
-            <span class="pill">Total: ${{ bloque.total | round(2) }}</span>
-          </summary>
-          <div class="inner">
-            <table>
-              <thead>
-                <tr>
-                  <th>Fecha</th>
-                  <th>Proveedor</th>
-                  <th>Comprobante</th>
-                  <th>Leyenda</th>
-                  <th>Importe</th>
-                </tr>
-              </thead>
-              <tbody>
-                {% for it in bloque.items %}
-                <tr>
-                  <td>{{ it.fecha }}</td>
-                  <td>{{ it.proveedor }}</td>
-                  <td>{{ it.comprobante }}</td>
-                  <td>{{ it.leyenda }}</td>
-                  <td>${{ it.importe | round(2) }}</td>
-                </tr>
-                {% endfor %}
-              </tbody>
-            </table>
-          </div>
-        </details>
-        {% endfor %}
-      </div>
-    </details>
+{% for mes, datos_mes in empleado.gastos_agrupados.items() %}
+  <details>
+    <summary>📅 {{ mes }} – Total del mes: ${{ datos_mes.total_mes | format_num }}</summary>
+
+    {% for categoria, detalle in datos_mes.por_articulo.items() %}
+      <details>
+        <summary>📌 {{ categoria }} – Total: ${{ detalle.total | format_num }}</summary>
+        <table>
+          <thead>
+            <tr>
+              <th>Fecha</th>
+              <th>Proveedor</th>
+              <th>Comprobante</th>
+              <th>Leyenda</th>
+              <th>Importe</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for item in detalle["items"] %}
+              <tr>
+                <td>{{ item.fecha }}</td>
+                <td>{{ item.proveedor }}</td>
+                <td>{{ item.comprobante }}</td>
+                <td>{{ item.leyenda }}</td>
+                <td>${{ item.importe | format_num }}</td>
+              </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </details>
     {% endfor %}
-  {% else %}
-    <p style="text-align:center;margin-top:20px">No hay gastos cargados para este empleado.</p>
-  {% endif %}
 
-  <div style="text-align:center">
-    <a class="back" href="/ver_todos">⬅️ Volver</a>
-  </div>
+  </details>
+{% endfor %}
 
-</body>
-</html>
+<div style="text-align: center; margin-top: 2rem;">
+  <a href="/gastos" class="volver">⬅️ Volver a la lista</a>
+</div>
+
+
+<style>
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    color: #004442;
+    padding: 2rem;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+  }
+  th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  th {
+    background-color: #004442;
+    color: white;
+  }
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  summary {
+    font-weight: bold;
+    font-size: 1.1rem;
+    cursor: pointer;
+    margin: 10px 0;
+  }
+  details {
+    margin-bottom: 1.5rem;
+    background-color: #fff;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  summary::-webkit-details-marker {
+    display: none;
+  }
+  summary::before {
+    content: "▶ ";
+    margin-right: 5px;
+  }
+  details[open] summary::before {
+    content: "▼ ";
+  }
+  .volver {
+    margin-top: 2rem;
+    display: inline-block;
+    background-color: #004442;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  .volver:hover {
+    background-color: #006666;
+  }
+</style>
+{% endblock %}

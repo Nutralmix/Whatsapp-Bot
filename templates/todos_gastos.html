@@ -1,0 +1,93 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1 style="text-align: center; margin-bottom: 1rem;">📊 Gastos por Empleado</h1>
+
+<div style="text-align: center; margin-bottom: 20px;">
+  <input
+    type="text"
+    id="buscador"
+    placeholder="🔎 Buscar por nombre, apellido, CUIL o legajo..."
+    style="width: 60%; padding: 10px; border: 1px solid #ccc; border-radius: 8px; font-size: 1rem;"
+  >
+</div>
+
+<table id="tabla-empleados">
+  <thead>
+    <tr>
+      <th>Legajo</th>
+      <th>Nombre</th>
+      <th>CUIL</th>
+      <th>Ver Detalle</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for legajo, emp in empleados.items() %}
+      <tr>
+        <td>{{ legajo }}</td>
+        <td>{{ emp.nombre }} {{ emp.apellido }}</td>
+        <td>{{ emp.cuil }}</td>
+        <td><a href="/gastos/{{ legajo }}">👁️ Ver</a></td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<div style="text-align: center; margin-top: 2rem;">
+<a href="/panel" class="volver">⬅️ Volver al Panel</a>
+
+<style>
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    color: #004442;
+    padding: 2rem;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+  }
+
+  th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+
+  th {
+    background-color: #004442;
+    color: white;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+
+  .volver {
+    display: inline-block;
+    margin-top: 2rem;
+    background-color: #004442;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+
+  .volver:hover {
+    background-color: #006666;
+  }
+</style>
+
+<script>
+  document.getElementById("buscador").addEventListener("input", function () {
+    const filtro = this.value.toLowerCase();
+    const filas = document.querySelectorAll("#tabla-empleados tbody tr");
+
+    filas.forEach(fila => {
+      const texto = fila.textContent.toLowerCase();
+      fila.style.display = texto.includes(filtro) ? "" : "none";
+    });
+  });
+</script>
+{% endblock %}
