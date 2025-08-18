@@ -53,17 +53,13 @@ def normalizar_columnas(df):
     return df
 
 def col(df, *alternativas):
-    """Busca la primera columna presente de una lista de alternativas."""
-    cols = list(df.columns)
-    for a in alternativas:
-        # coincidencia exacta
-        if a.upper() in df.columns:
-            return a.upper()
-        # por prefijo (por si el nombre quedó cortado en el Excel)
-        for c in cols:
-            if c.startswith(a.upper()):
-                return c
+    columnas = {c.lower(): c for c in df.columns}
+    for alt in alternativas:
+        alt_lower = alt.lower()
+        if alt_lower in columnas:
+            return columnas[alt_lower]
     raise KeyError(f"Falta columna: {alternativas}")
+
 
 # ========= AGRUPACIÓN =========
 def agrupar_por_mes_y_articulo(df, legajo):
@@ -145,7 +141,7 @@ def main():
 
     # 3) Leer Excel
     df = pd.read_excel(ARCHIVO_EXCEL, sheet_name=0)
-    print("🧩 Columnas encontradas en el Excel:", df.columns.tolist())
+    
     df = normalizar_columnas(df)
 
     # 4) Limpiar campo previo y recalcular

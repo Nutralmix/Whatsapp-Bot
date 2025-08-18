@@ -492,6 +492,17 @@ def actualizar_gastos():
         return "❌ Error al ejecutar la actualización de gastos", 500
 
 
+@app.route("/gastos/<legajo>")
+def ver_gastos_agrupados(legajo):
+    with open("empleados.json", "r", encoding="utf-8") as f:
+        empleados = json.load(f)
+
+    emp = empleados.get(str(legajo))
+    if not emp:
+        return f"❌ Empleado con legajo {legajo} no encontrado."
+
+    gastos = emp.get("gastos_agrupados", {})
+    return render_template("ver_gastos_empleados.html", empleado=emp, gastos=gastos)
 
 
 # ---------------------------

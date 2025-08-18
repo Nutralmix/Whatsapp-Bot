@@ -1252,3 +1252,17 @@
 [2025-08-18 12:41:18] Servidor Flask iniciado
 [2025-08-18 12:47:47] Servidor Flask iniciado
 [2025-08-18 12:47:53] Acceso a panel
+[2025-08-18 12:48:07] Acceso a panel
+[2025-08-18 13:07:20] Empleados activos cargados correctamente
+[2025-08-18 13:07:20] Visualización de todos los empleados
+[2025-08-18 13:07:23] Consulta de info iniciada
+[2025-08-18 13:07:23] Empleados activos cargados correctamente
+[2025-08-18 13:07:25] Consulta de info iniciada
+[2025-08-18 13:07:25] Empleados activos cargados correctamente
+[2025-08-18 13:07:25] Búsqueda de: atia
+[2025-08-18 13:07:34] Consulta de info iniciada
+[2025-08-18 13:07:34] Empleados activos cargados correctamente
+[2025-08-18 13:09:57] Servidor Flask iniciado
+[2025-08-18 13:15:36] Servidor Flask iniciado
+[2025-08-18 13:15:43] Acceso a portada
+[2025-08-18 13:15:45] Acceso a panel
