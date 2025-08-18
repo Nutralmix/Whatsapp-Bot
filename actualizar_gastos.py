@@ -80,9 +80,13 @@ def agrupar_por_mes_y_articulo(df, legajo):
     c_ley   = col(df, "LEYENDA")
     c_imp   = col(df, "IMPORTE_GABI", "IMPORTE", "IMPORTE_GAB")
 
-    dfl = df[df[c_leg].astype(str).str.strip() == str(legajo).strip()].copy()
+    df[c_leg] = df[c_leg].astype(str).str.strip()
+    legajo_str = str(legajo).strip()
+    dfl = df[df[c_leg] == legajo_str].copy()
+
     if dfl.empty:
-        return {}
+         print(f"🔎 No se encontraron filas para legajo {legajo_str} (columna usada: {c_leg})")
+
 
     dfl[c_fecha] = pd.to_datetime(dfl[c_fecha], dayfirst=True, errors="coerce")
     dfl = dfl.dropna(subset=[c_fecha])
@@ -132,17 +136,27 @@ def main():
     for legajo, emp in empleados.items():
         emp["gastos_agrupados"] = {}
 
+    # 5) Calcular agrupación por legajo
     for legajo in list(empleados.keys()):
         agrupado = agrupar_por_mes_y_articulo(df, legajo)
+
+        if agrupado:
+            print(f"✅ Gastos encontrados para legajo {legajo}: {len(agrupado)} mes(es)")
+        else:
+            print(f"⚠️ SIN gastos para legajo {legajo}")
+
         empleados[legajo]["gastos_agrupados"] = agrupado
 
+    # 6) Guardar JSON
     with open(ARCHIVO_JSON, "w", encoding="utf-8") as f:
         json.dump(empleados, f, ensure_ascii=False, indent=4)
 
     print("✅ Gastos agrupados actualizados en empleados.json")
 
+    # 7) Push automático (como tus otros scripts)
     res = subprocess.run("python git_push.py", shell=True)
     print("🔧 git_push.py ->", res.returncode)
+
 
 if __name__ == "__main__":
     main()
