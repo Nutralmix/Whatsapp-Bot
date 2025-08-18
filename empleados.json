@@ -5226,24 +5226,5 @@
                 }
             }
         }
-    },
-    "nan": {
-        "legajo": "nan",
-        "cuil": "27-29597820-7",
-        "apellido": "Del Pino",
-        "nombre": "Maria Soledad",
-        "sector": "Maestranza",
-        "sede": "9 de Julio",
-        "fecha_ingreso": "11-06-2025",
-        "estado": "Activo",
-        "fecha_baja": "",
-        "motivo_baja": "",
-        "fecha_nacimiento": "07-07-1982",
-        "edad": 0,
-        "telefono": "2317557647",
-        "rol": "empleado",
-        "notas": "",
-        "prestamo": {},
-        "gastos_agrupados": {}
     }
 }

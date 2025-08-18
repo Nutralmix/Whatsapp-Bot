@@ -110,43 +110,51 @@ def agrupar_por_mes_y_articulo(df, legajo):
 
 # ========= MAIN =========
 def main():
+    # 1) Descargar
     descargar_excel_desde_google(URL, ARCHIVO_EXCEL)
 
+    # 2) Cargar empleados
     with open(ARCHIVO_JSON, "r", encoding="utf-8") as f:
         empleados = json.load(f)
 
+    # Validación fuerte
+    empleados_validos = {}
+    for legajo, emp in empleados.items():
+        if isinstance(emp, dict) and str(legajo).lower() != "nan":
+            empleados_validos[legajo] = emp
+        else:
+            print(f"❌ Legajo inválido o corrupto omitido: {legajo}")
+
+    # 3) Leer Excel
     df = pd.read_excel(ARCHIVO_EXCEL, sheet_name=0)
     df = normalizar_columnas(df)
 
-    # Verificar legajos del Excel
-    try:
-        c_leg = col(df, "LEGAJO", "LEG", "LEGAJ")
-        legajos_unicos = df[c_leg].dropna().astype(int).unique()
-        print(f"🧾 Legajos únicos encontrados en el Excel: {sorted(legajos_unicos)}")
-    except Exception as e:
-        print("❌ Error al encontrar columna de legajo:", e)
-
-    print("❌ Filas sin legajo válido:")
-    print(df[df[c_leg].isna()][[c_leg, col(df, "FECHA")]].to_string(index=False))
-
-    for legajo, emp in empleados.items():
+    # 4) Limpiar campo previo y recalcular
+    for emp in empleados_validos.values():
         emp["gastos_agrupados"] = {}
 
-    for legajo in list(empleados.keys()):
-       try:
-          agrupado = agrupar_por_mes_y_articulo(df, legajo)
-          empleados[legajo]["gastos_agrupados"] = agrupado
-       except ValueError:
-        print(f"❌ Legajo inválido en empleados.json: {legajo} (omitido)")
+    # 5) Calcular agrupación por legajo
+    for legajo in empleados_validos.keys():
+        try:
+            agrupado = agrupar_por_mes_y_articulo(df, legajo)
+            empleados_validos[legajo]["gastos_agrupados"] = agrupado
+            if agrupado:
+                print(f"✅ Gastos encontrados para legajo {legajo}: {len(agrupado)} mes(es) -> {', '.join(agrupado.keys())}")
+            else:
+                print(f"⚠️ SIN gastos para legajo {legajo}")
+        except Exception as e:
+            print(f"❌ Error procesando legajo {legajo}: {e}")
 
-
+    # 6) Guardar JSON
     with open(ARCHIVO_JSON, "w", encoding="utf-8") as f:
-        json.dump(empleados, f, ensure_ascii=False, indent=4)
+        json.dump(empleados_validos, f, ensure_ascii=False, indent=4)
 
     print("✅ Gastos agrupados actualizados en empleados.json")
 
+    # 7) Push automático
     res = subprocess.run("python git_push.py", shell=True)
     print("🔧 git_push.py ->", res.returncode)
+
 
 if __name__ == "__main__":
     main()
