@@ -476,6 +476,23 @@ def actualizar_vacaciones():
         return "❌ Error al ejecutar la actualización de vacaciones", 500
 
 
+@app.route("/actualizar_gastos")
+def actualizar_gastos():
+    import sys
+    import os
+
+    python_path = sys.executable
+    script_path = os.path.join(os.getcwd(), "actualizar_gastos.py")
+
+    try:
+        resultado = subprocess.run([python_path, script_path], check=True)
+        return redirect("/panel")
+    except subprocess.CalledProcessError as e:
+        print(f"❌ Error ejecutando actualizar_gastos.py: {e}")
+        return "❌ Error al ejecutar la actualización de gastos", 500
+
+
+
 
 # ---------------------------
 # Ejecutar la app

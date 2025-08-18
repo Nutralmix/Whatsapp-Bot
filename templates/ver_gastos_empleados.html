@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Gastos de {{ empleado.nombre }} {{ empleado.apellido }}</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    body{font-family:'Poppins',sans-serif;background:#f4f4f4;color:#004442;margin:0;padding:2rem}
+    h1{text-align:center;margin:0 0 10px}
+    .sub{max-width:980px;margin:0 auto;text-align:center;color:#507371}
+    details{background:#fff;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,.08);margin:12px auto;max-width:980px;overflow:hidden}
+    summary{cursor:pointer;list-style:none;padding:14px 18px;font-weight:600;display:flex;justify-content:space-between;align-items:center}
+    summary::-webkit-details-marker{display:none}
+    .pill{background:#e7f3f2;border-radius:999px;padding:4px 10px;font-size:.9rem}
+    .inner{padding:0 18px 14px}
+    table{width:100%;border-collapse:collapse;margin-top:10px}
+    th,td{padding:10px;border-bottom:1px solid #eee;text-align:left}
+    th{background:#004442;color:#fff;position:sticky;top:0}
+    .back{display:inline-block;margin:14px auto 0;text-decoration:none;color:#004442}
+  </style>
+</head>
+<body>
+
+  <h1>🧾 Gastos de {{ empleado.nombre }} {{ empleado.apellido }}</h1>
+  <div class="sub">Expandí un mes y luego cada artículo para ver el detalle.</div>
+
+  {% if gastos %}
+    {% for mes, data in gastos|dictsort %}
+    <details>
+      <summary>
+        <span>📅 {{ mes }}</span>
+        <span class="pill">Total mes: ${{ data.total_mes | round(2) }}</span>
+      </summary>
+      <div class="inner">
+        {% for articulo, bloque in data.por_articulo.items() %}
+        <details>
+          <summary>
+            <span>🏷️ {{ articulo }}</span>
+            <span class="pill">Total: ${{ bloque.total | round(2) }}</span>
+          </summary>
+          <div class="inner">
+            <table>
+              <thead>
+                <tr>
+                  <th>Fecha</th>
+                  <th>Proveedor</th>
+                  <th>Comprobante</th>
+                  <th>Leyenda</th>
+                  <th>Importe</th>
+                </tr>
+              </thead>
+              <tbody>
+                {% for it in bloque.items %}
+                <tr>
+                  <td>{{ it.fecha }}</td>
+                  <td>{{ it.proveedor }}</td>
+                  <td>{{ it.comprobante }}</td>
+                  <td>{{ it.leyenda }}</td>
+                  <td>${{ it.importe | round(2) }}</td>
+                </tr>
+                {% endfor %}
+              </tbody>
+            </table>
+          </div>
+        </details>
+        {% endfor %}
+      </div>
+    </details>
+    {% endfor %}
+  {% else %}
+    <p style="text-align:center;margin-top:20px">No hay gastos cargados para este empleado.</p>
+  {% endif %}
+
+  <div style="text-align:center">
+    <a class="back" href="/ver_todos">⬅️ Volver</a>
+  </div>
+
+</body>
+</html>

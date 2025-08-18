@@ -16,7 +16,8 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 35
+        "vacaciones": 35,
+        "gastos_agrupados": {}
     },
     "2": {
         "legajo": "2",
@@ -35,7 +36,8 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 35
+        "vacaciones": 35,
+        "gastos_agrupados": {}
     },
     "4": {
         "legajo": "4",
@@ -54,7 +56,8 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 35
+        "vacaciones": 35,
+        "gastos_agrupados": {}
     },
     "1002": {
         "legajo": "1002",
@@ -72,7 +75,8 @@
         "telefono": "2317519121",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {}
+        "prestamo": {},
+        "gastos_agrupados": {}
     },
     "1003": {
         "legajo": "1003",
@@ -90,7 +94,8 @@
         "telefono": "nan",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {}
+        "prestamo": {},
+        "gastos_agrupados": {}
     },
     "9": {
         "legajo": "9",
@@ -109,7 +114,8 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 35
+        "vacaciones": 35,
+        "gastos_agrupados": {}
     },
     "10": {
         "legajo": "10",
@@ -128,7 +134,8 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 93
+        "vacaciones": 93,
+        "gastos_agrupados": {}
     },
     "11": {
         "legajo": "11",
@@ -147,7 +154,8 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 18
+        "vacaciones": 18,
+        "gastos_agrupados": {}
     },
     "12": {
         "legajo": "12",
@@ -166,7 +174,8 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 41
+        "vacaciones": 41,
+        "gastos_agrupados": {}
     },
     "14": {
         "legajo": "14",
@@ -185,7 +194,8 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 47
+        "vacaciones": 47,
+        "gastos_agrupados": {}
     },
     "15": {
         "legajo": "15",
@@ -213,7 +223,8 @@
             "cuotas_pendientes": 6,
             "fecha_cancelacion": "17-07-2025"
         },
-        "vacaciones": 7
+        "vacaciones": 7,
+        "gastos_agrupados": {}
     },
     "16": {
         "legajo": "16",
@@ -232,7 +243,8 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 14
+        "vacaciones": 14,
+        "gastos_agrupados": {}
     },
     "20": {
         "legajo": "20",
@@ -251,7 +263,8 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 5
+        "vacaciones": 5,
+        "gastos_agrupados": {}
     },
     "24": {
         "legajo": "24",
@@ -279,7 +292,8 @@
             "cuotas_pendientes": 4,
             "fecha_cancelacion": "20-10-2025"
         },
-        "vacaciones": 14
+        "vacaciones": 14,
+        "gastos_agrupados": {}
     },
     "25": {
         "legajo": "25",
@@ -307,7 +321,8 @@
             "cuotas_pendientes": 1,
             "fecha_cancelacion": "28-06-2025"
         },
-        "vacaciones": 14
+        "vacaciones": 14,
+        "gastos_agrupados": {}
     },
     "22": {
         "legajo": "22",
@@ -326,7 +341,8 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 7
+        "vacaciones": 7,
+        "gastos_agrupados": {}
     },
     "23": {
         "legajo": "23",
@@ -345,7 +361,8 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 49
+        "vacaciones": 49,
+        "gastos_agrupados": {}
     },
     "35": {
         "legajo": "35",
@@ -364,7 +381,8 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 47
+        "vacaciones": 47,
+        "gastos_agrupados": {}
     },
     "134": {
         "legajo": "134",
@@ -382,7 +400,8 @@
         "telefono": "2392568713",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {}
+        "prestamo": {},
+        "gastos_agrupados": {}
     },
     "39": {
         "legajo": "39",
@@ -410,7 +429,8 @@
             "cuotas_pendientes": 1,
             "fecha_cancelacion": "01-09-2025"
         },
-        "vacaciones": 21
+        "vacaciones": 21,
+        "gastos_agrupados": {}
     },
     "28": {
         "legajo": "28",
@@ -429,7 +449,8 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 40
+        "vacaciones": 40,
+        "gastos_agrupados": {}
     },
     "29": {
         "legajo": "29",
@@ -448,7 +469,8 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 21
+        "vacaciones": 21,
+        "gastos_agrupados": {}
     },
     "46": {
         "legajo": "46",
@@ -467,7 +489,8 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 23
+        "vacaciones": 23,
+        "gastos_agrupados": {}
     },
     "56": {
         "legajo": "56",
@@ -486,7 +509,8 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 0
+        "vacaciones": 0,
+        "gastos_agrupados": {}
     },
     "60": {
         "legajo": "60",
@@ -505,7 +529,8 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 15
+        "vacaciones": 15,
+        "gastos_agrupados": {}
     },
     "66": {
         "legajo": "66",
@@ -524,7 +549,8 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 21
+        "vacaciones": 21,
+        "gastos_agrupados": {}
     },
     "71": {
         "legajo": "71",
@@ -552,7 +578,8 @@
             "cuotas_pendientes": 2,
             "fecha_cancelacion": "11-09-2025"
         },
-        "vacaciones": 3
+        "vacaciones": 3,
+        "gastos_agrupados": {}
     },
     "400": {
         "legajo": "400",
@@ -570,7 +597,8 @@
         "telefono": "2317471567",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {}
+        "prestamo": {},
+        "gastos_agrupados": {}
     },
     "74": {
         "legajo": "74",
@@ -589,7 +617,8 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 30
+        "vacaciones": 30,
+        "gastos_agrupados": {}
     },
     "76": {
         "legajo": "76",
@@ -608,7 +637,8 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 23
+        "vacaciones": 23,
+        "gastos_agrupados": {}
     },
     "81": {
         "legajo": "81",
@@ -627,7 +657,8 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 14
+        "vacaciones": 14,
+        "gastos_agrupados": {}
     },
     "64": {
         "legajo": "64",
@@ -646,7 +677,8 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 0
+        "vacaciones": 0,
+        "gastos_agrupados": {}
     },
     "87": {
         "legajo": "87",
@@ -665,7 +697,8 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 28
+        "vacaciones": 28,
+        "gastos_agrupados": {}
     },
     "92": {
         "legajo": "92",
@@ -684,7 +717,8 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 12
+        "vacaciones": 12,
+        "gastos_agrupados": {}
     },
     "93": {
         "legajo": "93",
@@ -703,7 +737,8 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 7
+        "vacaciones": 7,
+        "gastos_agrupados": {}
     },
     "99": {
         "legajo": "99",
@@ -731,7 +766,8 @@
             "cuotas_pendientes": 6,
             "fecha_cancelacion": "01-12-2025"
         },
-        "vacaciones": 0
+        "vacaciones": 0,
+        "gastos_agrupados": {}
     },
     "96": {
         "legajo": "96",
@@ -750,7 +786,8 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 7
+        "vacaciones": 7,
+        "gastos_agrupados": {}
     },
     "106": {
         "legajo": "106",
@@ -769,7 +806,8 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 7
+        "vacaciones": 7,
+        "gastos_agrupados": {}
     },
     "104": {
         "legajo": "104",
@@ -788,7 +826,8 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 7
+        "vacaciones": 7,
+        "gastos_agrupados": {}
     },
     "109": {
         "legajo": "109",
@@ -816,7 +855,8 @@
             "cuotas_pendientes": 4,
             "fecha_cancelacion": "08-10-2025"
         },
-        "vacaciones": 0
+        "vacaciones": 0,
+        "gastos_agrupados": {}
     },
     "113": {
         "legajo": "113",
@@ -844,7 +884,8 @@
             "cuotas_pendientes": 5,
             "fecha_cancelacion": "08-12-2025"
         },
-        "vacaciones": 0
+        "vacaciones": 0,
+        "gastos_agrupados": {}
     },
     "121": {
         "legajo": "121",
@@ -863,7 +904,8 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 15
+        "vacaciones": 15,
+        "gastos_agrupados": {}
     },
     "122": {
         "legajo": "122",
@@ -882,7 +924,8 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 27
+        "vacaciones": 27,
+        "gastos_agrupados": {}
     },
     "117": {
         "legajo": "117",
@@ -901,7 +944,8 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 21
+        "vacaciones": 21,
+        "gastos_agrupados": {}
     },
     "124": {
         "legajo": "124",
@@ -920,7 +964,8 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 7
+        "vacaciones": 7,
+        "gastos_agrupados": {}
     },
     "120": {
         "legajo": "120",
@@ -939,7 +984,8 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 0
+        "vacaciones": 0,
+        "gastos_agrupados": {}
     },
     "125": {
         "legajo": "125",
@@ -967,7 +1013,8 @@
             "cuotas_pendientes": 3,
             "fecha_cancelacion": "04-09-2025"
         },
-        "vacaciones": 0
+        "vacaciones": 0,
+        "gastos_agrupados": {}
     },
     "129": {
         "legajo": "129",
@@ -995,7 +1042,8 @@
             "cuotas_pendientes": 7,
             "fecha_cancelacion": "01-01-2026"
         },
-        "vacaciones": 0
+        "vacaciones": 0,
+        "gastos_agrupados": {}
     },
     "135": {
         "legajo": "135",
@@ -1014,7 +1062,8 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 0
+        "vacaciones": 0,
+        "gastos_agrupados": {}
     },
     "136": {
         "legajo": "136",
@@ -1033,7 +1082,8 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 0
+        "vacaciones": 0,
+        "gastos_agrupados": {}
     },
     "137": {
         "legajo": "137",
@@ -1052,7 +1102,8 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 0
+        "vacaciones": 0,
+        "gastos_agrupados": {}
     },
     "141": {
         "legajo": "141",
@@ -1071,7 +1122,8 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 0
+        "vacaciones": 0,
+        "gastos_agrupados": {}
     },
     "139": {
         "legajo": "139",
@@ -1090,7 +1142,8 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 0
+        "vacaciones": 0,
+        "gastos_agrupados": {}
     },
     "144": {
         "legajo": "144",
@@ -1108,7 +1161,8 @@
         "telefono": "2317534323",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {}
+        "prestamo": {},
+        "gastos_agrupados": {}
     },
     "145": {
         "legajo": "145",
@@ -1136,7 +1190,8 @@
             "cuotas_pendientes": 4,
             "fecha_cancelacion": "04-10-2025"
         },
-        "vacaciones": 0
+        "vacaciones": 0,
+        "gastos_agrupados": {}
     },
     "147": {
         "legajo": "147",
@@ -1155,7 +1210,8 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 19
+        "vacaciones": 19,
+        "gastos_agrupados": {}
     },
     "160": {
         "legajo": "160",
@@ -1174,7 +1230,8 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 0
+        "vacaciones": 0,
+        "gastos_agrupados": {}
     },
     "1033": {
         "legajo": "1033",
@@ -1193,7 +1250,8 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 0
+        "vacaciones": 0,
+        "gastos_agrupados": {}
     },
     "166": {
         "legajo": "166",
@@ -1212,7 +1270,8 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 8
+        "vacaciones": 8,
+        "gastos_agrupados": {}
     },
     "169": {
         "legajo": "169",
@@ -1240,7 +1299,8 @@
             "cuotas_pendientes": 1,
             "fecha_cancelacion": "09-07-2025"
         },
-        "vacaciones": 0
+        "vacaciones": 0,
+        "gastos_agrupados": {}
     },
     "176": {
         "legajo": "176",
@@ -1268,7 +1328,8 @@
             "cuotas_pendientes": 2,
             "fecha_cancelacion": "21-08-2025"
         },
-        "vacaciones": 0
+        "vacaciones": 0,
+        "gastos_agrupados": {}
     },
     "179": {
         "legajo": "179",
@@ -1296,7 +1357,8 @@
             "cuotas_pendientes": 7,
             "fecha_cancelacion": "27-02-2026"
         },
-        "vacaciones": 7
+        "vacaciones": 7,
+        "gastos_agrupados": {}
     },
     "194": {
         "legajo": "194",
@@ -1324,7 +1386,8 @@
             "cuotas_pendientes": 25,
             "fecha_cancelacion": "07-08-2027"
         },
-        "vacaciones": 0
+        "vacaciones": 0,
+        "gastos_agrupados": {}
     },
     "196": {
         "legajo": "196",
@@ -1343,7 +1406,8 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 35
+        "vacaciones": 35,
+        "gastos_agrupados": {}
     },
     "197": {
         "legajo": "197",
@@ -1362,7 +1426,8 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 0
+        "vacaciones": 0,
+        "gastos_agrupados": {}
     },
     "204": {
         "legajo": "204",
@@ -1381,7 +1446,8 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 11
+        "vacaciones": 11,
+        "gastos_agrupados": {}
     },
     "205": {
         "legajo": "205",
@@ -1400,7 +1466,8 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 7
+        "vacaciones": 7,
+        "gastos_agrupados": {}
     },
     "206": {
         "legajo": "206",
@@ -1419,7 +1486,8 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 0
+        "vacaciones": 0,
+        "gastos_agrupados": {}
     },
     "211": {
         "legajo": "211",
@@ -1438,7 +1506,8 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 4
+        "vacaciones": 4,
+        "gastos_agrupados": {}
     },
     "213": {
         "legajo": "213",
@@ -1466,7 +1535,8 @@
             "cuotas_pendientes": 4,
             "fecha_cancelacion": "02-10-2025"
         },
-        "vacaciones": 0
+        "vacaciones": 0,
+        "gastos_agrupados": {}
     },
     "217": {
         "legajo": "217",
@@ -1485,7 +1555,8 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 2
+        "vacaciones": 2,
+        "gastos_agrupados": {}
     },
     "216": {
         "legajo": "216",
@@ -1504,7 +1575,8 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 6
+        "vacaciones": 6,
+        "gastos_agrupados": {}
     },
     "219": {
         "legajo": "219",
@@ -1523,7 +1595,8 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 0
+        "vacaciones": 0,
+        "gastos_agrupados": {}
     },
     "225": {
         "legajo": "225",
@@ -1542,7 +1615,8 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 0
+        "vacaciones": 0,
+        "gastos_agrupados": {}
     },
     "227": {
         "legajo": "227",
@@ -1561,7 +1635,8 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 0
+        "vacaciones": 0,
+        "gastos_agrupados": {}
     },
     "229": {
         "legajo": "229",
@@ -1580,7 +1655,8 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 0
+        "vacaciones": 0,
+        "gastos_agrupados": {}
     },
     "243": {
         "legajo": "243",
@@ -1599,7 +1675,8 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 0
+        "vacaciones": 0,
+        "gastos_agrupados": {}
     },
     "238": {
         "legajo": "238",
@@ -1618,7 +1695,8 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 7
+        "vacaciones": 7,
+        "gastos_agrupados": {}
     },
     "239": {
         "legajo": "239",
@@ -1637,7 +1715,8 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 7
+        "vacaciones": 7,
+        "gastos_agrupados": {}
     },
     "242": {
         "legajo": "242",
@@ -1665,7 +1744,8 @@
             "cuotas_pendientes": 1,
             "fecha_cancelacion": "01-08-2025"
         },
-        "vacaciones": 9
+        "vacaciones": 9,
+        "gastos_agrupados": {}
     },
     "246": {
         "legajo": "246",
@@ -1693,7 +1773,8 @@
             "cuotas_pendientes": 26,
             "fecha_cancelacion": "07-08-2027"
         },
-        "vacaciones": 0
+        "vacaciones": 0,
+        "gastos_agrupados": {}
     },
     "247": {
         "legajo": "247",
@@ -1712,7 +1793,8 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 0
+        "vacaciones": 0,
+        "gastos_agrupados": {}
     },
     "257": {
         "legajo": "257",
@@ -1731,7 +1813,8 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 0
+        "vacaciones": 0,
+        "gastos_agrupados": {}
     },
     "236": {
         "legajo": "236",
@@ -1759,7 +1842,8 @@
             "cuotas_pendientes": 6,
             "fecha_cancelacion": "08-01-2026"
         },
-        "vacaciones": 0
+        "vacaciones": 0,
+        "gastos_agrupados": {}
     },
     "256": {
         "legajo": "256",
@@ -1778,7 +1862,8 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 0
+        "vacaciones": 0,
+        "gastos_agrupados": {}
     },
     "258": {
         "legajo": "258",
@@ -1797,7 +1882,8 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 0
+        "vacaciones": 0,
+        "gastos_agrupados": {}
     },
     "241": {
         "legajo": "241",
@@ -1816,7 +1902,8 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 0
+        "vacaciones": 0,
+        "gastos_agrupados": {}
     },
     "268": {
         "legajo": "268",
@@ -1835,7 +1922,8 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 0
+        "vacaciones": 0,
+        "gastos_agrupados": {}
     },
     "271": {
         "legajo": "271",
@@ -1854,7 +1942,8 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 0
+        "vacaciones": 0,
+        "gastos_agrupados": {}
     },
     "275": {
         "legajo": "275",
@@ -1873,7 +1962,8 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 1
+        "vacaciones": 1,
+        "gastos_agrupados": {}
     },
     "249": {
         "legajo": "249",
@@ -1892,7 +1982,8 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 0
+        "vacaciones": 0,
+        "gastos_agrupados": {}
     },
     "250": {
         "legajo": "250",
@@ -1920,7 +2011,8 @@
             "cuotas_pendientes": 1,
             "fecha_cancelacion": "06-06-2025"
         },
-        "vacaciones": 14
+        "vacaciones": 14,
+        "gastos_agrupados": {}
     },
     "276": {
         "legajo": "276",
@@ -1939,7 +2031,8 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 0
+        "vacaciones": 0,
+        "gastos_agrupados": {}
     },
     "278": {
         "legajo": "278",
@@ -1958,7 +2051,8 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 0
+        "vacaciones": 0,
+        "gastos_agrupados": {}
     },
     "273": {
         "legajo": "273",
@@ -1977,7 +2071,8 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 0
+        "vacaciones": 0,
+        "gastos_agrupados": {}
     },
     "288": {
         "legajo": "288",
@@ -1996,7 +2091,8 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 0
+        "vacaciones": 0,
+        "gastos_agrupados": {}
     },
     "nan": {
         "legajo": "nan",
@@ -2014,6 +2110,218 @@
         "telefono": "2317557647",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {}
+        "prestamo": {},
+        "gastos_agrupados": {
+            "2025-06": {
+                "total_mes": 14157975.77,
+                "por_articulo": {
+                    "Gastos Varios": {
+                        "total": 3272851.81,
+                        "items": [
+                            {
+                                "fecha": "2025-06-01",
+                                "proveedor": "RIVAS NUÑEZ  S.R.L.",
+                                "comprobante": "FGAS 7 35345",
+                                "leyenda": "CHINO PAGO COBUSTIBLE",
+                                "importe": 0.0
+                            },
+                            {
+                                "fecha": "2025-06-01",
+                                "proveedor": "RIVAS NUÑEZ  S.R.L.",
+                                "comprobante": "FGAS 7 35345",
+                                "leyenda": "CHINO PAGO COMBUSTIBLE",
+                                "importe": -8985.74
+                            },
+                            {
+                                "fecha": "2025-06-01",
+                                "proveedor": "RIVAS NUÑEZ  S.R.L.",
+                                "comprobante": "FGAS 9 46986",
+                                "leyenda": "CHINO PAGO COMBUSTIBLE",
+                                "importe": -5418.28
+                            },
+                            {
+                                "fecha": "2025-06-01",
+                                "proveedor": "RIVAS NUÑEZ  S.R.L.",
+                                "comprobante": "FGAS 9 47040",
+                                "leyenda": "CHINO PAGO COMBUSTIBLE",
+                                "importe": -7541.15
+                            },
+                            {
+                                "fecha": "2025-06-03",
+                                "proveedor": "NALDO LOMBARDI S.A.",
+                                "comprobante": "FGAS 1156 5000",
+                                "leyenda": "TV SAN AGUSTIN CTA CTE",
+                                "importe": 454544.63
+                            },
+                            {
+                                "fecha": "2025-06-06",
+                                "proveedor": "SUPERMERCADO TUTI 2 S.A.",
+                                "comprobante": "FGAS 27 3838",
+                                "leyenda": "CHINO PAGO SUPER",
+                                "importe": -9703.06
+                            },
+                            {
+                                "fecha": "2025-06-08",
+                                "proveedor": "GUARRACHERA S.A",
+                                "comprobante": "FGAS 52 775",
+                                "leyenda": "CHINO PAGO VARIOS",
+                                "importe": -9455.21
+                            },
+                            {
+                                "fecha": "2025-06-11",
+                                "proveedor": "VIOLA HECTOR OMAR",
+                                "comprobante": "FGAS 2 7130",
+                                "leyenda": "MADERO CTA CTE RESPUESTOS",
+                                "importe": 349752.2
+                            },
+                            {
+                                "fecha": "2025-06-14",
+                                "proveedor": "ARNALADO P APPELLA S.A",
+                                "comprobante": "FGAS 49 674",
+                                "leyenda": "CHINO PAGO SUPER",
+                                "importe": -5427.22
+                            },
+                            {
+                                "fecha": "2025-06-14",
+                                "proveedor": "ARNALADO P APPELLA S.A",
+                                "comprobante": "FGAS 49 674",
+                                "leyenda": "SIN LEYENDA",
+                                "importe": 9375.19
+                            },
+                            {
+                                "fecha": "2025-06-14",
+                                "proveedor": "ARNALADO P APPELLA S.A",
+                                "comprobante": "FGAS 49 674",
+                                "leyenda": "SIN LEYENDA - estaba paga - SE DEVUELVE EL IVA",
+                                "importe": -1968.79
+                            },
+                            {
+                                "fecha": "2025-06-14",
+                                "proveedor": "ARNALADO P APPELLA S.A",
+                                "comprobante": "FGAS 49 674",
+                                "leyenda": "SIN LEYENDA - ANULA FC MAL PASADA",
+                                "importe": -9375.19
+                            },
+                            {
+                                "fecha": "2025-06-17",
+                                "proveedor": "OCASIONAL",
+                                "comprobante": "FGAS 7 4726",
+                                "leyenda": "CHINO PAGO FORRAJERIA",
+                                "importe": -8938.02
+                            },
+                            {
+                                "fecha": "2025-06-19",
+                                "proveedor": "OCASIONAL",
+                                "comprobante": "FGAS 6 1221",
+                                "leyenda": "CHINO PAGO POLLERIA",
+                                "importe": -6697.96
+                            },
+                            {
+                                "fecha": "2025-06-24",
+                                "proveedor": "RIVAS NUÑEZ  S.R.L.",
+                                "comprobante": "FGAS 10 4889",
+                                "leyenda": "CHINO PAGO COMBUSTIBLE",
+                                "importe": -4307.88
+                            },
+                            {
+                                "fecha": "2025-06-26",
+                                "proveedor": "LOS CINCO LEGUITOS S.R.L.",
+                                "comprobante": "FGAS 2 10425",
+                                "leyenda": "SOTO ANDREA CTA CTE",
+                                "importe": 187832.97
+                            },
+                            {
+                                "fecha": "2025-06-26",
+                                "proveedor": "S A IMPORTADORA Y EXPORTADORA DE LA PATAGONIA",
+                                "comprobante": "FGAS 5975 52476",
+                                "leyenda": "CHINO PAGO SUPER",
+                                "importe": -17377.96
+                            },
+                            {
+                                "fecha": "2025-06-26",
+                                "proveedor": "OCASIONAL",
+                                "comprobante": "FGAS 5 684",
+                                "leyenda": "GRIGERA PERSONAL CTA CTE REPARACION BOMBA",
+                                "importe": 127702.0
+                            },
+                            {
+                                "fecha": "2025-06-27",
+                                "proveedor": "OCASIONAL",
+                                "comprobante": "FGAS 1 103",
+                                "leyenda": "VIAJE ESTUDIANTIL LOS CEIBOS",
+                                "importe": 2250000.0
+                            },
+                            {
+                                "fecha": "2025-06-27",
+                                "proveedor": "ARNALADO P APPELLA S.A",
+                                "comprobante": "FGAS 46 4099",
+                                "leyenda": "CHINO PAGO SUPERMERCADO",
+                                "importe": -11158.72
+                            }
+                        ]
+                    },
+                    "Mantenimiento": {
+                        "total": 10625123.96,
+                        "items": [
+                            {
+                                "fecha": "2025-06-01",
+                                "proveedor": "VELASCO ALEXIS JORGE",
+                                "comprobante": "FGAS 3 181",
+                                "leyenda": "SAN AGUSTIN TERCERO (CTA CTE)",
+                                "importe": 10625123.96
+                            }
+                        ]
+                    },
+                    "Reparaciones": {
+                        "total": 260000.0,
+                        "items": [
+                            {
+                                "fecha": "2025-06-18",
+                                "proveedor": "CIAPPA JUAN GERMAN",
+                                "comprobante": "FGAS 1 2062",
+                                "leyenda": "SPATAFORA M. JOSE CTA CTE / MADERO NESTOR",
+                                "importe": 260000.0
+                            }
+                        ]
+                    }
+                }
+            },
+            "2025-07": {
+                "total_mes": 827203.44,
+                "por_articulo": {
+                    "Gastos Varios": {
+                        "total": 67203.44,
+                        "items": [
+                            {
+                                "fecha": "2025-07-03",
+                                "proveedor": "RIVAS NUÑEZ  S.R.L.",
+                                "comprobante": "FGAS 10 5128",
+                                "leyenda": "CHINO PAGO COMBUSTIBLE",
+                                "importe": -7176.73
+                            },
+                            {
+                                "fecha": "2025-07-14",
+                                "proveedor": "PLANA CLAUDIO ALEJANDRO",
+                                "comprobante": "FGAS 7 1001",
+                                "leyenda": "REGALO EMPRESARIAL (MAURICIO GAVALDA CTA CTE)",
+                                "importe": 74380.17
+                            }
+                        ]
+                    },
+                    "Mantenimiento": {
+                        "total": 760000.0,
+                        "items": [
+                            {
+                                "fecha": "2025-07-22",
+                                "proveedor": "TOLOSA CARLA DAIANA",
+                                "comprobante": "FGAS 3 313",
+                                "leyenda": "FLETE ESCORIA",
+                                "importe": 760000.0
+                            }
+                        ]
+                    }
+                }
+            }
+        }
     }
 }

@@ -1,0 +1,8 @@
+[2025-07-30 17:12:50] 📁 Archivo subido por panel: ChatGPT_Image_17_abr_2025_15_23_57.png en static\archivos\Leguizamon_Marcela_Soledad
+[2025-07-31 08:22:55] 📁 Archivo subido por panel: maxi_fot_perfil.jpg en static\archivos\Zega_Maximiliano
+[2025-07-31 08:24:13] 📁 Archivo subido por panel: maxi_fot_perfil.jpg en static\archivos\Zega_Maximiliano
+[2025-07-31 15:36:55] 📁 Archivo subido por panel: 6M0A2256.jpg en static\archivos\Atia_Sebastián
+[2025-07-31 15:37:25] 📁 Archivo subido por panel: 6M0A2627.jpg en static\archivos\Bai_Sebastián
+[2025-07-31 15:37:49] 📁 Archivo subido por panel: DSC04177.jpg en static\archivos\Acuña_Santiago_Martín
+[2025-07-31 15:38:22] 📁 Archivo subido por panel: 6M0A2789.jpg en static\archivos\Ciepielak_Guillermo_Fabián
+[2025-07-31 15:42:01] 📁 Archivo subido por panel: Imagen_de_fondo_Nutralmix.png en static\archivos\Leguizamon_Marcela_Soledad

@@ -1165,3 +1165,90 @@
 [2025-07-30 17:03:16] Consulta de todos los préstamos
 [2025-07-30 17:03:16] Empleados activos cargados correctamente
 [2025-07-30 17:03:19] Acceso a panel
+[2025-07-30 17:03:45] Acceso a panel
+[2025-07-30 17:03:47] Consulta de info iniciada
+[2025-07-30 17:03:47] Empleados activos cargados correctamente
+[2025-07-30 17:03:54] Consulta de info iniciada
+[2025-07-30 17:03:54] Empleados activos cargados correctamente
+[2025-07-30 17:03:54] Búsqueda de: legui
+[2025-07-30 17:03:57] Consulta de préstamo para 213
+[2025-07-30 17:04:15] Consulta de préstamo para 213
+[2025-07-30 17:04:35] Servidor Flask iniciado
+[2025-07-30 17:04:38] Consulta de préstamo para 213
+[2025-07-30 17:04:45] Consulta de todos los préstamos
+[2025-07-30 17:04:45] Empleados activos cargados correctamente
+[2025-07-30 17:12:25] Consulta de todos los préstamos
+[2025-07-30 17:12:25] Empleados activos cargados correctamente
+[2025-07-30 17:12:27] Acceso a panel
+[2025-07-30 17:12:30] Acceso a subir archivo a empleado (privado)
+[2025-07-30 17:12:35] Acceso a subir archivo a empleado (privado)
+[2025-07-30 17:12:46] Acceso a subir archivo a empleado (privado)
+[2025-07-30 17:12:50] Archivo ChatGPT_Image_17_abr_2025_15_23_57.png subido a static\archivos\Leguizamon_Marcela_Soledad
+[2025-07-30 17:12:56] Acceso a panel
+[2025-07-30 17:13:02] Acceso a panel
+[2025-07-31 08:14:18] Acceso a portada
+[2025-07-31 08:14:33] Acceso a panel
+[2025-07-31 08:15:00] Acceso a subir archivo a empleado (privado)
+[2025-07-31 08:15:08] Acceso a subir archivo a empleado (privado)
+[2025-07-31 08:15:10] Acceso a subir archivo a empleado (privado)
+[2025-07-31 08:22:14] Acceso a subir archivo a empleado (privado)
+[2025-07-31 08:22:37] Acceso a subir archivo a empleado (privado)
+[2025-07-31 08:22:55] Archivo maxi_fot_perfil.jpg subido a static\archivos\Zega_Maximiliano
+[2025-07-31 08:24:13] Archivo maxi_fot_perfil.jpg subido a static\archivos\Zega_Maximiliano
+[2025-07-31 15:35:19] Acceso a portada
+[2025-07-31 15:35:20] Acceso a panel
+[2025-07-31 15:35:41] Acceso a subir archivo a empleado (privado)
+[2025-07-31 15:35:45] Acceso a subir archivo a empleado (privado)
+[2025-07-31 15:36:50] Acceso a subir archivo a empleado (privado)
+[2025-07-31 15:36:55] Archivo 6M0A2256.jpg subido a static\archivos\Atia_Sebastián
+[2025-07-31 15:37:01] Acceso a subir archivo a empleado (privado)
+[2025-07-31 15:37:22] Acceso a subir archivo a empleado (privado)
+[2025-07-31 15:37:25] Archivo 6M0A2627.jpg subido a static\archivos\Bai_Sebastián
+[2025-07-31 15:37:30] Acceso a subir archivo a empleado (privado)
+[2025-07-31 15:37:46] Acceso a subir archivo a empleado (privado)
+[2025-07-31 15:37:49] Archivo DSC04177.jpg subido a static\archivos\Acuña_Santiago_Martín
+[2025-07-31 15:37:52] Acceso a subir archivo a empleado (privado)
+[2025-07-31 15:38:18] Acceso a subir archivo a empleado (privado)
+[2025-07-31 15:38:22] Archivo 6M0A2789.jpg subido a static\archivos\Ciepielak_Guillermo_Fabián
+[2025-07-31 15:38:27] Acceso a subir archivo a empleado (privado)
+[2025-07-31 15:41:58] Acceso a subir archivo a empleado (privado)
+[2025-07-31 15:42:01] Archivo Imagen_de_fondo_Nutralmix.png subido a static\archivos\Leguizamon_Marcela_Soledad
+[2025-07-31 15:42:04] Acceso a panel
+[2025-07-31 15:42:08] Acceso a subir archivo público
+[2025-07-31 15:43:54] Acceso a subir archivo público
+[2025-07-31 15:43:57] ✅ Archivo público Imagen_de_fondo_Nutralmix.png subido correctamente.
+[2025-07-31 15:43:59] Acceso a panel
+[2025-07-31 15:44:02] Acceso a panel
+[2025-07-31 15:44:08] Acceso a panel
+[2025-07-31 15:44:10] Empleados activos cargados correctamente
+[2025-07-31 15:44:10] Consulta de próximos cumpleaños
+[2025-07-31 16:42:20] Acceso a portada
+[2025-07-31 16:42:22] Acceso a panel
+[2025-07-31 16:42:29] Acceso a panel
+[2025-07-31 16:42:31] Logout desde panel web
+[2025-08-13 09:55:28] Acceso a portada
+[2025-08-13 09:56:28] Acceso a portada
+[2025-08-13 09:56:36] Acceso a panel
+[2025-08-13 09:59:58] Empleados activos cargados correctamente
+[2025-08-13 09:59:58] Visualización de todos los empleados
+[2025-08-18 11:22:38] Servidor Flask iniciado
+[2025-08-18 11:22:47] Acceso a portada
+[2025-08-18 11:22:49] Acceso a panel
+[2025-08-18 12:27:42] Acceso a panel
+[2025-08-18 12:27:53] Servidor Flask iniciado
+[2025-08-18 12:27:55] Acceso a panel
+[2025-08-18 12:29:41] Acceso a panel
+[2025-08-18 12:30:01] Servidor Flask iniciado
+[2025-08-18 12:30:05] Acceso a panel
+[2025-08-18 12:32:16] Acceso a portada
+[2025-08-18 12:32:18] Acceso a panel
+[2025-08-18 12:33:12] Servidor Flask iniciado
+[2025-08-18 12:33:18] Acceso a portada
+[2025-08-18 12:33:20] Acceso a panel
+[2025-08-18 12:36:08] Servidor Flask iniciado
+[2025-08-18 12:36:13] Acceso a panel
+[2025-08-18 12:38:39] Servidor Flask iniciado
+[2025-08-18 12:38:48] Acceso a panel
+[2025-08-18 12:41:18] Servidor Flask iniciado
+[2025-08-18 12:47:47] Servidor Flask iniciado
+[2025-08-18 12:47:53] Acceso a panel
