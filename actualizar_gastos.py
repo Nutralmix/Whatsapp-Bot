@@ -1,3 +1,4 @@
+# actualizar_gastos.py
 import os
 import re
 import json
@@ -10,7 +11,6 @@ from datetime import datetime
 ARCHIVO_JSON  = "empleados.json"
 ARCHIVO_EXCEL = "gastos.xlsx"
 
-# Google Sheets del usuario
 FILE_ID = "1RKa8eVJWwAlZXOjTpfyxe_L0v7zaAprg"
 GID     = "609445557"
 URL     = f"https://docs.google.com/spreadsheets/d/{FILE_ID}/export?format=xlsx&gid={GID}"
@@ -55,23 +55,8 @@ def col(df, *alternativas):
             return columnas[alt_lower]
     raise KeyError(f"Falta columna: {alternativas}")
 
-# ========= DETECCIÓN DE ENCABEZADO CORRECTO =========
-def cargar_df_gastos(ruta_xlsx: str) -> pd.DataFrame:
-    xls = pd.ExcelFile(ruta_xlsx)
-    for sheet in xls.sheet_names:
-        raw = pd.read_excel(ruta_xlsx, sheet_name=sheet, header=None)
-        for i, row in raw.iterrows():
-            lower = [str(v).strip().lower() for v in row.values]
-            if "legajo" in lower and ("fecha" in lower or "proveedor" in lower):
-                df = pd.read_excel(ruta_xlsx, sheet_name=sheet, header=i)
-                return df
-    return pd.read_excel(ruta_xlsx, sheet_name=0)
-
 # ========= AGRUPACIÓN =========
 def agrupar_por_mes_y_articulo(df, legajo):
-    if df.empty:
-        return {}
-
     c_leg   = col(df, "LEGAJO", "LEG", "LEGAJ")
     c_fecha = col(df, "FECHA")
     c_prov  = col(df, "PROVEEDOR", "PROV")
@@ -80,13 +65,10 @@ def agrupar_por_mes_y_articulo(df, legajo):
     c_ley   = col(df, "LEYENDA")
     c_imp   = col(df, "IMPORTE_GABI", "IMPORTE", "IMPORTE_GAB")
 
-    df[c_leg] = df[c_leg].astype(str).str.strip()
-    legajo_str = str(legajo).strip()
-    dfl = df[df[c_leg] == legajo_str].copy()
-
+    dfl = df[df[c_leg].astype(str).str.strip() == str(legajo).strip()].copy()
     if dfl.empty:
-         print(f"🔎 No se encontraron filas para legajo {legajo_str} (columna usada: {c_leg})")
-
+        print(f"🔎 No se encontraron filas para legajo {legajo} (columna usada: {c_leg})")
+        return {}
 
     dfl[c_fecha] = pd.to_datetime(dfl[c_fecha], dayfirst=True, errors="coerce")
     dfl = dfl.dropna(subset=[c_fecha])
@@ -121,6 +103,9 @@ def agrupar_por_mes_y_articulo(df, legajo):
             "total_mes": total_mes,
             "por_articulo": por_art
         }
+
+    meses_detectados = ", ".join(resultado.keys())
+    print(f"✅ Gastos encontrados para legajo {legajo}: {len(resultado)} mes(es) -> {meses_detectados}")
     return resultado
 
 # ========= MAIN =========
@@ -130,33 +115,34 @@ def main():
     with open(ARCHIVO_JSON, "r", encoding="utf-8") as f:
         empleados = json.load(f)
 
-    df = cargar_df_gastos(ARCHIVO_EXCEL)
+    df = pd.read_excel(ARCHIVO_EXCEL, sheet_name=0)
     df = normalizar_columnas(df)
+
+    # Verificar legajos del Excel
+    try:
+        c_leg = col(df, "LEGAJO", "LEG", "LEGAJ")
+        legajos_unicos = df[c_leg].dropna().astype(str).str.strip().unique()
+        print(f"🧾 Legajos únicos encontrados en el Excel: {sorted(legajos_unicos)}")
+    except Exception as e:
+        print("❌ Error al encontrar columna de legajo:", e)
+
+    print("❌ Filas sin legajo válido:")
+    print(df[df[c_leg].isna()][[c_leg, col(df, "FECHA")]].to_string(index=False))
 
     for legajo, emp in empleados.items():
         emp["gastos_agrupados"] = {}
 
-    # 5) Calcular agrupación por legajo
     for legajo in list(empleados.keys()):
         agrupado = agrupar_por_mes_y_articulo(df, legajo)
-
-        if agrupado:
-            print(f"✅ Gastos encontrados para legajo {legajo}: {len(agrupado)} mes(es)")
-        else:
-            print(f"⚠️ SIN gastos para legajo {legajo}")
-
         empleados[legajo]["gastos_agrupados"] = agrupado
 
-    # 6) Guardar JSON
     with open(ARCHIVO_JSON, "w", encoding="utf-8") as f:
         json.dump(empleados, f, ensure_ascii=False, indent=4)
 
     print("✅ Gastos agrupados actualizados en empleados.json")
 
-    # 7) Push automático (como tus otros scripts)
     res = subprocess.run("python git_push.py", shell=True)
     print("🔧 git_push.py ->", res.returncode)
-
 
 if __name__ == "__main__":
     main()
