@@ -65,7 +65,7 @@ def agrupar_por_mes_y_articulo(df, legajo):
     c_ley   = col(df, "LEYENDA")
     c_imp   = col(df, "IMPORTE_GABI", "IMPORTE", "IMPORTE_GAB")
 
-    dfl = df[df[c_leg].astype(str).str.strip() == str(legajo).strip()].copy()
+    dfl = df[df[c_leg].fillna(-1).astype(int) == int(legajo)].copy()
     if dfl.empty:
         print(f"🔎 No se encontraron filas para legajo {legajo} (columna usada: {c_leg})")
         return {}
@@ -121,7 +121,7 @@ def main():
     # Verificar legajos del Excel
     try:
         c_leg = col(df, "LEGAJO", "LEG", "LEGAJ")
-        legajos_unicos = df[c_leg].dropna().astype(str).str.strip().unique()
+        legajos_unicos = df[c_leg].dropna().astype(int).unique()
         print(f"🧾 Legajos únicos encontrados en el Excel: {sorted(legajos_unicos)}")
     except Exception as e:
         print("❌ Error al encontrar columna de legajo:", e)
@@ -133,8 +133,12 @@ def main():
         emp["gastos_agrupados"] = {}
 
     for legajo in list(empleados.keys()):
-        agrupado = agrupar_por_mes_y_articulo(df, legajo)
-        empleados[legajo]["gastos_agrupados"] = agrupado
+       try:
+          agrupado = agrupar_por_mes_y_articulo(df, legajo)
+          empleados[legajo]["gastos_agrupados"] = agrupado
+       except ValueError:
+        print(f"❌ Legajo inválido en empleados.json: {legajo} (omitido)")
+
 
     with open(ARCHIVO_JSON, "w", encoding="utf-8") as f:
         json.dump(empleados, f, ensure_ascii=False, indent=4)
