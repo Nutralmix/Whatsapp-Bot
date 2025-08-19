@@ -3820,7 +3820,25 @@
         "notas": "",
         "prestamo": {},
         "vacaciones": 35,
-        "gastos_agrupados": {}
+        "gastos_agrupados": {
+            "2025-06": {
+                "total_mes": 94069.13,
+                "por_articulo": {
+                    "Combustibles": {
+                        "total": 94069.13,
+                        "items": [
+                            {
+                                "fecha": "2025-06-30",
+                                "proveedor": "YPF SOCIEDAD ANONIMA",
+                                "comprobante": "FGAS 2172 1718385",
+                                "leyenda": "YPF RUTA",
+                                "importe": 94069.13
+                            }
+                        ]
+                    }
+                }
+            }
+        }
     },
     "197": {
         "legajo": "197",
