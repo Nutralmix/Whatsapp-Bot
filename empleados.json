@@ -1415,60 +1415,6 @@
             }
         }
     },
-    "134": {
-        "legajo": "134",
-        "cuil": "23-36612188-9",
-        "apellido": "Costa",
-        "nombre": "Diego Daniel",
-        "sector": "Administracion",
-        "sede": "Trenque Lauquen",
-        "fecha_ingreso": "01-01-2013",
-        "estado": "Activo",
-        "fecha_baja": "",
-        "motivo_baja": "",
-        "fecha_nacimiento": "09-09-1992",
-        "edad": 0,
-        "telefono": "2392568713",
-        "rol": "empleado",
-        "notas": "",
-        "prestamo": {},
-        "gastos_agrupados": {
-            "2025-06": {
-                "total_mes": 136548.4,
-                "por_articulo": {
-                    "Combustibles": {
-                        "total": 136548.4,
-                        "items": [
-                            {
-                                "fecha": "2025-06-30",
-                                "proveedor": "YPF SOCIEDAD ANONIMA",
-                                "comprobante": "FGAS 2172 1718385",
-                                "leyenda": "YPF RUTA",
-                                "importe": 136548.4
-                            }
-                        ]
-                    }
-                }
-            },
-            "2025-07": {
-                "total_mes": 27242.84,
-                "por_articulo": {
-                    "Gastos Varios": {
-                        "total": 27242.84,
-                        "items": [
-                            {
-                                "fecha": "2025-07-01",
-                                "proveedor": "F G INDUSTRIAL SOCIEDAD DE HECHO DE  GONZALEZ MARI",
-                                "comprobante": "FGAS 12 12365",
-                                "leyenda": "DIEGO COSTA",
-                                "importe": 27242.84
-                            }
-                        ]
-                    }
-                }
-            }
-        }
-    },
     "39": {
         "legajo": "39",
         "cuil": "20-27207261-3",
