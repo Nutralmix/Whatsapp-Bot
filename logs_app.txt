@@ -1506,3 +1506,6 @@
 [2025-08-19 10:08:38] Consulta de todos los préstamos
 [2025-08-19 10:08:38] Empleados activos cargados correctamente
 [2025-08-19 10:45:08] Acceso a panel
+[2025-08-19 10:45:15] Acceso a panel
+[2025-08-19 10:45:36] Acceso a panel
+[2025-08-19 10:45:38] Acceso a panel
