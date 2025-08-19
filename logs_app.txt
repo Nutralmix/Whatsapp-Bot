@@ -1520,3 +1520,5 @@
 [2025-08-19 10:59:17] Acceso a panel
 [2025-08-19 10:59:45] Acceso a portada
 [2025-08-19 11:00:15] Acceso a panel
+[2025-08-19 11:21:53] Acceso a panel
+[2025-08-19 11:22:42] Acceso a panel
