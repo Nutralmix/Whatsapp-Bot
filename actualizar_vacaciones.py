@@ -3,6 +3,7 @@ import json
 import os
 import requests
 import subprocess
+import sys
 
 # === CONFIGURACIÓN ===
 ARCHIVO_JSON = "C:/Bot_RRHH/empleados.json"
@@ -61,6 +62,10 @@ with open(ARCHIVO_JSON, "w", encoding="utf-8") as f:
 print("✅ Actualización de vacaciones completada")
 print("📄 JSON guardado en:", os.path.abspath(ARCHIVO_JSON))
 
-# === PUSH A GIT (copiado de actualizar_gastos.py) ===
-res = subprocess.run("python git_push.py", shell=True)
-print("🔧 git_push.py ->", res.returncode)
+# === PUSH A GIT ===
+try:
+    print("🚀 Ejecutando git_push.py...")
+    res = subprocess.run([sys.executable, "git_push.py"], cwd=os.path.dirname(__file__), shell=True)
+    print("🔧 git_push.py ->", res.returncode)
+except Exception as e:
+    print(f"❌ Error al ejecutar git_push.py: {e}")
