@@ -114,14 +114,14 @@ def mostrar_menu_empleado(nombre_empleado, telefono_empleado=None):
     if telefono_empleado:
         empleado_info = obtener_usuario_por_telefono(telefono_empleado)
         if empleado_info:
-            saludo = f"👋 ¡Hola {nombre_empleado}! Soy tu asistente de RRHH.\nEstoy acá para ayudarte con tus consultas. 💼 Elegi el numero de opcion que corresponda🆔"
+            saludo = f"👋 ¡Hola {nombre_empleado}! Soy tu asistente de RRHH.\nEstoy acá para ayudarte con tus consultas. 💼"
 
     if not saludo:
         saludo = f"👋 ¡Hola {nombre_empleado}! Bienvenido al Bot de RRHH."
 
     menu_text = (
        f"{saludo}\n\n"
-       "📋 Menú Principal - Empleado\n\n"
+       "📋 Menú Principal - Empleado - Elegi el numero de opcion que corresponda  🆔\n\n"
        "1️⃣ Vacaciones 🏖️\n"
        "2️⃣ Préstamo 💰\n"
        "3️⃣ Mi Información 🧾\n"
@@ -270,30 +270,37 @@ def procesar_opcion_empleado(usuario, opcion, base_url):
         return respuesta.strip(), "menu_empleado"
     
     elif opcion == "8":
-             gastos = usuario.get("gastos_agrupados", {})
-             if not gastos:
-                 return "❌ No se encontraron gastos registrados.", "menu_empleado"
+        gastos = usuario.get("gastos_agrupados", {})
+        if not gastos:
+            return "❌ No se encontraron gastos registrados.", "menu_empleado"
 
-             lineas = ["🧾 *Tus Gastos Agrupados:*\n"]
-             for mes, data in gastos.items():
-                    total_mes = data.get("total_mes", 0)
-                    lineas.append(f"📅 *{mes}* - Total: ${total_mes:,.2f}".replace(",", "."))
+        lineas = ["🧾 *Resumen de tus gastos agrupados*\n"]
 
-                    por_articulo = data.get("por_articulo", {})
-                    for categoria, info in por_articulo.items():
-                        total_cat = info.get("total", 0)
-                        lineas.append(f"• {categoria} - Total: ${total_cat:,.2f}".replace(",", "."))
+        for mes, data in gastos.items():
+            total_mes = data.get("total_mes", 0)
+            lineas.append("━━━━━━━━━━━━━━━━━━━━━━")
+            lineas.append(f"📆 *{mes}* – Total mes: *${total_mes:,.2f}*".replace(",", "."))
+            lineas.append("━━━━━━━━━━━━━━━━━━━━━━\n")
 
-                        for item in info.get("items", []):
-                            fecha = item.get("fecha", "")
-                            proveedor = item.get("proveedor", "")
-                            leyenda = item.get("leyenda", "")
-                            importe = item.get("importe", 0)
-                            lineas.append(f"  • {fecha}: {proveedor} - {leyenda} - ${importe:,.2f}".replace(",", "."))
+            por_articulo = data.get("por_articulo", {})
+            for categoria, info in por_articulo.items():
+                total_cat = info.get("total", 0)
+                lineas.append(f"📌 *{categoria}* – Total: *${total_cat:,.2f}*".replace(",", "."))
 
-                    lineas.append("")
+                for item in info.get("items", []):
+                    fecha = item.get("fecha", "")
+                    proveedor = item.get("proveedor", "")
+                    leyenda = item.get("leyenda", "")
+                    importe = item.get("importe", 0)
+                    leyenda_str = f"↪ {leyenda} – " if leyenda else ""
+                    lineas.append(
+                        f"  • {fecha} – {proveedor}\n    {leyenda_str}${importe:,.2f}".replace(",", ".")
+                    )
 
-             return "\n".join(lineas).strip(), "menu_empleado"
+                lineas.append("")  # espacio entre categorías
+
+        return "\n".join(lineas).strip(), "menu_empleado"
+
 
 
 

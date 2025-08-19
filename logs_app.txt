@@ -1527,3 +1527,20 @@
 [2025-08-19 11:51:10] Acceso a panel
 [2025-08-19 11:51:27] Acceso a panel
 [2025-08-19 11:53:54] Acceso a panel
+[2025-08-19 11:54:10] Acceso a panel
+[2025-08-19 11:59:06] Empleados activos cargados correctamente
+[2025-08-19 11:59:06] Visualización de todos los empleados
+[2025-08-19 11:59:20] Acceso a panel
+[2025-08-19 11:59:26] Acceso a subir archivo público
+[2025-08-19 11:59:27] Acceso a panel
+[2025-08-19 11:59:37] Acceso a subir archivo público
+[2025-08-19 11:59:45] Acceso a panel
+[2025-08-19 11:59:46] Empleados activos cargados correctamente
+[2025-08-19 11:59:46] Visualización de todos los empleados
+[2025-08-19 11:59:51] Acceso a panel
+[2025-08-19 11:59:56] Consulta de info iniciada
+[2025-08-19 11:59:56] Empleados activos cargados correctamente
+[2025-08-19 11:59:59] Acceso a panel
+[2025-08-19 12:00:07] Acceso a subir archivo público
+[2025-08-19 12:11:38] Servidor Flask iniciado
+[2025-08-19 12:11:44] Acceso a panel
