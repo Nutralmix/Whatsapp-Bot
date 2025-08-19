@@ -114,7 +114,7 @@ def mostrar_menu_empleado(nombre_empleado, telefono_empleado=None):
     if telefono_empleado:
         empleado_info = obtener_usuario_por_telefono(telefono_empleado)
         if empleado_info:
-            saludo = f"👋 ¡Hola {nombre_empleado}! Soy tu asistente de RRHH.\nEstoy acá para ayudarte con tus consultas. 💼"
+            saludo = f"👋 ¡Hola {nombre_empleado}! Soy tu asistente de RRHH.\nEstoy acá para ayudarte con tus consultas. 💼 Elegi el numero de opcion que corresponda"
 
     if not saludo:
         saludo = f"👋 ¡Hola {nombre_empleado}! Bienvenido al Bot de RRHH."

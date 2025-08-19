@@ -1522,3 +1522,6 @@
 [2025-08-19 11:00:15] Acceso a panel
 [2025-08-19 11:21:53] Acceso a panel
 [2025-08-19 11:22:42] Acceso a panel
+[2025-08-19 11:44:41] Acceso a panel
+[2025-08-19 11:51:08] Acceso a panel
+[2025-08-19 11:51:10] Acceso a panel
