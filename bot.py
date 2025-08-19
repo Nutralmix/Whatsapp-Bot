@@ -4,6 +4,7 @@ import os
 from utils import calcular_antiguedad
 from meta_config import BASE_URL
 from utils import obtener_proximos_feriados
+from calendar import month_name
 
 
 
@@ -276,10 +277,22 @@ def procesar_opcion_empleado(usuario, opcion, base_url):
 
         lineas = ["🧾 *Resumen de tus gastos agrupados*\n"]
 
-        for mes, data in gastos.items():
+        meses_ordenados = sorted(gastos.keys())  # orden cronológico
+
+        for mes in meses_ordenados:
+            data = gastos[mes]
             total_mes = data.get("total_mes", 0)
+
+            # Convertir "2025-07" en "Julio"
+            mes_nombre = {
+                "01": "Enero", "02": "Febrero", "03": "Marzo",
+                "04": "Abril", "05": "Mayo", "06": "Junio",
+                "07": "Julio", "08": "Agosto", "09": "Septiembre",
+                "10": "Octubre", "11": "Noviembre", "12": "Diciembre"
+            }.get(mes.split("-")[1], mes).upper()
+
             lineas.append("━━━━━━━━━━━━━━━━━━━━━━")
-            lineas.append(f"📆 *{mes}* – Total mes: *${total_mes:,.2f}*".replace(",", "."))
+            lineas.append(f"📆 *{mes_nombre}* – Total mes: *${total_mes:,.2f}*".replace(",", "."))
             lineas.append("━━━━━━━━━━━━━━━━━━━━━━\n")
 
             por_articulo = data.get("por_articulo", {})
@@ -292,7 +305,7 @@ def procesar_opcion_empleado(usuario, opcion, base_url):
                     proveedor = item.get("proveedor", "")
                     leyenda = item.get("leyenda", "")
                     importe = item.get("importe", 0)
-                    leyenda_str = f"↪ {leyenda} – " if leyenda else ""
+                    leyenda_str = f"📄 {leyenda} – " if leyenda else ""
                     lineas.append(
                         f"  • {fecha} – {proveedor}\n    {leyenda_str}${importe:,.2f}".replace(",", ".")
                     )
@@ -300,6 +313,7 @@ def procesar_opcion_empleado(usuario, opcion, base_url):
                 lineas.append("")  # espacio entre categorías
 
         return "\n".join(lineas).strip(), "menu_empleado"
+
 
 
 

@@ -431,3 +431,51 @@ To https://github.com/Nutralmix/Whatsapp-Bot.git
 [2025-08-19 11:54:10] 📤 Finalizó script de git_push.py
 
 [2025-08-19 12:11:49] ✅ Git está disponible en: C:\Program Files\Git\cmd\git.EXE
+[2025-08-19 12:11:49] === Ejecutando: git add . ===
+[2025-08-19 12:11:49] === Ejecutando: git commit -m "Actualización automática - 2025-08-19 12:11" ===
+[2025-08-19 12:11:49] STDOUT:
+[main 15ce48b] ActualizaciÃ³n automÃ¡tica - 2025-08-19 12:11
+ Committer: unknown <Administrador@nutralmix.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 25 files changed, 77 insertions(+), 27 deletions(-)
+ delete mode 100644 "static/archivos/Acu\303\261a_Santiago_Mart\303\255n/DSC04177.jpg"
+ delete mode 100644 static/archivos/Anca_Ezequiel/adobe-pdf3324.jpg
+ delete mode 100644 static/archivos/Atia_Sebastian/Caudit.txt
+ delete mode 100644 static/archivos/Atia_Sebastian/Documentacion_de_Ingreso_.pdf
+ delete mode 100644 "static/archivos/Atia_Sebasti\303\241n/6M0A2256.jpg"
+ delete mode 100644 "static/archivos/Bai_Sebasti\303\241n/6M0A2627.jpg"
+ delete mode 100644 static/archivos/Canas_Pablo_Damian/Balanceado_Iniciador_con_sombra.png
+ delete mode 100644 "static/archivos/Ciepielak_Guillermo_Fabi\303\241n/6M0A2789.jpg"
+ delete mode 100644 static/archivos/Leguizamon_Marcela_Soledad/ChatGPT_Image_17_abr_2025_15_23_57.png
+ delete mode 100644 static/archivos/Leguizamon_Marcela_Soledad/Imagen_de_fondo_Nutralmix.png
+ delete mode 100644 static/archivos/Macchione_Guadalupe/BOLSA.521.png
+ delete mode 100644 static/archivos/Zega_Maximiliano/Concentrado_Novillo_con_sombra.png
+ delete mode 100644 static/archivos/Zega_Maximiliano/Imagen_de_fondo_Nutralmix.png
+ delete mode 100644 static/archivos/Zega_Maximiliano/maxi_fot_perfil.jpg
+ delete mode 100644 static/archivos/Zega_Maximiliano/tano.ico
+ delete mode 100644 static/archivos/publicos/6M0A2793.jpg
+ delete mode 100644 static/archivos/publicos/BOLSA.520.png
+ delete mode 100644 static/archivos/publicos/Bls.png
+ delete mode 100644 static/archivos/publicos/Imagen_de_fondo_Nutralmix.png
+ delete mode 100644 static/archivos/publicos/Manual_del_Colaborador_v4.pdf
+ delete mode 100644 static/archivos/publicos/dia_del_camionero.jpg
+
+[2025-08-19 12:11:51] === Ejecutando: git push origin main ===
+[2025-08-19 12:11:51] STDERR:
+To https://github.com/Nutralmix/Whatsapp-Bot.git
+   0be3120..15ce48b  main -> main
+
+[2025-08-19 12:11:51] 📤 Finalizó script de git_push.py
+
+[2025-08-19 12:33:04] ✅ Git está disponible en: C:\Program Files\Git\cmd\git.EXE
