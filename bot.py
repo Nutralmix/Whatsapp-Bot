@@ -270,12 +270,31 @@ def procesar_opcion_empleado(usuario, opcion, base_url):
         return respuesta.strip(), "menu_empleado"
     
     elif opcion == "8":
-             legajo = usuario.get("legajo")
-             if legajo:
-                url = f"{base_url}/gastos/{legajo}"
-                return f"🧾 Podés ver tus gastos acá:\n🔗 {url}", "menu_empleado"
-             else:
-                return "❌ No se encontró tu número de legajo para mostrar tus gastos.", "menu_empleado"
+             gastos = usuario.get("gastos_agrupados", {})
+             if not gastos:
+                 return "❌ No se encontraron gastos registrados.", "menu_empleado"
+
+             lineas = ["🧾 *Tus Gastos Agrupados:*\n"]
+             for mes, data in gastos.items():
+                    total_mes = data.get("total_mes", 0)
+                    lineas.append(f"📅 *{mes}* - Total: ${total_mes:,.2f}".replace(",", "."))
+
+                    por_articulo = data.get("por_articulo", {})
+                    for categoria, info in por_articulo.items():
+                        total_cat = info.get("total", 0)
+                        lineas.append(f"• {categoria} - Total: ${total_cat:,.2f}".replace(",", "."))
+
+                        for item in info.get("items", []):
+                            fecha = item.get("fecha", "")
+                            proveedor = item.get("proveedor", "")
+                            leyenda = item.get("leyenda", "")
+                            importe = item.get("importe", 0)
+                            lineas.append(f"  • {fecha}: {proveedor} - {leyenda} - ${importe:,.2f}".replace(",", "."))
+
+                    lineas.append("")
+
+             return "\n".join(lineas).strip(), "menu_empleado"
+
 
 
     elif opcion == "9":
