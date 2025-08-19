@@ -486,16 +486,20 @@ def actualizar_vacaciones():
 def actualizar_gastos():
     import sys
     import os
+    import subprocess
 
     python_path = sys.executable
-    script_path = os.path.join(os.getcwd(), "actualizar_gastos.py")
+    actualizar_script = os.path.join(os.getcwd(), "actualizar_gastos.py")
+    git_script = os.path.join(os.getcwd(), "git_push.py")
 
     try:
-        resultado = subprocess.run([python_path, script_path], check=True)
+        subprocess.run([python_path, actualizar_script], check=True)
+        subprocess.run([python_path, git_script], check=True)
         return redirect("/panel")
     except subprocess.CalledProcessError as e:
-        print(f"❌ Error ejecutando actualizar_gastos.py: {e}")
-        return "❌ Error al ejecutar la actualización de gastos", 500
+        print(f"❌ Error al ejecutar scripts: {e}")
+        return "❌ Error al ejecutar la actualización", 500
+
 
 
 @app.route('/gastos/<legajo>')
