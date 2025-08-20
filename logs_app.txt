@@ -1566,3 +1566,19 @@
 [2025-08-20 11:19:20] Empleados activos cargados correctamente
 [2025-08-20 11:19:20] Consulta de próximos cumpleaños
 [2025-08-20 11:20:04] Acceso a panel
+[2025-08-20 11:20:13] Acceso a panel
+[2025-08-20 11:21:12] Empleados activos cargados correctamente
+[2025-08-20 11:21:12] Consulta de próximos cumpleaños
+[2025-08-20 11:21:24] Empleados activos cargados correctamente
+[2025-08-20 11:21:24] Visualización de todos los empleados
+[2025-08-20 11:21:46] Entrando a editar empleado 400
+[2025-08-20 11:21:53] Entrando a editar empleado 400
+[2025-08-20 11:21:53] Empleado 400 actualizado
+[2025-08-20 11:21:53] Empleados activos cargados correctamente
+[2025-08-20 11:21:53] Visualización de todos los empleados
+[2025-08-20 11:22:32] Empleados activos cargados correctamente
+[2025-08-20 11:22:32] Visualización de todos los empleados
+[2025-08-20 11:22:38] Acceso a panel
+[2025-08-20 11:22:39] Empleados activos cargados correctamente
+[2025-08-20 11:22:39] Consulta de próximos cumpleaños
+[2025-08-20 11:23:31] Acceso a panel

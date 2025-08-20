@@ -1834,22 +1834,17 @@
         }
     },
     "400": {
-        "legajo": "400",
-        "cuil": "27-34424369-2",
         "apellido": "Thurler",
         "nombre": "Agustina",
+        "cuil": "27-34424369-2",
         "sector": "RRHH",
-        "sede": "9 de Julio",
         "fecha_ingreso": "27-04-2015",
-        "estado": "Activo",
-        "fecha_baja": "",
-        "motivo_baja": "",
-        "fecha_nacimiento": "02-03-1988",
-        "edad": 0,
+        "fecha_nacimiento": "02-03-1989",
         "telefono": "2317471567",
-        "rol": "empleado",
-        "notas": "",
-        "prestamo": {},
+        "direccion": "",
+        "email": "",
+        "vacaciones": 0,
+        "estado": "Activo",
         "gastos_agrupados": {
             "2025-06": {
                 "total_mes": 794833.51,
