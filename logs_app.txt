@@ -1590,3 +1590,9 @@
 [2025-08-20 11:26:21] Consulta de todos los préstamos
 [2025-08-20 11:26:21] Empleados activos cargados correctamente
 [2025-08-20 11:26:24] Acceso a panel
+[2025-08-20 11:26:35] Acceso a panel
+[2025-08-20 12:56:52] Servidor Flask iniciado
+[2025-08-20 12:56:57] Acceso a portada
+[2025-08-20 12:57:42] Acceso a panel
+[2025-08-20 12:57:51] Consulta de todos los préstamos
+[2025-08-20 12:57:51] Empleados activos cargados correctamente
