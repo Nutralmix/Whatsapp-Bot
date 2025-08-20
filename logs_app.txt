@@ -1582,3 +1582,11 @@
 [2025-08-20 11:22:39] Empleados activos cargados correctamente
 [2025-08-20 11:22:39] Consulta de próximos cumpleaños
 [2025-08-20 11:23:31] Acceso a panel
+[2025-08-20 11:26:04] Acceso a panel
+[2025-08-20 11:26:07] Consulta de todos los préstamos
+[2025-08-20 11:26:07] Empleados activos cargados correctamente
+[2025-08-20 11:26:09] Consulta de préstamo para 15
+[2025-08-20 11:26:16] Consulta de préstamo para 213
+[2025-08-20 11:26:21] Consulta de todos los préstamos
+[2025-08-20 11:26:21] Empleados activos cargados correctamente
+[2025-08-20 11:26:24] Acceso a panel
