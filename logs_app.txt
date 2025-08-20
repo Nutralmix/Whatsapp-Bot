@@ -1549,3 +1549,16 @@
 [2025-08-19 12:28:26] Servidor Flask iniciado
 [2025-08-19 12:32:55] Servidor Flask iniciado
 [2025-08-19 12:32:59] Acceso a panel
+[2025-08-19 12:33:06] Acceso a panel
+[2025-08-19 12:49:00] Acceso a panel
+[2025-08-19 13:00:32] Empleados activos cargados correctamente
+[2025-08-19 13:00:32] Consulta de próximos cumpleaños
+[2025-08-19 13:00:49] Acceso a panel
+[2025-08-19 13:00:56] Consulta de info iniciada
+[2025-08-19 13:00:56] Empleados activos cargados correctamente
+[2025-08-19 13:00:58] Acceso a panel
+[2025-08-19 13:01:03] Empleados activos cargados correctamente
+[2025-08-19 13:01:03] Visualización de todos los empleados
+[2025-08-19 13:01:08] Acceso a panel
+[2025-08-20 11:18:41] Acceso a portada
+[2025-08-20 11:18:42] Acceso a panel
