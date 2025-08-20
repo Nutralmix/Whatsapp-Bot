@@ -1565,3 +1565,4 @@
 [2025-08-20 11:19:17] Acceso a panel
 [2025-08-20 11:19:20] Empleados activos cargados correctamente
 [2025-08-20 11:19:20] Consulta de próximos cumpleaños
+[2025-08-20 11:20:04] Acceso a panel
