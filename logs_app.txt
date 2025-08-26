@@ -1606,3 +1606,46 @@
 [2025-08-26 11:58:21] Acceso a panel
 [2025-08-26 11:58:39] Acceso a panel
 [2025-08-26 11:58:49] Acceso a panel
+[2025-08-26 11:59:35] Acceso a panel
+[2025-08-26 11:59:38] Acceso a panel
+[2025-08-26 11:59:40] Acceso a panel
+[2025-08-26 12:02:35] Acceso a panel
+[2025-08-26 12:02:38] Consulta de todos los préstamos
+[2025-08-26 12:02:38] Empleados activos cargados correctamente
+[2025-08-26 12:03:41] Acceso a panel
+[2025-08-26 12:03:47] Consulta de info iniciada
+[2025-08-26 12:03:47] Empleados activos cargados correctamente
+[2025-08-26 12:03:51] Consulta de info iniciada
+[2025-08-26 12:03:51] Empleados activos cargados correctamente
+[2025-08-26 12:03:51] Búsqueda de: zeg
+[2025-08-26 12:03:55] Consulta de préstamo para 196
+[2025-08-26 12:03:57] Consulta de todos los préstamos
+[2025-08-26 12:03:57] Empleados activos cargados correctamente
+[2025-08-26 12:04:01] Acceso a panel
+[2025-08-26 12:04:02] Empleados activos cargados correctamente
+[2025-08-26 12:04:02] Visualización de todos los empleados
+[2025-08-26 12:04:14] Consulta de préstamo para 25
+[2025-08-26 12:16:48] Consulta de todos los préstamos
+[2025-08-26 12:16:48] Empleados activos cargados correctamente
+[2025-08-26 12:16:53] Consulta de préstamo para 125
+[2025-08-26 12:17:00] Consulta de todos los préstamos
+[2025-08-26 12:17:00] Empleados activos cargados correctamente
+[2025-08-26 12:17:50] Consulta de préstamo para 242
+[2025-08-26 12:17:56] Consulta de todos los préstamos
+[2025-08-26 12:17:56] Empleados activos cargados correctamente
+[2025-08-26 12:18:01] Acceso a panel
+[2025-08-26 15:11:42] Acceso a portada
+[2025-08-26 15:12:12] Acceso a panel
+[2025-08-26 15:12:15] Consulta de info iniciada
+[2025-08-26 15:12:15] Empleados activos cargados correctamente
+[2025-08-26 15:12:17] Consulta de info iniciada
+[2025-08-26 15:12:17] Empleados activos cargados correctamente
+[2025-08-26 15:12:17] Búsqueda de: zeg
+[2025-08-26 15:12:25] Entrando a editar empleado 196
+[2025-08-26 15:12:33] Entrando a editar empleado 196
+[2025-08-26 15:12:33] Empleado 196 actualizado
+[2025-08-26 15:12:33] Empleados activos cargados correctamente
+[2025-08-26 15:12:33] Visualización de todos los empleados
+[2025-08-26 15:13:03] Entrando a editar empleado 213
+[2025-08-26 15:13:17] Acceso a portada
+[2025-08-26 15:13:18] Acceso a panel
