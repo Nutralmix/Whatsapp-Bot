@@ -1674,3 +1674,8 @@
 [2025-08-26 16:20:16] Empleados activos cargados correctamente
 [2025-08-26 16:20:16] Visualización de todos los empleados
 [2025-08-26 16:20:18] Acceso a panel
+[2025-08-26 16:20:30] Acceso a panel
+[2025-08-26 16:24:28] Acceso a portada
+[2025-08-26 16:24:30] Acceso a panel
+[2025-08-26 16:24:34] Empleados activos cargados correctamente
+[2025-08-26 16:24:34] Visualización de todos los empleados
