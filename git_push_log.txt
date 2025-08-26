@@ -769,3 +769,38 @@ To https://github.com/Nutralmix/Whatsapp-Bot.git
 [2025-08-26 11:58:37] 📤 Finalizó script de git_push.py
 
 [2025-08-26 11:58:38] ✅ Git está disponible en: C:\Program Files\Git\cmd\git.EXE
+[2025-08-26 11:58:38] === Ejecutando: git add . ===
+[2025-08-26 11:58:38] === Ejecutando: git commit -m "Actualización automática - 2025-08-26 11:58" ===
+[2025-08-26 11:58:38] STDOUT:
+[main e16901c] ActualizaciÃ³n automÃ¡tica - 2025-08-26 11:58
+ Committer: unknown <Administrador@NUTRALMIX.LOCAL>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 3 files changed, 100 insertions(+), 3171 deletions(-)
+
+[2025-08-26 11:58:38] === Ejecutando: git push origin main ===
+[2025-08-26 11:58:38] STDERR:
+To https://github.com/Nutralmix/Whatsapp-Bot.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at afb7b6f02aab3f43099da0f64cc33011abc70d0f but expected 5d439c7f34ec431ebffebf0b2e8ffcf49a4c3185)
+error: failed to push some refs to 'https://github.com/Nutralmix/Whatsapp-Bot.git'
+
+[2025-08-26 11:58:38] 📤 Finalizó script de git_push.py
+
+[2025-08-26 11:58:39] === Ejecutando: git push origin main ===
+[2025-08-26 11:58:39] STDERR:
+To https://github.com/Nutralmix/Whatsapp-Bot.git
+   afb7b6f..e16901c  main -> main
+
+[2025-08-26 11:58:39] 📤 Finalizó script de git_push.py
+
+[2025-08-26 11:59:33] ✅ Git está disponible en: C:\Program Files\Git\cmd\git.EXE
