@@ -1649,3 +1649,28 @@
 [2025-08-26 15:13:03] Entrando a editar empleado 213
 [2025-08-26 15:13:17] Acceso a portada
 [2025-08-26 15:13:18] Acceso a panel
+[2025-08-26 15:13:31] Acceso a panel
+[2025-08-26 15:13:39] Consulta de info iniciada
+[2025-08-26 15:13:39] Empleados activos cargados correctamente
+[2025-08-26 15:13:42] Consulta de info iniciada
+[2025-08-26 15:13:42] Empleados activos cargados correctamente
+[2025-08-26 15:13:42] Búsqueda de: zeg
+[2025-08-26 15:13:48] Consulta de info iniciada
+[2025-08-26 15:13:48] Empleados activos cargados correctamente
+[2025-08-26 15:13:48] Búsqueda de: zeg
+[2025-08-26 15:14:05] Consulta de info iniciada
+[2025-08-26 15:14:05] Empleados activos cargados correctamente
+[2025-08-26 15:14:05] Búsqueda de: die
+[2025-08-26 15:14:49] Acceso a panel
+[2025-08-26 15:14:54] Consulta de info iniciada
+[2025-08-26 15:14:54] Empleados activos cargados correctamente
+[2025-08-26 15:14:59] Consulta de info iniciada
+[2025-08-26 15:14:59] Empleados activos cargados correctamente
+[2025-08-26 15:14:59] Búsqueda de: toled
+[2025-08-26 16:17:32] Acceso a panel
+[2025-08-26 16:17:34] Empleados activos cargados correctamente
+[2025-08-26 16:17:34] Visualización de todos los empleados
+[2025-08-26 16:18:08] Entrando a editar empleado 35
+[2025-08-26 16:20:16] Empleados activos cargados correctamente
+[2025-08-26 16:20:16] Visualización de todos los empleados
+[2025-08-26 16:20:18] Acceso a panel
