@@ -1679,3 +1679,71 @@
 [2025-08-26 16:24:30] Acceso a panel
 [2025-08-26 16:24:34] Empleados activos cargados correctamente
 [2025-08-26 16:24:34] Visualización de todos los empleados
+[2025-08-26 16:31:28] Acceso a panel
+[2025-08-26 16:32:12] Consulta de info iniciada
+[2025-08-26 16:32:12] Empleados activos cargados correctamente
+[2025-08-26 16:32:16] Consulta de info iniciada
+[2025-08-26 16:32:16] Empleados activos cargados correctamente
+[2025-08-26 16:32:16] Búsqueda de: zega
+[2025-08-26 16:32:24] Consulta de info iniciada
+[2025-08-26 16:32:24] Empleados activos cargados correctamente
+[2025-08-26 16:32:24] Búsqueda de: atia
+[2025-08-26 16:32:31] Consulta de info iniciada
+[2025-08-26 16:32:31] Empleados activos cargados correctamente
+[2025-08-26 16:32:31] Búsqueda de: zeg
+[2025-08-26 16:32:33] Acceso a panel
+[2025-08-26 16:33:20] Empleados activos cargados correctamente
+[2025-08-26 16:33:20] Visualización de todos los empleados
+[2025-08-26 16:34:16] Acceso a panel
+[2025-08-26 16:46:24] Acceso a panel
+[2025-08-26 16:46:27] Empleados activos cargados correctamente
+[2025-08-26 16:46:27] Visualización de todos los empleados
+[2025-08-26 16:46:36] Acceso a panel
+[2025-08-26 16:50:07] Empleados activos cargados correctamente
+[2025-08-26 16:50:07] Visualización de todos los empleados
+[2025-08-26 16:52:02] Acceso a panel
+[2025-08-26 16:52:04] Empleados activos cargados correctamente
+[2025-08-26 16:52:04] Visualización de todos los empleados
+[2025-08-26 17:04:27] Acceso a panel
+[2025-08-26 17:04:28] Empleados activos cargados correctamente
+[2025-08-26 17:04:28] Visualización de todos los empleados
+[2025-08-26 17:04:36] Entrando a editar empleado 196
+[2025-08-26 17:06:34] Acceso a portada
+[2025-08-26 17:06:35] Acceso a panel
+[2025-08-26 17:06:40] Empleados activos cargados correctamente
+[2025-08-26 17:06:40] Visualización de todos los empleados
+[2025-08-26 17:06:55] Vista web de archivos para 196
+[2025-08-26 17:06:56] Acceso a panel
+[2025-08-26 17:07:04] Acceso a panel
+[2025-08-26 17:07:09] Consulta de todos los préstamos
+[2025-08-26 17:07:09] Empleados activos cargados correctamente
+[2025-08-26 17:07:12] Consulta de préstamo para 250
+[2025-08-26 17:07:14] Consulta de todos los préstamos
+[2025-08-26 17:07:14] Empleados activos cargados correctamente
+[2025-08-26 17:07:15] Consulta de préstamo para 15
+[2025-08-26 17:07:17] Consulta de todos los préstamos
+[2025-08-26 17:07:17] Empleados activos cargados correctamente
+[2025-08-26 17:07:19] Acceso a panel
+[2025-08-26 17:07:27] Consulta de info iniciada
+[2025-08-26 17:07:27] Empleados activos cargados correctamente
+[2025-08-26 17:07:30] Consulta de info iniciada
+[2025-08-26 17:07:30] Empleados activos cargados correctamente
+[2025-08-26 17:07:30] Búsqueda de: die
+[2025-08-26 17:07:53] Consulta de info iniciada
+[2025-08-26 17:07:53] Empleados activos cargados correctamente
+[2025-08-26 17:07:53] Búsqueda de: zeg
+[2025-08-26 17:07:58] Consulta de info iniciada
+[2025-08-26 17:07:58] Empleados activos cargados correctamente
+[2025-08-26 17:07:58] Búsqueda de: die
+[2025-08-26 17:08:19] Consulta de info iniciada
+[2025-08-26 17:08:19] Empleados activos cargados correctamente
+[2025-08-26 17:08:19] Búsqueda de: die
+[2025-08-26 17:09:12] Acceso a panel
+[2025-08-26 17:09:16] Empleados activos cargados correctamente
+[2025-08-26 17:09:16] Visualización de todos los empleados
+[2025-08-26 17:09:26] Entrando a editar empleado 196
+[2025-08-26 17:09:43] Entrando a editar empleado 196
+[2025-08-26 17:09:43] Empleado 196 actualizado
+[2025-08-26 17:09:43] Empleados activos cargados correctamente
+[2025-08-26 17:09:43] Visualización de todos los empleados
+[2025-08-26 17:09:48] Acceso a panel

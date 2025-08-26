@@ -1366,21 +1366,17 @@
         "gastos_agrupados": {}
     },
     "196": {
-        "legajo": "196",
-        "cuil": "20-30830857-0",
         "apellido": "Zega",
         "nombre": "Maximiliano",
+        "cuil": "20-30830857-0",
         "sector": "RRHH",
-        "sede": "9 de Julio",
         "fecha_ingreso": "14-09-2022",
         "fecha_nacimiento": "07-07-1984",
         "telefono": "2317415313",
-        "rol": "empleado",
         "direccion": "",
-        "notas": "",
-        "prestamo": {},
+        "email": "",
         "vacaciones": 35,
-        "gastos_agrupados": {}
+        "estado": "Activo"
     },
     "197": {
         "legajo": "197",
