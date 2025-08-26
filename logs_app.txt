@@ -1601,3 +1601,6 @@
 [2025-08-26 10:33:08] Acceso a portada
 [2025-08-26 10:42:52] Acceso a portada
 [2025-08-26 10:42:54] Acceso a panel
+[2025-08-26 10:43:18] Acceso a panel
+[2025-08-26 11:58:19] Acceso a portada
+[2025-08-26 11:58:21] Acceso a panel
