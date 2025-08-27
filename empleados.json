@@ -964,33 +964,17 @@
         "gastos_agrupados": {}
     },
     "125": {
-        "legajo": "125",
-        "cuil": "20-34424351-5",
         "apellido": "Toledo",
         "nombre": "Ignacio Martín",
+        "cuil": "20-34424351-5",
         "sector": "Operaciones",
-        "sede": "9 de Julio",
         "fecha_ingreso": "02-01-2019",
-        "estado": "Activo",
-        "fecha_baja": "",
-        "motivo_baja": "",
         "fecha_nacimiento": "27-02-1989",
-        "edad": 0,
-        "telefono": "2317400309",
-        "rol": "empleado",
-        "notas": "",
-        "prestamo": {
-            "fecha_prestamo": "",
-            "monto": 810000.0,
-            "cuotas": 6,
-            "cancelado": 0.0,
-            "pendiente": -810000.0,
-            "proxima_cuota": 135000.0,
-            "cuotas_pendientes": 6,
-            "fecha_cancelacion": "01-03-2026"
-        },
+        "telefono": "2317571857",
+        "direccion": "",
+        "email": "",
         "vacaciones": 0,
-        "gastos_agrupados": {}
+        "estado": "Activo"
     },
     "129": {
         "legajo": "129",

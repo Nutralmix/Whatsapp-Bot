@@ -441,7 +441,7 @@ def ver_archivos_empleado(legajo):
 
     return render_template("ver_archivos_empleado.html", archivos=archivos, nombre_completo=f"{emp['nombre']} {emp['apellido']}")
 
-@app.route("/empleado/<legajo>")
+@app.route("/empleado/<legajo>", methods=["GET", "POST"])
 def ver_empleado(legajo):
     with open("empleados.json", encoding="utf-8") as f:
         empleados = json.load(f)

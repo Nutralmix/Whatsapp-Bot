@@ -1751,3 +1751,79 @@
 [2025-08-26 17:11:33] Empleados activos cargados correctamente
 [2025-08-26 17:11:33] Visualización de todos los empleados
 [2025-08-26 17:11:53] Acceso a panel
+[2025-08-26 17:12:00] Acceso a panel
+[2025-08-26 17:12:02] Consulta de info iniciada
+[2025-08-26 17:12:02] Empleados activos cargados correctamente
+[2025-08-26 17:12:06] Consulta de info iniciada
+[2025-08-26 17:12:06] Empleados activos cargados correctamente
+[2025-08-26 17:12:06] Búsqueda de: zega
+[2025-08-26 17:12:10] Entrando a editar empleado 196
+[2025-08-26 17:12:13] Empleados activos cargados correctamente
+[2025-08-26 17:12:13] Visualización de todos los empleados
+[2025-08-26 17:13:14] Acceso a panel
+[2025-08-27 07:54:05] Acceso a panel
+[2025-08-27 07:54:11] Empleados activos cargados correctamente
+[2025-08-27 07:54:11] Visualización de todos los empleados
+[2025-08-27 07:56:25] Servidor Flask iniciado
+[2025-08-27 08:28:26] Servidor Flask iniciado
+[2025-08-27 08:28:31] Acceso a panel
+[2025-08-27 08:28:32] Consulta de info iniciada
+[2025-08-27 08:28:32] Empleados activos cargados correctamente
+[2025-08-27 08:28:35] Consulta de info iniciada
+[2025-08-27 08:28:35] Empleados activos cargados correctamente
+[2025-08-27 08:28:35] Búsqueda de: atia
+[2025-08-27 08:28:39] Consulta de info iniciada
+[2025-08-27 08:28:39] Empleados activos cargados correctamente
+[2025-08-27 08:28:39] Búsqueda de: eze
+[2025-08-27 08:28:45] Acceso a panel
+[2025-08-27 08:28:46] Consulta de info iniciada
+[2025-08-27 08:28:46] Empleados activos cargados correctamente
+[2025-08-27 08:28:48] Consulta de info iniciada
+[2025-08-27 08:28:48] Empleados activos cargados correctamente
+[2025-08-27 08:28:48] Búsqueda de: atia
+[2025-08-27 08:28:53] Consulta de info iniciada
+[2025-08-27 08:28:53] Empleados activos cargados correctamente
+[2025-08-27 08:28:53] Búsqueda de: bai
+[2025-08-27 08:28:57] Consulta de info iniciada
+[2025-08-27 08:28:57] Empleados activos cargados correctamente
+[2025-08-27 08:28:57] Búsqueda de: eze
+[2025-08-27 08:28:58] Acceso a panel
+[2025-08-27 08:29:08] Servidor Flask iniciado
+[2025-08-27 08:29:11] Empleados activos cargados correctamente
+[2025-08-27 08:29:11] Visualización de todos los empleados
+[2025-08-27 08:32:28] Acceso a portada
+[2025-08-27 08:32:29] Acceso a panel
+[2025-08-27 08:32:32] Empleados activos cargados correctamente
+[2025-08-27 08:32:32] Visualización de todos los empleados
+[2025-08-27 08:32:55] Consulta de info iniciada
+[2025-08-27 08:32:55] Empleados activos cargados correctamente
+[2025-08-27 08:32:55] Búsqueda de: zeg
+[2025-08-27 08:32:58] Consulta de info iniciada
+[2025-08-27 08:32:58] Empleados activos cargados correctamente
+[2025-08-27 08:32:58] Búsqueda de: die
+[2025-08-27 08:33:03] Consulta de info iniciada
+[2025-08-27 08:33:03] Empleados activos cargados correctamente
+[2025-08-27 08:33:03] Búsqueda de: toled
+[2025-08-27 08:33:07] Consulta de info iniciada
+[2025-08-27 08:33:07] Empleados activos cargados correctamente
+[2025-08-27 08:33:07] Búsqueda de: die
+[2025-08-27 08:33:09] Consulta de info iniciada
+[2025-08-27 08:33:09] Empleados activos cargados correctamente
+[2025-08-27 08:33:09] Búsqueda de: anca
+[2025-08-27 08:33:16] Consulta de info iniciada
+[2025-08-27 08:33:16] Empleados activos cargados correctamente
+[2025-08-27 08:33:16] Búsqueda de: seba
+[2025-08-27 08:33:20] Entrando a editar empleado 236
+[2025-08-27 08:33:27] Empleados activos cargados correctamente
+[2025-08-27 08:33:27] Visualización de todos los empleados
+[2025-08-27 08:33:36] Acceso a panel
+[2025-08-27 08:33:44] Acceso a panel
+[2025-08-27 10:17:50] Empleados activos cargados correctamente
+[2025-08-27 10:17:50] Visualización de todos los empleados
+[2025-08-27 10:17:59] Entrando a editar empleado 125
+[2025-08-27 10:18:19] Entrando a editar empleado 125
+[2025-08-27 10:18:19] Empleado 125 actualizado
+[2025-08-27 10:18:19] Empleados activos cargados correctamente
+[2025-08-27 10:18:19] Visualización de todos los empleados
+[2025-08-27 10:18:25] Acceso a panel
+[2025-08-27 10:18:28] Acceso a panel
