@@ -6,3 +6,4 @@
 [2025-07-31 15:37:49] 📁 Archivo subido por panel: DSC04177.jpg en static\archivos\Acuña_Santiago_Martín
 [2025-07-31 15:38:22] 📁 Archivo subido por panel: 6M0A2789.jpg en static\archivos\Ciepielak_Guillermo_Fabián
 [2025-07-31 15:42:01] 📁 Archivo subido por panel: Imagen_de_fondo_Nutralmix.png en static\archivos\Leguizamon_Marcela_Soledad
+[2025-08-27 16:56:28] 📁 Archivo subido por panel: logo_cuadrado_nutralfood_verde_claro.png en static\archivos\Atia_Sebastián
