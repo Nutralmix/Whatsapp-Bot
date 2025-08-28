@@ -993,3 +993,41 @@ To https://github.com/Nutralmix/Whatsapp-Bot.git
 [2025-08-27 10:20:58] 📤 Finalizó script de git_push.py
 
 [2025-08-27 16:56:43] ✅ Git está disponible en: C:\Program Files\Git\cmd\git.EXE
+[2025-08-27 16:56:43] === Ejecutando: git add . ===
+[2025-08-27 16:56:43] === Ejecutando: git commit -m "Actualización automática - 2025-08-27 16:56" ===
+[2025-08-27 16:56:43] STDOUT:
+[main 190c45a] ActualizaciÃ³n automÃ¡tica - 2025-08-27 16:56
+ Committer: unknown <Administrador@NUTRALMIX.LOCAL>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 3 files changed, 45 insertions(+)
+
+[2025-08-27 16:56:45] === Ejecutando: git push origin main ===
+[2025-08-27 16:56:45] STDERR:
+To https://github.com/Nutralmix/Whatsapp-Bot.git
+   82a503f..190c45a  main -> main
+
+[2025-08-27 16:56:45] 📤 Finalizó script de git_push.py
+
+[2025-08-28 09:08:25] ✅ Git está disponible en: C:\Program Files\Git\cmd\git.EXE
+[2025-08-28 09:08:25] ✅ Git está disponible en: C:\Program Files\Git\cmd\git.EXE
+[2025-08-28 09:08:25] === Ejecutando: git add . ===
+[2025-08-28 09:08:25] STDERR:
+fatal: Unable to create 'C:/Bot_RRHH/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+
