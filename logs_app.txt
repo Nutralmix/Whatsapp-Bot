@@ -1888,3 +1888,29 @@
 [2025-09-01 14:40:32] ✅ Archivo público Boletin_Nutral_News_-_SepOct_2025_1.pdf subido correctamente.
 [2025-09-01 14:40:34] Acceso a panel
 [2025-09-01 14:40:38] Acceso a panel
+[2025-09-01 14:41:13] Consulta de info iniciada
+[2025-09-01 14:41:13] Empleados activos cargados correctamente
+[2025-09-01 14:41:16] Consulta de info iniciada
+[2025-09-01 14:41:16] Empleados activos cargados correctamente
+[2025-09-01 14:41:16] Búsqueda de: zeg
+[2025-09-01 14:41:20] Vista web de archivos para 196
+[2025-09-01 14:41:22] Acceso a panel
+[2025-09-01 14:41:23] Empleados activos cargados correctamente
+[2025-09-01 14:41:23] Visualización de todos los empleados
+[2025-09-01 14:41:31] Vista web de archivos para 35
+[2025-09-01 14:41:41] Consulta de info iniciada
+[2025-09-01 14:41:41] Empleados activos cargados correctamente
+[2025-09-01 14:41:41] Búsqueda de: zeg
+[2025-09-01 14:41:44] Consulta de préstamo para 196
+[2025-09-01 14:41:46] Consulta de todos los préstamos
+[2025-09-01 14:41:46] Empleados activos cargados correctamente
+[2025-09-01 14:41:49] Consulta de préstamo para 129
+[2025-09-01 14:41:52] Consulta de todos los préstamos
+[2025-09-01 14:41:52] Empleados activos cargados correctamente
+[2025-09-01 14:41:55] Acceso a panel
+[2025-09-01 14:42:10] Acceso a panel
+[2025-09-01 14:48:33] Acceso a subir archivo público
+[2025-09-01 14:50:22] Acceso a subir archivo público
+[2025-09-01 14:50:28] ✅ Archivo público Boletin_Nutral_News_-_SepOct_2025_1.pdf subido correctamente.
+[2025-09-01 14:50:35] Acceso a panel
+[2025-09-01 14:50:36] Acceso a panel
