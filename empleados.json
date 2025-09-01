@@ -1144,16 +1144,7 @@
         "telefono": "2317403313",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {
-            "fecha_prestamo": "",
-            "monto": 300000.0,
-            "cuotas": 4,
-            "cancelado": 300000.0,
-            "pendiente": 0.0,
-            "proxima_cuota": 75000.0,
-            "cuotas_pendientes": 0,
-            "fecha_cancelacion": "28-06-2025"
-        },
+        "prestamo": {},
         "vacaciones": 7,
         "gastos_agrupados": {
             "2025-07": {
@@ -3055,6 +3046,16 @@
                     }
                 }
             }
+        },
+        "prestamo": {
+            "fecha_prestamo": "",
+            "monto": 810000.0,
+            "cuotas": 6,
+            "cancelado": 0.0,
+            "pendiente": -810000.0,
+            "proxima_cuota": 135000.0,
+            "cuotas_pendientes": 6,
+            "fecha_cancelacion": "01-03-2026"
         }
     },
     "129": {
@@ -3685,16 +3686,7 @@
         "telefono": "2317581658",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {
-            "fecha_prestamo": "",
-            "monto": 1000000.0,
-            "cuotas": 4,
-            "cancelado": 1000000.0,
-            "pendiente": 0.0,
-            "proxima_cuota": 250000.0,
-            "cuotas_pendientes": 0,
-            "fecha_cancelacion": "09-07-2025"
-        },
+        "prestamo": {},
         "vacaciones": 0,
         "gastos_agrupados": {
             "2025-07": {
@@ -5158,16 +5150,7 @@
         "telefono": "2317518412",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {
-            "fecha_prestamo": "",
-            "monto": 600000.0,
-            "cuotas": 6,
-            "cancelado": 600000.0,
-            "pendiente": 0.0,
-            "proxima_cuota": 100000.0,
-            "cuotas_pendientes": 0,
-            "fecha_cancelacion": "06-06-2025"
-        },
+        "prestamo": {},
         "vacaciones": 14,
         "gastos_agrupados": {
             "2025-07": {

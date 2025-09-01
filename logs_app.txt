@@ -1852,3 +1852,20 @@
 [2025-08-28 09:08:43] Acceso a panel
 [2025-08-28 09:08:53] Acceso a panel
 [2025-08-28 09:09:01] Acceso a panel
+[2025-08-28 10:07:11] Acceso a panel
+[2025-08-28 10:07:20] Empleados activos cargados correctamente
+[2025-08-28 10:07:20] Visualización de todos los empleados
+[2025-08-28 10:08:11] Entrando a editar empleado 400
+[2025-08-29 16:42:24] Servidor Flask iniciado
+[2025-09-01 14:13:36] Acceso a portada
+[2025-09-01 14:15:27] Acceso a panel
+[2025-09-01 14:15:39] Acceso a subir archivo público
+[2025-09-01 14:15:54] Acceso a subir archivo público
+[2025-09-01 14:21:16] Acceso a panel
+[2025-09-01 14:21:18] Acceso a subir archivo público
+[2025-09-01 14:21:25] Acceso a subir archivo público
+[2025-09-01 14:21:30] ✅ Archivo público Boletin_Nutral_News_-_SepOct_2025_1.pdf subido correctamente.
+[2025-09-01 14:22:01] Acceso a subir archivo público
+[2025-09-01 14:22:32] Acceso a subir archivo público
+[2025-09-01 14:22:32] ✅ Archivo público Manual_del_Colaborador_v4.pdf subido correctamente.
+[2025-09-01 14:22:37] Acceso a panel
