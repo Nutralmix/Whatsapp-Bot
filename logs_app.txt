@@ -1931,3 +1931,6 @@
 [2025-09-01 15:52:26] Acceso a panel
 [2025-09-01 15:52:28] Acceso a panel
 [2025-09-01 15:52:54] Acceso a panel
+[2025-09-01 16:03:43] Consulta de info iniciada
+[2025-09-01 16:03:43] Empleados activos cargados correctamente
+[2025-09-01 16:03:46] Acceso a panel
