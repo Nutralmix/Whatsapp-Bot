@@ -1914,3 +1914,13 @@
 [2025-09-01 14:50:28] ✅ Archivo público Boletin_Nutral_News_-_SepOct_2025_1.pdf subido correctamente.
 [2025-09-01 14:50:35] Acceso a panel
 [2025-09-01 14:50:36] Acceso a panel
+[2025-09-01 14:52:52] Acceso a panel
+[2025-09-01 14:52:55] Consulta de info iniciada
+[2025-09-01 14:52:55] Empleados activos cargados correctamente
+[2025-09-01 14:52:57] Consulta de info iniciada
+[2025-09-01 14:52:57] Empleados activos cargados correctamente
+[2025-09-01 14:52:57] Búsqueda de: atia
+[2025-09-01 14:53:04] Vista web de archivos para 35
+[2025-09-01 14:56:59] Acceso a panel
+[2025-09-01 14:57:09] Acceso a subir archivo público
+[2025-09-01 14:57:12] Acceso a panel

@@ -691,15 +691,25 @@ def listar_archivos_publicos():
     if not os.path.exists(carpeta):
         return "📁 No hay archivos públicos disponibles."
 
-    archivos = os.listdir(carpeta)
+    archivos = sorted([
+        f for f in os.listdir(carpeta)
+        if f.lower().endswith(".pdf")
+    ])
+
     if not archivos:
         return "📁 No hay archivos públicos aún."
 
-    mensaje = "📂 Archivos públicos disponibles:\n\n"
+    mensaje = "📂 *Archivos públicos disponibles:*\n\n"
     for nombre in archivos:
-        url = f"{BASE_URL}/static/archivos/publicos/{nombre}"
-        mensaje += f"📎 {nombre}\n🔗 {url}\n\n"
+        try:
+            url = f"{BASE_URL}/static/archivos/publicos/{nombre}".replace(" ", "%20")
+            mensaje += f"📎 {nombre}\n🔗 {url}\n\n"
+        except Exception as e:
+            log_debug(f"⚠️ Error con archivo público '{nombre}': {e}")
+            continue
+
     return mensaje.strip()
+
 
 import requests
 from datetime import datetime, date
