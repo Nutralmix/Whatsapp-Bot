@@ -1873,3 +1873,13 @@
 [2025-09-01 14:30:47] Acceso a subir archivo público
 [2025-09-01 14:30:51] ✅ Archivo público Boletin_Nutral_News_-_SepOct_2025_1.pdf subido correctamente.
 [2025-09-01 14:30:54] Acceso a panel
+[2025-09-01 14:31:38] Acceso a subir archivo a empleado (privado)
+[2025-09-01 14:32:26] Acceso a subir archivo a empleado (privado)
+[2025-09-01 14:32:36] Acceso a subir archivo a empleado (privado)
+[2025-09-01 14:38:22] Acceso a subir archivo a empleado (privado)
+[2025-09-01 14:38:23] Archivo dni_Gonzalez_Gustavo_frente.jpg subido a static\archivos\Atia_Sebastián
+[2025-09-01 14:38:27] Acceso a panel
+[2025-09-01 14:38:38] Acceso a subir archivo público
+[2025-09-01 14:38:47] Acceso a subir archivo público
+[2025-09-01 14:38:55] ✅ Archivo público Boletin_Nutral_News_-_SepOct_2025_1.pdf subido correctamente.
+[2025-09-01 14:38:59] Acceso a panel
