@@ -1,0 +1,11 @@
+# Ignorar todo por defecto
+*
+
+# PERMITIR estos archivos/carpetas:
+!/.gitignore
+!/*.py
+!/*.txt
+!/templates/
+!/static/
+!/static/archivos/publicos/
+!/static/archivos/
