@@ -1869,3 +1869,7 @@
 [2025-09-01 14:22:32] Acceso a subir archivo público
 [2025-09-01 14:22:32] ✅ Archivo público Manual_del_Colaborador_v4.pdf subido correctamente.
 [2025-09-01 14:22:37] Acceso a panel
+[2025-09-01 14:30:34] Acceso a subir archivo público
+[2025-09-01 14:30:47] Acceso a subir archivo público
+[2025-09-01 14:30:51] ✅ Archivo público Boletin_Nutral_News_-_SepOct_2025_1.pdf subido correctamente.
+[2025-09-01 14:30:54] Acceso a panel
