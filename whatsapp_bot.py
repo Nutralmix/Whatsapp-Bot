@@ -117,7 +117,7 @@ def procesar_mensaje(texto, from_number):
         registrar_log({"telefono": from_number, "nombre": "No Registrado"}, f"Intento sin registro: {texto}")
         return
 
-    if texto in ["hola", "menu", "empezar"]:
+    if texto in ["hola", "menu", "menú", "iniciar", "empezar"]:
         if usuario["rol"] == "admin":
             respuesta = mostrar_menu_admin(usuario["nombre"], from_number)
             user_states[from_number]["estado"] = "menu_admin"

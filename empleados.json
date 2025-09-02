@@ -2919,7 +2919,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 7,
+        "vacaciones": 14,
         "gastos_agrupados": {
             "2025-07": {
                 "total_mes": 25765.29,
@@ -4655,7 +4655,7 @@
             "cuotas_pendientes": 1,
             "fecha_cancelacion": "01-08-2025"
         },
-        "vacaciones": 9,
+        "vacaciones": 10,
         "gastos_agrupados": {
             "2025-07": {
                 "total_mes": 460702.56000000006,

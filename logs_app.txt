@@ -1934,3 +1934,20 @@
 [2025-09-01 16:03:43] Consulta de info iniciada
 [2025-09-01 16:03:43] Empleados activos cargados correctamente
 [2025-09-01 16:03:46] Acceso a panel
+[2025-09-01 16:04:00] Empleados activos cargados correctamente
+[2025-09-01 16:04:00] Visualización de todos los empleados
+[2025-09-01 16:04:02] Empleados activos cargados correctamente
+[2025-09-01 16:04:02] Visualización de todos los empleados
+[2025-09-01 16:26:38] Acceso a portada
+[2025-09-01 16:26:40] Acceso a panel
+[2025-09-01 16:26:43] Acceso a subir archivo público
+[2025-09-01 16:26:46] Acceso a panel
+[2025-09-01 16:26:48] Empleados activos cargados correctamente
+[2025-09-01 16:26:48] Visualización de todos los empleados
+[2025-09-01 16:26:58] Vista web de archivos para 4
+[2025-09-01 16:26:59] Acceso a panel
+[2025-09-02 08:13:02] Servidor Flask iniciado
+[2025-09-02 10:12:18] Acceso a portada
+[2025-09-02 10:12:19] Acceso a panel
+[2025-09-02 10:12:21] Acceso a panel
+[2025-09-02 10:12:22] Acceso a panel
