@@ -1951,3 +1951,27 @@
 [2025-09-02 10:12:19] Acceso a panel
 [2025-09-02 10:12:21] Acceso a panel
 [2025-09-02 10:12:22] Acceso a panel
+[2025-09-02 14:42:46] Acceso a panel
+[2025-09-03 08:32:39] Acceso a portada
+[2025-09-03 08:32:40] Acceso a panel
+[2025-09-03 08:32:46] Empleados activos cargados correctamente
+[2025-09-03 08:32:46] Visualización de todos los empleados
+[2025-09-03 08:33:38] Vista web de archivos para 10
+[2025-09-03 08:33:40] Acceso a panel
+[2025-09-03 08:34:01] Consulta de préstamo para 15
+[2025-09-03 08:34:05] Consulta de todos los préstamos
+[2025-09-03 08:34:05] Empleados activos cargados correctamente
+[2025-09-03 08:34:11] Acceso a panel
+[2025-09-03 08:37:26] Acceso a panel
+[2025-09-03 08:37:44] Acceso a panel
+[2025-09-03 08:39:30] Acceso a panel
+[2025-09-03 08:40:32] Empleados activos cargados correctamente
+[2025-09-03 08:40:32] Visualización de todos los empleados
+[2025-09-03 08:40:40] Vista web de archivos para 257
+[2025-09-03 08:40:41] Acceso a panel
+[2025-09-03 08:40:42] Empleados activos cargados correctamente
+[2025-09-03 08:40:42] Visualización de todos los empleados
+[2025-09-03 08:40:49] Consulta de préstamo para 257
+[2025-09-03 08:40:50] Consulta de todos los préstamos
+[2025-09-03 08:40:50] Empleados activos cargados correctamente
+[2025-09-03 08:40:53] Acceso a panel
