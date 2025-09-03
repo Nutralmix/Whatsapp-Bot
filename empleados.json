@@ -614,18 +614,11 @@
         "vacaciones": 93,
         "gastos_agrupados": {
             "2025-07": {
-                "total_mes": 433875.77,
+                "total_mes": 356218.07,
                 "por_articulo": {
                     "Combustibles": {
-                        "total": 338936.63,
+                        "total": 261278.93,
                         "items": [
-                            {
-                                "fecha": "2025-07-15",
-                                "proveedor": "DJGM COMBUSTIBLES S.A",
-                                "comprobante": "FGAS 6 20734",
-                                "leyenda": "GONZALEZ JOSE LUIS (CTA CTE)",
-                                "importe": 77657.7
-                            },
                             {
                                 "fecha": "2025-07-31",
                                 "proveedor": "YPF SOCIEDAD ANONIMA",
@@ -930,11 +923,18 @@
         "vacaciones": 7,
         "gastos_agrupados": {
             "2025-07": {
-                "total_mes": 935828.79,
+                "total_mes": 1013486.49,
                 "por_articulo": {
                     "Combustibles": {
-                        "total": 83350.32,
+                        "total": 161008.02000000002,
                         "items": [
+                            {
+                                "fecha": "2025-07-15",
+                                "proveedor": "DJGM COMBUSTIBLES S.A",
+                                "comprobante": "FGAS 6 20734",
+                                "leyenda": "GONZALEZ JOSE LUIS (CTA CTE)",
+                                "importe": 77657.7
+                            },
                             {
                                 "fecha": "2025-07-31",
                                 "proveedor": "DJGM COMBUSTIBLES S.A",
