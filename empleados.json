@@ -2920,25 +2920,7 @@
         "notas": "",
         "prestamo": {},
         "vacaciones": 14,
-        "gastos_agrupados": {
-            "2025-07": {
-                "total_mes": 25765.29,
-                "por_articulo": {
-                    "Gastos de comida": {
-                        "total": 25765.29,
-                        "items": [
-                            {
-                                "fecha": "2025-07-01",
-                                "proveedor": "LA REGIONAL ASOCIACION SIMPLE DE PONTELLO EMILIANO",
-                                "comprobante": "FGAS 1 3468",
-                                "leyenda": "BEBIDAS EVENTOS EMPRESARIALES",
-                                "importe": 25765.29
-                            }
-                        ]
-                    }
-                }
-            }
-        }
+        "gastos_agrupados": {}
     },
     "120": {
         "legajo": "120",
