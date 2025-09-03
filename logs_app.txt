@@ -1975,3 +1975,7 @@
 [2025-09-03 08:40:50] Consulta de todos los préstamos
 [2025-09-03 08:40:50] Empleados activos cargados correctamente
 [2025-09-03 08:40:53] Acceso a panel
+[2025-09-03 08:41:04] Acceso a panel
+[2025-09-03 08:41:36] Acceso a panel
+[2025-09-03 08:42:32] Acceso a portada
+[2025-09-03 08:42:33] Acceso a panel
