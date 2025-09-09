@@ -1986,3 +1986,27 @@
 [2025-09-03 09:22:38] Acceso a panel
 [2025-09-03 10:21:36] Acceso a portada
 [2025-09-03 10:21:37] Acceso a panel
+[2025-09-03 10:21:54] Acceso a panel
+[2025-09-03 10:23:40] Acceso a panel
+[2025-09-03 16:39:53] Acceso a portada
+[2025-09-03 16:39:55] Acceso a panel
+[2025-09-03 16:39:56] Empleados activos cargados correctamente
+[2025-09-03 16:39:56] Consulta de próximos cumpleaños
+[2025-09-03 16:40:02] Acceso a panel
+[2025-09-03 16:40:03] Empleados activos cargados correctamente
+[2025-09-03 16:40:03] Visualización de todos los empleados
+[2025-09-04 11:35:48] Acceso a portada
+[2025-09-04 11:35:49] Acceso a panel
+[2025-09-04 11:37:17] Acceso a portada
+[2025-09-04 11:37:18] Acceso a panel
+[2025-09-04 11:37:20] Consulta de todos los préstamos
+[2025-09-04 11:37:20] Empleados activos cargados correctamente
+[2025-09-04 11:37:34] Consulta de préstamo para 213
+[2025-09-04 11:37:55] Consulta de todos los préstamos
+[2025-09-04 11:37:55] Empleados activos cargados correctamente
+[2025-09-04 12:31:46] Servidor Flask iniciado
+[2025-09-09 09:39:06] Servidor Flask iniciado
+[2025-09-09 09:39:09] Acceso a portada
+[2025-09-09 09:39:25] Acceso a portada
+[2025-09-09 09:44:04] Acceso a panel
+[2025-09-09 09:48:09] Acceso a panel
