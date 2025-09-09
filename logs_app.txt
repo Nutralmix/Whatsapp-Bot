@@ -2010,3 +2010,12 @@
 [2025-09-09 09:39:25] Acceso a portada
 [2025-09-09 09:44:04] Acceso a panel
 [2025-09-09 09:48:09] Acceso a panel
+[2025-09-09 09:48:23] Acceso a panel
+[2025-09-09 09:48:26] Consulta de info iniciada
+[2025-09-09 09:48:26] Empleados activos cargados correctamente
+[2025-09-09 09:48:31] Consulta de info iniciada
+[2025-09-09 09:48:31] Empleados activos cargados correctamente
+[2025-09-09 09:48:31] Búsqueda de: rodr
+[2025-09-09 09:50:09] Entrando a editar empleado 239
+[2025-09-09 09:50:20] Empleados activos cargados correctamente
+[2025-09-09 09:50:20] Visualización de todos los empleados
