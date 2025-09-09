@@ -2019,3 +2019,8 @@
 [2025-09-09 09:50:09] Entrando a editar empleado 239
 [2025-09-09 09:50:20] Empleados activos cargados correctamente
 [2025-09-09 09:50:20] Visualización de todos los empleados
+[2025-09-09 10:01:21] Acceso a panel
+[2025-09-09 10:02:55] Acceso a panel
+[2025-09-09 10:38:24] Acceso a panel
+[2025-09-09 10:38:26] Acceso a panel
+[2025-09-09 10:38:34] Acceso a panel

@@ -4609,7 +4609,44 @@
         "notas": "",
         "prestamo": {},
         "vacaciones": 7,
-        "gastos_agrupados": {}
+        "gastos_agrupados": {
+            "2025-07": {
+                "total_mes": 261125.58000000002,
+                "por_articulo": {
+                    "Combustibles": {
+                        "total": 144551.88,
+                        "items": [
+                            {
+                                "fecha": "2025-07-15",
+                                "proveedor": "DJGM COMBUSTIBLES S.A",
+                                "comprobante": "FGAS 6 20739",
+                                "leyenda": "RODRIGO RODRIGUEZ (CTA CTE)",
+                                "importe": 27042.16
+                            },
+                            {
+                                "fecha": "2025-07-15",
+                                "proveedor": "DJGM COMBUSTIBLES S.A",
+                                "comprobante": "FGAS 6 20739",
+                                "leyenda": "RODRIGUEZ RODRIGO (CTA CTE)",
+                                "importe": 117509.72
+                            }
+                        ]
+                    },
+                    "Gastos de comida": {
+                        "total": 116573.7,
+                        "items": [
+                            {
+                                "fecha": "2025-07-31",
+                                "proveedor": "COMPAÑIA URSO HERMANOS SA",
+                                "comprobante": "FGAS 1 7850",
+                                "leyenda": "URSO 07/2025",
+                                "importe": 116573.7
+                            }
+                        ]
+                    }
+                }
+            }
+        }
     },
     "242": {
         "legajo": "242",
