@@ -2379,3 +2379,5 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 
 [2025-09-18 09:07:36] 📤 Finalizó script de git_push.py
 
+[2025-09-18 09:20:00] ✅ Git está disponible en: C:\Program Files\Git\cmd\git.EXE
+[2025-09-18 09:20:00] === Ejecutando: git add . ===

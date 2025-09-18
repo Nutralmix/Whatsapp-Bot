@@ -10,8 +10,8 @@ def log(msg):
         f.write(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] {msg}\n")
 
 def ejecutar_comando(comando):
-    resultado = subprocess.run(comando, capture_output=True, text=True, shell=True)
     log(f"=== Ejecutando: {comando} ===")
+    resultado = subprocess.run(comando, capture_output=True, text=True, shell=True)
     if resultado.stdout:
         log(f"STDOUT:\n{resultado.stdout}")
     if resultado.stderr:
@@ -31,6 +31,22 @@ else:
     mensaje_commit = f"Actualización automática - {fecha_hora}"
     ejecutar_comando(f'git commit -m "{mensaje_commit}"')
 
-    ejecutar_comando("git push origin main")
+    # Intentamos hacer pull antes del push
+    resultado_pull = ejecutar_comando("git pull origin main --no-edit")
+    if resultado_pull.returncode != 0:
+        log("⚠️ Falló el 'git pull'. Intentando continuar de todas formas...")
+
+    # Intentamos hacer push normal
+    resultado_push = ejecutar_comando("git push origin main")
+    if resultado_push.returncode != 0:
+        log("❌ El push normal falló. Intentando con --force...")
+        # Intentamos hacer push forzado como último recurso
+        resultado_force = ejecutar_comando("git push origin main --force")
+        if resultado_force.returncode != 0:
+            log("❌ Push forzado también falló. Se requiere intervención manual.")
+        else:
+            log("✅ Push forzado exitoso.")
+    else:
+        log("✅ Push exitoso.")
 
 log("📤 Finalizó script de git_push.py\n")
