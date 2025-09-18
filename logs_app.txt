@@ -2096,3 +2096,13 @@
 [2025-09-18 08:17:48] Visualización de todos los empleados
 [2025-09-18 08:18:27] Acceso a panel
 [2025-09-18 08:18:42] Acceso a panel
+[2025-09-18 08:18:51] Acceso a panel
+[2025-09-18 08:19:29] Empleados activos cargados correctamente
+[2025-09-18 08:19:29] Consulta de próximos cumpleaños
+[2025-09-18 08:19:29] Fecha de nacimiento inválida para Juan Manuel
+[2025-09-18 08:19:29] Fecha de nacimiento inválida para Damian
+[2025-09-18 08:20:16] Empleados activos cargados correctamente
+[2025-09-18 08:20:16] Consulta de próximos cumpleaños
+[2025-09-18 08:20:16] Fecha de nacimiento inválida para Juan Manuel
+[2025-09-18 08:20:16] Fecha de nacimiento inválida para Damian
+[2025-09-18 08:20:28] Acceso a panel
