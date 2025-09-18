@@ -3881,44 +3881,6 @@
             }
         }
     },
-    "197": {
-        "legajo": "197",
-        "cuil": "27-40425452-4",
-        "apellido": "Maidana",
-        "nombre": "Ariana",
-        "sector": "Logistica",
-        "sede": "9 de Julio",
-        "fecha_ingreso": "03-10-2022",
-        "estado": "Activo",
-        "fecha_baja": "",
-        "motivo_baja": "",
-        "fecha_nacimiento": "07-07-1997",
-        "edad": 0,
-        "telefono": "2317513578",
-        "rol": "empleado",
-        "notas": "",
-        "prestamo": {},
-        "vacaciones": 0,
-        "gastos_agrupados": {
-            "2025-07": {
-                "total_mes": 72215.02,
-                "por_articulo": {
-                    "Gastos de comida": {
-                        "total": 72215.02,
-                        "items": [
-                            {
-                                "fecha": "2025-07-31",
-                                "proveedor": "COMPAÑIA URSO HERMANOS SA",
-                                "comprobante": "FGAS 1 7850",
-                                "leyenda": "URSO 07/2025",
-                                "importe": 72215.02
-                            }
-                        ]
-                    }
-                }
-            }
-        }
-    },
     "204": {
         "legajo": "204",
         "cuil": "20-24347347-1",
