@@ -2054,3 +2054,44 @@
 [2025-09-17 08:33:03] Empleados activos cargados correctamente
 [2025-09-17 08:33:03] Visualización de todos los empleados
 [2025-09-17 08:35:41] Acceso a panel
+[2025-09-17 08:35:56] Acceso a panel
+[2025-09-17 10:44:50] Acceso a panel
+[2025-09-17 10:44:52] Empleados activos cargados correctamente
+[2025-09-17 10:44:52] Visualización de todos los empleados
+[2025-09-17 10:45:11] Entrando a editar empleado 28
+[2025-09-17 10:45:26] Empleados activos cargados correctamente
+[2025-09-17 10:45:26] Visualización de todos los empleados
+[2025-09-17 10:46:00] Entrando a editar empleado 28
+[2025-09-17 10:46:09] Empleados activos cargados correctamente
+[2025-09-17 10:46:09] Visualización de todos los empleados
+[2025-09-17 10:46:33] Entrando a editar empleado 28
+[2025-09-17 10:46:35] Empleados activos cargados correctamente
+[2025-09-17 10:46:35] Visualización de todos los empleados
+[2025-09-17 10:47:05] Entrando a editar empleado 28
+[2025-09-17 10:47:14] Empleados activos cargados correctamente
+[2025-09-17 10:47:14] Visualización de todos los empleados
+[2025-09-17 10:47:26] Consulta de info iniciada
+[2025-09-17 10:47:26] Empleados activos cargados correctamente
+[2025-09-17 10:47:26] Búsqueda de: legajo
+[2025-09-17 10:47:34] Consulta de info iniciada
+[2025-09-17 10:47:34] Empleados activos cargados correctamente
+[2025-09-17 10:47:34] Búsqueda de: diego callegaro
+[2025-09-17 10:47:41] Vista web de archivos para 28
+[2025-09-17 10:47:43] Acceso a panel
+[2025-09-17 10:47:46] Empleados activos cargados correctamente
+[2025-09-17 10:47:46] Visualización de todos los empleados
+[2025-09-17 10:48:01] Entrando a editar empleado 28
+[2025-09-18 08:15:10] Acceso a portada
+[2025-09-18 08:15:12] Acceso a panel
+[2025-09-18 08:15:32] Empleados activos cargados correctamente
+[2025-09-18 08:15:32] Visualización de todos los empleados
+[2025-09-18 08:16:53] Consulta de info iniciada
+[2025-09-18 08:16:53] Empleados activos cargados correctamente
+[2025-09-18 08:16:53] Búsqueda de: moreno
+[2025-09-18 08:17:26] Consulta de info iniciada
+[2025-09-18 08:17:26] Empleados activos cargados correctamente
+[2025-09-18 08:17:26] Búsqueda de: sosa
+[2025-09-18 08:17:34] Acceso a panel
+[2025-09-18 08:17:48] Empleados activos cargados correctamente
+[2025-09-18 08:17:48] Visualización de todos los empleados
+[2025-09-18 08:18:27] Acceso a panel

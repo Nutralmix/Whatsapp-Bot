@@ -1245,7 +1245,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 49,
+        "vacaciones": 42,
         "gastos_agrupados": {
             "2025-07": {
                 "total_mes": 664745.5800000001,
@@ -2904,7 +2904,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 14,
+        "vacaciones": 10,
         "gastos_agrupados": {}
     },
     "120": {
@@ -4659,7 +4659,7 @@
             "cuotas_pendientes": 1,
             "fecha_cancelacion": "01-08-2025"
         },
-        "vacaciones": 10,
+        "vacaciones": 0,
         "gastos_agrupados": {
             "2025-07": {
                 "total_mes": 460702.56000000006,
@@ -5142,7 +5142,7 @@
         "telefono": "2317503299",
         "direccion": "",
         "email": "",
-        "vacaciones": 14,
+        "vacaciones": 0,
         "estado": "Activo",
         "gastos_agrupados": {
             "2025-07": {
