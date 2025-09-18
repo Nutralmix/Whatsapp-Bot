@@ -2125,3 +2125,25 @@
 [2025-09-18 08:52:27] Acceso a panel
 [2025-09-18 08:52:34] Acceso a panel
 [2025-09-18 08:52:43] Acceso a panel
+[2025-09-18 08:52:51] Acceso a panel
+[2025-09-18 08:53:51] Acceso a panel
+[2025-09-18 08:53:55] Consulta de info iniciada
+[2025-09-18 08:53:55] Empleados activos cargados correctamente
+[2025-09-18 08:53:58] Consulta de info iniciada
+[2025-09-18 08:53:58] Empleados activos cargados correctamente
+[2025-09-18 08:53:58] Búsqueda de: soa
+[2025-09-18 08:54:00] Consulta de info iniciada
+[2025-09-18 08:54:00] Empleados activos cargados correctamente
+[2025-09-18 08:54:00] Búsqueda de: sosa
+[2025-09-18 08:55:27] Acceso a panel
+[2025-09-18 09:07:04] Consulta de info iniciada
+[2025-09-18 09:07:04] Empleados activos cargados correctamente
+[2025-09-18 09:07:07] Consulta de info iniciada
+[2025-09-18 09:07:07] Empleados activos cargados correctamente
+[2025-09-18 09:07:07] Búsqueda de: sosa
+[2025-09-18 09:07:11] Entrando a editar empleado 250
+[2025-09-18 09:07:17] Entrando a editar empleado 250
+[2025-09-18 09:07:17] Empleado 250 actualizado
+[2025-09-18 09:07:17] Empleados activos cargados correctamente
+[2025-09-18 09:07:17] Visualización de todos los empleados
+[2025-09-18 09:07:29] Acceso a panel
