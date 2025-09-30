@@ -2525,7 +2525,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 9,
+        "vacaciones": 10,
         "gastos_agrupados": {
             "2025-08": {
                 "total_mes": 519100.39,
