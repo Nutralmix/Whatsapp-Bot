@@ -2213,3 +2213,6 @@
 [2025-09-30 10:27:08] Acceso a panel
 [2025-09-30 11:27:17] Acceso a portada
 [2025-09-30 11:27:19] Acceso a panel
+[2025-09-30 11:27:32] Acceso a panel
+[2025-09-30 11:30:28] Acceso a portada
+[2025-09-30 11:30:29] Acceso a panel
