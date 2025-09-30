@@ -4991,63 +4991,6 @@
             }
         }
     },
-    "275": {
-        "legajo": "275",
-        "cuil": "20-41211937-2",
-        "apellido": "Casas",
-        "nombre": "Luciano Jesus",
-        "sector": "Extrusados",
-        "sede": "Extrusado",
-        "fecha_ingreso": "02-12-2024",
-        "estado": "Activo",
-        "fecha_baja": "",
-        "motivo_baja": "",
-        "fecha_nacimiento": "26-09-1998",
-        "edad": 0,
-        "telefono": "2317518412",
-        "rol": "empleado",
-        "notas": "",
-        "prestamo": {},
-        "vacaciones": 1,
-        "gastos_agrupados": {
-            "2025-07": {
-                "total_mes": 147718.94,
-                "por_articulo": {
-                    "Combustibles": {
-                        "total": 52853.28,
-                        "items": [
-                            {
-                                "fecha": "2025-07-31",
-                                "proveedor": "YPF SOCIEDAD ANONIMA",
-                                "comprobante": "FGAS 2172 1754290",
-                                "leyenda": "COMBUSTIBLE 7/25",
-                                "importe": 52853.28
-                            }
-                        ]
-                    },
-                    "Gastos de comida": {
-                        "total": 94865.66,
-                        "items": [
-                            {
-                                "fecha": "2025-07-29",
-                                "proveedor": "ATRES S.A.",
-                                "comprobante": "FGAS 12 235",
-                                "leyenda": "ACTUAL 07/2025",
-                                "importe": 55092.33
-                            },
-                            {
-                                "fecha": "2025-07-31",
-                                "proveedor": "COMPAÑIA URSO HERMANOS SA",
-                                "comprobante": "FGAS 1 7850",
-                                "leyenda": "URSO 07/2025",
-                                "importe": 39773.33
-                            }
-                        ]
-                    }
-                }
-            }
-        }
-    },
     "249": {
         "apellido": "Moreno",
         "nombre": "Juan Manuel",
@@ -5376,5 +5319,130 @@
                 }
             }
         }
+    },
+    "290": {
+        "apellido": "Castro",
+        "nombre": "Joaquin Ezequiel ",
+        "cuil": "20-32527287-3",
+        "sector": "Operaciones",
+        "fecha_ingreso": "2025-06-02",
+        "fecha_nacimiento": "1986-02-17",
+        "telefono": "2317538456",
+        "direccion": "Echeverría 1363",
+        "email": "joakcastro12345@gmail.com",
+        "vacaciones": 0,
+        "estado": "Activo",
+        "gastos_agrupados": {
+            "2025-07": {
+                "total_mes": 419219.55,
+                "por_articulo": {
+                    "Gastos de comida": {
+                        "total": 419219.55,
+                        "items": [
+                            {
+                                "fecha": "2025-07-29",
+                                "proveedor": "ATRES S.A.",
+                                "comprobante": "FGAS 12 235",
+                                "leyenda": "ACTUAL 07/2025",
+                                "importe": 247911.09
+                            },
+                            {
+                                "fecha": "2025-07-31",
+                                "proveedor": "COMPAÑIA URSO HERMANOS SA",
+                                "comprobante": "FGAS 1 7850",
+                                "leyenda": "URSO 07/2025",
+                                "importe": 171308.46
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "292": {
+        "apellido": "Del Pino",
+        "nombre": "Maria Soledad",
+        "cuil": "27-29597820-7",
+        "sector": "Maestranza",
+        "fecha_ingreso": "2025-06-10",
+        "fecha_nacimiento": "1982-07-07",
+        "telefono": "2317557647",
+        "direccion": "Fonavi 2 sector D N°36",
+        "email": "soledaddelpino321@gmail.com",
+        "vacaciones": 0,
+        "estado": "Activo",
+        "gastos_agrupados": {
+            "2025-07": {
+                "total_mes": 18305.7,
+                "por_articulo": {
+                    "Combustibles": {
+                        "total": 2644.35,
+                        "items": [
+                            {
+                                "fecha": "2025-07-31",
+                                "proveedor": "YPF SOCIEDAD ANONIMA",
+                                "comprobante": "FGAS 2172 1754290",
+                                "leyenda": "COMBUSTIBLE 7/25",
+                                "importe": 2644.35
+                            }
+                        ]
+                    },
+                    "Gastos de comida": {
+                        "total": 15661.35,
+                        "items": [
+                            {
+                                "fecha": "2025-07-31",
+                                "proveedor": "COMPAÑIA URSO HERMANOS SA",
+                                "comprobante": "FGAS 1 7850",
+                                "leyenda": "URSO 07/2025",
+                                "importe": 15661.35
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "297": {
+        "apellido": "Lazarte",
+        "nombre": "Gonzalo Ariel",
+        "cuil": "20-38932154-1",
+        "sector": "Operaciones",
+        "fecha_ingreso": "2025-08-04",
+        "fecha_nacimiento": "1996-03-22",
+        "telefono": "2392558427",
+        "direccion": "Av. Antonio Aita 698",
+        "email": "lazartegonzalo72@gmail.com",
+        "vacaciones": 0,
+        "estado": "Activo",
+        "gastos_agrupados": {}
+    },
+    "295": {
+        "apellido": "Moreno",
+        "nombre": "Camila",
+        "cuil": "27-37032846-9",
+        "sector": "Calidad",
+        "fecha_ingreso": "2025-08-04",
+        "fecha_nacimiento": "1993-07-08",
+        "telefono": "2392404692",
+        "direccion": "Av. Antonio Aita 698",
+        "email": "cami.morenocucurull@gmail.com",
+        "vacaciones": 0,
+        "estado": "Activo",
+        "gastos_agrupados": {}
+    },
+    "299": {
+        "apellido": "Fimiani",
+        "nombre": "Juan Manuel",
+        "cuil": "20-31856134-7",
+        "sector": "Comercial",
+        "fecha_ingreso": "2025-08-05",
+        "fecha_nacimiento": "1980-07-05",
+        "telefono": "1162566132",
+        "direccion": "Castex 3330 4 F",
+        "email": "jmfim@hotmail.com",
+        "vacaciones": 0,
+        "estado": "Activo",
+        "gastos_agrupados": {}
     }
 }
