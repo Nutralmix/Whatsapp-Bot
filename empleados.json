@@ -7172,6 +7172,25 @@
         "direccion": "Heredia 947",
         "email": "ferrerjuli@gmail.com",
         "vacaciones": 0,
-        "estado": "Activo"
+        "estado": "Activo",
+        "gastos_agrupados": {
+            "2025-09": {
+                "total_mes": 18093.11,
+                "por_articulo": {
+                    "Gastos de comida": {
+                        "total": 18093.11,
+                        "items": [
+                            {
+                                "fecha": "2025-09-05",
+                                "proveedor": "POLAND S.A.",
+                                "comprobante": "FGAS 12 26281",
+                                "leyenda": "COMPRA LA BLANQUEADA",
+                                "importe": 18093.11
+                            }
+                        ]
+                    }
+                }
+            }
+        }
     }
 }
