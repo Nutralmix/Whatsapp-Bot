@@ -3434,3 +3434,87 @@ To https://github.com/Nutralmix/Whatsapp-Bot.git
 
 [2025-10-01 10:32:29] ✅ Git está disponible en: C:\Program Files\Git\cmd\git.EXE
 [2025-10-01 10:32:29] === Ejecutando: git add . ===
+[2025-10-01 10:32:29] === Ejecutando: git commit -m "Actualización automática - 2025-10-01 10:32" ===
+[2025-10-01 10:32:29] STDERR:
+To https://github.com/Nutralmix/Whatsapp-Bot.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 536cc0030b0dfbc4c1a2c4ab4d94fc3fb0857b68 but expected 26e949d878a04d56a2d4040bb2fa868047fc1688)
+error: failed to push some refs to 'https://github.com/Nutralmix/Whatsapp-Bot.git'
+
+[2025-10-01 10:32:29] ❌ El push normal falló. Intentando con --force...
+[2025-10-01 10:32:29] === Ejecutando: git push origin main --force ===
+[2025-10-01 10:32:29] STDOUT:
+[main 91b239a] ActualizaciÃ³n automÃ¡tica - 2025-10-01 10:32
+ Committer: unknown <Administrador@NUTRALMIX.LOCAL>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 3 files changed, 113 insertions(+), 1 deletion(-)
+
+[2025-10-01 10:32:29] === Ejecutando: git pull origin main --no-edit ===
+[2025-10-01 10:32:29] STDERR:
+From https://github.com/Nutralmix/Whatsapp-Bot
+ * branch            main       -> FETCH_HEAD
+warning: fetch updated the current branch head.
+fast-forwarding your working tree from
+commit 536cc0030b0dfbc4c1a2c4ab4d94fc3fb0857b68.
+error: Your local changes to the following files would be overwritten by merge:
+	empleados.json
+	git_push_log.txt
+	vacaciones.xlsx
+Please commit your changes or stash them before you merge.
+Aborting
+fatal: Cannot fast-forward your working tree.
+After making sure that you saved anything precious from
+$ git diff 536cc0030b0dfbc4c1a2c4ab4d94fc3fb0857b68
+output, run
+$ git reset --hard
+to recover.
+
+[2025-10-01 10:32:29] ⚠️ Falló el 'git pull'. Intentando continuar de todas formas...
+[2025-10-01 10:32:29] === Ejecutando: git push origin main ===
+[2025-10-01 10:32:29] STDERR:
+From https://github.com/Nutralmix/Whatsapp-Bot
+ * branch            main       -> FETCH_HEAD
+warning: fetch updated the current branch head.
+fast-forwarding your working tree from
+commit 536cc0030b0dfbc4c1a2c4ab4d94fc3fb0857b68.
+error: Your local changes to the following files would be overwritten by merge:
+	empleados.json
+	git_push_log.txt
+	vacaciones.xlsx
+Please commit your changes or stash them before you merge.
+Aborting
+fatal: Cannot fast-forward your working tree.
+After making sure that you saved anything precious from
+$ git diff 536cc0030b0dfbc4c1a2c4ab4d94fc3fb0857b68
+output, run
+$ git reset --hard
+to recover.
+
+[2025-10-01 10:32:29] ⚠️ Falló el 'git pull'. Intentando continuar de todas formas...
+[2025-10-01 10:32:29] === Ejecutando: git push origin main ===
+[2025-10-01 10:32:29] STDOUT:
+Already up to date.
+
+[2025-10-01 10:32:29] STDERR:
+From https://github.com/Nutralmix/Whatsapp-Bot
+ * branch            main       -> FETCH_HEAD
+
+[2025-10-01 10:32:29] === Ejecutando: git push origin main ===
+[2025-10-01 10:32:30] STDERR:
+Everything up-to-date
+
+[2025-10-01 10:32:30] ✅ Push forzado exitoso.
+[2025-10-01 10:32:30] 📤 Finalizó script de git_push.py
+
+[2025-10-01 10:32:31] ✅ Git está disponible en: C:\Program Files\Git\cmd\git.EXE
+[2025-10-01 10:32:31] === Ejecutando: git add . ===
