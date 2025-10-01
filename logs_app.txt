@@ -2218,3 +2218,7 @@
 [2025-09-30 11:30:29] Acceso a panel
 [2025-09-30 11:42:12] Acceso a portada
 [2025-09-30 11:42:14] Acceso a panel
+[2025-10-01 08:25:25] Acceso a portada
+[2025-10-01 08:25:26] Acceso a panel
+[2025-10-01 08:34:20] Acceso a portada
+[2025-10-01 08:34:24] Acceso a panel

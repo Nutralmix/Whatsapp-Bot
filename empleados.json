@@ -1799,8 +1799,8 @@
             }
         }
     },
-    "28": {
-        "legajo": "28",
+    "43": {
+        "legajo": "43",
         "cuil": "20-25153103-0",
         "apellido": "Callegaro",
         "nombre": "Diego Hernán",
@@ -1817,7 +1817,197 @@
         "notas": "",
         "prestamo": {},
         "vacaciones": 40,
-        "gastos_agrupados": {}
+        "gastos_agrupados": {
+            "2025-08": {
+                "total_mes": 535507.23,
+                "por_articulo": {
+                    "Combustibles": {
+                        "total": 148796.9,
+                        "items": [
+                            {
+                                "fecha": "2025-08-18",
+                                "proveedor": "PETROGUAZZ  S.A.",
+                                "comprobante": "FGAS 48 40313",
+                                "leyenda": "PETROGUAZ - DIEGO CALLEGARO PAGO",
+                                "importe": -6985.05
+                            },
+                            {
+                                "fecha": "2025-08-25",
+                                "proveedor": "PETROGUAZZ  S.A.",
+                                "comprobante": "FGAS 48 40421",
+                                "leyenda": "PETROGUAZ - DIEGO CALLEGARO PAGO",
+                                "importe": -4677.42
+                            },
+                            {
+                                "fecha": "2025-08-25",
+                                "proveedor": "PETROGUAZZ  S.A.",
+                                "comprobante": "FGAS 47 49505",
+                                "leyenda": "PETROGUAZ - DISGO CALLEGARO PAGO",
+                                "importe": -11111.93
+                            },
+                            {
+                                "fecha": "2025-08-30",
+                                "proveedor": "PETROGUAZZ  S.A.",
+                                "comprobante": "FGAS 48 40508",
+                                "leyenda": "PETROGUAZ - DIEGO CALLEGARO PAGO",
+                                "importe": -3951.19
+                            },
+                            {
+                                "fecha": "2025-08-31",
+                                "proveedor": "YPF SOCIEDAD ANONIMA",
+                                "comprobante": "FGAS 2172 1792068",
+                                "leyenda": "COMBUSTIBLE YPF EN RUTA",
+                                "importe": 175522.49
+                            }
+                        ]
+                    },
+                    "Gastos Varios": {
+                        "total": -95562.95999999999,
+                        "items": [
+                            {
+                                "fecha": "2025-08-25",
+                                "proveedor": "ROSNIL",
+                                "comprobante": "FGAS 1 3181",
+                                "leyenda": "ROSNIL - DIEGO CALLEGARO PAGO",
+                                "importe": -1601.15
+                            },
+                            {
+                                "fecha": "2025-08-26",
+                                "proveedor": "OCASIONAL",
+                                "comprobante": "FGAS 48 3240",
+                                "leyenda": "MASCOTAS DEL OESTE-DIEGO CALLEGARO PAGO",
+                                "importe": -7462.64
+                            },
+                            {
+                                "fecha": "2025-08-28",
+                                "proveedor": "BRUNO TERESA C.B. DE TESTARDIN",
+                                "comprobante": "FGAS 6 5059",
+                                "leyenda": "BRUNO TERESA TESTARDINI-DIEGO CALLEGARO PAGO",
+                                "importe": -86499.17
+                            }
+                        ]
+                    },
+                    "Gastos de comida": {
+                        "total": 482273.29000000004,
+                        "items": [
+                            {
+                                "fecha": "2025-08-29",
+                                "proveedor": "ATRES S.A.",
+                                "comprobante": "FGAS 12 241",
+                                "leyenda": "ACTUAL 08/2025",
+                                "importe": 372102.32
+                            },
+                            {
+                                "fecha": "2025-08-30",
+                                "proveedor": "COMPAÑIA URSO HERMANOS SA",
+                                "comprobante": "FGAS 1 7998",
+                                "leyenda": "URSO 08/2025",
+                                "importe": 40984.2
+                            },
+                            {
+                                "fecha": "2025-08-30",
+                                "proveedor": "LA REGIONAL ASOCIACION SIMPLE DE PONTELLO EMILIANO",
+                                "comprobante": "FGAS 1 3846",
+                                "leyenda": "EVENTOS",
+                                "importe": 69186.77
+                            }
+                        ]
+                    }
+                }
+            },
+            "2025-09": {
+                "total_mes": -215119.48,
+                "por_articulo": {
+                    "Gastos Varios": {
+                        "total": -124902.69,
+                        "items": [
+                            {
+                                "fecha": "2025-09-01",
+                                "proveedor": "DARA S.A.",
+                                "comprobante": "FGAS 13 1215",
+                                "leyenda": "DARA SA - DIEGO CALLEGARO PAGO",
+                                "importe": -64214.88
+                            },
+                            {
+                                "fecha": "2025-09-03",
+                                "proveedor": "OCASIONAL",
+                                "comprobante": "FGAS 2 10127",
+                                "leyenda": "RF ELECTRONICS PARTS - DIEGO CALLEGARO PAGO",
+                                "importe": -3686.63
+                            },
+                            {
+                                "fecha": "2025-09-05",
+                                "proveedor": "ROSNIL",
+                                "comprobante": "FGAS 1 3282",
+                                "leyenda": "RSNIL - DIEGO CALLEGARO PAGO",
+                                "importe": -21019.15
+                            },
+                            {
+                                "fecha": "2025-09-12",
+                                "proveedor": "OCASIONAL",
+                                "comprobante": "FGAS 8 6018",
+                                "leyenda": "FUEGOS KAP SA - DIEGO CALLEGARO PAGO",
+                                "importe": -12928.02
+                            },
+                            {
+                                "fecha": "2025-09-20",
+                                "proveedor": "OCASIONAL",
+                                "comprobante": "FGAS 2 27784",
+                                "leyenda": "COLLINET ROBERTO-DIEGO CALLEGARO PAGO",
+                                "importe": -7940.08
+                            },
+                            {
+                                "fecha": "2025-09-25",
+                                "proveedor": "OCASIONAL",
+                                "comprobante": "FGAS 8 8099",
+                                "leyenda": "FUEGOS KAP SA - DIEGO CALLEGARO PAGO",
+                                "importe": -7201.79
+                            },
+                            {
+                                "fecha": "2025-09-25",
+                                "proveedor": "OCASIONAL",
+                                "comprobante": "FGAS 8 7890",
+                                "leyenda": "FUEGOS KAP SA-DIEGO CALLEGARO PAGO",
+                                "importe": -7912.14
+                            }
+                        ]
+                    },
+                    "Gastos de comida": {
+                        "total": -90216.79000000001,
+                        "items": [
+                            {
+                                "fecha": "2025-09-01",
+                                "proveedor": "DEL FABRO HNOS Y CIA",
+                                "comprobante": "FGAS 26 3281",
+                                "leyenda": "JUSTINO - DIEGO CALLEGARO PAGO",
+                                "importe": -9069.2
+                            },
+                            {
+                                "fecha": "2025-09-12",
+                                "proveedor": "DEL FABRO HNOS Y CIA",
+                                "comprobante": "FGAS 26 3307",
+                                "leyenda": "DEL FABRO HNOS- DIEGO CALLEGARO PAGO",
+                                "importe": -8938.11
+                            },
+                            {
+                                "fecha": "2025-09-17",
+                                "proveedor": "DEL FABRO HNOS Y CIA",
+                                "comprobante": "FGAS 26 3321",
+                                "leyenda": "DEL FABRO HNOS- DIEGO CALLEGARO PAGO",
+                                "importe": -5603.71
+                            },
+                            {
+                                "fecha": "2025-09-25",
+                                "proveedor": "COMPAÑIA URSO HERMANOS SA",
+                                "comprobante": "FGAS 1 8129",
+                                "leyenda": "COMPAÑIA URSO - DIEGO CALLEGARO PAGO",
+                                "importe": -66605.77
+                            }
+                        ]
+                    }
+                }
+            }
+        }
     },
     "29": {
         "legajo": "29",
@@ -4001,8 +4191,8 @@
             }
         }
     },
-    "1033": {
-        "legajo": "1033",
+    "163": {
+        "legajo": "163",
         "cuil": "20-30138759-9",
         "apellido": "Carballo",
         "nombre": "Alejandro",
@@ -4019,7 +4209,32 @@
         "notas": "",
         "prestamo": {},
         "vacaciones": 0,
-        "gastos_agrupados": {}
+        "gastos_agrupados": {
+            "2025-08": {
+                "total_mes": 162321.89,
+                "por_articulo": {
+                    "Gastos de comida": {
+                        "total": 162321.89,
+                        "items": [
+                            {
+                                "fecha": "2025-08-29",
+                                "proveedor": "ATRES S.A.",
+                                "comprobante": "FGAS 12 241",
+                                "leyenda": "ACTUAL 08/2025",
+                                "importe": 59501.59
+                            },
+                            {
+                                "fecha": "2025-08-30",
+                                "proveedor": "COMPAÑIA URSO HERMANOS SA",
+                                "comprobante": "FGAS 1 7998",
+                                "leyenda": "URSO 08/2025",
+                                "importe": 102820.3
+                            }
+                        ]
+                    }
+                }
+            }
+        }
     },
     "166": {
         "legajo": "166",
@@ -4478,8 +4693,8 @@
         "vacaciones": 0,
         "gastos_agrupados": {}
     },
-    "225": {
-        "legajo": "225",
+    "226": {
+        "legajo": "226",
         "cuil": "20-33597236-9",
         "apellido": "Merlo",
         "nombre": "Ignacio Enrique",
@@ -4538,8 +4753,8 @@
         "vacaciones": 0,
         "gastos_agrupados": {}
     },
-    "243": {
-        "legajo": "243",
+    "237": {
+        "legajo": "237",
         "cuil": "20-40978659-7",
         "apellido": "Burela",
         "nombre": "Juan Ignacio",
@@ -4667,8 +4882,8 @@
         "vacaciones": 0,
         "gastos_agrupados": {}
     },
-    "257": {
-        "legajo": "257",
+    "251": {
+        "legajo": "251",
         "cuil": "20-33171730-5",
         "apellido": "Mario",
         "nombre": "Facundo Daniel",
@@ -4736,8 +4951,8 @@
         "vacaciones": 0,
         "gastos_agrupados": {}
     },
-    "258": {
-        "legajo": "258",
+    "264": {
+        "legajo": "264",
         "cuil": "20-34876700-4",
         "apellido": "Barrere",
         "nombre": "Francisco",
