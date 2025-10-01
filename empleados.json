@@ -3358,13 +3358,13 @@
         "notas": "",
         "prestamo": {
             "fecha_prestamo": "",
-            "monto": 250000.0,
-            "cuotas": 2,
+            "monto": 942148.76,
+            "cuotas": 5,
             "cancelado": 0.0,
-            "pendiente": -250000.0,
-            "proxima_cuota": 125000.0,
-            "cuotas_pendientes": 2,
-            "fecha_cancelacion": "01-10-2025"
+            "pendiente": -942148.76,
+            "proxima_cuota": 188429.75,
+            "cuotas_pendientes": 5,
+            "fecha_cancelacion": "01-03-2026"
         },
         "vacaciones": 7,
         "gastos_agrupados": {

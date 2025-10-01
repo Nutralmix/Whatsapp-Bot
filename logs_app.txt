@@ -2268,3 +2268,10 @@
 [2025-10-01 10:16:15] Acceso a panel
 [2025-10-01 10:32:16] Acceso a portada
 [2025-10-01 10:32:18] Acceso a panel
+[2025-10-01 10:32:34] Empleados activos cargados correctamente
+[2025-10-01 10:32:34] Visualización de todos los empleados
+[2025-10-01 14:08:51] Acceso a portada
+[2025-10-01 14:08:55] Acceso a panel
+[2025-10-01 14:09:58] Consulta de todos los préstamos
+[2025-10-01 14:09:58] Empleados activos cargados correctamente
+[2025-10-01 14:10:30] Acceso a panel
