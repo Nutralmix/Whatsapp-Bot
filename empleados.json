@@ -4898,7 +4898,16 @@
         "telefono": "2317508235",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {},
+        "prestamo": {
+            "fecha_prestamo": "",
+            "monto": 480000.0,
+            "cuotas": 4,
+            "cancelado": 0.0,
+            "pendiente": -480000.0,
+            "proxima_cuota": 100000.0,
+            "cuotas_pendientes": 4,
+            "fecha_cancelacion": "01-12-2025"
+        },
         "vacaciones": 0,
         "gastos_agrupados": {}
     },
