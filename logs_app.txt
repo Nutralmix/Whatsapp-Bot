@@ -2226,3 +2226,22 @@
 [2025-10-01 08:35:19] Acceso a panel
 [2025-10-01 08:35:33] Acceso a panel
 [2025-10-01 08:35:54] Acceso a panel
+[2025-10-01 09:33:02] Acceso a portada
+[2025-10-01 09:33:03] Acceso a panel
+[2025-10-01 09:58:43] Acceso a portada
+[2025-10-01 09:58:44] Acceso a panel
+[2025-10-01 09:58:46] Acceso a panel
+[2025-10-01 09:58:47] Acceso a panel
+[2025-10-01 10:01:20] Acceso a panel
+[2025-10-01 10:01:22] Empleados activos cargados correctamente
+[2025-10-01 10:01:22] Visualización de todos los empleados
+[2025-10-01 10:04:07] Acceso a panel
+[2025-10-01 10:10:05] Nuevo empleado agregado: 300 - MARIA JULIANA
+[2025-10-01 10:10:05] Empleados activos cargados correctamente
+[2025-10-01 10:10:05] Visualización de todos los empleados
+[2025-10-01 10:10:10] Empleados activos cargados correctamente
+[2025-10-01 10:10:10] Visualización de todos los empleados
+[2025-10-01 10:10:20] Empleados activos cargados correctamente
+[2025-10-01 10:10:20] Visualización de todos los empleados
+[2025-10-01 10:10:25] Acceso a portada
+[2025-10-01 10:10:27] Acceso a panel

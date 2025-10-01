@@ -2939,3 +2939,126 @@ To https://github.com/Nutralmix/Whatsapp-Bot.git
 
 [2025-10-01 08:36:32] ✅ Git está disponible en: C:\Program Files\Git\cmd\git.EXE
 [2025-10-01 08:36:32] === Ejecutando: git add . ===
+[2025-10-01 08:36:32] === Ejecutando: git commit -m "Actualización automática - 2025-10-01 08:36" ===
+[2025-10-01 08:36:32] STDOUT:
+[main 3ac2b9e] ActualizaciÃ³n automÃ¡tica - 2025-10-01 08:36
+ Committer: unknown <Administrador@nutralmix.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 37 insertions(+)
+
+[2025-10-01 08:36:32] === Ejecutando: git pull origin main --no-edit ===
+[2025-10-01 08:36:33] STDOUT:
+Already up to date.
+
+[2025-10-01 08:36:33] STDERR:
+From https://github.com/Nutralmix/Whatsapp-Bot
+ * branch            main       -> FETCH_HEAD
+
+[2025-10-01 08:36:33] === Ejecutando: git push origin main ===
+[2025-10-01 08:36:35] STDERR:
+To https://github.com/Nutralmix/Whatsapp-Bot.git
+   60b1b2b..3ac2b9e  main -> main
+
+[2025-10-01 08:36:35] ✅ Push exitoso.
+[2025-10-01 08:36:35] 📤 Finalizó script de git_push.py
+
+[2025-10-01 09:58:55] ✅ Git está disponible en: C:\Program Files\Git\cmd\git.EXE
+[2025-10-01 09:58:55] === Ejecutando: git add . ===
+[2025-10-01 09:58:55] ✅ Git está disponible en: C:\Program Files\Git\cmd\git.EXE
+[2025-10-01 09:58:55] === Ejecutando: git add . ===
+[2025-10-01 09:58:55] STDERR:
+fatal: Unable to create 'C:/Bot_RRHH/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+
+[2025-10-01 09:58:55] === Ejecutando: git commit -m "Actualización automática - 2025-10-01 09:58" ===
+[2025-10-01 09:58:55] === Ejecutando: git commit -m "Actualización automática - 2025-10-01 09:58" ===
+[2025-10-01 09:58:55] STDOUT:
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   empleados.json
+	modified:   gastos.xlsx
+	modified:   git_push_log.txt
+	modified:   logs_app.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+[2025-10-01 09:58:55] === Ejecutando: git pull origin main --no-edit ===
+[2025-10-01 09:58:55] STDOUT:
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   empleados.json
+	modified:   gastos.xlsx
+	modified:   git_push_log.txt
+	modified:   logs_app.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+[2025-10-01 09:58:55] === Ejecutando: git pull origin main --no-edit ===
+[2025-10-01 09:58:56] STDOUT:
+Already up to date.
+
+[2025-10-01 09:58:56] STDERR:
+From https://github.com/Nutralmix/Whatsapp-Bot
+ * branch            main       -> FETCH_HEAD
+
+[2025-10-01 09:58:56] === Ejecutando: git push origin main ===
+[2025-10-01 09:58:56] STDOUT:
+Already up to date.
+
+[2025-10-01 09:58:56] STDERR:
+From https://github.com/Nutralmix/Whatsapp-Bot
+ * branch            main       -> FETCH_HEAD
+
+[2025-10-01 09:58:56] === Ejecutando: git push origin main ===
+[2025-10-01 09:58:57] STDERR:
+Everything up-to-date
+
+[2025-10-01 09:58:57] ✅ Push exitoso.
+[2025-10-01 09:58:57] 📤 Finalizó script de git_push.py
+
+[2025-10-01 09:58:57] STDERR:
+Everything up-to-date
+
+[2025-10-01 09:58:57] ✅ Push exitoso.
+[2025-10-01 09:58:57] 📤 Finalizó script de git_push.py
+
+[2025-10-01 10:10:33] ✅ Git está disponible en: C:\Program Files\Git\cmd\git.EXE
+[2025-10-01 10:10:33] === Ejecutando: git add . ===
+[2025-10-01 10:10:33] ✅ Git está disponible en: C:\Program Files\Git\cmd\git.EXE
+[2025-10-01 10:10:33] === Ejecutando: git add . ===
+[2025-10-01 10:10:33] ✅ Git está disponible en: C:\Program Files\Git\cmd\git.EXE
+[2025-10-01 10:10:33] === Ejecutando: git add . ===
+[2025-10-01 10:10:33] STDERR:
+fatal: Unable to create 'C:/Bot_RRHH/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+
+[2025-10-01 10:10:33] === Ejecutando: git commit -m "Actualización automática - 2025-10-01 10:10" ===
