@@ -2275,3 +2275,12 @@
 [2025-10-01 14:09:58] Consulta de todos los préstamos
 [2025-10-01 14:09:58] Empleados activos cargados correctamente
 [2025-10-01 14:10:30] Acceso a panel
+[2025-10-01 14:10:54] Acceso a panel
+[2025-10-01 14:42:11] Acceso a portada
+[2025-10-01 14:42:12] Acceso a panel
+[2025-10-01 14:42:15] Empleados activos cargados correctamente
+[2025-10-01 14:42:15] Visualización de todos los empleados
+[2025-10-02 08:40:59] Acceso a portada
+[2025-10-02 08:41:00] Acceso a panel
+[2025-10-02 09:36:45] Acceso a portada
+[2025-10-02 09:36:46] Acceso a panel
