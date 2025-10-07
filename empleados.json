@@ -4644,23 +4644,6 @@
                         ]
                     }
                 }
-            },
-            "2025-09": {
-                "total_mes": 280991.76,
-                "por_articulo": {
-                    "Combustibles": {
-                        "total": 280991.76,
-                        "items": [
-                            {
-                                "fecha": "2025-09-15",
-                                "proveedor": "DJGM COMBUSTIBLES S.A",
-                                "comprobante": "FGAS 6 22523",
-                                "leyenda": "ERCORECA CRISTIAN CTA CTE",
-                                "importe": 280991.76
-                            }
-                        ]
-                    }
-                }
             }
         }
     },
@@ -5075,23 +5058,17 @@
         }
     },
     "204": {
-        "legajo": "204",
-        "cuil": "20-24347347-1",
         "apellido": "Leunda",
         "nombre": "Gabriel Oscar",
+        "cuil": "20-24347347-1",
         "sector": "Administracion",
-        "sede": "9 de Julio",
         "fecha_ingreso": "02-01-2023",
-        "estado": "Activo",
-        "fecha_baja": "",
-        "motivo_baja": "",
         "fecha_nacimiento": "25-05-1975",
-        "edad": 0,
-        "telefono": "2317525902",
-        "rol": "empleado",
-        "notas": "",
-        "prestamo": {},
+        "telefono": "2317574224",
+        "direccion": "",
+        "email": "",
         "vacaciones": 11,
+        "estado": "Activo",
         "gastos_agrupados": {
             "2025-08": {
                 "total_mes": -48956.880000000005,

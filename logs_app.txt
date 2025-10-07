@@ -2284,3 +2284,24 @@
 [2025-10-02 08:41:00] Acceso a panel
 [2025-10-02 09:36:45] Acceso a portada
 [2025-10-02 09:36:46] Acceso a panel
+[2025-10-02 09:50:49] Acceso a panel
+[2025-10-02 09:50:51] Empleados activos cargados correctamente
+[2025-10-02 09:50:51] Visualización de todos los empleados
+[2025-10-02 11:00:00] Acceso a panel
+[2025-10-03 08:28:24] Servidor Flask iniciado
+[2025-10-03 08:32:29] Servidor Flask iniciado
+[2025-10-03 08:36:21] Servidor Flask iniciado
+[2025-10-03 08:37:30] Servidor Flask iniciado
+[2025-10-03 09:07:25] Servidor Flask iniciado
+[2025-10-06 10:12:55] Servidor Flask iniciado
+[2025-10-06 10:12:58] Acceso a panel
+[2025-10-07 14:56:54] Acceso a portada
+[2025-10-07 14:56:56] Acceso a panel
+[2025-10-07 14:57:17] Empleados activos cargados correctamente
+[2025-10-07 14:57:17] Visualización de todos los empleados
+[2025-10-07 14:57:59] Entrando a editar empleado 204
+[2025-10-07 14:58:11] Entrando a editar empleado 204
+[2025-10-07 14:58:11] Empleado 204 actualizado
+[2025-10-07 14:58:12] Empleados activos cargados correctamente
+[2025-10-07 14:58:12] Visualización de todos los empleados
+[2025-10-07 14:58:20] Acceso a panel
