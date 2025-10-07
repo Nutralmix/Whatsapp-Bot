@@ -2306,3 +2306,4 @@
 [2025-10-07 14:58:12] Visualización de todos los empleados
 [2025-10-07 14:58:20] Acceso a panel
 [2025-10-07 14:58:34] Acceso a panel
+[2025-10-07 15:02:28] Acceso a panel
