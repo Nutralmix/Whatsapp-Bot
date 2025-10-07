@@ -2307,3 +2307,8 @@
 [2025-10-07 14:58:20] Acceso a panel
 [2025-10-07 14:58:34] Acceso a panel
 [2025-10-07 15:02:28] Acceso a panel
+[2025-10-07 15:02:42] Acceso a panel
+[2025-10-07 15:07:04] Consulta de info iniciada
+[2025-10-07 15:07:04] Empleados activos cargados correctamente
+[2025-10-07 15:11:14] Acceso a portada
+[2025-10-07 15:11:15] Acceso a panel

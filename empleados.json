@@ -5066,6 +5066,7 @@
         "fecha_ingreso": "02-01-2023",
         "fecha_nacimiento": "25-05-1975",
         "telefono": "2317574224",
+        "rol": "empleado",
         "direccion": "",
         "email": "",
         "vacaciones": 11,
