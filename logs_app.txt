@@ -2312,3 +2312,21 @@
 [2025-10-07 15:07:04] Empleados activos cargados correctamente
 [2025-10-07 15:11:14] Acceso a portada
 [2025-10-07 15:11:15] Acceso a panel
+[2025-10-07 15:11:26] Acceso a panel
+[2025-10-08 08:58:32] Acceso a portada
+[2025-10-08 08:58:33] Acceso a panel
+[2025-10-08 08:58:36] Acceso a panel
+[2025-10-08 08:58:38] Consulta de todos los préstamos
+[2025-10-08 08:58:38] Empleados activos cargados correctamente
+[2025-10-08 08:58:40] Consulta de todos los préstamos
+[2025-10-08 08:58:40] Empleados activos cargados correctamente
+[2025-10-08 08:58:41] Consulta de todos los préstamos
+[2025-10-08 08:58:41] Empleados activos cargados correctamente
+[2025-10-08 08:58:44] Consulta de todos los préstamos
+[2025-10-08 08:58:44] Empleados activos cargados correctamente
+[2025-10-08 08:59:09] Consulta de préstamo para 213
+[2025-10-08 08:59:12] Consulta de todos los préstamos
+[2025-10-08 08:59:12] Empleados activos cargados correctamente
+[2025-10-08 08:59:14] Acceso a panel
+[2025-10-08 08:59:21] Consulta de todos los préstamos
+[2025-10-08 08:59:21] Empleados activos cargados correctamente
