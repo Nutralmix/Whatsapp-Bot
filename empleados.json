@@ -1515,7 +1515,7 @@
             "cuotas_pendientes": 3,
             "fecha_cancelacion": "17-07-2025"
         },
-        "vacaciones": 7,
+        "vacaciones": 0,
         "gastos_agrupados": {
             "2025-08": {
                 "total_mes": 828004.6799999999,
@@ -4855,7 +4855,7 @@
             "cuotas_pendientes": 4,
             "fecha_cancelacion": "27-02-2026"
         },
-        "vacaciones": 7,
+        "vacaciones": 0,
         "gastos_agrupados": {
             "2025-08": {
                 "total_mes": 198038.5,
@@ -5210,7 +5210,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 7,
+        "vacaciones": 0,
         "gastos_agrupados": {
             "2025-08": {
                 "total_mes": 86882.02,
