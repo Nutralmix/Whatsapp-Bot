@@ -2363,3 +2363,6 @@
 [2025-10-08 10:08:28] Acceso a panel
 [2025-10-08 10:09:08] Consulta de todos los préstamos
 [2025-10-08 10:09:08] Empleados activos cargados correctamente
+[2025-10-08 10:09:12] Consulta de todos los préstamos
+[2025-10-08 10:09:12] Empleados activos cargados correctamente
+[2025-10-08 10:09:14] Acceso a panel
