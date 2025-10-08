@@ -4787,7 +4787,16 @@
         "telefono": "2317581658",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {},
+        "prestamo": {
+            "fecha_prestamo": "",
+            "monto": 1000000.0,
+            "cuotas": 4,
+            "cancelado": 0.0,
+            "pendiente": -1000000.0,
+            "proxima_cuota": 250000.0,
+            "cuotas_pendientes": 4,
+            "fecha_cancelacion": "01-02-2026"
+        },
         "vacaciones": 0,
         "gastos_agrupados": {
             "2025-08": {
