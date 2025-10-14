@@ -1116,7 +1116,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 35,
+        "vacaciones": 63,
         "gastos_agrupados": {
             "2025-08": {
                 "total_mes": 799229.69,
@@ -1197,7 +1197,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 93,
+        "vacaciones": 121,
         "gastos_agrupados": {
             "2025-08": {
                 "total_mes": 932177.8600000001,
@@ -1273,7 +1273,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 18,
+        "vacaciones": 28,
         "gastos_agrupados": {
             "2025-09": {
                 "total_mes": -88612.08,
@@ -1351,7 +1351,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 41,
+        "vacaciones": 69,
         "gastos_agrupados": {
             "2025-08": {
                 "total_mes": 681921.83,
@@ -1444,7 +1444,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 47,
+        "vacaciones": 75,
         "gastos_agrupados": {
             "2025-08": {
                 "total_mes": 658585.28,
@@ -1515,7 +1515,7 @@
             "cuotas_pendientes": 3,
             "fecha_cancelacion": "17-07-2025"
         },
-        "vacaciones": 0,
+        "vacaciones": 28,
         "gastos_agrupados": {
             "2025-08": {
                 "total_mes": 828004.6799999999,
@@ -1603,7 +1603,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 14,
+        "vacaciones": 28,
         "gastos_agrupados": {}
     },
     "20": {
@@ -1623,7 +1623,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 5,
+        "vacaciones": 33,
         "gastos_agrupados": {
             "2025-08": {
                 "total_mes": 339425.62,
@@ -1670,7 +1670,7 @@
             "cuotas_pendientes": 1,
             "fecha_cancelacion": "20-10-2025"
         },
-        "vacaciones": 14,
+        "vacaciones": 42,
         "gastos_agrupados": {
             "2025-08": {
                 "total_mes": 565973.77,
@@ -1751,7 +1751,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 7,
+        "vacaciones": 28,
         "gastos_agrupados": {
             "2025-08": {
                 "total_mes": 170800.47,
@@ -1801,7 +1801,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 7,
+        "vacaciones": 35,
         "gastos_agrupados": {
             "2025-08": {
                 "total_mes": 96340.76,
@@ -1851,7 +1851,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 42,
+        "vacaciones": 70,
         "gastos_agrupados": {
             "2025-08": {
                 "total_mes": 668275.65,
@@ -1901,7 +1901,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 47,
+        "vacaciones": 75,
         "gastos_agrupados": {
             "2025-08": {
                 "total_mes": 434133.54,
@@ -2067,7 +2067,7 @@
             "cuotas_pendientes": 0,
             "fecha_cancelacion": "01-09-2025"
         },
-        "vacaciones": 14,
+        "vacaciones": 42,
         "gastos_agrupados": {
             "2025-08": {
                 "total_mes": 69772.56,
@@ -2315,7 +2315,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 21,
+        "vacaciones": 42,
         "gastos_agrupados": {
             "2025-08": {
                 "total_mes": 418591.37,
@@ -2365,7 +2365,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 23,
+        "vacaciones": 51,
         "gastos_agrupados": {
             "2025-08": {
                 "total_mes": 98479.41,
@@ -2432,7 +2432,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 0,
+        "vacaciones": 28,
         "gastos_agrupados": {
             "2025-08": {
                 "total_mes": 445000.78,
@@ -2506,7 +2506,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 15,
+        "vacaciones": 43,
         "gastos_agrupados": {
             "2025-08": {
                 "total_mes": 174339.83000000002,
@@ -2585,7 +2585,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 21,
+        "vacaciones": 32,
         "gastos_agrupados": {
             "2025-08": {
                 "total_mes": 293239.67,
@@ -2632,7 +2632,7 @@
             "cuotas_pendientes": 0,
             "fecha_cancelacion": "11-09-2025"
         },
-        "vacaciones": 3,
+        "vacaciones": 31,
         "gastos_agrupados": {
             "2025-08": {
                 "total_mes": 429026.87,
@@ -2739,7 +2739,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 16,
+        "vacaciones": 44,
         "gastos_agrupados": {}
     },
     "76": {
@@ -2759,7 +2759,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 23,
+        "vacaciones": 51,
         "gastos_agrupados": {
             "2025-08": {
                 "total_mes": 631546.0800000001,
@@ -2823,7 +2823,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 14,
+        "vacaciones": 21,
         "gastos_agrupados": {
             "2025-08": {
                 "total_mes": 345255.08999999997,
@@ -2868,7 +2868,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 0,
+        "vacaciones": 21,
         "gastos_agrupados": {
             "2025-08": {
                 "total_mes": 391091.43000000005,
@@ -2918,7 +2918,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 28,
+        "vacaciones": 49,
         "gastos_agrupados": {
             "2025-08": {
                 "total_mes": 64517.67,
@@ -3004,7 +3004,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 10,
+        "vacaciones": 31,
         "gastos_agrupados": {
             "2025-08": {
                 "total_mes": 519100.39,
@@ -3158,7 +3158,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 7,
+        "vacaciones": 28,
         "gastos_agrupados": {
             "2025-08": {
                 "total_mes": 467458.07999999996,
@@ -3217,7 +3217,7 @@
             "cuotas_pendientes": 3,
             "fecha_cancelacion": "01-12-2025"
         },
-        "vacaciones": 0,
+        "vacaciones": 21,
         "gastos_agrupados": {
             "2025-08": {
                 "total_mes": 195438.77,
@@ -3275,70 +3275,17 @@
         }
     },
     "96": {
-        "legajo": "96",
-        "cuil": "20-26736809-1",
-        "apellido": "Montero",
-        "nombre": "Hugo Héctor",
+        "apellido": "Marciano",
+        "nombre": "Valentin",
+        "cuil": "20-47011393-7",
         "sector": "Operaciones",
-        "sede": "9 de Julio",
-        "fecha_ingreso": "07-07-2017",
-        "estado": "Activo",
-        "fecha_baja": "",
-        "motivo_baja": "",
-        "fecha_nacimiento": "26-07-1978",
-        "edad": 0,
-        "telefono": "2317622491",
-        "rol": "empleado",
-        "notas": "",
-        "prestamo": {
-            "fecha_prestamo": "",
-            "monto": 700000.0,
-            "cuotas": 5,
-            "cancelado": 140000.0,
-            "pendiente": -560000.0,
-            "proxima_cuota": 140000.0,
-            "cuotas_pendientes": 4,
-            "fecha_cancelacion": "01-01-2026"
-        },
-        "vacaciones": 7,
-        "gastos_agrupados": {
-            "2025-08": {
-                "total_mes": 187241.66,
-                "por_articulo": {
-                    "Combustibles": {
-                        "total": 13376.44,
-                        "items": [
-                            {
-                                "fecha": "2025-08-31",
-                                "proveedor": "YPF SOCIEDAD ANONIMA",
-                                "comprobante": "FGAS 2172 1792068",
-                                "leyenda": "COMBUSIBLE YPF EN RUTA",
-                                "importe": 13376.44
-                            }
-                        ]
-                    },
-                    "Gastos de comida": {
-                        "total": 173865.22,
-                        "items": [
-                            {
-                                "fecha": "2025-08-29",
-                                "proveedor": "ATRES S.A.",
-                                "comprobante": "FGAS 12 241",
-                                "leyenda": "ACTUAL 08/2025",
-                                "importe": 108489.08
-                            },
-                            {
-                                "fecha": "2025-08-30",
-                                "proveedor": "COMPAÑIA URSO HERMANOS SA",
-                                "comprobante": "FGAS 1 7998",
-                                "leyenda": "URSO 08/2025",
-                                "importe": 65376.14
-                            }
-                        ]
-                    }
-                }
-            }
-        }
+        "fecha_ingreso": "2025-04-14",
+        "fecha_nacimiento": "2222-02-22",
+        "telefono": "2317 44-6433",
+        "direccion": "fsfsdfsf",
+        "email": "valentinmarciano123@gmail.com",
+        "vacaciones": 28,
+        "estado": "Activo"
     },
     "106": {
         "legajo": "106",
@@ -3366,7 +3313,7 @@
             "cuotas_pendientes": 5,
             "fecha_cancelacion": "01-03-2026"
         },
-        "vacaciones": 7,
+        "vacaciones": 28,
         "gastos_agrupados": {
             "2025-08": {
                 "total_mes": 435579.06,
@@ -3440,7 +3387,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 7,
+        "vacaciones": 28,
         "gastos_agrupados": {
             "2025-08": {
                 "total_mes": 704025.4,
@@ -3570,7 +3517,7 @@
             "cuotas_pendientes": 1,
             "fecha_cancelacion": "08-10-2025"
         },
-        "vacaciones": 0,
+        "vacaciones": 21,
         "gastos_agrupados": {
             "2025-08": {
                 "total_mes": 552278.11,
@@ -3620,7 +3567,7 @@
         "telefono": "2317504260",
         "direccion": "",
         "email": "",
-        "vacaciones": 0,
+        "vacaciones": 21,
         "estado": "Activo",
         "gastos_agrupados": {
             "2025-08": {
@@ -3705,7 +3652,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 15,
+        "vacaciones": 36,
         "gastos_agrupados": {
             "2025-08": {
                 "total_mes": 527871.8600000001,
@@ -3786,7 +3733,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 27,
+        "vacaciones": 48,
         "gastos_agrupados": {
             "2025-08": {
                 "total_mes": 342050.9,
@@ -3844,7 +3791,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 10,
+        "vacaciones": 31,
         "gastos_agrupados": {
             "2025-08": {
                 "total_mes": 72186.79,
@@ -3882,7 +3829,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 0,
+        "vacaciones": 21,
         "gastos_agrupados": {
             "2025-08": {
                 "total_mes": 378215.0,
@@ -3937,7 +3884,7 @@
         "telefono": "2317571857",
         "direccion": "",
         "email": "",
-        "vacaciones": 0,
+        "vacaciones": 21,
         "estado": "Activo",
         "gastos_agrupados": {
             "2025-08": {
@@ -4050,7 +3997,7 @@
             "cuotas_pendientes": 3,
             "fecha_cancelacion": "01-01-2026"
         },
-        "vacaciones": 0,
+        "vacaciones": 21,
         "gastos_agrupados": {
             "2025-08": {
                 "total_mes": 386890.73,
@@ -4143,7 +4090,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 0,
+        "vacaciones": 21,
         "gastos_agrupados": {}
     },
     "136": {
@@ -4163,7 +4110,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 0,
+        "vacaciones": 21,
         "gastos_agrupados": {
             "2025-08": {
                 "total_mes": 104304.78,
@@ -4218,7 +4165,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 0,
+        "vacaciones": 14,
         "gastos_agrupados": {
             "2025-08": {
                 "total_mes": 94707.92,
@@ -4285,7 +4232,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 0,
+        "vacaciones": 21,
         "gastos_agrupados": {
             "2025-08": {
                 "total_mes": 48329.85,
@@ -4323,7 +4270,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 0,
+        "vacaciones": 21,
         "gastos_agrupados": {
             "2025-09": {
                 "total_mes": 316802.51,
@@ -4407,7 +4354,7 @@
             "cuotas_pendientes": 1,
             "fecha_cancelacion": "04-10-2025"
         },
-        "vacaciones": 0,
+        "vacaciones": 21,
         "gastos_agrupados": {
             "2025-08": {
                 "total_mes": 632774.0,
@@ -4519,7 +4466,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 12,
+        "vacaciones": 40,
         "gastos_agrupados": {
             "2025-08": {
                 "total_mes": 1492552.6900000002,
@@ -4614,7 +4561,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 0,
+        "vacaciones": 14,
         "gastos_agrupados": {
             "2025-08": {
                 "total_mes": 67593.24,
@@ -4721,7 +4668,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 8,
+        "vacaciones": 22,
         "gastos_agrupados": {
             "2025-08": {
                 "total_mes": 336672.64,
@@ -4797,7 +4744,7 @@
             "cuotas_pendientes": 4,
             "fecha_cancelacion": "01-02-2026"
         },
-        "vacaciones": 0,
+        "vacaciones": 14,
         "gastos_agrupados": {
             "2025-08": {
                 "total_mes": 113054.77,
@@ -4835,7 +4782,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 0,
+        "vacaciones": 14,
         "gastos_agrupados": {}
     },
     "179": {
@@ -4864,7 +4811,7 @@
             "cuotas_pendientes": 4,
             "fecha_cancelacion": "27-02-2026"
         },
-        "vacaciones": 0,
+        "vacaciones": 14,
         "gastos_agrupados": {
             "2025-08": {
                 "total_mes": 198038.5,
@@ -4940,7 +4887,7 @@
             "cuotas_pendientes": 22,
             "fecha_cancelacion": "07-08-2027"
         },
-        "vacaciones": 0,
+        "vacaciones": 14,
         "gastos_agrupados": {
             "2025-08": {
                 "total_mes": 653993.0700000001,
@@ -5027,7 +4974,7 @@
         "telefono": "2317415313",
         "direccion": "",
         "email": "",
-        "vacaciones": 35,
+        "vacaciones": 21,
         "estado": "Activo",
         "gastos_agrupados": {
             "2025-08": {
@@ -5078,7 +5025,7 @@
         "rol": "empleado",
         "direccion": "",
         "email": "",
-        "vacaciones": 11,
+        "vacaciones": 25,
         "estado": "Activo",
         "gastos_agrupados": {
             "2025-08": {
@@ -5219,7 +5166,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 0,
+        "vacaciones": 14,
         "gastos_agrupados": {
             "2025-08": {
                 "total_mes": 86882.02,
@@ -5286,7 +5233,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 0,
+        "vacaciones": 14,
         "gastos_agrupados": {}
     },
     "211": {
@@ -5306,7 +5253,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 4,
+        "vacaciones": 18,
         "gastos_agrupados": {
             "2025-08": {
                 "total_mes": 381434.87,
@@ -5420,7 +5367,7 @@
             "cuotas_pendientes": 1,
             "fecha_cancelacion": "02-10-2025"
         },
-        "vacaciones": 0,
+        "vacaciones": 14,
         "gastos_agrupados": {
             "2025-08": {
                 "total_mes": 87537.13,
@@ -5501,7 +5448,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 0,
+        "vacaciones": 14,
         "gastos_agrupados": {
             "2025-08": {
                 "total_mes": 589659.37,
@@ -5558,7 +5505,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 6,
+        "vacaciones": 14,
         "gastos_agrupados": {}
     },
     "219": {
@@ -5578,7 +5525,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 0,
+        "vacaciones": 14,
         "gastos_agrupados": {
             "2025-08": {
                 "total_mes": 196123.01,
@@ -5810,7 +5757,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 0,
+        "vacaciones": 14,
         "gastos_agrupados": {
             "2025-08": {
                 "total_mes": 95181.82,
@@ -5848,7 +5795,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 0,
+        "vacaciones": 14,
         "gastos_agrupados": {
             "2025-09": {
                 "total_mes": 98112.14,
@@ -5941,7 +5888,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 7,
+        "vacaciones": 21,
         "gastos_agrupados": {
             "2025-08": {
                 "total_mes": 172500.07,
@@ -6082,7 +6029,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 0,
+        "vacaciones": 14,
         "gastos_agrupados": {
             "2025-08": {
                 "total_mes": 517974.88,
@@ -6148,7 +6095,7 @@
             "cuotas_pendientes": 23,
             "fecha_cancelacion": "07-08-2027"
         },
-        "vacaciones": 0,
+        "vacaciones": 14,
         "gastos_agrupados": {
             "2025-08": {
                 "total_mes": 308200.8,
@@ -6222,7 +6169,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 0,
+        "vacaciones": 14,
         "gastos_agrupados": {
             "2025-09": {
                 "total_mes": 75000.0,
@@ -6316,7 +6263,7 @@
             "cuotas_pendientes": 3,
             "fecha_cancelacion": "08-01-2026"
         },
-        "vacaciones": 0,
+        "vacaciones": 14,
         "gastos_agrupados": {
             "2025-08": {
                 "total_mes": 346032.46,
@@ -6397,7 +6344,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 0,
+        "vacaciones": 14,
         "gastos_agrupados": {}
     },
     "264": {
@@ -6472,7 +6419,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 0,
+        "vacaciones": 14,
         "gastos_agrupados": {
             "2025-08": {
                 "total_mes": 203272.40000000002,
@@ -6517,7 +6464,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 0,
+        "vacaciones": 14,
         "gastos_agrupados": {}
     },
     "271": {
@@ -6537,7 +6484,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 0,
+        "vacaciones": 14,
         "gastos_agrupados": {
             "2025-08": {
                 "total_mes": 137016.31,
@@ -6585,7 +6532,7 @@
         "telefono": "2392548263",
         "direccion": "",
         "email": "",
-        "vacaciones": 0,
+        "vacaciones": 14,
         "estado": "Activo",
         "gastos_agrupados": {
             "2025-08": {
@@ -6634,7 +6581,7 @@
         "telefono": "2317503299",
         "direccion": "",
         "email": "",
-        "vacaciones": 0,
+        "vacaciones": 14,
         "estado": "Activo",
         "gastos_agrupados": {
             "2025-08": {
@@ -6692,7 +6639,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 0,
+        "vacaciones": 7,
         "gastos_agrupados": {
             "2025-08": {
                 "total_mes": 162579.63,
@@ -6766,7 +6713,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 0,
+        "vacaciones": 14,
         "gastos_agrupados": {
             "2025-08": {
                 "total_mes": 39139.34,
@@ -6804,7 +6751,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 0,
+        "vacaciones": 14,
         "gastos_agrupados": {
             "2025-08": {
                 "total_mes": 59231.63,
@@ -6859,7 +6806,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 0,
+        "vacaciones": 14,
         "gastos_agrupados": {
             "2025-08": {
                 "total_mes": 61077.179999999986,
@@ -6952,7 +6899,7 @@
         "telefono": "2317538456",
         "direccion": "Echeverría 1363",
         "email": "joakcastro12345@gmail.com",
-        "vacaciones": 0,
+        "vacaciones": 14,
         "estado": "Activo",
         "gastos_agrupados": {
             "2025-08": {
@@ -7008,7 +6955,7 @@
         "telefono": "2317557647",
         "direccion": "Fonavi 2 sector D N°36",
         "email": "soledaddelpino321@gmail.com",
-        "vacaciones": 0,
+        "vacaciones": 14,
         "estado": "Activo",
         "gastos_agrupados": {
             "2025-09": {
@@ -7040,7 +6987,7 @@
         "telefono": "2392558427",
         "direccion": "Av. Antonio Aita 698",
         "email": "lazartegonzalo72@gmail.com",
-        "vacaciones": 0,
+        "vacaciones": 6,
         "estado": "Activo",
         "gastos_agrupados": {
             "2025-08": {
@@ -7089,7 +7036,7 @@
         "telefono": "2392404692",
         "direccion": "Av. Antonio Aita 698",
         "email": "cami.morenocucurull@gmail.com",
-        "vacaciones": 0,
+        "vacaciones": 6,
         "estado": "Activo",
         "gastos_agrupados": {
             "2025-08": {
@@ -7145,7 +7092,7 @@
         "telefono": "1162566132",
         "direccion": "Castex 3330 4 F",
         "email": "jmfim@hotmail.com",
-        "vacaciones": 0,
+        "vacaciones": 14,
         "estado": "Activo",
         "gastos_agrupados": {}
     },
@@ -7159,7 +7106,7 @@
         "telefono": "2345424446",
         "direccion": "Heredia 947",
         "email": "ferrerjuli@gmail.com",
-        "vacaciones": 0,
+        "vacaciones": 5,
         "estado": "Activo",
         "gastos_agrupados": {
             "2025-09": {
@@ -7180,5 +7127,31 @@
                 }
             }
         }
+    },
+    "253": {
+        "apellido": "Mortarini",
+        "nombre": "Lucas",
+        "cuil": "20-46341270-8",
+        "sector": "Operaciones",
+        "fecha_ingreso": "2024-05-30",
+        "fecha_nacimiento": "2025-05-14",
+        "telefono": "2317409670",
+        "direccion": "dadasdasadsas",
+        "email": "lucasmortarini05@gmail.com",
+        "vacaciones": 14,
+        "estado": "Activo"
+    },
+    "301": {
+        "apellido": "Arango",
+        "nombre": "Hugo Emmanuel",
+        "cuil": "20-36770401-3",
+        "sector": "Administración ",
+        "fecha_ingreso": "2025-09-22",
+        "fecha_nacimiento": "1992-08-01",
+        "telefono": "2392 54-8563",
+        "direccion": "Uruguay 683",
+        "email": "me_manu92@hotmail.com",
+        "vacaciones": 4,
+        "estado": "Activo"
     }
 }
