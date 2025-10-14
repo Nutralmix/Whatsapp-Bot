@@ -3285,7 +3285,45 @@
         "direccion": "fsfsdfsf",
         "email": "valentinmarciano123@gmail.com",
         "vacaciones": 28,
-        "estado": "Activo"
+        "estado": "Activo",
+        "gastos_agrupados": {
+            "2025-08": {
+                "total_mes": 187241.66,
+                "por_articulo": {
+                    "Combustibles": {
+                        "total": 13376.44,
+                        "items": [
+                            {
+                                "fecha": "2025-08-31",
+                                "proveedor": "YPF SOCIEDAD ANONIMA",
+                                "comprobante": "FGAS 2172 1792068",
+                                "leyenda": "COMBUSIBLE YPF EN RUTA",
+                                "importe": 13376.44
+                            }
+                        ]
+                    },
+                    "Gastos de comida": {
+                        "total": 173865.22,
+                        "items": [
+                            {
+                                "fecha": "2025-08-29",
+                                "proveedor": "ATRES S.A.",
+                                "comprobante": "FGAS 12 241",
+                                "leyenda": "ACTUAL 08/2025",
+                                "importe": 108489.08
+                            },
+                            {
+                                "fecha": "2025-08-30",
+                                "proveedor": "COMPAÑIA URSO HERMANOS SA",
+                                "comprobante": "FGAS 1 7998",
+                                "leyenda": "URSO 08/2025",
+                                "importe": 65376.14
+                            }
+                        ]
+                    }
+                }
+            }
+        }
     },
     "106": {
         "legajo": "106",
@@ -7139,7 +7177,8 @@
         "direccion": "dadasdasadsas",
         "email": "lucasmortarini05@gmail.com",
         "vacaciones": 14,
-        "estado": "Activo"
+        "estado": "Activo",
+        "gastos_agrupados": {}
     },
     "301": {
         "apellido": "Arango",
@@ -7152,6 +7191,7 @@
         "direccion": "Uruguay 683",
         "email": "me_manu92@hotmail.com",
         "vacaciones": 4,
-        "estado": "Activo"
+        "estado": "Activo",
+        "gastos_agrupados": {}
     }
 }
