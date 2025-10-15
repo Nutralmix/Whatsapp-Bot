@@ -2527,3 +2527,6 @@
 [2025-10-15 08:30:56] Acceso a panel
 [2025-10-15 08:31:20] Acceso a panel
 [2025-10-15 08:31:31] Acceso a panel
+[2025-10-15 08:31:58] Acceso a panel
+[2025-10-15 08:39:59] Acceso a panel
+[2025-10-15 08:39:59] Acceso a panel
