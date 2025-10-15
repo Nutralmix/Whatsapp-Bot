@@ -10,7 +10,547 @@
         "direccion": "Santa Fe 1812",
         "email": "tewalr@hotmail.com",
         "vacaciones": 35,
-        "estado": "Activo"
+        "estado": "Activo",
+        "gastos_agrupados": {
+            "2025-08": {
+                "total_mes": 685919.1099999999,
+                "por_articulo": {
+                    "Adelanto de Sueldos Empleados": {
+                        "total": 375000.0,
+                        "items": [
+                            {
+                                "fecha": "2025-08-29",
+                                "proveedor": "nan",
+                                "comprobante": "PVS 10 14210",
+                                "leyenda": "ADELANTO WALTER",
+                                "importe": 375000.0
+                            }
+                        ]
+                    },
+                    "Combustibles": {
+                        "total": 350313.29,
+                        "items": [
+                            {
+                                "fecha": "2025-08-01",
+                                "proveedor": "DJGM COMBUSTIBLES S.A",
+                                "comprobante": "FGAS 15 8305",
+                                "leyenda": "COMBUSTIBLE WALTER SCHMIDT",
+                                "importe": 47601.38
+                            },
+                            {
+                                "fecha": "2025-08-01",
+                                "proveedor": "DJGM COMBUSTIBLES S.A",
+                                "comprobante": "FGAS 15 8459",
+                                "leyenda": "COMBUSTIBLE WALTER SCHMIDT",
+                                "importe": 52688.96
+                            },
+                            {
+                                "fecha": "2025-08-14",
+                                "proveedor": "DJGM COMBUSTIBLES S.A",
+                                "comprobante": "FGAS 6 21582",
+                                "leyenda": "WALTER SCHMIDT",
+                                "importe": 144415.83
+                            },
+                            {
+                                "fecha": "2025-08-29",
+                                "proveedor": "DJGM COMBUSTIBLES S.A",
+                                "comprobante": "FGAS 6 22080",
+                                "leyenda": "COMBUSTIBLE WALTER",
+                                "importe": 105607.12
+                            }
+                        ]
+                    },
+                    "Gastos Varios": {
+                        "total": -31673.390000000003,
+                        "items": [
+                            {
+                                "fecha": "2025-08-01",
+                                "proveedor": "OCASIONAL",
+                                "comprobante": "FGAS 4 689",
+                                "leyenda": "WALTER SCHMIDT (PAGO)",
+                                "importe": -16400.83
+                            },
+                            {
+                                "fecha": "2025-08-01",
+                                "proveedor": "OCASIONAL",
+                                "comprobante": "FGAS 4 690",
+                                "leyenda": "WALTER SCHMIDT (PAGO)",
+                                "importe": -7289.26
+                            },
+                            {
+                                "fecha": "2025-08-10",
+                                "proveedor": "SUPERMERCADO TUTI 2 S.A.",
+                                "comprobante": "FGAS 32 4502",
+                                "leyenda": "SCHMIDT, ALDO WALTER",
+                                "importe": 9666.94
+                            },
+                            {
+                                "fecha": "2025-08-10",
+                                "proveedor": "SUPERMERCADO TUTI 2 S.A.",
+                                "comprobante": "FGAS 26 4427",
+                                "leyenda": "SCHMIDT, ALDO WALTER  - PAGO",
+                                "importe": 0.0
+                            },
+                            {
+                                "fecha": "2025-08-23",
+                                "proveedor": "SERVITEC HOGAR",
+                                "comprobante": "FGAS 60 4639",
+                                "leyenda": "WALTER SCHMIDT (PAGO)",
+                                "importe": -4512.22
+                            },
+                            {
+                                "fecha": "2025-08-31",
+                                "proveedor": "OCASIONAL",
+                                "comprobante": "FGAS 4 885",
+                                "leyenda": "WALTER SCHMIDT (PAGO)",
+                                "importe": -13138.02
+                            }
+                        ]
+                    },
+                    "Gastos de comida": {
+                        "total": -55714.14999999998,
+                        "items": [
+                            {
+                                "fecha": "2025-08-01",
+                                "proveedor": "SUPERMERCADO TUTI 2 S.A.",
+                                "comprobante": "FGAS 49 588",
+                                "leyenda": "SCHMIDT, ALDO WALTER",
+                                "importe": 1791.43
+                            },
+                            {
+                                "fecha": "2025-08-01",
+                                "proveedor": "SUPERMERCADO TUTI 2 S.A.",
+                                "comprobante": "FGAS 45 3924",
+                                "leyenda": "SCHMIDT, WALTER ALDO - PAGO",
+                                "importe": -6774.68
+                            },
+                            {
+                                "fecha": "2025-08-01",
+                                "proveedor": "SUPERMERCADO TUTI 2 S.A.",
+                                "comprobante": "FGAS 30 7592",
+                                "leyenda": "SCHMIDT, WALTER ALDO - PAGO",
+                                "importe": -7878.12
+                            },
+                            {
+                                "fecha": "2025-08-01",
+                                "proveedor": "SUPERMERCADO TUTI 2 S.A.",
+                                "comprobante": "FGAS 49 759",
+                                "leyenda": "SCHMIDT, ALDO WALTER - PAGO",
+                                "importe": -3872.42
+                            },
+                            {
+                                "fecha": "2025-08-01",
+                                "proveedor": "SUPERMERCADO TUTI 2 S.A.",
+                                "comprobante": "FGAS 49 706",
+                                "leyenda": "SCHMIDT, ALDO WALTER - PAGO",
+                                "importe": -17466.88
+                            },
+                            {
+                                "fecha": "2025-08-01",
+                                "proveedor": "SUPERMERCADO TUTI 2 S.A.",
+                                "comprobante": "FGAS 49 588",
+                                "leyenda": "SCHMIDT, ALDO WALTER - PAGO",
+                                "importe": -11630.19
+                            },
+                            {
+                                "fecha": "2025-08-01",
+                                "proveedor": "SUPERMERCADO TUTI 2 S.A.",
+                                "comprobante": "FGAS 48 3350",
+                                "leyenda": "SCHMIDT, ALDO WALTER - PAGO",
+                                "importe": -13333.04
+                            },
+                            {
+                                "fecha": "2025-08-01",
+                                "proveedor": "SUPERMERCADO TUTI 2 S.A.",
+                                "comprobante": "FGAS 47 2665",
+                                "leyenda": "SCHMIDT, ALDO WALTER - PAGO",
+                                "importe": -2655.03
+                            },
+                            {
+                                "fecha": "2025-08-01",
+                                "proveedor": "SUPERMERCADO TUTI 2 S.A.",
+                                "comprobante": "FGAS 47 2635",
+                                "leyenda": "SCHMIDT, ALDO WALTER - PAGO",
+                                "importe": -14019.95
+                            },
+                            {
+                                "fecha": "2025-08-01",
+                                "proveedor": "SUPERMERCADO TUTI 2 S.A.",
+                                "comprobante": "FGAS 47 2528",
+                                "leyenda": "SCHMIDT, ALDO WALTER - PAGO",
+                                "importe": -11771.28
+                            },
+                            {
+                                "fecha": "2025-08-01",
+                                "proveedor": "SUPERMERCADO TUTI 2 S.A.",
+                                "comprobante": "FGAS 47 2436",
+                                "leyenda": "SCHMIDT, ALDO WALTER - PAGO",
+                                "importe": -16013.63
+                            },
+                            {
+                                "fecha": "2025-08-01",
+                                "proveedor": "SUPERMERCADO TUTI 2 S.A.",
+                                "comprobante": "FGAS 47 2591",
+                                "leyenda": "SCHMIDT, ALDO WALTER - PAGO",
+                                "importe": -36284.58
+                            },
+                            {
+                                "fecha": "2025-08-01",
+                                "proveedor": "SUPERMERCADO TUTI 2 S.A.",
+                                "comprobante": "FGAS 46 4254",
+                                "leyenda": "SCHMIDT, ALDO WALTER - PAGO",
+                                "importe": -16957.45
+                            },
+                            {
+                                "fecha": "2025-08-01",
+                                "proveedor": "SUPERMERCADO TUTI 2 S.A.",
+                                "comprobante": "FGAS 46 4176",
+                                "leyenda": "SCHMIDT, ALDO WALTER - PAGO",
+                                "importe": -3105.05
+                            },
+                            {
+                                "fecha": "2025-08-01",
+                                "proveedor": "SUPERMERCADO TUTI 2 S.A.",
+                                "comprobante": "FGAS 46 4051",
+                                "leyenda": "SCHMIDT, ALDO WALTER - PAGO",
+                                "importe": -1110.4
+                            },
+                            {
+                                "fecha": "2025-08-01",
+                                "proveedor": "SUPERMERCADO TUTI 2 S.A.",
+                                "comprobante": "FGAS 46 4018",
+                                "leyenda": "SCHMIDT, ALDO WALTER - PAGO",
+                                "importe": -5239.33
+                            },
+                            {
+                                "fecha": "2025-08-01",
+                                "proveedor": "SUPERMERCADO TUTI 2 S.A.",
+                                "comprobante": "FGAS 28 3870",
+                                "leyenda": "SCHMIDT, ALDO WALTER - PAGO",
+                                "importe": -6558.59
+                            },
+                            {
+                                "fecha": "2025-08-01",
+                                "proveedor": "SUPERMERCADO TUTI 2 S.A.",
+                                "comprobante": "FGAS 27 3892",
+                                "leyenda": "SCHMIDT, ALDO WALTER - PAGO",
+                                "importe": -1978.34
+                            },
+                            {
+                                "fecha": "2025-08-01",
+                                "proveedor": "SUPERMERCADO TUTI 2 S.A.",
+                                "comprobante": "FGAS 27 3705",
+                                "leyenda": "SCHMIDT, ALDO WALTER - PAGO",
+                                "importe": -4064.11
+                            },
+                            {
+                                "fecha": "2025-08-01",
+                                "proveedor": "SUPERMERCADO TUTI 2 S.A.",
+                                "comprobante": "FGAS 26 4348",
+                                "leyenda": "SCHMIDT, ALDO WALTER - PAGO",
+                                "importe": -12908.55
+                            },
+                            {
+                                "fecha": "2025-08-01",
+                                "proveedor": "SUPERMERCADO TUTI 2 S.A.",
+                                "comprobante": "FGAS 26 4158",
+                                "leyenda": "SCHMIDT, ALDO WALTER - PAGO",
+                                "importe": -15600.08
+                            },
+                            {
+                                "fecha": "2025-08-01",
+                                "proveedor": "SUPERMERCADO TUTI 2 S.A.",
+                                "comprobante": "FGAS 47 2404",
+                                "leyenda": "SCHMIDT, ALDO WALTER - PAGO",
+                                "importe": -12720.27
+                            },
+                            {
+                                "fecha": "2025-08-13",
+                                "proveedor": "SUPERMERCADO TUTI 2 S.A.",
+                                "comprobante": "FGAS 47 2704",
+                                "leyenda": "SCHMIDT, ALDO WALTER - PAGO",
+                                "importe": -19236.91
+                            },
+                            {
+                                "fecha": "2025-08-14",
+                                "proveedor": "SUPERMERCADO TUTI 2 S.A.",
+                                "comprobante": "FGAS 46 4340",
+                                "leyenda": "SCHMIDT, ALDO WALTER - PAGO",
+                                "importe": -11410.9
+                            },
+                            {
+                                "fecha": "2025-08-29",
+                                "proveedor": "ATRES S.A.",
+                                "comprobante": "FGAS 12 241",
+                                "leyenda": "ACTUAL 08/2025",
+                                "importe": 177073.93
+                            },
+                            {
+                                "fecha": "2025-08-30",
+                                "proveedor": "LA REGIONAL ASOCIACION SIMPLE DE PONTELLO EMILIANO",
+                                "comprobante": "FGAS 1 3846",
+                                "leyenda": "EVENTOS",
+                                "importe": 19884.3
+                            },
+                            {
+                                "fecha": "2025-08-30",
+                                "proveedor": "SUPERMERCADO TUTI 2 S.A.",
+                                "comprobante": "FGAS 32 4618",
+                                "leyenda": "SCHMIDT, ALDO WALTER - PAGO",
+                                "importe": -1874.03
+                            }
+                        ]
+                    },
+                    "Papeleria y utiles": {
+                        "total": 47993.36,
+                        "items": [
+                            {
+                                "fecha": "2025-08-22",
+                                "proveedor": "SERVITEC LIBRERIA",
+                                "comprobante": "FGAS 70 2334",
+                                "leyenda": "WALTER SCHMIDT (CTA CTE)",
+                                "importe": 47993.36
+                            }
+                        ]
+                    }
+                }
+            },
+            "2025-09": {
+                "total_mes": 3085752.31,
+                "por_articulo": {
+                    "Adelanto de Sueldos Empleados": {
+                        "total": 3034745.33,
+                        "items": [
+                            {
+                                "fecha": "2025-09-01",
+                                "proveedor": "nan",
+                                "comprobante": "PVS 10 14219",
+                                "leyenda": "PAGO VISA PATAGONIA-WALTER",
+                                "importe": 660000.0
+                            },
+                            {
+                                "fecha": "2025-09-03",
+                                "proveedor": "nan",
+                                "comprobante": "PVS 10 14244",
+                                "leyenda": "PAGO FAVACARD WALTER",
+                                "importe": 750363.05
+                            },
+                            {
+                                "fecha": "2025-09-03",
+                                "proveedor": "nan",
+                                "comprobante": "PVS 10 14244",
+                                "leyenda": "PAGO GAS CASA WALTER",
+                                "importe": 66109.43
+                            },
+                            {
+                                "fecha": "2025-09-03",
+                                "proveedor": "nan",
+                                "comprobante": "PVS 10 14244",
+                                "leyenda": "PAGO LUZ CASA WALTER",
+                                "importe": 271730.65
+                            },
+                            {
+                                "fecha": "2025-09-03",
+                                "proveedor": "nan",
+                                "comprobante": "PVS 10 14244",
+                                "leyenda": "PAGO TEL CASA WALTER",
+                                "importe": 3246.28
+                            },
+                            {
+                                "fecha": "2025-09-05",
+                                "proveedor": "nan",
+                                "comprobante": "PVS 10 14270",
+                                "leyenda": "PAG BCO PATAGONIA WALTER",
+                                "importe": 357901.41
+                            },
+                            {
+                                "fecha": "2025-09-10",
+                                "proveedor": "nan",
+                                "comprobante": "PVS 10 14360",
+                                "leyenda": "PAGO ELEBAR WALTER",
+                                "importe": 390113.68
+                            },
+                            {
+                                "fecha": "2025-09-12",
+                                "proveedor": "nan",
+                                "comprobante": "PVS 10 14422",
+                                "leyenda": "PAGO FARMACIA BONINO-WALTER",
+                                "importe": 235280.83
+                            },
+                            {
+                                "fecha": "2025-09-15",
+                                "proveedor": "nan",
+                                "comprobante": "PVS 10 14441",
+                                "leyenda": "PAGO MERCADO PAGO-WALTER",
+                                "importe": 300000.0
+                            }
+                        ]
+                    },
+                    "Combustibles": {
+                        "total": 140641.4,
+                        "items": [
+                            {
+                                "fecha": "2025-09-15",
+                                "proveedor": "DJGM COMBUSTIBLES S.A",
+                                "comprobante": "FGAS 6 22522",
+                                "leyenda": "WALTER SCHMIDT - CTA CTE",
+                                "importe": 140641.4
+                            }
+                        ]
+                    },
+                    "Gastos Varios": {
+                        "total": 72809.92,
+                        "items": [
+                            {
+                                "fecha": "2025-09-01",
+                                "proveedor": "OLDANI OSVALDO NESTOR",
+                                "comprobante": "FGAS 3 572",
+                                "leyenda": "WALTER SCHMIDT",
+                                "importe": 72809.92
+                            }
+                        ]
+                    },
+                    "Gastos de comida": {
+                        "total": -162444.34,
+                        "items": [
+                            {
+                                "fecha": "2025-09-01",
+                                "proveedor": "ARNALDO P APPELLA S.A",
+                                "comprobante": "FGAS 24 5350",
+                                "leyenda": "WALTER PAGO FF COMIDA",
+                                "importe": -13109.1
+                            },
+                            {
+                                "fecha": "2025-09-01",
+                                "proveedor": "ARNALDO P APPELLA S.A",
+                                "comprobante": "FGAS 48 3301",
+                                "leyenda": "WALTER PAGO FF COMIDA",
+                                "importe": -16865.97
+                            },
+                            {
+                                "fecha": "2025-09-01",
+                                "proveedor": "ARNALDO P APPELLA S.A",
+                                "comprobante": "FGAS 48 3218",
+                                "leyenda": "WALTER PAGO FF COMIDA",
+                                "importe": -16397.11
+                            },
+                            {
+                                "fecha": "2025-09-01",
+                                "proveedor": "ARNALDO P APPELLA S.A",
+                                "comprobante": "FGAS 47 2786",
+                                "leyenda": "WALTER PAGO FF COMIDA",
+                                "importe": -10291.44
+                            },
+                            {
+                                "fecha": "2025-09-01",
+                                "proveedor": "ARNALDO P APPELLA S.A",
+                                "comprobante": "FGAS 47 2615",
+                                "leyenda": "WALTER PAGO FF COMIDA",
+                                "importe": -11041.78
+                            },
+                            {
+                                "fecha": "2025-09-01",
+                                "proveedor": "ARNALDO P APPELLA S.A",
+                                "comprobante": "FGAS 48 3320",
+                                "leyenda": "WALTER PAGO FF COMIDA",
+                                "importe": -19123.2
+                            },
+                            {
+                                "fecha": "2025-09-01",
+                                "proveedor": "ARNALDO P APPELLA S.A",
+                                "comprobante": "FGAS 46 4408",
+                                "leyenda": "WALTER PAGO FF COMIDA",
+                                "importe": -15300.22
+                            },
+                            {
+                                "fecha": "2025-09-01",
+                                "proveedor": "ARNALDO P APPELLA S.A",
+                                "comprobante": "FGAS 46 4111",
+                                "leyenda": "WALTER PAGO FF COMIDA",
+                                "importe": -7806.44
+                            },
+                            {
+                                "fecha": "2025-09-01",
+                                "proveedor": "ARNALDO P APPELLA S.A",
+                                "comprobante": "FGAS 26 4037",
+                                "leyenda": "WALTER PAGO FF COMIDA",
+                                "importe": -17371.09
+                            },
+                            {
+                                "fecha": "2025-09-01",
+                                "proveedor": "ARNALDO P APPELLA S.A",
+                                "comprobante": "FGAS 47 2558",
+                                "leyenda": "WALTER PAGO FF COMIDA",
+                                "importe": -17400.7
+                            },
+                            {
+                                "fecha": "2025-09-03",
+                                "proveedor": "ARNALDO P APPELLA S.A",
+                                "comprobante": "FGAS 46 4428",
+                                "leyenda": "WALTER PAGO FF COMIDA",
+                                "importe": -9018.81
+                            },
+                            {
+                                "fecha": "2025-09-06",
+                                "proveedor": "SUPERMERCADO TUTI 2 S.A.",
+                                "comprobante": "FGAS 47 2816",
+                                "leyenda": "SCHMIDT, ALDO WALTER - PAGO",
+                                "importe": -14077.13
+                            },
+                            {
+                                "fecha": "2025-09-10",
+                                "proveedor": "ARNALDO P APPELLA S.A",
+                                "comprobante": "FGAS 47 2842",
+                                "leyenda": "WALTER PAGO FF COMIDA",
+                                "importe": -13860.5
+                            },
+                            {
+                                "fecha": "2025-09-11",
+                                "proveedor": "ARNALDO P APPELLA S.A",
+                                "comprobante": "FGAS 46 4471",
+                                "leyenda": "WALTER PAGO FF COMIDA",
+                                "importe": -9323.15
+                            },
+                            {
+                                "fecha": "2025-09-14",
+                                "proveedor": "ARNALDO P APPELLA S.A",
+                                "comprobante": "FGAS 49 1019",
+                                "leyenda": "WALTER PAGO FF COMIDA",
+                                "importe": -12922.08
+                            },
+                            {
+                                "fecha": "2025-09-16",
+                                "proveedor": "ARNALDO P APPELLA S.A",
+                                "comprobante": "FGAS 46 4496",
+                                "leyenda": "WALTER PAGO FF COMIDA",
+                                "importe": -4997.31
+                            },
+                            {
+                                "fecha": "2025-09-17",
+                                "proveedor": "ARNALDO P APPELLA S.A",
+                                "comprobante": "FGAS 46 4499",
+                                "leyenda": "WALTER PAGO FF COMIDA",
+                                "importe": -6832.56
+                            },
+                            {
+                                "fecha": "2025-09-18",
+                                "proveedor": "POLAND S.A.",
+                                "comprobante": "FGAS 12 26470",
+                                "leyenda": "COMPRA QUESO LA BLANQUEADA",
+                                "importe": 60900.09
+                            },
+                            {
+                                "fecha": "2025-09-19",
+                                "proveedor": "ARNALDO P APPELLA S.A",
+                                "comprobante": "FGAS 46 4510",
+                                "leyenda": "WALTER PAGO FF COMIDA",
+                                "importe": -7605.84
+                            }
+                        ]
+                    }
+                }
+            }
+        }
     },
     "2": {
         "apellido": "Gavalda",
@@ -23,7 +563,335 @@
         "direccion": "Mitre 766",
         "email": "mauricionutralmix@gmail.com",
         "vacaciones": 35,
-        "estado": "Activo"
+        "estado": "Activo",
+        "gastos_agrupados": {
+            "2025-08": {
+                "total_mes": -2965625.75,
+                "por_articulo": {
+                    "Adelanto de Sueldos Empleados": {
+                        "total": -4213515.97,
+                        "items": [
+                            {
+                                "fecha": "2025-08-08",
+                                "proveedor": "nan",
+                                "comprobante": "CONTA 10 13843",
+                                "leyenda": "PAGO DIVIDENDOS 07/2025-MAURI",
+                                "importe": -5580000.0
+                            },
+                            {
+                                "fecha": "2025-08-19",
+                                "proveedor": "nan",
+                                "comprobante": "PVS 10 14242",
+                                "leyenda": "TRANSF RAMIREZ RAMON PESCA-MAURI",
+                                "importe": 290000.0
+                            },
+                            {
+                                "fecha": "2025-08-27",
+                                "proveedor": "nan",
+                                "comprobante": "PVS 10 14169",
+                                "leyenda": "PAGO CAJA VET MATRICULA MAURICIO",
+                                "importe": 49938.08
+                            },
+                            {
+                                "fecha": "2025-08-27",
+                                "proveedor": "nan",
+                                "comprobante": "PVS 10 14169",
+                                "leyenda": "PAGO CAJA VET MAURICIO",
+                                "importe": 146545.95
+                            },
+                            {
+                                "fecha": "2025-08-27",
+                                "proveedor": "nan",
+                                "comprobante": "PVS 10 14241",
+                                "leyenda": "TRANSF RAMIREZ RAMON PESCA-MAURI",
+                                "importe": 880000.0
+                            }
+                        ]
+                    },
+                    "Combustibles": {
+                        "total": 108289.18,
+                        "items": [
+                            {
+                                "fecha": "2025-08-08",
+                                "proveedor": "LOGIOCO JOSE LUIS",
+                                "comprobante": "FGAS 13 87857",
+                                "leyenda": "GAVALDA MAURICIO",
+                                "importe": 41309.76
+                            },
+                            {
+                                "fecha": "2025-08-13",
+                                "proveedor": "LOGIOCO JOSE LUIS",
+                                "comprobante": "FGAS 13 88266",
+                                "leyenda": "COMBUSTIBLE MAURICIO CTA CTE",
+                                "importe": 66979.42
+                            }
+                        ]
+                    },
+                    "Gastos Varios": {
+                        "total": -51627.64,
+                        "items": [
+                            {
+                                "fecha": "2025-08-18",
+                                "proveedor": "OCASIONAL",
+                                "comprobante": "FGAS 5 19554",
+                                "leyenda": "MAURICIO GAVALDA (PAGO)",
+                                "importe": -92507.95
+                            },
+                            {
+                                "fecha": "2025-08-20",
+                                "proveedor": "OCASIONAL",
+                                "comprobante": "FGAS 2 88",
+                                "leyenda": "VINOS MAURICIO CTA CTE",
+                                "importe": 119008.26
+                            },
+                            {
+                                "fecha": "2025-08-25",
+                                "proveedor": "OCASIONAL",
+                                "comprobante": "FGAS 5 19569",
+                                "leyenda": "MAURICIO GAVALDA (PAGO)",
+                                "importe": -92508.12
+                            },
+                            {
+                                "fecha": "2025-08-27",
+                                "proveedor": "FERRERE JUAN PATRICIO",
+                                "comprobante": "FGAS 4 9123",
+                                "leyenda": "MANGUERA MAURICIO CTA CTE",
+                                "importe": 14380.17
+                            }
+                        ]
+                    },
+                    "Gastos de comida": {
+                        "total": 578335.6799999999,
+                        "items": [
+                            {
+                                "fecha": "2025-08-23",
+                                "proveedor": "DEL FABRO HNOS Y CIA",
+                                "comprobante": "FGAS 26 3266",
+                                "leyenda": "MAURICIO GAVALDA (PAGO)",
+                                "importe": -11830.33
+                            },
+                            {
+                                "fecha": "2025-08-29",
+                                "proveedor": "ATRES S.A.",
+                                "comprobante": "FGAS 12 241",
+                                "leyenda": "ACTUAL 08/2025",
+                                "importe": 369856.92
+                            },
+                            {
+                                "fecha": "2025-08-30",
+                                "proveedor": "LA REGIONAL ASOCIACION SIMPLE DE PONTELLO EMILIANO",
+                                "comprobante": "FGAS 1 3846",
+                                "leyenda": "EVENTOS",
+                                "importe": 220309.09
+                            }
+                        ]
+                    },
+                    "Mantenimiento": {
+                        "total": 612893.0,
+                        "items": [
+                            {
+                                "fecha": "2025-08-22",
+                                "proveedor": "OCASIONAL",
+                                "comprobante": "FGAS 2 797",
+                                "leyenda": "MAURICIO GAVALDA CTA CTE",
+                                "importe": 612893.0
+                            }
+                        ]
+                    }
+                }
+            },
+            "2025-09": {
+                "total_mes": 2215477.57,
+                "por_articulo": {
+                    "Adelanto de Sueldos Empleados": {
+                        "total": -276677.26,
+                        "items": [
+                            {
+                                "fecha": "2025-09-01",
+                                "proveedor": "nan",
+                                "comprobante": "PVS 10 14220",
+                                "leyenda": "PAGO ALQUILER DPTO MAITE-MAURI",
+                                "importe": 1501700.0
+                            },
+                            {
+                                "fecha": "2025-09-01",
+                                "proveedor": "nan",
+                                "comprobante": "PVS 10 14220",
+                                "leyenda": "PAGO EXPENSAS DPTO MAITE-MAURI",
+                                "importe": 336102.19
+                            },
+                            {
+                                "fecha": "2025-09-04",
+                                "proveedor": "nan",
+                                "comprobante": "CONTA 10 14251",
+                                "leyenda": "PAGO DIVIDENDOS 08/2025 - MAURI",
+                                "importe": -5580000.0
+                            },
+                            {
+                                "fecha": "2025-09-08",
+                                "proveedor": "nan",
+                                "comprobante": "PVS 10 14286",
+                                "leyenda": "TRANSF A BCO PCIA MAURICIO",
+                                "importe": 1500000.0
+                            },
+                            {
+                                "fecha": "2025-09-09",
+                                "proveedor": "nan",
+                                "comprobante": "PVS 10 14317",
+                                "leyenda": "PAGO PATENTES 04/2025 - MAURICIO GAVALDA",
+                                "importe": 182473.4
+                            },
+                            {
+                                "fecha": "2025-09-15",
+                                "proveedor": "nan",
+                                "comprobante": "PVS 10 14443",
+                                "leyenda": "PAGO OSDE FRANCISCO",
+                                "importe": 317079.0
+                            },
+                            {
+                                "fecha": "2025-09-15",
+                                "proveedor": "nan",
+                                "comprobante": "PVS 10 14444",
+                                "leyenda": "PAGO OSDE TOMAS",
+                                "importe": 317079.0
+                            },
+                            {
+                                "fecha": "2025-09-29",
+                                "proveedor": "nan",
+                                "comprobante": "PVS 10 14612",
+                                "leyenda": "PAGO CAJA VET SEG - MAURI",
+                                "importe": 148889.15
+                            },
+                            {
+                                "fecha": "2025-09-29",
+                                "proveedor": "nan",
+                                "comprobante": "PVS 10 14611",
+                                "leyenda": "TRANSF BCO PCIA MAURI",
+                                "importe": 1000000.0
+                            }
+                        ]
+                    },
+                    "Alojamientos": {
+                        "total": 1682600.0,
+                        "items": [
+                            {
+                                "fecha": "2025-09-02",
+                                "proveedor": "POSADA HAMBARE SRL",
+                                "comprobante": "FGAS 4 3305",
+                                "leyenda": "ALOJAMIENTO MAURICIO GAVALDA (PESCA)",
+                                "importe": 1682600.0
+                            },
+                            {
+                                "fecha": "2025-09-13",
+                                "proveedor": "OCASIONAL",
+                                "comprobante": "FGAS 21 2699",
+                                "leyenda": "MAURICIO GAVALDA - PAGO",
+                                "importe": 0.0
+                            }
+                        ]
+                    },
+                    "Gastos Varios": {
+                        "total": 343065.36,
+                        "items": [
+                            {
+                                "fecha": "2025-09-01",
+                                "proveedor": "FUNDACION INSTITUTO LOS CEIBOS NUEVE DE JULIO",
+                                "comprobante": "FGAS 3 17974",
+                                "leyenda": "COLEGIO CHARO GAVALDA",
+                                "importe": 409328.0
+                            },
+                            {
+                                "fecha": "2025-09-04",
+                                "proveedor": "nan",
+                                "comprobante": "PV 10 14357",
+                                "leyenda": "AGA DESTILADA CAMIONETA MAURICIO",
+                                "importe": 4200.0
+                            },
+                            {
+                                "fecha": "2025-09-06",
+                                "proveedor": "OCASIONAL",
+                                "comprobante": "FGAS 73 1394",
+                                "leyenda": "MAURICIO GAVALDA - PAGO",
+                                "importe": -27074.38
+                            },
+                            {
+                                "fecha": "2025-09-10",
+                                "proveedor": "OCASIONAL",
+                                "comprobante": "FGAS 12 9534",
+                                "leyenda": "MAURICIO GAVALDA - PAGO",
+                                "importe": -43388.26
+                            }
+                        ]
+                    },
+                    "Gastos de comida": {
+                        "total": 205828.09999999998,
+                        "items": [
+                            {
+                                "fecha": "2025-09-04",
+                                "proveedor": "BALANHO GERARDO JAVIER",
+                                "comprobante": "FGAS 5 41559",
+                                "leyenda": "MAURICIO GAVALDA - CTA CTE",
+                                "importe": 96835.7
+                            },
+                            {
+                                "fecha": "2025-09-04",
+                                "proveedor": "BALANHO GERARDO JAVIER",
+                                "comprobante": "FGAS 5 41558",
+                                "leyenda": "PESCA - MAURICIO (CTE CTE)",
+                                "importe": 108992.4
+                            }
+                        ]
+                    },
+                    "Mantenimiento": {
+                        "total": 260661.37,
+                        "items": [
+                            {
+                                "fecha": "2025-09-01",
+                                "proveedor": "SILVERA HNOS. S.R.L.",
+                                "comprobante": "FGAS 10 35985",
+                                "leyenda": "MAURICIO GAVALDA - CTA CTE",
+                                "importe": 25679.14
+                            },
+                            {
+                                "fecha": "2025-09-01",
+                                "proveedor": "SILVERA HNOS. S.R.L.",
+                                "comprobante": "FGAS 10 35986",
+                                "leyenda": "MAURICIO GAVALDA - CTA CTE",
+                                "importe": 4437.98
+                            },
+                            {
+                                "fecha": "2025-09-01",
+                                "proveedor": "SILVERA HNOS. S.R.L.",
+                                "comprobante": "FGAS 10 35987",
+                                "leyenda": "MAURICIO GAVALDA - CTA CTE",
+                                "importe": 70401.25
+                            },
+                            {
+                                "fecha": "2025-09-01",
+                                "proveedor": "VILLA ZAPPA Y CIA S.A.",
+                                "comprobante": "FGAS 5 61759",
+                                "leyenda": "MAURICIO GAVALDA (CTA CTE)",
+                                "importe": 70000.0
+                            },
+                            {
+                                "fecha": "2025-09-05",
+                                "proveedor": "VILLA ZAPPA Y CIA S.A.",
+                                "comprobante": "FGAS 5 61808",
+                                "leyenda": "REPARACION MOTOR MAURICIO CTA CTE",
+                                "importe": 70143.0
+                            },
+                            {
+                                "fecha": "2025-09-26",
+                                "proveedor": "GOMEZ FERNANDO MARIANO",
+                                "comprobante": "FGAS 2 425",
+                                "leyenda": "LIMPIEZA DE VIDRIOS",
+                                "importe": 20000.0
+                            }
+                        ]
+                    }
+                }
+            }
+        }
     },
     "4": {
         "legajo": "4",
@@ -220,7 +1088,69 @@
         "direccion": "Frondizi 942",
         "email": "pablodc_10@hotmail.com",
         "vacaciones": 63,
-        "estado": "Activo"
+        "estado": "Activo",
+        "gastos_agrupados": {
+            "2025-08": {
+                "total_mes": 799229.69,
+                "por_articulo": {
+                    "Combustibles": {
+                        "total": 107160.58,
+                        "items": [
+                            {
+                                "fecha": "2025-08-31",
+                                "proveedor": "YPF SOCIEDAD ANONIMA",
+                                "comprobante": "FGAS 2172 1792068",
+                                "leyenda": "COMBUSIBLE YPF EN RUTA",
+                                "importe": 107160.58
+                            }
+                        ]
+                    },
+                    "Gastos de comida": {
+                        "total": 692069.11,
+                        "items": [
+                            {
+                                "fecha": "2025-08-27",
+                                "proveedor": "POLAND S.A.",
+                                "comprobante": "FGAS 12 26104",
+                                "leyenda": "COMPRA LA BLANQUEADA",
+                                "importe": 18060.0
+                            },
+                            {
+                                "fecha": "2025-08-29",
+                                "proveedor": "ATRES S.A.",
+                                "comprobante": "FGAS 12 241",
+                                "leyenda": "ACTUAL 08/2025",
+                                "importe": 369388.91
+                            },
+                            {
+                                "fecha": "2025-08-30",
+                                "proveedor": "COMPAÑIA URSO HERMANOS SA",
+                                "comprobante": "FGAS 1 7998",
+                                "leyenda": "URSO 08/2025",
+                                "importe": 304620.2
+                            }
+                        ]
+                    }
+                }
+            },
+            "2025-09": {
+                "total_mes": 13242.62,
+                "por_articulo": {
+                    "Gastos de comida": {
+                        "total": 13242.62,
+                        "items": [
+                            {
+                                "fecha": "2025-09-18",
+                                "proveedor": "POLAND S.A.",
+                                "comprobante": "FGAS 12 26470",
+                                "leyenda": "COMPRA QUESO LA BLANQUEADA",
+                                "importe": 13242.62
+                            }
+                        ]
+                    }
+                }
+            }
+        }
     },
     "10": {
         "apellido": "Gonzalez",
@@ -233,7 +1163,64 @@
         "direccion": "Uruguay 145 Dto 1 ",
         "email": "gustavog@nutralmix.com.ar",
         "vacaciones": 121,
-        "estado": "Activo"
+        "estado": "Activo",
+        "gastos_agrupados": {
+            "2025-08": {
+                "total_mes": 932177.8600000001,
+                "por_articulo": {
+                    "Combustibles": {
+                        "total": 382507.2,
+                        "items": [
+                            {
+                                "fecha": "2025-08-31",
+                                "proveedor": "YPF SOCIEDAD ANONIMA",
+                                "comprobante": "FGAS 2172 1792068",
+                                "leyenda": "COMBUSTIBLE YPF EN RUTA",
+                                "importe": 382507.2
+                            }
+                        ]
+                    },
+                    "Gastos de comida": {
+                        "total": 271670.66000000003,
+                        "items": [
+                            {
+                                "fecha": "2025-08-29",
+                                "proveedor": "ATRES S.A.",
+                                "comprobante": "FGAS 12 241",
+                                "leyenda": "ACTUAL 08/2025",
+                                "importe": 48236.16
+                            },
+                            {
+                                "fecha": "2025-08-30",
+                                "proveedor": "COMPAÑIA URSO HERMANOS SA",
+                                "comprobante": "FGAS 1 7998",
+                                "leyenda": "URSO 08/2025",
+                                "importe": 161496.48
+                            },
+                            {
+                                "fecha": "2025-08-30",
+                                "proveedor": "LA REGIONAL ASOCIACION SIMPLE DE PONTELLO EMILIANO",
+                                "comprobante": "FGAS 1 3846",
+                                "leyenda": "EVENTOS",
+                                "importe": 61938.02
+                            }
+                        ]
+                    },
+                    "Mantenimiento": {
+                        "total": 278000.0,
+                        "items": [
+                            {
+                                "fecha": "2025-08-01",
+                                "proveedor": "BOMBINI LUIS ALBERTO",
+                                "comprobante": "FGAS 2 961",
+                                "leyenda": "GUSTAVO GONZALEZ (CUENTA CORRIENTE)",
+                                "importe": 278000.0
+                            }
+                        ]
+                    }
+                }
+            }
+        }
     },
     "11": {
         "apellido": "Garcia",
@@ -246,7 +1233,66 @@
         "direccion": "",
         "email": "marianomgarcia@hotmail.com",
         "vacaciones": 28,
-        "estado": "Activo"
+        "estado": "Activo",
+        "gastos_agrupados": {
+            "2025-09": {
+                "total_mes": -88612.08,
+                "por_articulo": {
+                    "Combustibles": {
+                        "total": -13332.35,
+                        "items": [
+                            {
+                                "fecha": "2025-09-01",
+                                "proveedor": "COOP. AGROP.EL PROG.DE HENDERSON",
+                                "comprobante": "FGAS 57 66247",
+                                "leyenda": "MARIANO GARCIA - PAGO",
+                                "importe": -13332.35
+                            }
+                        ]
+                    },
+                    "Gastos Varios": {
+                        "total": -75279.73,
+                        "items": [
+                            {
+                                "fecha": "2025-09-01",
+                                "proveedor": "OCASIONAL",
+                                "comprobante": "FGAS 5 27390",
+                                "leyenda": "MARIANO GARCIA - PAGO",
+                                "importe": -4018.64
+                            },
+                            {
+                                "fecha": "2025-09-01",
+                                "proveedor": "COOP. AGROP.EL PROG.DE HENDERSON",
+                                "comprobante": "FGAS 44 6034",
+                                "leyenda": "MARIANO GARCIA - PAGO",
+                                "importe": -947.96
+                            },
+                            {
+                                "fecha": "2025-09-03",
+                                "proveedor": "OCASIONAL",
+                                "comprobante": "FGAS 5 329",
+                                "leyenda": "MARIANO GARCIA - PAGO",
+                                "importe": -47603.2
+                            },
+                            {
+                                "fecha": "2025-09-04",
+                                "proveedor": "OCASIONAL",
+                                "comprobante": "FGAS 2 2123",
+                                "leyenda": "MARIANO GARCIA - PAGO",
+                                "importe": -13394.88
+                            },
+                            {
+                                "fecha": "2025-09-04",
+                                "proveedor": "OCASIONAL",
+                                "comprobante": "FGAS 3 2794",
+                                "leyenda": "MARIANO GARCIA - PAGO",
+                                "importe": -9315.05
+                            }
+                        ]
+                    }
+                }
+            }
+        }
     },
     "12": {
         "apellido": "Bai",
@@ -259,7 +1305,81 @@
         "direccion": "Matheu 425",
         "email": "sebabai82@gmail.com",
         "vacaciones": 69,
-        "estado": "Activo"
+        "estado": "Activo",
+        "gastos_agrupados": {
+            "2025-08": {
+                "total_mes": 681921.83,
+                "por_articulo": {
+                    "Combustibles": {
+                        "total": 111369.22,
+                        "items": [
+                            {
+                                "fecha": "2025-08-31",
+                                "proveedor": "YPF SOCIEDAD ANONIMA",
+                                "comprobante": "FGAS 2172 1792068",
+                                "leyenda": "COMBUSTIBLE YPF EN RUTA",
+                                "importe": 111369.22
+                            }
+                        ]
+                    },
+                    "Gastos de comida": {
+                        "total": 570552.61,
+                        "items": [
+                            {
+                                "fecha": "2025-08-27",
+                                "proveedor": "POLAND S.A.",
+                                "comprobante": "FGAS 12 26104",
+                                "leyenda": "COMPRA LA BLANQUEADA",
+                                "importe": 41646.77
+                            },
+                            {
+                                "fecha": "2025-08-29",
+                                "proveedor": "ATRES S.A.",
+                                "comprobante": "FGAS 12 241",
+                                "leyenda": "ACTUAL 08/2025",
+                                "importe": 412426.58
+                            },
+                            {
+                                "fecha": "2025-08-30",
+                                "proveedor": "COMPAÑIA URSO HERMANOS SA",
+                                "comprobante": "FGAS 1 7998",
+                                "leyenda": "URSO 08/2025",
+                                "importe": 116479.26
+                            }
+                        ]
+                    }
+                }
+            },
+            "2025-09": {
+                "total_mes": -70459.18000000001,
+                "por_articulo": {
+                    "Gastos Varios": {
+                        "total": -83701.8,
+                        "items": [
+                            {
+                                "fecha": "2025-09-15",
+                                "proveedor": "MARTI DE BELLIS AGUSTIN IGNACIO",
+                                "comprobante": "FGAS 7 15",
+                                "leyenda": "GASTOS VARIOS BAI - PAGO-",
+                                "importe": -83701.8
+                            }
+                        ]
+                    },
+                    "Gastos de comida": {
+                        "total": 13242.62,
+                        "items": [
+                            {
+                                "fecha": "2025-09-18",
+                                "proveedor": "POLAND S.A.",
+                                "comprobante": "FGAS 12 26470",
+                                "leyenda": "COMPRA QUESO LA BLANQUEADA",
+                                "importe": 13242.62
+                            }
+                        ]
+                    }
+                }
+            }
+        }
     },
     "14": {
         "apellido": "Montalbano",
@@ -272,7 +1392,50 @@
         "direccion": "Azcuénaga 1245 casa 2 ",
         "email": "camilamontalbano@gmail.com",
         "vacaciones": 75,
-        "estado": "Activo"
+        "estado": "Activo",
+        "gastos_agrupados": {
+            "2025-08": {
+                "total_mes": 658585.28,
+                "por_articulo": {
+                    "Combustibles": {
+                        "total": 658585.28,
+                        "items": [
+                            {
+                                "fecha": "2025-08-31",
+                                "proveedor": "YPF SOCIEDAD ANONIMA",
+                                "comprobante": "FGAS 2172 1792068",
+                                "leyenda": "COMBUSIBLE YPF EN RUTA",
+                                "importe": 262275.76
+                            },
+                            {
+                                "fecha": "2025-08-31",
+                                "proveedor": "YPF SOCIEDAD ANONIMA",
+                                "comprobante": "FGAS 2172 1792068",
+                                "leyenda": "COMBUSTIBLE YPF EN RUTA",
+                                "importe": 396309.52
+                            }
+                        ]
+                    }
+                }
+            },
+            "2025-09": {
+                "total_mes": 2372962.5,
+                "por_articulo": {
+                    "Gastos Varios": {
+                        "total": 2372962.5,
+                        "items": [
+                            {
+                                "fecha": "2025-09-25",
+                                "proveedor": "OCASIONAL",
+                                "comprobante": "FGAS 4 244",
+                                "leyenda": "CAMILA MONTALBANO - CTA CTE",
+                                "importe": 2372962.5
+                            }
+                        ]
+                    }
+                }
+            }
+        }
     },
     "15": {
         "apellido": "Gonzalez",
@@ -285,7 +1448,76 @@
         "direccion": "Braile 938",
         "email": "stefaniapapasso@live.com",
         "vacaciones": 28,
-        "estado": "Activo"
+        "estado": "Activo",
+        "gastos_agrupados": {
+            "2025-08": {
+                "total_mes": 828004.6799999999,
+                "por_articulo": {
+                    "Combustibles": {
+                        "total": 141582.87,
+                        "items": [
+                            {
+                                "fecha": "2025-08-14",
+                                "proveedor": "DJGM COMBUSTIBLES S.A",
+                                "comprobante": "FGAS 6 21588",
+                                "leyenda": "GONZALEZ JOSE",
+                                "importe": 69173.07
+                            },
+                            {
+                                "fecha": "2025-08-29",
+                                "proveedor": "DJGM COMBUSTIBLES S.A",
+                                "comprobante": "FGAS 6 22083",
+                                "leyenda": "COMBUSTIBLE JOSE G CTA CTE",
+                                "importe": 72409.8
+                            }
+                        ]
+                    },
+                    "Gastos de comida": {
+                        "total": 686421.81,
+                        "items": [
+                            {
+                                "fecha": "2025-08-29",
+                                "proveedor": "ATRES S.A.",
+                                "comprobante": "FGAS 12 241",
+                                "leyenda": "ACTUAL 08/2025",
+                                "importe": 413223.14
+                            },
+                            {
+                                "fecha": "2025-08-30",
+                                "proveedor": "COMPAÑIA URSO HERMANOS SA",
+                                "comprobante": "FGAS 1 7998",
+                                "leyenda": "URSO 08/2025",
+                                "importe": 273198.67
+                            }
+                        ]
+                    }
+                }
+            },
+            "2025-09": {
+                "total_mes": 157030.03999999998,
+                "por_articulo": {
+                    "Combustibles": {
+                        "total": 157030.03999999998,
+                        "items": [
+                            {
+                                "fecha": "2025-09-15",
+                                "proveedor": "DJGM COMBUSTIBLES S.A",
+                                "comprobante": "FGAS 6 22517",
+                                "leyenda": "GONZALEZ LAGOS JOSE CTA CTE",
+                                "importe": 28549.78
+                            },
+                            {
+                                "fecha": "2025-09-15",
+                                "proveedor": "DJGM COMBUSTIBLES S.A",
+                                "comprobante": "FGAS 6 22517",
+                                "leyenda": "GONZALEZ LAGOS, JOSE CTA CTE",
+                                "importe": 128480.26
+                            }
+                        ]
+                    }
+                }
+            }
+        }
     },
     "16": {
         "legajo": "16",
@@ -318,7 +1550,26 @@
         "direccion": "General Belgrano s/n",
         "email": "betoderosso1@gmail.com",
         "vacaciones": 33,
-        "estado": "Activo"
+        "estado": "Activo",
+        "gastos_agrupados": {
+            "2025-08": {
+                "total_mes": 339425.62,
+                "por_articulo": {
+                    "Gastos de comida": {
+                        "total": 339425.62,
+                        "items": [
+                            {
+                                "fecha": "2025-08-30",
+                                "proveedor": "MORTARINI ROMAN ESTEBAN",
+                                "comprobante": "FGAS 3 1943",
+                                "leyenda": "SUPERMERCADO QUIROGA",
+                                "importe": 339425.62
+                            }
+                        ]
+                    }
+                }
+            }
+        }
     },
     "24": {
         "apellido": "López",
@@ -331,7 +1582,69 @@
         "direccion": "Cavallari 308",
         "email": "juanchilopez1984@gmail.com",
         "vacaciones": 42,
-        "estado": "Activo"
+        "estado": "Activo",
+        "gastos_agrupados": {
+            "2025-08": {
+                "total_mes": 565973.77,
+                "por_articulo": {
+                    "Combustibles": {
+                        "total": 93647.73,
+                        "items": [
+                            {
+                                "fecha": "2025-08-31",
+                                "proveedor": "YPF SOCIEDAD ANONIMA",
+                                "comprobante": "FGAS 2172 1792068",
+                                "leyenda": "COMBUSIBLE YPF EN RUTA",
+                                "importe": 93647.73
+                            }
+                        ]
+                    },
+                    "Gastos de comida": {
+                        "total": 472326.04,
+                        "items": [
+                            {
+                                "fecha": "2025-08-27",
+                                "proveedor": "POLAND S.A.",
+                                "comprobante": "FGAS 12 26104",
+                                "leyenda": "COMPRA LA BLANQUEADA",
+                                "importe": 23586.77
+                            },
+                            {
+                                "fecha": "2025-08-29",
+                                "proveedor": "ATRES S.A.",
+                                "comprobante": "FGAS 12 241",
+                                "leyenda": "ACTUAL 08/2025",
+                                "importe": 403050.22
+                            },
+                            {
+                                "fecha": "2025-08-30",
+                                "proveedor": "COMPAÑIA URSO HERMANOS SA",
+                                "comprobante": "FGAS 1 7998",
+                                "leyenda": "URSO 08/2025",
+                                "importe": 45689.05
+                            }
+                        ]
+                    }
+                }
+            },
+            "2025-09": {
+                "total_mes": 26485.25,
+                "por_articulo": {
+                    "Gastos de comida": {
+                        "total": 26485.25,
+                        "items": [
+                            {
+                                "fecha": "2025-09-18",
+                                "proveedor": "POLAND S.A.",
+                                "comprobante": "FGAS 12 26470",
+                                "leyenda": "COMPRA QUESO LA BLANQUEADA",
+                                "importe": 26485.25
+                            }
+                        ]
+                    }
+                }
+            }
+        }
     },
     "25": {
         "apellido": "Laoretani",
@@ -344,7 +1657,38 @@
         "direccion": "Huidobro s/n",
         "email": "laoretani@gmail.com",
         "vacaciones": 28,
-        "estado": "Activo"
+        "estado": "Activo",
+        "gastos_agrupados": {
+            "2025-08": {
+                "total_mes": 170800.47,
+                "por_articulo": {
+                    "Combustibles": {
+                        "total": 150841.79,
+                        "items": [
+                            {
+                                "fecha": "2025-08-31",
+                                "proveedor": "YPF SOCIEDAD ANONIMA",
+                                "comprobante": "FGAS 2172 1792068",
+                                "leyenda": "COMBUSIBLE YPF EN RUTA",
+                                "importe": 150841.79
+                            }
+                        ]
+                    },
+                    "Gastos de comida": {
+                        "total": 19958.68,
+                        "items": [
+                            {
+                                "fecha": "2025-08-30",
+                                "proveedor": "MORTARINI ROMAN ESTEBAN",
+                                "comprobante": "FGAS 3 1943",
+                                "leyenda": "SUPERMERCADO QUIROGA",
+                                "importe": 19958.68
+                            }
+                        ]
+                    }
+                }
+            }
+        }
     },
     "22": {
         "apellido": "Medina",
@@ -357,7 +1701,38 @@
         "direccion": "San Luis 343",
         "email": "joni_medi_45@hotmail.com",
         "vacaciones": 35,
-        "estado": "Activo"
+        "estado": "Activo",
+        "gastos_agrupados": {
+            "2025-08": {
+                "total_mes": 96340.76,
+                "por_articulo": {
+                    "Combustibles": {
+                        "total": 45836.63,
+                        "items": [
+                            {
+                                "fecha": "2025-08-31",
+                                "proveedor": "YPF SOCIEDAD ANONIMA",
+                                "comprobante": "FGAS 2172 1792068",
+                                "leyenda": "COMBUSIBLE YPF EN RUTA",
+                                "importe": 45836.63
+                            }
+                        ]
+                    },
+                    "Gastos de comida": {
+                        "total": 50504.13,
+                        "items": [
+                            {
+                                "fecha": "2025-08-30",
+                                "proveedor": "MORTARINI ROMAN ESTEBAN",
+                                "comprobante": "FGAS 3 1943",
+                                "leyenda": "SUPERMERCADO QUIROGA",
+                                "importe": 50504.13
+                            }
+                        ]
+                    }
+                }
+            }
+        }
     },
     "23": {
         "apellido": "Nieto",
@@ -370,7 +1745,38 @@
         "direccion": "Rio iv 287",
         "email": "fabrinieto16@gmail.com",
         "vacaciones": 70,
-        "estado": "Activo"
+        "estado": "Activo",
+        "gastos_agrupados": {
+            "2025-08": {
+                "total_mes": 668275.65,
+                "por_articulo": {
+                    "Combustibles": {
+                        "total": 113965.73,
+                        "items": [
+                            {
+                                "fecha": "2025-08-31",
+                                "proveedor": "YPF SOCIEDAD ANONIMA",
+                                "comprobante": "FGAS 2172 1792068",
+                                "leyenda": "COMBUSTIBLE YPF EN RUTA",
+                                "importe": 113965.73
+                            }
+                        ]
+                    },
+                    "Gastos de comida": {
+                        "total": 554309.92,
+                        "items": [
+                            {
+                                "fecha": "2025-08-30",
+                                "proveedor": "MORTARINI ROMAN ESTEBAN",
+                                "comprobante": "FGAS 3 1943",
+                                "leyenda": "SUPERMERCADO QUIROGA",
+                                "importe": 554309.92
+                            }
+                        ]
+                    }
+                }
+            }
+        }
     },
     "35": {
         "apellido": "Atia",
@@ -383,7 +1789,145 @@
         "direccion": "Martin Fierro 1652",
         "email": "sebaatia@gmail.com",
         "vacaciones": 75,
-        "estado": "Activo"
+        "estado": "Activo",
+        "gastos_agrupados": {
+            "2025-08": {
+                "total_mes": 434133.54,
+                "por_articulo": {
+                    "Combustibles": {
+                        "total": 178378.88,
+                        "items": [
+                            {
+                                "fecha": "2025-08-14",
+                                "proveedor": "DJGM COMBUSTIBLES S.A",
+                                "comprobante": "FGAS 6 21586",
+                                "leyenda": "ATIA",
+                                "importe": 44218.66
+                            },
+                            {
+                                "fecha": "2025-08-29",
+                                "proveedor": "DJGM COMBUSTIBLES S.A",
+                                "comprobante": "FGAS 6 22085",
+                                "leyenda": "COMBUSTIBLE ATIA CTA CTE",
+                                "importe": 49006.71
+                            },
+                            {
+                                "fecha": "2025-08-31",
+                                "proveedor": "YPF SOCIEDAD ANONIMA",
+                                "comprobante": "FGAS 2172 1792068",
+                                "leyenda": "COMBUSIBLE YPF EN RUTA",
+                                "importe": 85153.51
+                            }
+                        ]
+                    },
+                    "Gastos Varios": {
+                        "total": -57417.82000000001,
+                        "items": [
+                            {
+                                "fecha": "2025-08-26",
+                                "proveedor": "OCASIONAL",
+                                "comprobante": "FGAS 105 12511",
+                                "leyenda": "ATIA PERSONAL (PAGO)",
+                                "importe": -24297.52
+                            },
+                            {
+                                "fecha": "2025-08-26",
+                                "proveedor": "OCASIONAL",
+                                "comprobante": "FGAS 2 3060",
+                                "leyenda": "SEBASTIAN ATIA - PAGO",
+                                "importe": -33120.3
+                            }
+                        ]
+                    },
+                    "Gastos de comida": {
+                        "total": 313172.48,
+                        "items": [
+                            {
+                                "fecha": "2025-08-27",
+                                "proveedor": "POLAND S.A.",
+                                "comprobante": "FGAS 12 26104",
+                                "leyenda": "COMPRA LA BLANQUEADA",
+                                "importe": 11612.6
+                            },
+                            {
+                                "fecha": "2025-08-29",
+                                "proveedor": "ATRES S.A.",
+                                "comprobante": "FGAS 12 241",
+                                "leyenda": "ACTUAL 08/2025",
+                                "importe": 157424.01
+                            },
+                            {
+                                "fecha": "2025-08-30",
+                                "proveedor": "COMPAÑIA URSO HERMANOS SA",
+                                "comprobante": "FGAS 1 7998",
+                                "leyenda": "URSO 08/2025",
+                                "importe": 144135.87
+                            }
+                        ]
+                    }
+                }
+            },
+            "2025-09": {
+                "total_mes": -150629.16,
+                "por_articulo": {
+                    "Combustibles": {
+                        "total": 52733.64,
+                        "items": [
+                            {
+                                "fecha": "2025-09-15",
+                                "proveedor": "DJGM COMBUSTIBLES S.A",
+                                "comprobante": "FGAS 6 22524",
+                                "leyenda": "ATIA CTA CTE",
+                                "importe": 52733.64
+                            }
+                        ]
+                    },
+                    "Gastos Varios": {
+                        "total": -95022.53,
+                        "items": [
+                            {
+                                "fecha": "2025-09-25",
+                                "proveedor": "OCASIONAL",
+                                "comprobante": "FGAS 8 40827",
+                                "leyenda": "ATIA - PAGO",
+                                "importe": -95022.53
+                            }
+                        ]
+                    },
+                    "Gastos de comida": {
+                        "total": -6853.0,
+                        "items": [
+                            {
+                                "fecha": "2025-09-13",
+                                "proveedor": "AUTOSERVICIO MAYORISTA DIARCO SA",
+                                "comprobante": "FGAS 3705 206",
+                                "leyenda": "ATIA SEBASTIAN - PAGO",
+                                "importe": -33338.25
+                            },
+                            {
+                                "fecha": "2025-09-18",
+                                "proveedor": "POLAND S.A.",
+                                "comprobante": "FGAS 12 26470",
+                                "leyenda": "COMPRA QUESO LA BLANQUEADA",
+                                "importe": 26485.25
+                            }
+                        ]
+                    },
+                    "Mantenimiento": {
+                        "total": -101487.27,
+                        "items": [
+                            {
+                                "fecha": "2025-09-19",
+                                "proveedor": "OXINUEVE S.A.",
+                                "comprobante": "FGAS 11 114464",
+                                "leyenda": "ATIA - PAGO",
+                                "importe": -101487.27
+                            }
+                        ]
+                    }
+                }
+            }
+        }
     },
     "39": {
         "apellido": "Acuña",
@@ -396,7 +1940,26 @@
         "direccion": "",
         "email": "eltiri096@gmail.com",
         "vacaciones": 42,
-        "estado": "Activo"
+        "estado": "Activo",
+        "gastos_agrupados": {
+            "2025-08": {
+                "total_mes": 69772.56,
+                "por_articulo": {
+                    "Combustibles": {
+                        "total": 69772.56,
+                        "items": [
+                            {
+                                "fecha": "2025-08-31",
+                                "proveedor": "YPF SOCIEDAD ANONIMA",
+                                "comprobante": "FGAS 2172 1792068",
+                                "leyenda": "COMBUSIBLE YPF EN RUTA",
+                                "importe": 69772.56
+                            }
+                        ]
+                    }
+                }
+            }
+        }
     },
     "43": {
         "legajo": "43",
@@ -4653,7 +6216,8 @@
         "direccion": "Av. Agustin Alvarez 369",
         "email": "raulpellegrotti@yahoo.com.ar",
         "vacaciones": 14,
-        "estado": "Activo"
+        "estado": "Activo",
+        "gastos_agrupados": {}
     },
     "264": {
         "apellido": "Barrere",
