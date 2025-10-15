@@ -2530,3 +2530,6 @@
 [2025-10-15 08:31:58] Acceso a panel
 [2025-10-15 08:39:59] Acceso a panel
 [2025-10-15 08:39:59] Acceso a panel
+[2025-10-15 08:43:50] Acceso a panel
+[2025-10-15 08:47:10] Acceso a portada
+[2025-10-15 08:47:12] Acceso a panel
