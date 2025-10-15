@@ -2693,3 +2693,410 @@
 [2025-10-15 10:20:41] Fecha de nacimiento inválida para Hugo Emmanuel
 [2025-10-15 10:20:52] Acceso a panel
 [2025-10-15 10:21:10] Acceso a panel
+[2025-10-15 10:21:18] Acceso a panel
+[2025-10-15 10:21:31] Empleados activos cargados correctamente
+[2025-10-15 10:21:31] Consulta de próximos cumpleaños
+[2025-10-15 10:21:31] Fecha de nacimiento inválida para Valentin
+[2025-10-15 10:21:31] Fecha de nacimiento inválida para Raul Eduardo
+[2025-10-15 10:21:31] Fecha de nacimiento inválida para Juan Manuel
+[2025-10-15 10:21:31] Fecha de nacimiento inválida para Damian
+[2025-10-15 10:21:31] Fecha de nacimiento inválida para Joaquin Ezequiel 
+[2025-10-15 10:21:31] Fecha de nacimiento inválida para Maria Soledad
+[2025-10-15 10:21:31] Fecha de nacimiento inválida para Gonzalo Ariel
+[2025-10-15 10:21:31] Fecha de nacimiento inválida para Camila
+[2025-10-15 10:21:31] Fecha de nacimiento inválida para Juan Manuel
+[2025-10-15 10:21:31] Fecha de nacimiento inválida para Maria Juliana
+[2025-10-15 10:21:31] Fecha de nacimiento inválida para Lucas
+[2025-10-15 10:21:31] Fecha de nacimiento inválida para Hugo Emmanuel
+[2025-10-15 10:22:26] Acceso a panel
+[2025-10-15 10:22:29] Empleados activos cargados correctamente
+[2025-10-15 10:22:29] Visualización de todos los empleados
+[2025-10-15 10:22:35] Entrando a editar empleado 20
+[2025-10-15 10:23:16] Entrando a editar empleado 20
+[2025-10-15 10:23:16] Empleado 20 actualizado
+[2025-10-15 10:23:16] Empleados activos cargados correctamente
+[2025-10-15 10:23:16] Visualización de todos los empleados
+[2025-10-15 10:27:29] Acceso a panel
+[2025-10-15 10:27:30] Empleados activos cargados correctamente
+[2025-10-15 10:27:30] Consulta de próximos cumpleaños
+[2025-10-15 10:27:30] Fecha de nacimiento inválida para Valentin
+[2025-10-15 10:27:30] Fecha de nacimiento inválida para Raul Eduardo
+[2025-10-15 10:27:30] Fecha de nacimiento inválida para Juan Manuel
+[2025-10-15 10:27:30] Fecha de nacimiento inválida para Damian
+[2025-10-15 10:27:30] Fecha de nacimiento inválida para Joaquin Ezequiel 
+[2025-10-15 10:27:30] Fecha de nacimiento inválida para Maria Soledad
+[2025-10-15 10:27:30] Fecha de nacimiento inválida para Gonzalo Ariel
+[2025-10-15 10:27:30] Fecha de nacimiento inválida para Camila
+[2025-10-15 10:27:30] Fecha de nacimiento inválida para Juan Manuel
+[2025-10-15 10:27:30] Fecha de nacimiento inválida para Maria Juliana
+[2025-10-15 10:27:30] Fecha de nacimiento inválida para Lucas
+[2025-10-15 10:27:30] Fecha de nacimiento inválida para Hugo Emmanuel
+[2025-10-15 10:28:10] Acceso a panel
+[2025-10-15 10:28:13] Acceso a panel
+[2025-10-15 10:28:14] Acceso a panel
+[2025-10-15 10:28:15] Acceso a panel
+[2025-10-15 10:28:16] Empleados activos cargados correctamente
+[2025-10-15 10:28:16] Consulta de próximos cumpleaños
+[2025-10-15 10:28:16] Fecha de nacimiento inválida para Valentin
+[2025-10-15 10:28:16] Fecha de nacimiento inválida para Raul Eduardo
+[2025-10-15 10:28:16] Fecha de nacimiento inválida para Juan Manuel
+[2025-10-15 10:28:16] Fecha de nacimiento inválida para Damian
+[2025-10-15 10:28:16] Fecha de nacimiento inválida para Joaquin Ezequiel 
+[2025-10-15 10:28:16] Fecha de nacimiento inválida para Maria Soledad
+[2025-10-15 10:28:16] Fecha de nacimiento inválida para Gonzalo Ariel
+[2025-10-15 10:28:16] Fecha de nacimiento inválida para Camila
+[2025-10-15 10:28:16] Fecha de nacimiento inválida para Juan Manuel
+[2025-10-15 10:28:16] Fecha de nacimiento inválida para Maria Juliana
+[2025-10-15 10:28:16] Fecha de nacimiento inválida para Lucas
+[2025-10-15 10:28:16] Fecha de nacimiento inválida para Hugo Emmanuel
+[2025-10-15 10:28:31] Acceso a panel
+[2025-10-15 10:29:19] Empleados activos cargados correctamente
+[2025-10-15 10:29:19] Visualización de todos los empleados
+[2025-10-15 10:31:10] Entrando a editar empleado 136
+[2025-10-15 10:32:44] Entrando a editar empleado 136
+[2025-10-15 10:32:44] Empleado 136 actualizado
+[2025-10-15 10:32:44] Empleados activos cargados correctamente
+[2025-10-15 10:32:44] Visualización de todos los empleados
+[2025-10-15 10:32:54] Entrando a editar empleado 29
+[2025-10-15 10:33:50] Entrando a editar empleado 29
+[2025-10-15 10:33:50] Empleado 29 actualizado
+[2025-10-15 10:33:51] Empleados activos cargados correctamente
+[2025-10-15 10:33:51] Visualización de todos los empleados
+[2025-10-15 10:33:59] Entrando a editar empleado 256
+[2025-10-15 10:34:04] Entrando a editar empleado 256
+[2025-10-15 10:34:04] Empleado 256 actualizado
+[2025-10-15 10:34:04] Empleados activos cargados correctamente
+[2025-10-15 10:34:04] Visualización de todos los empleados
+[2025-10-15 10:34:11] Entrando a editar empleado 253
+[2025-10-15 10:34:17] Entrando a editar empleado 253
+[2025-10-15 10:34:17] Empleado 253 actualizado
+[2025-10-15 10:34:17] Empleados activos cargados correctamente
+[2025-10-15 10:34:17] Visualización de todos los empleados
+[2025-10-15 10:34:26] Entrando a editar empleado 300
+[2025-10-15 10:34:33] Entrando a editar empleado 300
+[2025-10-15 10:34:33] Empleado 300 actualizado
+[2025-10-15 10:34:33] Empleados activos cargados correctamente
+[2025-10-15 10:34:33] Visualización de todos los empleados
+[2025-10-15 10:34:44] Entrando a editar empleado 35
+[2025-10-15 10:34:48] Entrando a editar empleado 35
+[2025-10-15 10:34:48] Empleado 35 actualizado
+[2025-10-15 10:34:48] Empleados activos cargados correctamente
+[2025-10-15 10:34:48] Visualización de todos los empleados
+[2025-10-15 10:35:19] Entrando a editar empleado 206
+[2025-10-15 10:36:54] Entrando a editar empleado 206
+[2025-10-15 10:36:54] Empleado 206 actualizado
+[2025-10-15 10:36:54] Empleados activos cargados correctamente
+[2025-10-15 10:36:54] Visualización de todos los empleados
+[2025-10-15 10:37:49] Entrando a editar empleado 25
+[2025-10-15 10:37:54] Entrando a editar empleado 25
+[2025-10-15 10:37:54] Empleado 25 actualizado
+[2025-10-15 10:37:54] Empleados activos cargados correctamente
+[2025-10-15 10:37:54] Visualización de todos los empleados
+[2025-10-15 10:38:13] Entrando a editar empleado 113
+[2025-10-15 10:39:32] Entrando a editar empleado 113
+[2025-10-15 10:39:32] Empleado 113 actualizado
+[2025-10-15 10:39:32] Empleados activos cargados correctamente
+[2025-10-15 10:39:32] Visualización de todos los empleados
+[2025-10-15 10:44:15] Entrando a editar empleado 25
+[2025-10-15 10:44:21] Entrando a editar empleado 25
+[2025-10-15 10:44:21] Empleado 25 actualizado
+[2025-10-15 10:44:21] Empleados activos cargados correctamente
+[2025-10-15 10:44:21] Visualización de todos los empleados
+[2025-10-15 10:44:29] Entrando a editar empleado 20
+[2025-10-15 10:44:34] Entrando a editar empleado 20
+[2025-10-15 10:44:34] Empleado 20 actualizado
+[2025-10-15 10:44:34] Empleados activos cargados correctamente
+[2025-10-15 10:44:34] Visualización de todos los empleados
+[2025-10-15 10:44:42] Entrando a editar empleado 71
+[2025-10-15 10:46:02] Entrando a editar empleado 71
+[2025-10-15 10:46:02] Empleado 71 actualizado
+[2025-10-15 10:46:02] Empleados activos cargados correctamente
+[2025-10-15 10:46:02] Visualización de todos los empleados
+[2025-10-15 10:46:21] Entrando a editar empleado 163
+[2025-10-15 10:46:45] Entrando a editar empleado 163
+[2025-10-15 10:46:45] Empleado 163 actualizado
+[2025-10-15 10:46:45] Empleados activos cargados correctamente
+[2025-10-15 10:46:45] Visualización de todos los empleados
+[2025-10-15 10:46:51] Entrando a editar empleado 169
+[2025-10-15 10:47:18] Entrando a editar empleado 169
+[2025-10-15 10:47:18] Empleado 169 actualizado
+[2025-10-15 10:47:18] Empleados activos cargados correctamente
+[2025-10-15 10:47:18] Visualización de todos los empleados
+[2025-10-15 10:47:49] Entrando a editar empleado 136
+[2025-10-15 10:47:54] Entrando a editar empleado 136
+[2025-10-15 10:47:54] Empleado 136 actualizado
+[2025-10-15 10:47:54] Empleados activos cargados correctamente
+[2025-10-15 10:47:54] Visualización de todos los empleados
+[2025-10-15 10:48:00] Entrando a editar empleado 29
+[2025-10-15 10:48:03] Entrando a editar empleado 29
+[2025-10-15 10:48:03] Empleado 29 actualizado
+[2025-10-15 10:48:03] Empleados activos cargados correctamente
+[2025-10-15 10:48:03] Visualización de todos los empleados
+[2025-10-15 10:49:00] Entrando a editar empleado 92
+[2025-10-15 10:49:22] Entrando a editar empleado 92
+[2025-10-15 10:49:22] Empleado 92 actualizado
+[2025-10-15 10:49:22] Empleados activos cargados correctamente
+[2025-10-15 10:49:22] Visualización de todos los empleados
+[2025-10-15 10:49:31] Entrando a editar empleado 76
+[2025-10-15 10:49:48] Entrando a editar empleado 76
+[2025-10-15 10:49:48] Empleado 76 actualizado
+[2025-10-15 10:49:49] Empleados activos cargados correctamente
+[2025-10-15 10:49:49] Visualización de todos los empleados
+[2025-10-15 10:50:06] Entrando a editar empleado 240
+[2025-10-15 10:50:39] Entrando a editar empleado 240
+[2025-10-15 10:50:39] Empleado 240 actualizado
+[2025-10-15 10:50:39] Empleados activos cargados correctamente
+[2025-10-15 10:50:39] Visualización de todos los empleados
+[2025-10-15 10:50:59] Entrando a editar empleado 179
+[2025-10-15 10:51:12] Entrando a editar empleado 179
+[2025-10-15 10:51:12] Empleado 179 actualizado
+[2025-10-15 10:51:12] Empleados activos cargados correctamente
+[2025-10-15 10:51:12] Visualización de todos los empleados
+[2025-10-15 10:51:25] Entrando a editar empleado 106
+[2025-10-15 10:51:48] Entrando a editar empleado 106
+[2025-10-15 10:51:48] Empleado 106 actualizado
+[2025-10-15 10:51:48] Empleados activos cargados correctamente
+[2025-10-15 10:51:48] Visualización de todos los empleados
+[2025-10-15 10:52:06] Entrando a editar empleado 238
+[2025-10-15 10:52:26] Entrando a editar empleado 238
+[2025-10-15 10:52:26] Empleado 238 actualizado
+[2025-10-15 10:52:26] Empleados activos cargados correctamente
+[2025-10-15 10:52:26] Visualización de todos los empleados
+[2025-10-15 10:52:34] Entrando a editar empleado 99
+[2025-10-15 10:52:52] Entrando a editar empleado 99
+[2025-10-15 10:52:52] Empleado 99 actualizado
+[2025-10-15 10:52:52] Empleados activos cargados correctamente
+[2025-10-15 10:52:52] Visualización de todos los empleados
+[2025-10-15 10:53:01] Entrando a editar empleado 160
+[2025-10-15 10:53:24] Entrando a editar empleado 160
+[2025-10-15 10:53:24] Empleado 160 actualizado
+[2025-10-15 10:53:24] Empleados activos cargados correctamente
+[2025-10-15 10:53:24] Visualización de todos los empleados
+[2025-10-15 10:53:32] Entrando a editar empleado 66
+[2025-10-15 10:53:58] Entrando a editar empleado 66
+[2025-10-15 10:53:58] Empleado 66 actualizado
+[2025-10-15 10:53:58] Empleados activos cargados correctamente
+[2025-10-15 10:53:58] Visualización de todos los empleados
+[2025-10-15 10:54:04] Entrando a editar empleado 66
+[2025-10-15 10:54:06] Entrando a editar empleado 66
+[2025-10-15 10:54:06] Empleado 66 actualizado
+[2025-10-15 10:54:06] Empleados activos cargados correctamente
+[2025-10-15 10:54:06] Visualización de todos los empleados
+[2025-10-15 10:54:13] Entrando a editar empleado 9
+[2025-10-15 10:54:20] Entrando a editar empleado 9
+[2025-10-15 10:54:20] Empleado 9 actualizado
+[2025-10-15 10:54:20] Empleados activos cargados correctamente
+[2025-10-15 10:54:20] Visualización de todos los empleados
+[2025-10-15 10:54:26] Entrando a editar empleado 194
+[2025-10-15 10:54:53] Entrando a editar empleado 194
+[2025-10-15 10:54:53] Empleado 194 actualizado
+[2025-10-15 10:54:53] Empleados activos cargados correctamente
+[2025-10-15 10:54:53] Visualización de todos los empleados
+[2025-10-15 10:55:44] Entrando a editar empleado 125
+[2025-10-15 10:56:02] Entrando a editar empleado 125
+[2025-10-15 10:56:02] Empleado 125 actualizado
+[2025-10-15 10:56:02] Empleados activos cargados correctamente
+[2025-10-15 10:56:02] Visualización de todos los empleados
+[2025-10-15 10:56:09] Entrando a editar empleado 109
+[2025-10-15 10:56:38] Entrando a editar empleado 109
+[2025-10-15 10:56:38] Empleado 109 actualizado
+[2025-10-15 10:56:38] Empleados activos cargados correctamente
+[2025-10-15 10:56:38] Visualización de todos los empleados
+[2025-10-15 10:56:47] Entrando a editar empleado 249
+[2025-10-15 10:57:08] Entrando a editar empleado 249
+[2025-10-15 10:57:08] Empleado 249 actualizado
+[2025-10-15 10:57:08] Empleados activos cargados correctamente
+[2025-10-15 10:57:08] Visualización de todos los empleados
+[2025-10-15 10:57:21] Entrando a editar empleado 2
+[2025-10-15 10:57:28] Entrando a editar empleado 2
+[2025-10-15 10:57:28] Empleado 2 actualizado
+[2025-10-15 10:57:28] Empleados activos cargados correctamente
+[2025-10-15 10:57:28] Visualización de todos los empleados
+[2025-10-15 10:59:01] Entrando a editar empleado 109
+[2025-10-15 10:59:11] Entrando a editar empleado 109
+[2025-10-15 10:59:11] Empleado 109 actualizado
+[2025-10-15 10:59:11] Empleados activos cargados correctamente
+[2025-10-15 10:59:11] Visualización de todos los empleados
+[2025-10-15 10:59:46] Entrando a editar empleado 290
+[2025-10-15 11:00:03] Entrando a editar empleado 290
+[2025-10-15 11:00:03] Empleado 290 actualizado
+[2025-10-15 11:00:03] Empleados activos cargados correctamente
+[2025-10-15 11:00:03] Visualización de todos los empleados
+[2025-10-15 11:00:09] Entrando a editar empleado 290
+[2025-10-15 11:00:27] Entrando a editar empleado 290
+[2025-10-15 11:00:27] Empleado 290 actualizado
+[2025-10-15 11:00:27] Empleados activos cargados correctamente
+[2025-10-15 11:00:27] Visualización de todos los empleados
+[2025-10-15 11:01:36] Entrando a editar empleado 290
+[2025-10-15 11:01:48] Entrando a editar empleado 290
+[2025-10-15 11:01:48] Empleado 290 actualizado
+[2025-10-15 11:01:49] Empleados activos cargados correctamente
+[2025-10-15 11:01:49] Visualización de todos los empleados
+[2025-10-15 11:01:57] Entrando a editar empleado 145
+[2025-10-15 11:02:17] Entrando a editar empleado 145
+[2025-10-15 11:02:17] Empleado 145 actualizado
+[2025-10-15 11:02:17] Empleados activos cargados correctamente
+[2025-10-15 11:02:17] Visualización de todos los empleados
+[2025-10-15 11:02:24] Entrando a editar empleado 139
+[2025-10-15 11:03:02] Entrando a editar empleado 139
+[2025-10-15 11:03:02] Empleado 139 actualizado
+[2025-10-15 11:03:02] Empleados activos cargados correctamente
+[2025-10-15 11:03:02] Visualización de todos los empleados
+[2025-10-15 11:03:11] Entrando a editar empleado 297
+[2025-10-15 11:03:48] Entrando a editar empleado 297
+[2025-10-15 11:03:48] Empleado 297 actualizado
+[2025-10-15 11:03:48] Empleados activos cargados correctamente
+[2025-10-15 11:03:48] Visualización de todos los empleados
+[2025-10-15 11:03:56] Entrando a editar empleado 227
+[2025-10-15 11:04:16] Entrando a editar empleado 227
+[2025-10-15 11:04:16] Empleado 227 actualizado
+[2025-10-15 11:04:16] Empleados activos cargados correctamente
+[2025-10-15 11:04:16] Visualización de todos los empleados
+[2025-10-15 11:04:24] Entrando a editar empleado 273
+[2025-10-15 11:04:39] Entrando a editar empleado 273
+[2025-10-15 11:04:39] Empleado 273 actualizado
+[2025-10-15 11:04:39] Empleados activos cargados correctamente
+[2025-10-15 11:04:39] Visualización de todos los empleados
+[2025-10-15 11:05:04] Entrando a editar empleado 23
+[2025-10-15 11:05:11] Entrando a editar empleado 23
+[2025-10-15 11:05:11] Empleado 23 actualizado
+[2025-10-15 11:05:11] Empleados activos cargados correctamente
+[2025-10-15 11:05:11] Visualización de todos los empleados
+[2025-10-15 11:05:15] Entrando a editar empleado 205
+[2025-10-15 11:05:49] Entrando a editar empleado 205
+[2025-10-15 11:05:49] Empleado 205 actualizado
+[2025-10-15 11:05:49] Empleados activos cargados correctamente
+[2025-10-15 11:05:49] Visualización de todos los empleados
+[2025-10-15 11:05:55] Entrando a editar empleado 14
+[2025-10-15 11:06:02] Entrando a editar empleado 14
+[2025-10-15 11:06:02] Empleado 14 actualizado
+[2025-10-15 11:06:02] Empleados activos cargados correctamente
+[2025-10-15 11:06:02] Visualización de todos los empleados
+[2025-10-15 11:06:17] Entrando a editar empleado 226
+[2025-10-15 11:06:23] Entrando a editar empleado 226
+[2025-10-15 11:06:23] Empleado 226 actualizado
+[2025-10-15 11:06:23] Empleados activos cargados correctamente
+[2025-10-15 11:06:23] Visualización de todos los empleados
+[2025-10-15 11:06:32] Entrando a editar empleado 213
+[2025-10-15 11:07:08] Entrando a editar empleado 213
+[2025-10-15 11:07:08] Empleado 213 actualizado
+[2025-10-15 11:07:08] Empleados activos cargados correctamente
+[2025-10-15 11:07:08] Visualización de todos los empleados
+[2025-10-15 11:07:20] Acceso a panel
+[2025-10-15 11:07:23] Empleados activos cargados correctamente
+[2025-10-15 11:07:23] Consulta de próximos cumpleaños
+[2025-10-15 11:07:23] Fecha de nacimiento inválida para Valentin
+[2025-10-15 11:07:23] Fecha de nacimiento inválida para Oscar
+[2025-10-15 11:07:23] Fecha de nacimiento inválida para Alejandro
+[2025-10-15 11:07:23] Fecha de nacimiento inválida para Marcela Soledad
+[2025-10-15 11:07:23] Fecha de nacimiento inválida para Raul Eduardo
+[2025-10-15 11:07:23] Fecha de nacimiento inválida para Juan Manuel
+[2025-10-15 11:07:23] Fecha de nacimiento inválida para Damian
+[2025-10-15 11:07:23] Fecha de nacimiento inválida para Joaquin Ezequiel 
+[2025-10-15 11:07:23] Fecha de nacimiento inválida para Maria Soledad
+[2025-10-15 11:07:23] Fecha de nacimiento inválida para Gonzalo Ariel
+[2025-10-15 11:07:23] Fecha de nacimiento inválida para Camila
+[2025-10-15 11:07:23] Fecha de nacimiento inválida para Juan Manuel
+[2025-10-15 11:07:23] Fecha de nacimiento inválida para Maria Juliana
+[2025-10-15 11:07:23] Fecha de nacimiento inválida para Lucas
+[2025-10-15 11:07:23] Fecha de nacimiento inválida para Hugo Emmanuel
+[2025-10-15 11:14:49] Empleados activos cargados correctamente
+[2025-10-15 11:14:49] Consulta de próximos cumpleaños
+[2025-10-15 11:14:49] Fecha de nacimiento inválida para Valentin
+[2025-10-15 11:14:49] Fecha de nacimiento inválida para Oscar
+[2025-10-15 11:14:49] Fecha de nacimiento inválida para Alejandro
+[2025-10-15 11:14:49] Fecha de nacimiento inválida para Marcela Soledad
+[2025-10-15 11:14:49] Fecha de nacimiento inválida para Raul Eduardo
+[2025-10-15 11:14:49] Fecha de nacimiento inválida para Juan Manuel
+[2025-10-15 11:14:49] Fecha de nacimiento inválida para Damian
+[2025-10-15 11:14:49] Fecha de nacimiento inválida para Joaquin Ezequiel 
+[2025-10-15 11:14:49] Fecha de nacimiento inválida para Maria Soledad
+[2025-10-15 11:14:49] Fecha de nacimiento inválida para Gonzalo Ariel
+[2025-10-15 11:14:49] Fecha de nacimiento inválida para Camila
+[2025-10-15 11:14:49] Fecha de nacimiento inválida para Juan Manuel
+[2025-10-15 11:14:49] Fecha de nacimiento inválida para Maria Juliana
+[2025-10-15 11:14:49] Fecha de nacimiento inválida para Lucas
+[2025-10-15 11:14:49] Fecha de nacimiento inválida para Hugo Emmanuel
+[2025-10-15 11:14:56] Acceso a panel
+[2025-10-15 11:18:05] Empleados activos cargados correctamente
+[2025-10-15 11:18:05] Consulta de próximos cumpleaños
+[2025-10-15 11:18:05] Fecha de nacimiento inválida para Valentin
+[2025-10-15 11:18:05] Fecha de nacimiento inválida para Oscar
+[2025-10-15 11:18:05] Fecha de nacimiento inválida para Alejandro
+[2025-10-15 11:18:05] Fecha de nacimiento inválida para Marcela Soledad
+[2025-10-15 11:18:05] Fecha de nacimiento inválida para Raul Eduardo
+[2025-10-15 11:18:05] Fecha de nacimiento inválida para Juan Manuel
+[2025-10-15 11:18:05] Fecha de nacimiento inválida para Damian
+[2025-10-15 11:18:05] Fecha de nacimiento inválida para Joaquin Ezequiel 
+[2025-10-15 11:18:05] Fecha de nacimiento inválida para Maria Soledad
+[2025-10-15 11:18:05] Fecha de nacimiento inválida para Gonzalo Ariel
+[2025-10-15 11:18:05] Fecha de nacimiento inválida para Camila
+[2025-10-15 11:18:05] Fecha de nacimiento inválida para Juan Manuel
+[2025-10-15 11:18:05] Fecha de nacimiento inválida para Maria Juliana
+[2025-10-15 11:18:05] Fecha de nacimiento inválida para Lucas
+[2025-10-15 11:18:05] Fecha de nacimiento inválida para Hugo Emmanuel
+[2025-10-15 11:21:11] Acceso a panel
+[2025-10-15 11:21:44] Empleados activos cargados correctamente
+[2025-10-15 11:21:44] Visualización de todos los empleados
+[2025-10-15 11:21:48] Empleados activos cargados correctamente
+[2025-10-15 11:21:48] Visualización de todos los empleados
+[2025-10-15 11:21:54] Empleados activos cargados correctamente
+[2025-10-15 11:21:54] Consulta de próximos cumpleaños
+[2025-10-15 11:21:54] Fecha de nacimiento inválida para Valentin
+[2025-10-15 11:21:54] Fecha de nacimiento inválida para Oscar
+[2025-10-15 11:21:54] Fecha de nacimiento inválida para Alejandro
+[2025-10-15 11:21:54] Fecha de nacimiento inválida para Marcela Soledad
+[2025-10-15 11:21:54] Fecha de nacimiento inválida para Raul Eduardo
+[2025-10-15 11:21:54] Fecha de nacimiento inválida para Juan Manuel
+[2025-10-15 11:21:54] Fecha de nacimiento inválida para Damian
+[2025-10-15 11:21:54] Fecha de nacimiento inválida para Joaquin Ezequiel 
+[2025-10-15 11:21:54] Fecha de nacimiento inválida para Maria Soledad
+[2025-10-15 11:21:54] Fecha de nacimiento inválida para Gonzalo Ariel
+[2025-10-15 11:21:54] Fecha de nacimiento inválida para Camila
+[2025-10-15 11:21:54] Fecha de nacimiento inválida para Juan Manuel
+[2025-10-15 11:21:54] Fecha de nacimiento inválida para Maria Juliana
+[2025-10-15 11:21:54] Fecha de nacimiento inválida para Lucas
+[2025-10-15 11:21:54] Fecha de nacimiento inválida para Hugo Emmanuel
+[2025-10-15 11:27:53] Servidor Flask iniciado
+[2025-10-15 11:28:58] Acceso a portada
+[2025-10-15 11:29:00] Acceso a panel
+[2025-10-15 11:39:23] Acceso a portada
+[2025-10-15 11:39:24] Acceso a panel
+[2025-10-15 11:41:48] Acceso a portada
+[2025-10-15 11:41:49] Acceso a panel
+[2025-10-15 11:41:50] Empleados activos cargados correctamente
+[2025-10-15 11:41:50] Consulta de próximos cumpleaños
+[2025-10-15 11:41:50] Fecha de nacimiento inválida para Valentin
+[2025-10-15 11:41:50] Fecha de nacimiento inválida para Oscar
+[2025-10-15 11:41:50] Fecha de nacimiento inválida para Alejandro
+[2025-10-15 11:41:50] Fecha de nacimiento inválida para Marcela Soledad
+[2025-10-15 11:41:50] Fecha de nacimiento inválida para Raul Eduardo
+[2025-10-15 11:41:50] Fecha de nacimiento inválida para Juan Manuel
+[2025-10-15 11:41:50] Fecha de nacimiento inválida para Damian
+[2025-10-15 11:41:50] Fecha de nacimiento inválida para Joaquin Ezequiel 
+[2025-10-15 11:41:50] Fecha de nacimiento inválida para Maria Soledad
+[2025-10-15 11:41:50] Fecha de nacimiento inválida para Gonzalo Ariel
+[2025-10-15 11:41:50] Fecha de nacimiento inválida para Camila
+[2025-10-15 11:41:50] Fecha de nacimiento inválida para Juan Manuel
+[2025-10-15 11:41:50] Fecha de nacimiento inválida para Maria Juliana
+[2025-10-15 11:41:50] Fecha de nacimiento inválida para Lucas
+[2025-10-15 11:41:50] Fecha de nacimiento inválida para Hugo Emmanuel
+[2025-10-15 11:42:18] Empleados activos cargados correctamente
+[2025-10-15 11:42:18] Consulta de próximos cumpleaños
+[2025-10-15 11:42:18] Fecha de nacimiento inválida para Valentin
+[2025-10-15 11:42:18] Fecha de nacimiento inválida para Oscar
+[2025-10-15 11:42:18] Fecha de nacimiento inválida para Alejandro
+[2025-10-15 11:42:18] Fecha de nacimiento inválida para Marcela Soledad
+[2025-10-15 11:42:18] Fecha de nacimiento inválida para Raul Eduardo
+[2025-10-15 11:42:18] Fecha de nacimiento inválida para Juan Manuel
+[2025-10-15 11:42:18] Fecha de nacimiento inválida para Damian
+[2025-10-15 11:42:18] Fecha de nacimiento inválida para Joaquin Ezequiel 
+[2025-10-15 11:42:18] Fecha de nacimiento inválida para Maria Soledad
+[2025-10-15 11:42:18] Fecha de nacimiento inválida para Gonzalo Ariel
+[2025-10-15 11:42:18] Fecha de nacimiento inválida para Camila
+[2025-10-15 11:42:18] Fecha de nacimiento inválida para Juan Manuel
+[2025-10-15 11:42:18] Fecha de nacimiento inválida para Maria Juliana
+[2025-10-15 11:42:18] Fecha de nacimiento inválida para Lucas
+[2025-10-15 11:42:18] Fecha de nacimiento inválida para Hugo Emmanuel
+[2025-10-15 11:42:21] Acceso a panel
+[2025-10-15 11:42:23] Acceso a panel
