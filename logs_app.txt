@@ -2525,3 +2525,4 @@
 [2025-10-15 08:30:52] Empleados activos cargados correctamente
 [2025-10-15 08:30:52] Visualización de todos los empleados
 [2025-10-15 08:30:56] Acceso a panel
+[2025-10-15 08:31:20] Acceso a panel

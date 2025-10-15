@@ -978,7 +978,102 @@
         "direccion": "",
         "email": "",
         "vacaciones": 35,
-        "estado": "Activo"
+        "estado": "Activo",
+        "gastos_agrupados": {
+            "2025-08": {
+                "total_mes": 304840.95999999996,
+                "por_articulo": {
+                    "Combustibles": {
+                        "total": 34800.36,
+                        "items": [
+                            {
+                                "fecha": "2025-08-31",
+                                "proveedor": "YPF SOCIEDAD ANONIMA",
+                                "comprobante": "FGAS 2172 1792068",
+                                "leyenda": "COMBUSIBLE YPF EN RUTA",
+                                "importe": 34800.36
+                            }
+                        ]
+                    },
+                    "Gastos Varios": {
+                        "total": -20203.5,
+                        "items": [
+                            {
+                                "fecha": "2025-08-01",
+                                "proveedor": "OCASIONAL",
+                                "comprobante": "FGAS 1 2370319",
+                                "leyenda": "JAIME GAVALDA - PAGO",
+                                "importe": -1223.66
+                            },
+                            {
+                                "fecha": "2025-08-01",
+                                "proveedor": "OCASIONAL",
+                                "comprobante": "FGAS 1 2377864",
+                                "leyenda": "JAIME GAVALDA - PAGO",
+                                "importe": -2437.78
+                            },
+                            {
+                                "fecha": "2025-08-01",
+                                "proveedor": "OCASIONAL",
+                                "comprobante": "FGAS 1 2384972",
+                                "leyenda": "JAIME GAVALDA - PAGO",
+                                "importe": -5144.24
+                            },
+                            {
+                                "fecha": "2025-08-01",
+                                "proveedor": "OCASIONAL",
+                                "comprobante": "FGAS 1 2392316",
+                                "leyenda": "JAIME GAVALDA - PAGO",
+                                "importe": -5451.08
+                            },
+                            {
+                                "fecha": "2025-08-01",
+                                "proveedor": "OCASIONAL",
+                                "comprobante": "FGAS 1 2402394",
+                                "leyenda": "JAIME GAVALDA - PAGO",
+                                "importe": -5946.74
+                            }
+                        ]
+                    },
+                    "Gastos de comida": {
+                        "total": 290244.1,
+                        "items": [
+                            {
+                                "fecha": "2025-08-29",
+                                "proveedor": "ATRES S.A.",
+                                "comprobante": "FGAS 12 241",
+                                "leyenda": "ACTUAL 08/2025",
+                                "importe": 290244.1
+                            }
+                        ]
+                    }
+                }
+            },
+            "2025-09": {
+                "total_mes": 42374.909999999996,
+                "por_articulo": {
+                    "Gastos Varios": {
+                        "total": 42374.909999999996,
+                        "items": [
+                            {
+                                "fecha": "2025-09-01",
+                                "proveedor": "OCASIONAL",
+                                "comprobante": "FGAS 1 2410052",
+                                "leyenda": "JAIME GAVALDA - PAGO",
+                                "importe": -7211.87
+                            },
+                            {
+                                "fecha": "2025-09-03",
+                                "proveedor": "DON BELIS S.A.",
+                                "comprobante": "FGAS 8 12041",
+                                "leyenda": "FUNDAS ASIENTO JAIME CTA CTE",
+                                "importe": 49586.78
+                            }
+                        ]
+                    }
+                }
+            }
+        }
     },
     "1003": {
         "apellido": "Corrao",
@@ -991,7 +1086,8 @@
         "direccion": "",
         "email": "",
         "vacaciones": 35,
-        "estado": "Activo"
+        "estado": "Activo",
+        "gastos_agrupados": {}
     },
     "9": {
         "legajo": "9",
@@ -2613,7 +2709,8 @@
         "direccion": "Levalle 845",
         "email": "agusth@live.com.ar",
         "vacaciones": 34,
-        "estado": "Activo"
+        "estado": "Activo",
+        "gastos_agrupados": {}
     },
     "74": {
         "legajo": "74",
@@ -3178,7 +3275,45 @@
         "direccion": "Levalle 344",
         "email": "valentinmarciano123@gmail.com",
         "vacaciones": 28,
-        "estado": "Activo"
+        "estado": "Activo",
+        "gastos_agrupados": {
+            "2025-08": {
+                "total_mes": 187241.66,
+                "por_articulo": {
+                    "Combustibles": {
+                        "total": 13376.44,
+                        "items": [
+                            {
+                                "fecha": "2025-08-31",
+                                "proveedor": "YPF SOCIEDAD ANONIMA",
+                                "comprobante": "FGAS 2172 1792068",
+                                "leyenda": "COMBUSIBLE YPF EN RUTA",
+                                "importe": 13376.44
+                            }
+                        ]
+                    },
+                    "Gastos de comida": {
+                        "total": 173865.22,
+                        "items": [
+                            {
+                                "fecha": "2025-08-29",
+                                "proveedor": "ATRES S.A.",
+                                "comprobante": "FGAS 12 241",
+                                "leyenda": "ACTUAL 08/2025",
+                                "importe": 108489.08
+                            },
+                            {
+                                "fecha": "2025-08-30",
+                                "proveedor": "COMPAÑIA URSO HERMANOS SA",
+                                "comprobante": "FGAS 1 7998",
+                                "leyenda": "URSO 08/2025",
+                                "importe": 65376.14
+                            }
+                        ]
+                    }
+                }
+            }
+        }
     },
     "106": {
         "legajo": "106",
@@ -4498,7 +4633,45 @@
         "direccion": "Emilio Naudin 647",
         "email": "alejandro22carballo@gmail.com",
         "vacaciones": 7,
-        "estado": "Activo"
+        "estado": "Activo",
+        "gastos_agrupados": {
+            "2025-08": {
+                "total_mes": 178372.13,
+                "por_articulo": {
+                    "Adelanto de Sueldos Empleados": {
+                        "total": 16050.24,
+                        "items": [
+                            {
+                                "fecha": "2025-08-26",
+                                "proveedor": "nan",
+                                "comprobante": "PVS 10 14161",
+                                "leyenda": "PAGO ADELANTO FARMACIA CARBALLO ALE",
+                                "importe": 16050.24
+                            }
+                        ]
+                    },
+                    "Gastos de comida": {
+                        "total": 162321.89,
+                        "items": [
+                            {
+                                "fecha": "2025-08-29",
+                                "proveedor": "ATRES S.A.",
+                                "comprobante": "FGAS 12 241",
+                                "leyenda": "ACTUAL 08/2025",
+                                "importe": 59501.59
+                            },
+                            {
+                                "fecha": "2025-08-30",
+                                "proveedor": "COMPAÑIA URSO HERMANOS SA",
+                                "comprobante": "FGAS 1 7998",
+                                "leyenda": "URSO 08/2025",
+                                "importe": 102820.3
+                            }
+                        ]
+                    }
+                }
+            }
+        }
     },
     "166": {
         "legajo": "166",
@@ -5413,7 +5586,175 @@
         "direccion": "Mitre 948 2°D",
         "email": "nachomerlo88@gmail.com",
         "vacaciones": 14,
-        "estado": "Activo"
+        "estado": "Activo",
+        "gastos_agrupados": {
+            "2025-08": {
+                "total_mes": 335662.31,
+                "por_articulo": {
+                    "Combustibles": {
+                        "total": 115235.49,
+                        "items": [
+                            {
+                                "fecha": "2025-08-31",
+                                "proveedor": "YPF SOCIEDAD ANONIMA",
+                                "comprobante": "FGAS 2172 1792068",
+                                "leyenda": "COMBUSTIBLE YPF EN RUTA",
+                                "importe": 115235.49
+                            }
+                        ]
+                    },
+                    "Gastos de comida": {
+                        "total": 289355.64,
+                        "items": [
+                            {
+                                "fecha": "2025-08-29",
+                                "proveedor": "ATRES S.A.",
+                                "comprobante": "FGAS 12 241",
+                                "leyenda": "ACTUAL 08/2025",
+                                "importe": 70487.64
+                            },
+                            {
+                                "fecha": "2025-08-30",
+                                "proveedor": "COMPAÑIA URSO HERMANOS SA",
+                                "comprobante": "FGAS 1 7998",
+                                "leyenda": "URSO 08/2025",
+                                "importe": 218868.0
+                            }
+                        ]
+                    },
+                    "Mantenimiento": {
+                        "total": -68928.81999999999,
+                        "items": [
+                            {
+                                "fecha": "2025-08-12",
+                                "proveedor": "JUAN VALINOTI S.A.",
+                                "comprobante": "FGAS 8 23175",
+                                "leyenda": "MATERIALES IGNACIO MERLO PAGO",
+                                "importe": -28419.38
+                            },
+                            {
+                                "fecha": "2025-08-18",
+                                "proveedor": "JUAN VALINOTI S.A.",
+                                "comprobante": "FGAS 8 23258",
+                                "leyenda": "MATERIALES IGNACIO MERLO PAGO",
+                                "importe": -3439.36
+                            },
+                            {
+                                "fecha": "2025-08-20",
+                                "proveedor": "JUAN VALINOTI S.A.",
+                                "comprobante": "FGAS 8 23277",
+                                "leyenda": "MATERIALES IGNACIO MERLO PAGO",
+                                "importe": -6041.57
+                            },
+                            {
+                                "fecha": "2025-08-22",
+                                "proveedor": "JUAN VALINOTI S.A.",
+                                "comprobante": "FGAS 8 23324",
+                                "leyenda": "MATERIALES IGNACIO MERLO PAGO",
+                                "importe": -31028.51
+                            }
+                        ]
+                    }
+                }
+            },
+            "2025-09": {
+                "total_mes": 1431543.94,
+                "por_articulo": {
+                    "Gastos Varios": {
+                        "total": 1225138.5999999999,
+                        "items": [
+                            {
+                                "fecha": "2025-09-08",
+                                "proveedor": "LA PLATA CERAMICOS SA",
+                                "comprobante": "FGAS 39 38735",
+                                "leyenda": "NACHO MERLO (PAGO)",
+                                "importe": -34936.18
+                            },
+                            {
+                                "fecha": "2025-09-08",
+                                "proveedor": "LA PLATA CERAMICOS SA",
+                                "comprobante": "FGAS 39 38736",
+                                "leyenda": "NACHO MERLO CTA CTE",
+                                "importe": 714114.2
+                            },
+                            {
+                                "fecha": "2025-09-08",
+                                "proveedor": "LA PLATA CERAMICOS SA",
+                                "comprobante": "FGAS 39 38738",
+                                "leyenda": "NACHO MERLO CTA CTE",
+                                "importe": 590690.12
+                            },
+                            {
+                                "fecha": "2025-09-11",
+                                "proveedor": "OCASIONAL",
+                                "comprobante": "FGAS 3 327",
+                                "leyenda": "IGNACIO MERLO - PAGO",
+                                "importe": -44729.54
+                            }
+                        ]
+                    },
+                    "Gastos de comida": {
+                        "total": 24960.27,
+                        "items": [
+                            {
+                                "fecha": "2025-09-05",
+                                "proveedor": "POLAND S.A.",
+                                "comprobante": "FGAS 12 26289",
+                                "leyenda": "COMPRA LA BLANQUEADA",
+                                "importe": 24960.27
+                            }
+                        ]
+                    },
+                    "Mantenimiento": {
+                        "total": 181445.07,
+                        "items": [
+                            {
+                                "fecha": "2025-09-02",
+                                "proveedor": "CLERICO VICTOR Y NANNI SILVIA S.H.",
+                                "comprobante": "FGAS 4 9646",
+                                "leyenda": "IGNACIO MERLO - PAGO",
+                                "importe": -38941.3
+                            },
+                            {
+                                "fecha": "2025-09-08",
+                                "proveedor": "LA PLATA CERAMICOS SA",
+                                "comprobante": "FGAS 39 38737",
+                                "leyenda": "NACHO MERLO CTA CTE",
+                                "importe": 435303.14
+                            },
+                            {
+                                "fecha": "2025-09-11",
+                                "proveedor": "JUAN VALINOTI S.A.",
+                                "comprobante": "FGAS 8 23629",
+                                "leyenda": "IGNACIO MERLO - PAGO",
+                                "importe": -27888.11
+                            },
+                            {
+                                "fecha": "2025-09-15",
+                                "proveedor": "EL STUD DEL MENDO S.A.",
+                                "comprobante": "FGAS 6 2721",
+                                "leyenda": "IGNACIO MERLO - PAGO",
+                                "importe": -103191.71
+                            },
+                            {
+                                "fecha": "2025-09-15",
+                                "proveedor": "EL STUD DEL MENDO S.A.",
+                                "comprobante": "FGAS 6 2722",
+                                "leyenda": "IGNACIO MERLO - PAGO",
+                                "importe": -79800.2
+                            },
+                            {
+                                "fecha": "2025-09-16",
+                                "proveedor": "CLERICO VICTOR Y NANNI SILVIA S.H.",
+                                "comprobante": "FGAS 4 9756",
+                                "leyenda": "IGNACIO MERLO - PAGO",
+                                "importe": -4036.75
+                            }
+                        ]
+                    }
+                }
+            }
+        }
     },
     "227": {
         "legajo": "227",
@@ -5502,7 +5843,43 @@
         "direccion": "Corriente 1447",
         "email": "juanburela46@gmail.com",
         "vacaciones": 14,
-        "estado": "Activo"
+        "estado": "Activo",
+        "gastos_agrupados": {
+            "2025-08": {
+                "total_mes": 195781.64,
+                "por_articulo": {
+                    "Gastos de comida": {
+                        "total": 195781.64,
+                        "items": [
+                            {
+                                "fecha": "2025-08-29",
+                                "proveedor": "ATRES S.A.",
+                                "comprobante": "FGAS 12 241",
+                                "leyenda": "ACTUAL 08/2025",
+                                "importe": 195781.64
+                            }
+                        ]
+                    }
+                }
+            },
+            "2025-09": {
+                "total_mes": 16000.0,
+                "por_articulo": {
+                    "Adelanto de Sueldos Empleados": {
+                        "total": 16000.0,
+                        "items": [
+                            {
+                                "fecha": "2025-09-12",
+                                "proveedor": "nan",
+                                "comprobante": "PVS 10 14425",
+                                "leyenda": "PAGO ADELANTOS HORAS NOCTURNAS-EXTRUSADOS",
+                                "importe": 16000.0
+                            }
+                        ]
+                    }
+                }
+            }
+        }
     },
     "238": {
         "legajo": "238",
@@ -5834,7 +6211,26 @@
         "direccion": "Azcuenaga 704",
         "email": "totaronymona@gmail.com",
         "vacaciones": 14,
-        "estado": "Activo"
+        "estado": "Activo",
+        "gastos_agrupados": {
+            "2025-08": {
+                "total_mes": 170947.84,
+                "por_articulo": {
+                    "Combustibles": {
+                        "total": 170947.84,
+                        "items": [
+                            {
+                                "fecha": "2025-08-31",
+                                "proveedor": "YPF SOCIEDAD ANONIMA",
+                                "comprobante": "FGAS 2172 1792068",
+                                "leyenda": "COMBUSTIBLE YPF EN RUTA",
+                                "importe": 170947.84
+                            }
+                        ]
+                    }
+                }
+            }
+        }
     },
     "236": {
         "legajo": "236",
@@ -5957,7 +6353,43 @@
         "direccion": "Villegas 883  2° B",
         "email": "franciscob@nutralmix.com.ar",
         "vacaciones": 14,
-        "estado": "Activo"
+        "estado": "Activo",
+        "gastos_agrupados": {
+            "2025-08": {
+                "total_mes": 34099.31,
+                "por_articulo": {
+                    "Combustibles": {
+                        "total": 34099.31,
+                        "items": [
+                            {
+                                "fecha": "2025-08-31",
+                                "proveedor": "YPF SOCIEDAD ANONIMA",
+                                "comprobante": "FGAS 2172 1792068",
+                                "leyenda": "COMBUSTIBLE YPF EN RUTA",
+                                "importe": 34099.31
+                            }
+                        ]
+                    }
+                }
+            },
+            "2025-09": {
+                "total_mes": 82598.74,
+                "por_articulo": {
+                    "Gastos de comida": {
+                        "total": 82598.74,
+                        "items": [
+                            {
+                                "fecha": "2025-09-01",
+                                "proveedor": "CODEANA S.A.S.",
+                                "comprobante": "FGAS 3 266",
+                                "leyenda": "GASTOS COMIDA",
+                                "importe": 82598.74
+                            }
+                        ]
+                    }
+                }
+            }
+        }
     },
     "241": {
         "legajo": "241",
@@ -6650,7 +7082,8 @@
         "direccion": "Castex 3330 4 F",
         "email": "jmfim@hotmail.com",
         "vacaciones": 14,
-        "estado": "Activo"
+        "estado": "Activo",
+        "gastos_agrupados": {}
     },
     "300": {
         "apellido": "Ferrer",
@@ -6695,7 +7128,8 @@
         "direccion": "San Luis s/n",
         "email": "lucasmortarini05@gmail.com",
         "vacaciones": 14,
-        "estado": "Activo"
+        "estado": "Activo",
+        "gastos_agrupados": {}
     },
     "301": {
         "apellido": "Arango",
@@ -6708,6 +7142,7 @@
         "direccion": "Uruguay 683",
         "email": "me_manu92@hotmail.com",
         "vacaciones": 4,
-        "estado": "Activo"
+        "estado": "Activo",
+        "gastos_agrupados": {}
     }
 }
