@@ -2419,3 +2419,109 @@
 [2025-10-14 11:42:17] Visualización de todos los empleados
 [2025-10-14 11:42:21] Acceso a portada
 [2025-10-14 11:42:22] Acceso a panel
+[2025-10-14 11:42:39] Acceso a panel
+[2025-10-14 11:42:47] Empleados activos cargados correctamente
+[2025-10-14 11:42:47] Visualización de todos los empleados
+[2025-10-14 11:45:39] Acceso a portada
+[2025-10-14 11:45:40] Acceso a panel
+[2025-10-14 11:45:41] Empleados activos cargados correctamente
+[2025-10-14 11:45:41] Visualización de todos los empleados
+[2025-10-14 11:45:48] Entrando a editar empleado 96
+[2025-10-14 11:45:58] Entrando a editar empleado 96
+[2025-10-14 11:45:58] Empleado 96 actualizado
+[2025-10-14 11:45:58] Empleados activos cargados correctamente
+[2025-10-14 11:45:58] Visualización de todos los empleados
+[2025-10-14 11:46:08] Entrando a editar empleado 96
+[2025-10-14 11:46:10] Entrando a editar empleado 96
+[2025-10-14 11:46:10] Empleado 96 actualizado
+[2025-10-14 11:46:10] Empleados activos cargados correctamente
+[2025-10-14 11:46:10] Visualización de todos los empleados
+[2025-10-15 08:08:15] Acceso a portada
+[2025-10-15 08:08:17] Acceso a panel
+[2025-10-15 08:08:19] Empleados activos cargados correctamente
+[2025-10-15 08:08:19] Visualización de todos los empleados
+[2025-10-15 08:08:30] Entrando a editar empleado 96
+[2025-10-15 08:09:16] Entrando a editar empleado 96
+[2025-10-15 08:09:16] Empleado 96 actualizado
+[2025-10-15 08:09:16] Empleados activos cargados correctamente
+[2025-10-15 08:09:16] Visualización de todos los empleados
+[2025-10-15 08:09:22] Entrando a editar empleado 301
+[2025-10-15 08:09:26] Entrando a editar empleado 301
+[2025-10-15 08:09:26] Empleado 301 actualizado
+[2025-10-15 08:09:26] Empleados activos cargados correctamente
+[2025-10-15 08:09:26] Visualización de todos los empleados
+[2025-10-15 08:09:33] Entrando a editar empleado 253
+[2025-10-15 08:10:27] Entrando a editar empleado 253
+[2025-10-15 08:10:27] Empleado 253 actualizado
+[2025-10-15 08:10:27] Empleados activos cargados correctamente
+[2025-10-15 08:10:27] Visualización de todos los empleados
+[2025-10-15 08:10:53] Entrando a editar empleado 299
+[2025-10-15 08:10:57] Entrando a editar empleado 299
+[2025-10-15 08:10:57] Empleado 299 actualizado
+[2025-10-15 08:10:57] Empleados activos cargados correctamente
+[2025-10-15 08:10:57] Visualización de todos los empleados
+[2025-10-15 08:11:06] Entrando a editar empleado 253
+[2025-10-15 08:12:15] Entrando a editar empleado 253
+[2025-10-15 08:12:15] Empleado 253 actualizado
+[2025-10-15 08:12:15] Empleados activos cargados correctamente
+[2025-10-15 08:12:15] Visualización de todos los empleados
+[2025-10-15 08:12:52] Entrando a editar empleado 264
+[2025-10-15 08:16:42] Entrando a editar empleado 264
+[2025-10-15 08:16:42] Empleado 264 actualizado
+[2025-10-15 08:16:42] Empleados activos cargados correctamente
+[2025-10-15 08:16:42] Visualización de todos los empleados
+[2025-10-15 08:16:59] Entrando a editar empleado 1002
+[2025-10-15 08:17:06] Entrando a editar empleado 1002
+[2025-10-15 08:17:06] Empleado 1002 actualizado
+[2025-10-15 08:17:06] Empleados activos cargados correctamente
+[2025-10-15 08:17:06] Visualización de todos los empleados
+[2025-10-15 08:17:25] Entrando a editar empleado 237
+[2025-10-15 08:18:35] Entrando a editar empleado 237
+[2025-10-15 08:18:35] Empleado 237 actualizado
+[2025-10-15 08:18:35] Empleados activos cargados correctamente
+[2025-10-15 08:18:35] Visualización de todos los empleados
+[2025-10-15 08:18:48] Entrando a editar empleado 96
+[2025-10-15 08:19:33] Entrando a editar empleado 96
+[2025-10-15 08:19:33] Empleado 96 actualizado
+[2025-10-15 08:19:33] Empleados activos cargados correctamente
+[2025-10-15 08:19:33] Visualización de todos los empleados
+[2025-10-15 08:19:50] Entrando a editar empleado 96
+[2025-10-15 08:19:56] Entrando a editar empleado 96
+[2025-10-15 08:19:56] Empleado 96 actualizado
+[2025-10-15 08:19:56] Empleados activos cargados correctamente
+[2025-10-15 08:19:56] Visualización de todos los empleados
+[2025-10-15 08:20:07] Entrando a editar empleado 163
+[2025-10-15 08:24:20] Entrando a editar empleado 163
+[2025-10-15 08:24:20] Empleado 163 actualizado
+[2025-10-15 08:24:20] Empleados activos cargados correctamente
+[2025-10-15 08:24:20] Visualización de todos los empleados
+[2025-10-15 08:24:31] Entrando a editar empleado 400
+[2025-10-15 08:25:45] Entrando a editar empleado 400
+[2025-10-15 08:25:45] Empleado 400 actualizado
+[2025-10-15 08:25:45] Empleados activos cargados correctamente
+[2025-10-15 08:25:45] Visualización de todos los empleados
+[2025-10-15 08:25:55] Entrando a editar empleado 226
+[2025-10-15 08:27:06] Entrando a editar empleado 226
+[2025-10-15 08:27:06] Empleado 226 actualizado
+[2025-10-15 08:27:06] Empleados activos cargados correctamente
+[2025-10-15 08:27:06] Visualización de todos los empleados
+[2025-10-15 08:27:31] Entrando a editar empleado 251
+[2025-10-15 08:28:24] Entrando a editar empleado 251
+[2025-10-15 08:28:24] Empleado 251 actualizado
+[2025-10-15 08:28:25] Empleados activos cargados correctamente
+[2025-10-15 08:28:25] Visualización de todos los empleados
+[2025-10-15 08:29:01] Entrando a editar empleado 251
+[2025-10-15 08:29:05] Entrando a editar empleado 251
+[2025-10-15 08:29:05] Empleado 251 actualizado
+[2025-10-15 08:29:05] Empleados activos cargados correctamente
+[2025-10-15 08:29:05] Visualización de todos los empleados
+[2025-10-15 08:29:25] Entrando a editar empleado 1003
+[2025-10-15 08:29:28] Entrando a editar empleado 1003
+[2025-10-15 08:29:28] Empleado 1003 actualizado
+[2025-10-15 08:29:28] Empleados activos cargados correctamente
+[2025-10-15 08:29:28] Visualización de todos los empleados
+[2025-10-15 08:30:52] Empleados activos cargados correctamente
+[2025-10-15 08:30:52] Visualización de todos los empleados
+[2025-10-15 08:30:52] Empleados activos cargados correctamente
+[2025-10-15 08:30:52] Visualización de todos los empleados
+[2025-10-15 08:30:56] Acceso a panel
