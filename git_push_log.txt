@@ -4798,3 +4798,73 @@ From https://github.com/Nutralmix/Whatsapp-Bot
 [2025-10-15 08:47:22] ✅ Git está disponible en: C:\Program Files\Git\cmd\git.EXE
 [2025-10-15 08:47:22] === Ejecutando: git add . ===
 [2025-10-15 08:47:22] === Ejecutando: git commit -m "Actualización automática - 2025-10-15 08:47" ===
+[2025-10-15 08:47:22] STDERR:
+fatal: Unable to create 'C:/Bot_RRHH/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+
+[2025-10-15 08:47:22] === Ejecutando: git pull origin main --no-edit ===
+[2025-10-15 08:47:22] === Ejecutando: git commit -m "Actualización automática - 2025-10-15 08:47" ===
+[2025-10-15 08:47:23] STDOUT:
+[main 43683a9] ActualizaciÃ³n automÃ¡tica - 2025-10-15 08:47
+ Committer: unknown <Administrador@NUTRALMIX.LOCAL>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 32 insertions(+)
+
+[2025-10-15 08:47:23] === Ejecutando: git pull origin main --no-edit ===
+[2025-10-15 08:47:23] STDERR:
+To https://github.com/Nutralmix/Whatsapp-Bot.git
+   7964066..dacacc2  main -> main
+
+[2025-10-15 08:47:23] ✅ Push exitoso.
+[2025-10-15 08:47:23] 📤 Finalizó script de git_push.py
+
+[2025-10-15 08:47:23] STDOUT:
+Already up to date.
+
+[2025-10-15 08:47:23] STDERR:
+From https://github.com/Nutralmix/Whatsapp-Bot
+ * branch            main       -> FETCH_HEAD
+   dacacc2..43683a9  main       -> origin/main
+warning: fetch updated the current branch head.
+fast-forwarding your working tree from
+commit dacacc232531012eecc1fffd50c05e2ca0cbeb0b.
+
+[2025-10-15 08:47:23] === Ejecutando: git push origin main ===
+[2025-10-15 08:47:23] STDOUT:
+Already up to date.
+
+[2025-10-15 08:47:23] STDERR:
+From https://github.com/Nutralmix/Whatsapp-Bot
+ * branch            main       -> FETCH_HEAD
+
+[2025-10-15 08:47:23] === Ejecutando: git push origin main ===
+[2025-10-15 08:47:25] STDERR:
+Everything up-to-date
+
+[2025-10-15 08:47:25] ✅ Push exitoso.
+[2025-10-15 08:47:25] 📤 Finalizó script de git_push.py
+
+[2025-10-15 08:47:25] STDERR:
+Everything up-to-date
+
+[2025-10-15 08:47:25] ✅ Push exitoso.
+[2025-10-15 08:47:25] 📤 Finalizó script de git_push.py
+
+[2025-10-15 10:21:03] ✅ Git está disponible en: C:\Program Files\Git\cmd\git.EXE
+[2025-10-15 10:21:03] === Ejecutando: git add . ===
