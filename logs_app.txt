@@ -3102,3 +3102,7 @@
 [2025-10-15 11:42:23] Acceso a panel
 [2025-10-15 11:42:39] Acceso a panel
 [2025-10-15 11:42:51] Acceso a panel
+[2025-10-15 11:43:03] Acceso a panel
+[2025-10-15 11:43:49] Servidor Flask iniciado
+[2025-10-16 09:41:50] Acceso a portada
+[2025-10-16 09:41:52] Acceso a panel
