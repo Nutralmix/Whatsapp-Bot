@@ -3108,3 +3108,66 @@
 [2025-10-16 09:41:52] Acceso a panel
 [2025-10-16 09:42:16] Acceso a panel
 [2025-10-16 09:42:24] Acceso a panel
+[2025-10-16 09:42:33] Acceso a panel
+[2025-10-16 09:42:36] Empleados activos cargados correctamente
+[2025-10-16 09:42:36] Consulta de próximos cumpleaños
+[2025-10-16 09:42:36] Fecha de nacimiento inválida para Valentin
+[2025-10-16 09:42:36] Fecha de nacimiento inválida para Oscar
+[2025-10-16 09:42:36] Fecha de nacimiento inválida para Alejandro
+[2025-10-16 09:42:36] Fecha de nacimiento inválida para Marcela Soledad
+[2025-10-16 09:42:36] Fecha de nacimiento inválida para Raul Eduardo
+[2025-10-16 09:42:36] Fecha de nacimiento inválida para Juan Manuel
+[2025-10-16 09:42:36] Fecha de nacimiento inválida para Damian
+[2025-10-16 09:42:36] Fecha de nacimiento inválida para Joaquin Ezequiel 
+[2025-10-16 09:42:36] Fecha de nacimiento inválida para Maria Soledad
+[2025-10-16 09:42:36] Fecha de nacimiento inválida para Gonzalo Ariel
+[2025-10-16 09:42:36] Fecha de nacimiento inválida para Camila
+[2025-10-16 09:42:36] Fecha de nacimiento inválida para Juan Manuel
+[2025-10-16 09:42:36] Fecha de nacimiento inválida para Maria Juliana
+[2025-10-16 09:42:36] Fecha de nacimiento inválida para Lucas
+[2025-10-16 09:42:36] Fecha de nacimiento inválida para Hugo Emmanuel
+[2025-10-16 09:42:51] Acceso a panel
+[2025-10-16 09:42:53] Empleados activos cargados correctamente
+[2025-10-16 09:42:53] Visualización de todos los empleados
+[2025-10-16 09:42:59] Entrando a editar empleado 256
+[2025-10-16 09:43:01] Entrando a editar empleado 256
+[2025-10-16 09:43:01] Empleado 256 actualizado
+[2025-10-16 09:43:01] Empleados activos cargados correctamente
+[2025-10-16 09:43:01] Visualización de todos los empleados
+[2025-10-16 09:43:06] Entrando a editar empleado 213
+[2025-10-16 09:45:24] Entrando a editar empleado 213
+[2025-10-16 09:45:24] Empleado 213 actualizado
+[2025-10-16 09:45:24] Empleados activos cargados correctamente
+[2025-10-16 09:45:24] Visualización de todos los empleados
+[2025-10-16 09:46:12] Entrando a editar empleado 163
+[2025-10-16 09:46:36] Entrando a editar empleado 163
+[2025-10-16 09:46:36] Empleado 163 actualizado
+[2025-10-16 09:46:36] Empleados activos cargados correctamente
+[2025-10-16 09:46:36] Visualización de todos los empleados
+[2025-10-16 09:47:05] Entrando a editar empleado 113
+[2025-10-16 09:47:08] Entrando a editar empleado 113
+[2025-10-16 09:47:08] Empleado 113 actualizado
+[2025-10-16 09:47:08] Empleados activos cargados correctamente
+[2025-10-16 09:47:08] Visualización de todos los empleados
+[2025-10-16 09:47:16] Entrando a editar empleado 14
+[2025-10-16 09:47:19] Entrando a editar empleado 14
+[2025-10-16 09:47:19] Empleado 14 actualizado
+[2025-10-16 09:47:19] Empleados activos cargados correctamente
+[2025-10-16 09:47:19] Visualización de todos los empleados
+[2025-10-16 09:47:38] Entrando a editar empleado 141
+[2025-10-16 09:47:41] Entrando a editar empleado 141
+[2025-10-16 09:47:41] Empleado 141 actualizado
+[2025-10-16 09:47:41] Empleados activos cargados correctamente
+[2025-10-16 09:47:41] Visualización de todos los empleados
+[2025-10-16 09:54:47] Empleados activos cargados correctamente
+[2025-10-16 09:54:47] Visualización de todos los empleados
+[2025-10-18 08:52:44] Servidor Flask iniciado
+[2025-10-18 08:54:04] Servidor Flask iniciado
+[2025-10-20 12:48:56] Acceso a panel
+[2025-10-20 12:49:11] Consulta de info iniciada
+[2025-10-20 12:49:11] Empleados activos cargados correctamente
+[2025-10-20 12:49:14] Acceso a panel
+[2025-10-20 12:49:15] Empleados activos cargados correctamente
+[2025-10-20 12:49:15] Visualización de todos los empleados
+[2025-10-20 12:49:20] Acceso a panel
+[2025-10-20 12:55:25] Acceso a panel
