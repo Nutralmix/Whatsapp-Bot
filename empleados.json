@@ -2943,8 +2943,18 @@
         "telefono": "2317 44-6433",
         "direccion": "Levalle 344",
         "email": "valentinmarciano123@gmail.com",
-        "vacaciones": 28,
-        "estado": "Activo"
+        "vacaciones": 14,
+        "estado": "Activo",
+        "prestamo": {
+            "fecha_prestamo": "",
+            "monto": 700000.0,
+            "cuotas": 5,
+            "cancelado": 140000.0,
+            "pendiente": -560000.0,
+            "proxima_cuota": 140000.0,
+            "cuotas_pendientes": 4,
+            "fecha_cancelacion": "01-01-2026"
+        }
     },
     "106": {
         "apellido": "Gonzalez",
@@ -3272,6 +3282,16 @@
                     }
                 }
             }
+        },
+        "prestamo": {
+            "fecha_prestamo": "",
+            "monto": 2000000.0,
+            "cuotas": 9,
+            "cancelado": 1350000.0,
+            "pendiente": -650000.0,
+            "proxima_cuota": 225000.0,
+            "cuotas_pendientes": 2,
+            "fecha_cancelacion": "08-12-2025"
         }
     },
     "121": {
@@ -5000,6 +5020,16 @@
                     }
                 }
             }
+        },
+        "prestamo": {
+            "fecha_prestamo": "",
+            "monto": 300000.0,
+            "cuotas": 3,
+            "cancelado": 0.0,
+            "pendiente": -300000.0,
+            "proxima_cuota": 100000.0,
+            "cuotas_pendientes": 3,
+            "fecha_cancelacion": "01-02-2026"
         }
     },
     "217": {
