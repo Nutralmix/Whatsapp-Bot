@@ -5884,8 +5884,7 @@
         "direccion": "Av. Agustin Alvarez 369",
         "email": "raulpellegrotti@yahoo.com.ar",
         "vacaciones": 14,
-        "estado": "Activo",
-        "gastos_agrupados": {}
+        "estado": "Activo"
     },
     "264": {
         "apellido": "Barrere",
