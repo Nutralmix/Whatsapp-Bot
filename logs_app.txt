@@ -3481,3 +3481,18 @@
 [2025-10-23 10:31:56] Empleados activos cargados correctamente
 [2025-10-23 10:31:56] Visualización de todos los empleados
 [2025-10-23 10:32:00] Acceso a panel
+[2025-10-23 10:32:11] Acceso a panel
+[2025-10-23 10:36:26] Empleados activos cargados correctamente
+[2025-10-23 10:36:26] Visualización de todos los empleados
+[2025-10-23 10:36:28] Entrando a editar empleado 1002
+[2025-10-23 10:38:02] Entrando a editar empleado 264
+[2025-10-23 10:38:06] Entrando a editar empleado 264
+[2025-10-23 10:38:06] Empleado 264 actualizado
+[2025-10-23 10:38:06] Empleados activos cargados correctamente
+[2025-10-23 10:38:06] Visualización de todos los empleados
+[2025-10-23 10:41:46] Acceso a panel
+[2025-10-23 10:41:47] Empleados activos cargados correctamente
+[2025-10-23 10:41:47] Visualización de todos los empleados
+[2025-10-23 10:44:25] Acceso a portada
+[2025-10-23 10:44:26] Acceso a panel
+[2025-10-23 10:44:29] Acceso a panel
