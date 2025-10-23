@@ -6336,3 +6336,43 @@ To https://github.com/Nutralmix/Whatsapp-Bot.git
 
 [2025-10-23 10:45:34] ✅ Git está disponible en: C:\Program Files\Git\cmd\git.EXE
 [2025-10-23 10:45:34] === Ejecutando: git add . ===
+[2025-10-23 10:45:34] === Ejecutando: git commit -m "Actualización automática - 2025-10-23 10:45" ===
+[2025-10-23 10:45:34] STDOUT:
+[main 33a2844] ActualizaciÃ³n automÃ¡tica - 2025-10-23 10:45
+ Committer: unknown <administrador@NUTRALMIX.LOCAL>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 6 files changed, 53 insertions(+), 19721 deletions(-)
+ delete mode 100644 empleados.json.bak.1761225866
+ delete mode 100644 empleados.json.bak.1761226325
+ delete mode 100644 empleados.json.bak.1761227087
+ rename empleados.json.bak.1761225677 => empleados.json.bak.1761227133 (99%)
+
+[2025-10-23 10:45:34] === Ejecutando: git pull origin main --no-edit ===
+[2025-10-23 10:45:35] STDOUT:
+Already up to date.
+
+[2025-10-23 10:45:35] STDERR:
+From https://github.com/Nutralmix/Whatsapp-Bot
+ * branch            main       -> FETCH_HEAD
+
+[2025-10-23 10:45:35] === Ejecutando: git push origin main ===
+[2025-10-23 10:45:37] STDERR:
+To https://github.com/Nutralmix/Whatsapp-Bot.git
+   cc06d0b..33a2844  main -> main
+
+[2025-10-23 10:45:37] ✅ Push exitoso.
+[2025-10-23 10:45:37] 📤 Finalizó script de git_push.py
+
+[2025-10-23 10:53:28] ✅ Git está disponible en: C:\Program Files\Git\cmd\git.EXE
+[2025-10-23 10:53:28] === Ejecutando: git add . ===
