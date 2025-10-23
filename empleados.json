@@ -1584,90 +1584,17 @@
         }
     },
     "24": {
-        "apellido": "López",
+        "apellido": "Lopez",
         "nombre": "Juan Franco",
         "cuil": "20-30692075-9",
         "sector": "Administracion",
         "fecha_ingreso": "09-01-2012",
         "fecha_nacimiento": "17-12-1984",
         "telefono": "2317450257",
-        "rol": "empleado",
         "direccion": "Cavallari 308",
         "email": "juanchilopez1984@gmail.com",
         "vacaciones": 35,
-        "estado": "Activo",
-        "gastos_agrupados": {
-            "2025-08": {
-                "total_mes": 565973.77,
-                "por_articulo": {
-                    "Combustibles": {
-                        "total": 93647.73,
-                        "items": [
-                            {
-                                "fecha": "2025-08-31",
-                                "proveedor": "YPF SOCIEDAD ANONIMA",
-                                "comprobante": "FGAS 2172 1792068",
-                                "leyenda": "COMBUSIBLE YPF EN RUTA",
-                                "importe": 93647.73
-                            }
-                        ]
-                    },
-                    "Gastos de comida": {
-                        "total": 472326.04,
-                        "items": [
-                            {
-                                "fecha": "2025-08-27",
-                                "proveedor": "POLAND S.A.",
-                                "comprobante": "FGAS 12 26104",
-                                "leyenda": "COMPRA LA BLANQUEADA",
-                                "importe": 23586.77
-                            },
-                            {
-                                "fecha": "2025-08-29",
-                                "proveedor": "ATRES S.A.",
-                                "comprobante": "FGAS 12 241",
-                                "leyenda": "ACTUAL 08/2025",
-                                "importe": 403050.22
-                            },
-                            {
-                                "fecha": "2025-08-30",
-                                "proveedor": "COMPAÑIA URSO HERMANOS SA",
-                                "comprobante": "FGAS 1 7998",
-                                "leyenda": "URSO 08/2025",
-                                "importe": 45689.05
-                            }
-                        ]
-                    }
-                }
-            },
-            "2025-09": {
-                "total_mes": 26485.25,
-                "por_articulo": {
-                    "Gastos de comida": {
-                        "total": 26485.25,
-                        "items": [
-                            {
-                                "fecha": "2025-09-18",
-                                "proveedor": "POLAND S.A.",
-                                "comprobante": "FGAS 12 26470",
-                                "leyenda": "COMPRA QUESO LA BLANQUEADA",
-                                "importe": 26485.25
-                            }
-                        ]
-                    }
-                }
-            }
-        },
-        "prestamo": {
-            "fecha_prestamo": "",
-            "monto": 1500000.0,
-            "cuotas": 6,
-            "cancelado": 1250000.0,
-            "pendiente": -250000.0,
-            "proxima_cuota": 250000.0,
-            "cuotas_pendientes": 1,
-            "fecha_cancelacion": "20-10-2025"
-        }
+        "estado": "Activo"
     },
     "25": {
         "apellido": "Laoretani",

@@ -3349,3 +3349,48 @@
 [2025-10-23 09:02:16] Fecha de nacimiento inválida para Maria Juliana
 [2025-10-23 09:02:16] Fecha de nacimiento inválida para Lucas
 [2025-10-23 09:02:16] Fecha de nacimiento inválida para Hugo Emmanuel
+[2025-10-23 09:02:52] Acceso a panel
+[2025-10-23 09:03:10] Acceso a panel
+[2025-10-23 09:03:11] Empleados activos cargados correctamente
+[2025-10-23 09:03:11] Visualización de todos los empleados
+[2025-10-23 09:03:29] Acceso a panel
+[2025-10-23 09:03:32] Consulta de info iniciada
+[2025-10-23 09:03:32] Empleados activos cargados correctamente
+[2025-10-23 09:03:38] Consulta de info iniciada
+[2025-10-23 09:03:38] Empleados activos cargados correctamente
+[2025-10-23 09:03:38] Búsqueda de: lop
+[2025-10-23 09:03:40] Entrando a editar empleado 24
+[2025-10-23 09:03:47] Entrando a editar empleado 24
+[2025-10-23 09:03:47] Empleado 24 actualizado
+[2025-10-23 09:03:47] Empleados activos cargados correctamente
+[2025-10-23 09:03:47] Visualización de todos los empleados
+[2025-10-23 09:04:31] Consulta de info iniciada
+[2025-10-23 09:04:31] Empleados activos cargados correctamente
+[2025-10-23 09:04:31] Búsqueda de: die
+[2025-10-23 09:04:32] Vista web de archivos para 43
+[2025-10-23 09:04:33] Acceso a panel
+[2025-10-23 09:04:36] Consulta de info iniciada
+[2025-10-23 09:04:36] Empleados activos cargados correctamente
+[2025-10-23 09:04:42] Consulta de info iniciada
+[2025-10-23 09:04:42] Empleados activos cargados correctamente
+[2025-10-23 09:04:42] Búsqueda de: die
+[2025-10-23 09:04:52] Acceso a panel
+[2025-10-23 09:04:53] Consulta de info iniciada
+[2025-10-23 09:04:53] Empleados activos cargados correctamente
+[2025-10-23 09:04:56] Consulta de info iniciada
+[2025-10-23 09:04:56] Empleados activos cargados correctamente
+[2025-10-23 09:04:56] Búsqueda de: seba
+[2025-10-23 09:04:58] Entrando a editar empleado 12
+[2025-10-23 09:05:03] Consulta de info iniciada
+[2025-10-23 09:05:03] Empleados activos cargados correctamente
+[2025-10-23 09:05:03] Búsqueda de: die
+[2025-10-23 09:05:10] Entrando a editar empleado 43
+[2025-10-23 09:10:29] Acceso a portada
+[2025-10-23 09:10:32] Acceso a panel
+[2025-10-23 09:10:35] Empleados activos cargados correctamente
+[2025-10-23 09:10:35] Visualización de todos los empleados
+[2025-10-23 09:10:57] Acceso a panel
+[2025-10-23 09:11:23] Acceso a panel
+[2025-10-23 09:29:31] Acceso a portada
+[2025-10-23 09:29:33] Acceso a panel
+[2025-10-23 09:29:35] Acceso a panel

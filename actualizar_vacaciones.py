@@ -6,7 +6,7 @@ import subprocess
 import sys
 
 # === CONFIGURACIÓN ===
-ARCHIVO_JSON = "C:/Bot_RRHH/empleados.json"
+ARCHIVO_JSON = "empleados.json"
 ARCHIVO_EXCEL = "vacaciones.xlsx"
 
 FILE_ID = "14tl_3tukdjrQigtartUbIOrAMvaBUo3f"
