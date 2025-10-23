@@ -5823,44 +5823,8 @@
         "telefono": "2392503913",
         "direccion": "Villegas 883  2° B",
         "email": "franciscob@nutralmix.com.ar",
-        "vacaciones": 14,
-        "estado": "Activo",
-        "gastos_agrupados": {
-            "2025-08": {
-                "total_mes": 34099.31,
-                "por_articulo": {
-                    "Combustibles": {
-                        "total": 34099.31,
-                        "items": [
-                            {
-                                "fecha": "2025-08-31",
-                                "proveedor": "YPF SOCIEDAD ANONIMA",
-                                "comprobante": "FGAS 2172 1792068",
-                                "leyenda": "COMBUSTIBLE YPF EN RUTA",
-                                "importe": 34099.31
-                            }
-                        ]
-                    }
-                }
-            },
-            "2025-09": {
-                "total_mes": 82598.74,
-                "por_articulo": {
-                    "Gastos de comida": {
-                        "total": 82598.74,
-                        "items": [
-                            {
-                                "fecha": "2025-09-01",
-                                "proveedor": "CODEANA S.A.S.",
-                                "comprobante": "FGAS 3 266",
-                                "leyenda": "GASTOS COMIDA",
-                                "importe": 82598.74
-                            }
-                        ]
-                    }
-                }
-            }
-        }
+        "vacaciones": 13,
+        "estado": "Activo"
     },
     "241": {
         "legajo": "241",
