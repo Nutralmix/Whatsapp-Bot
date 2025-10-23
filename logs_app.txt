@@ -3505,3 +3505,11 @@
 [2025-10-23 10:45:37] Acceso a panel
 [2025-10-23 10:50:09] Servidor Flask iniciado
 [2025-10-23 10:53:21] Acceso a panel
+[2025-10-23 11:43:57] Acceso a portada
+[2025-10-23 11:43:58] Acceso a panel
+[2025-10-23 11:44:00] Empleados activos cargados correctamente
+[2025-10-23 11:44:00] Visualización de todos los empleados
+[2025-10-23 11:44:13] Acceso a panel
+[2025-10-23 11:44:15] Acceso a panel
+[2025-10-23 12:30:02] Acceso a portada
+[2025-10-23 12:30:04] Acceso a panel
