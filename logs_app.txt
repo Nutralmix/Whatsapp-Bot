@@ -3301,3 +3301,21 @@
 [2025-10-23 08:59:33] Empleados activos cargados correctamente
 [2025-10-23 08:59:33] Visualización de todos los empleados
 [2025-10-23 08:59:41] Acceso a panel
+[2025-10-23 08:59:51] Acceso a panel
+[2025-10-23 08:59:53] Empleados activos cargados correctamente
+[2025-10-23 08:59:53] Visualización de todos los empleados
+[2025-10-23 09:00:23] Acceso a panel
+[2025-10-23 09:00:25] Consulta de info iniciada
+[2025-10-23 09:00:25] Empleados activos cargados correctamente
+[2025-10-23 09:00:28] Acceso a panel
+[2025-10-23 09:00:29] Consulta de info iniciada
+[2025-10-23 09:00:29] Empleados activos cargados correctamente
+[2025-10-23 09:00:33] Consulta de info iniciada
+[2025-10-23 09:00:33] Empleados activos cargados correctamente
+[2025-10-23 09:00:33] Búsqueda de: die
+[2025-10-23 09:00:37] Entrando a editar empleado 43
+[2025-10-23 09:01:13] Entrando a editar empleado 43
+[2025-10-23 09:01:13] Empleado 43 actualizado
+[2025-10-23 09:01:13] Empleados activos cargados correctamente
+[2025-10-23 09:01:13] Visualización de todos los empleados
+[2025-10-23 09:01:19] Acceso a panel
