@@ -3265,3 +3265,30 @@
 [2025-10-23 08:45:57] Visualización de todos los empleados
 [2025-10-23 08:46:04] Acceso a panel
 [2025-10-23 08:46:07] Acceso a panel
+[2025-10-23 08:46:42] Empleados activos cargados correctamente
+[2025-10-23 08:46:42] Visualización de todos los empleados
+[2025-10-23 08:47:00] Acceso a portada
+[2025-10-23 08:47:02] Acceso a panel
+[2025-10-23 08:47:07] Empleados activos cargados correctamente
+[2025-10-23 08:47:07] Visualización de todos los empleados
+[2025-10-23 08:47:55] Acceso a panel
+[2025-10-23 08:47:58] Acceso a panel
+[2025-10-23 08:48:49] Servidor Flask iniciado
+[2025-10-23 08:48:52] Acceso a portada
+[2025-10-23 08:48:54] Acceso a panel
+[2025-10-23 08:53:20] Acceso a panel
+[2025-10-23 08:53:21] Empleados activos cargados correctamente
+[2025-10-23 08:53:21] Visualización de todos los empleados
+[2025-10-23 08:54:12] Acceso a portada
+[2025-10-23 08:54:13] Acceso a panel
+[2025-10-23 08:54:15] Empleados activos cargados correctamente
+[2025-10-23 08:54:15] Visualización de todos los empleados
+[2025-10-23 08:54:19] Entrando a editar empleado 4
+[2025-10-23 08:54:54] Empleados activos cargados correctamente
+[2025-10-23 08:54:54] Visualización de todos los empleados
+[2025-10-23 08:56:01] Acceso a panel
+[2025-10-23 08:56:02] Empleados activos cargados correctamente
+[2025-10-23 08:56:02] Visualización de todos los empleados
+[2025-10-23 08:56:48] Acceso a panel
+[2025-10-23 08:58:51] Acceso a portada
+[2025-10-23 08:58:55] Acceso a panel
