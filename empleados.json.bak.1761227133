@@ -28,17 +28,23 @@
         "gastos_agrupados": {}
     },
     "4": {
+        "legajo": "4",
+        "cuil": "23-11607908-9",
         "apellido": "Dillon",
         "nombre": "José María",
-        "cuil": "23-11607908-9",
         "sector": "Comercial",
+        "sede": "9 de Julio",
         "fecha_ingreso": "01-06-2004",
-        "fecha_nacimiento": "13-06-1956",
-        "telefono": "2215540184",
-        "direccion": "",
-        "email": "",
-        "vacaciones": 35,
         "estado": "Activo",
+        "fecha_baja": "",
+        "motivo_baja": "",
+        "fecha_nacimiento": "13-06-1956",
+        "edad": 0,
+        "telefono": "2215540184",
+        "rol": "empleado",
+        "notas": "",
+        "prestamo": {},
+        "vacaciones": 35,
         "gastos_agrupados": {}
     },
     "1002": {
@@ -1521,8 +1527,9 @@
         "telefono": "2392503913",
         "direccion": "Villegas 883  2° B",
         "email": "franciscob@nutralmix.com.ar",
-        "vacaciones": 10,
-        "estado": "Activo"
+        "vacaciones": 14,
+        "estado": "Activo",
+        "gastos_agrupados": {}
     },
     "241": {
         "legajo": "241",
