@@ -5801,7 +5801,6 @@
         }
     },
     "263": {
-        "legajo": "263",
         "apellido": "Pellegrotti",
         "nombre": "Raul Eduardo",
         "cuil": "20-35094783-4",
@@ -5811,7 +5810,7 @@
         "telefono": "2317452668",
         "direccion": "Av. Agustin Alvarez 369",
         "email": "raulpellegrotti@yahoo.com.ar",
-        "vacaciones": 14,
+        "vacaciones": 13,
         "estado": "Activo"
     },
     "264": {
