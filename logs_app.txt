@@ -3406,3 +3406,12 @@
 [2025-10-23 09:48:39] Visualización de todos los empleados
 [2025-10-23 09:48:43] Acceso a panel
 [2025-10-23 09:48:51] Acceso a panel
+[2025-10-23 09:50:12] Acceso a panel
+[2025-10-23 09:50:32] Empleados activos cargados correctamente
+[2025-10-23 09:50:32] Visualización de todos los empleados
+[2025-10-23 09:50:45] Entrando a editar empleado 263
+[2025-10-23 09:50:58] Entrando a editar empleado 263
+[2025-10-23 09:50:58] Empleado 263 actualizado
+[2025-10-23 09:50:58] Empleados activos cargados correctamente
+[2025-10-23 09:50:58] Visualización de todos los empleados
+[2025-10-23 09:51:31] Acceso a panel
