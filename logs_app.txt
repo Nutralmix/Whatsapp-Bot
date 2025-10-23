@@ -3319,3 +3319,33 @@
 [2025-10-23 09:01:13] Empleados activos cargados correctamente
 [2025-10-23 09:01:13] Visualización de todos los empleados
 [2025-10-23 09:01:19] Acceso a panel
+[2025-10-23 09:01:28] Acceso a panel
+[2025-10-23 09:01:38] Empleados activos cargados correctamente
+[2025-10-23 09:01:38] Visualización de todos los empleados
+[2025-10-23 09:01:45] Acceso a panel
+[2025-10-23 09:01:49] Consulta de info iniciada
+[2025-10-23 09:01:49] Empleados activos cargados correctamente
+[2025-10-23 09:01:52] Consulta de info iniciada
+[2025-10-23 09:01:52] Empleados activos cargados correctamente
+[2025-10-23 09:01:52] Búsqueda de: die
+[2025-10-23 09:01:54] Entrando a editar empleado 43
+[2025-10-23 09:02:05] Acceso a panel
+[2025-10-23 09:02:11] Empleados activos cargados correctamente
+[2025-10-23 09:02:11] Visualización de todos los empleados
+[2025-10-23 09:02:13] Acceso a panel
+[2025-10-23 09:02:16] Empleados activos cargados correctamente
+[2025-10-23 09:02:16] Consulta de próximos cumpleaños
+[2025-10-23 09:02:16] Fecha de nacimiento inválida para Valentin
+[2025-10-23 09:02:16] Fecha de nacimiento inválida para Oscar
+[2025-10-23 09:02:16] Fecha de nacimiento inválida para Alejandro
+[2025-10-23 09:02:16] Fecha de nacimiento inválida para Marcela Soledad
+[2025-10-23 09:02:16] Fecha de nacimiento inválida para Juan Manuel
+[2025-10-23 09:02:16] Fecha de nacimiento inválida para Damian
+[2025-10-23 09:02:16] Fecha de nacimiento inválida para Joaquin Ezequiel 
+[2025-10-23 09:02:16] Fecha de nacimiento inválida para Maria Soledad
+[2025-10-23 09:02:16] Fecha de nacimiento inválida para Gonzalo Ariel
+[2025-10-23 09:02:16] Fecha de nacimiento inválida para Camila
+[2025-10-23 09:02:16] Fecha de nacimiento inválida para Juan Manuel
+[2025-10-23 09:02:16] Fecha de nacimiento inválida para Maria Juliana
+[2025-10-23 09:02:16] Fecha de nacimiento inválida para Lucas
+[2025-10-23 09:02:16] Fecha de nacimiento inválida para Hugo Emmanuel
