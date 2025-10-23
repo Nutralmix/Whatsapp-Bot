@@ -1448,7 +1448,7 @@
         "rol": "empleado",
         "direccion": "Braile 938",
         "email": "stefaniapapasso@live.com",
-        "vacaciones": 28,
+        "vacaciones": 7,
         "estado": "Activo",
         "gastos_agrupados": {
             "2025-08": {
@@ -1594,7 +1594,7 @@
         "rol": "empleado",
         "direccion": "Cavallari 308",
         "email": "juanchilopez1984@gmail.com",
-        "vacaciones": 42,
+        "vacaciones": 35,
         "estado": "Activo",
         "gastos_agrupados": {
             "2025-08": {
@@ -2307,7 +2307,7 @@
         "telefono": "2317517627",
         "direccion": "Garmendia 928",
         "email": "cotongocingolani@gmail.com",
-        "vacaciones": 31,
+        "vacaciones": 21,
         "estado": "Activo",
         "gastos_agrupados": {
             "2025-08": {
@@ -2943,7 +2943,7 @@
         "telefono": "2317 44-6433",
         "direccion": "Levalle 344",
         "email": "valentinmarciano123@gmail.com",
-        "vacaciones": 14,
+        "vacaciones": 28,
         "estado": "Activo",
         "prestamo": {
             "fecha_prestamo": "",
@@ -5049,7 +5049,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 14,
+        "vacaciones": 7,
         "gastos_agrupados": {
             "2025-08": {
                 "total_mes": 589659.37,
@@ -5646,7 +5646,7 @@
             "cuotas_pendientes": 23,
             "fecha_cancelacion": "07-08-2027"
         },
-        "vacaciones": 14,
+        "vacaciones": 0,
         "gastos_agrupados": {
             "2025-08": {
                 "total_mes": 308200.8,
@@ -5953,7 +5953,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 14,
+        "vacaciones": 0,
         "gastos_agrupados": {
             "2025-08": {
                 "total_mes": 203272.40000000002,
@@ -6247,7 +6247,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 14,
+        "vacaciones": 0,
         "gastos_agrupados": {
             "2025-08": {
                 "total_mes": 39139.34,

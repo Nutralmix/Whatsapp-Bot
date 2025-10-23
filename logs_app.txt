@@ -3202,3 +3202,38 @@
 [2025-10-22 09:30:09] Empleados activos cargados correctamente
 [2025-10-22 09:30:09] Visualización de todos los empleados
 [2025-10-22 09:31:35] Acceso a panel
+[2025-10-22 09:31:51] Acceso a panel
+[2025-10-22 09:32:31] Acceso a panel
+[2025-10-22 09:32:59] Acceso a panel
+[2025-10-22 10:09:19] Empleados activos cargados correctamente
+[2025-10-22 10:09:19] Visualización de todos los empleados
+[2025-10-22 11:31:06] Acceso a portada
+[2025-10-22 11:31:10] Acceso a panel
+[2025-10-22 11:31:17] Empleados activos cargados correctamente
+[2025-10-22 11:31:17] Consulta de próximos cumpleaños
+[2025-10-22 11:31:17] Fecha de nacimiento inválida para Valentin
+[2025-10-22 11:31:17] Fecha de nacimiento inválida para Oscar
+[2025-10-22 11:31:17] Fecha de nacimiento inválida para Alejandro
+[2025-10-22 11:31:17] Fecha de nacimiento inválida para Marcela Soledad
+[2025-10-22 11:31:17] Fecha de nacimiento inválida para Raul Eduardo
+[2025-10-22 11:31:17] Fecha de nacimiento inválida para Juan Manuel
+[2025-10-22 11:31:17] Fecha de nacimiento inválida para Damian
+[2025-10-22 11:31:17] Fecha de nacimiento inválida para Joaquin Ezequiel 
+[2025-10-22 11:31:17] Fecha de nacimiento inválida para Maria Soledad
+[2025-10-22 11:31:17] Fecha de nacimiento inválida para Gonzalo Ariel
+[2025-10-22 11:31:17] Fecha de nacimiento inválida para Camila
+[2025-10-22 11:31:17] Fecha de nacimiento inválida para Juan Manuel
+[2025-10-22 11:31:17] Fecha de nacimiento inválida para Maria Juliana
+[2025-10-22 11:31:17] Fecha de nacimiento inválida para Lucas
+[2025-10-22 11:31:17] Fecha de nacimiento inválida para Hugo Emmanuel
+[2025-10-22 11:31:30] Acceso a panel
+[2025-10-22 11:31:32] Empleados activos cargados correctamente
+[2025-10-22 11:31:32] Visualización de todos los empleados
+[2025-10-22 11:32:20] Acceso a panel
+[2025-10-22 11:33:23] Acceso a panel
+[2025-10-22 11:38:48] Empleados activos cargados correctamente
+[2025-10-22 11:38:48] Visualización de todos los empleados
+[2025-10-23 08:32:13] Acceso a panel
+[2025-10-23 08:42:50] Acceso a portada
+[2025-10-23 08:42:51] Acceso a panel
+[2025-10-23 08:42:54] Acceso a panel
