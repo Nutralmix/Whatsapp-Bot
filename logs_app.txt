@@ -3450,3 +3450,13 @@
 [2025-10-23 10:19:13] Acceso a panel
 [2025-10-23 10:19:18] Empleados activos cargados correctamente
 [2025-10-23 10:19:18] Visualización de todos los empleados
+[2025-10-23 10:20:50] Servidor Flask iniciado
+[2025-10-23 10:20:57] Acceso a panel
+[2025-10-23 10:20:58] Empleados activos cargados correctamente
+[2025-10-23 10:20:58] Visualización de todos los empleados
+[2025-10-23 10:21:04] Entrando a editar empleado 264
+[2025-10-23 10:21:08] Entrando a editar empleado 264
+[2025-10-23 10:21:08] Empleado 264 actualizado
+[2025-10-23 10:21:08] Empleados activos cargados correctamente
+[2025-10-23 10:21:08] Visualización de todos los empleados
+[2025-10-23 10:21:13] Acceso a panel
