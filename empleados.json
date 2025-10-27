@@ -2875,23 +2875,13 @@
         "nombre": "Valentin",
         "cuil": "20-47011393-7",
         "sector": "Operaciones",
-        "fecha_ingreso": "2025-04-14",
+        "fecha_ingreso": "14/4/2025",
         "fecha_nacimiento": "05/12/2005",
         "telefono": "2317 44-6433",
         "direccion": "Levalle 344",
         "email": "valentinmarciano123@gmail.com",
         "vacaciones": 28,
-        "estado": "Activo",
-        "prestamo": {
-            "fecha_prestamo": "",
-            "monto": 700000.0,
-            "cuotas": 5,
-            "cancelado": 140000.0,
-            "pendiente": -560000.0,
-            "proxima_cuota": 140000.0,
-            "cuotas_pendientes": 4,
-            "fecha_cancelacion": "01-01-2026"
-        }
+        "estado": "Activo"
     },
     "106": {
         "apellido": "Gonzalez",
@@ -4351,6 +4341,8 @@
         "gastos_agrupados": {}
     },
     "179": {
+        "legajo": "179",
+        "rol": "empleado",
         "apellido": "Pacheco",
         "nombre": "Pablo Oscar",
         "cuil": "20-40978681-3",
@@ -4422,6 +4414,8 @@
         }
     },
     "194": {
+        "rol": "empleado",
+        "legajo": "194",
         "apellido": "Canepa",
         "nombre": "Santiago",
         "cuil": "20-43970503-6",
@@ -4519,6 +4513,7 @@
         }
     },
     "196": {
+        "legajo": "196",
         "apellido": "Zega",
         "nombre": "Maximiliano",
         "cuil": "20-30830857-0",
@@ -4705,6 +4700,8 @@
         }
     },
     "205": {
+        "legajo": "205",
+        "rol": "empleado",
         "apellido": "Montenovo",
         "nombre": "Valentino",
         "cuil": "20-44112951-4",
@@ -4766,6 +4763,8 @@
         }
     },
     "206": {
+        "rol": "empleado",
+        "legajo": "206",
         "apellido": "Romano Rivera",
         "nombre": "Valentino",
         "cuil": "20-43045494-4",
@@ -5072,6 +5071,8 @@
         }
     },
     "226": {
+        "rol": "empleado",
+        "legajo": "226",
         "apellido": "Merlo",
         "nombre": "Ignacio Enrique",
         "cuil": "20-33597236-9",

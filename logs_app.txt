@@ -3516,3 +3516,46 @@
 [2025-10-23 12:30:30] Acceso a panel
 [2025-10-23 12:30:47] Servidor Flask iniciado
 [2025-10-23 12:30:59] Acceso a panel
+[2025-10-23 12:35:42] Acceso a panel
+[2025-10-23 12:43:00] Servidor Flask iniciado
+[2025-10-23 16:20:04] Acceso a portada
+[2025-10-23 16:20:06] Acceso a panel
+[2025-10-23 16:24:32] Empleados activos cargados correctamente
+[2025-10-23 16:24:32] Visualización de todos los empleados
+[2025-10-23 16:24:42] Empleados activos cargados correctamente
+[2025-10-23 16:24:42] Visualización de todos los empleados
+[2025-10-23 16:53:24] Servidor Flask iniciado
+[2025-10-23 17:02:11] Servidor Flask iniciado
+[2025-10-24 13:04:33] Acceso a panel
+[2025-10-24 13:04:38] Acceso a portada
+[2025-10-24 13:04:40] Acceso a panel
+[2025-10-24 13:04:41] Consulta de info iniciada
+[2025-10-24 13:04:41] Empleados activos cargados correctamente
+[2025-10-24 13:04:45] Consulta de info iniciada
+[2025-10-24 13:04:45] Empleados activos cargados correctamente
+[2025-10-24 13:04:45] Búsqueda de: ivan
+[2025-10-27 09:23:08] Acceso a portada
+[2025-10-27 09:23:09] Acceso a panel
+[2025-10-27 09:23:11] Empleados activos cargados correctamente
+[2025-10-27 09:23:11] Visualización de todos los empleados
+[2025-10-27 09:23:23] Entrando a editar empleado 96
+[2025-10-27 09:24:21] Entrando a editar empleado 96
+[2025-10-27 09:24:21] Empleado 96 actualizado
+[2025-10-27 09:24:21] Empleados activos cargados correctamente
+[2025-10-27 09:24:21] Visualización de todos los empleados
+[2025-10-27 09:26:18] Entrando a editar empleado 96
+[2025-10-27 09:26:26] Empleados activos cargados correctamente
+[2025-10-27 09:26:26] Visualización de todos los empleados
+[2025-10-27 09:26:29] Entrando a editar empleado 96
+[2025-10-27 09:26:29] Empleado 96 actualizado
+[2025-10-27 09:26:29] Empleados activos cargados correctamente
+[2025-10-27 09:26:29] Visualización de todos los empleados
+[2025-10-27 09:26:33] Acceso a panel
+[2025-10-27 09:26:35] Empleados activos cargados correctamente
+[2025-10-27 09:26:35] Visualización de todos los empleados
+[2025-10-27 09:26:39] Entrando a editar empleado 96
+[2025-10-27 09:26:42] Entrando a editar empleado 96
+[2025-10-27 09:26:42] Empleado 96 actualizado
+[2025-10-27 09:26:42] Empleados activos cargados correctamente
+[2025-10-27 09:26:42] Visualización de todos los empleados
+[2025-10-27 09:26:46] Acceso a panel
