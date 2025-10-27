@@ -585,30 +585,6 @@
         },
         "gastos_agrupados": {}
     },
-    "96": {
-        "apellido": "Marciano",
-        "nombre": "Valentin",
-        "cuil": "20-47011393-7",
-        "sector": "Operaciones",
-        "fecha_ingreso": "14/4/2025",
-        "fecha_nacimiento": "05/12/2005",
-        "telefono": "2317 44-6433",
-        "direccion": "Levalle 344",
-        "email": "valentinmarciano123@gmail.com",
-        "vacaciones": 28,
-        "estado": "Activo",
-        "gastos_agrupados": {},
-        "prestamo": {
-            "fecha_prestamo": "",
-            "monto": 700000.0,
-            "cuotas": 5,
-            "cancelado": 140000.0,
-            "pendiente": -560000.0,
-            "proxima_cuota": 140000.0,
-            "cuotas_pendientes": 4,
-            "fecha_cancelacion": "01-01-2026"
-        }
-    },
     "106": {
         "apellido": "Gonzalez",
         "nombre": "Florencia Beatriz",
@@ -1835,5 +1811,18 @@
         "vacaciones": 4,
         "estado": "Activo",
         "gastos_agrupados": {}
+    },
+    "287": {
+        "apellido": "Marciano",
+        "nombre": "Valentin",
+        "cuil": "20-47011393-7",
+        "sector": "Operaciones",
+        "fecha_ingreso": "2025-04-14",
+        "fecha_nacimiento": "2005-12-05",
+        "telefono": "2317 44-6433",
+        "direccion": "Levalle 344",
+        "email": "valentinmarciano123@gmail.com",
+        "vacaciones": 14,
+        "estado": "Activo"
     }
 }
