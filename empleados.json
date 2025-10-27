@@ -597,7 +597,17 @@
         "email": "valentinmarciano123@gmail.com",
         "vacaciones": 28,
         "estado": "Activo",
-        "gastos_agrupados": {}
+        "gastos_agrupados": {},
+        "prestamo": {
+            "fecha_prestamo": "",
+            "monto": 700000.0,
+            "cuotas": 5,
+            "cancelado": 140000.0,
+            "pendiente": -560000.0,
+            "proxima_cuota": 140000.0,
+            "cuotas_pendientes": 4,
+            "fecha_cancelacion": "01-01-2026"
+        }
     },
     "106": {
         "apellido": "Gonzalez",
@@ -902,7 +912,7 @@
             "pendiente": -500000.0,
             "proxima_cuota": 250000.0,
             "cuotas_pendientes": 2,
-            "fecha_cancelacion": "01-12-2025"
+            "fecha_cancelacion": "01-11-2025"
         },
         "vacaciones": 14,
         "gastos_agrupados": {}
@@ -1066,7 +1076,7 @@
             "pendiente": -1000000.0,
             "proxima_cuota": 250000.0,
             "cuotas_pendientes": 4,
-            "fecha_cancelacion": "01-02-2026"
+            "fecha_cancelacion": "01-01-2026"
         },
         "gastos_agrupados": {}
     },
@@ -1086,7 +1096,16 @@
         "telefono": "2317418729",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {},
+        "prestamo": {
+            "fecha_prestamo": "",
+            "monto": 200000.0,
+            "cuotas": 4,
+            "cancelado": 0.0,
+            "pendiente": -200000.0,
+            "proxima_cuota": 50000.0,
+            "cuotas_pendientes": 4,
+            "fecha_cancelacion": "01-02-2026"
+        },
         "vacaciones": 14,
         "gastos_agrupados": {}
     },
