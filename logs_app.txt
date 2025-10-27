@@ -3559,3 +3559,5 @@
 [2025-10-27 09:26:42] Empleados activos cargados correctamente
 [2025-10-27 09:26:42] Visualización de todos los empleados
 [2025-10-27 09:26:46] Acceso a panel
+[2025-10-27 09:27:01] Consulta de info iniciada
+[2025-10-27 09:27:01] Empleados activos cargados correctamente
