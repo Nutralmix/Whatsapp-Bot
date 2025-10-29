@@ -3660,3 +3660,31 @@
 [2025-10-29 08:41:57] Acceso a panel
 [2025-10-29 08:41:58] Acceso a panel
 [2025-10-29 08:42:39] Acceso a panel
+[2025-10-29 09:33:31] Acceso a portada
+[2025-10-29 09:33:35] Acceso a panel
+[2025-10-29 09:33:37] Acceso a panel
+[2025-10-29 09:33:40] Empleados activos cargados correctamente
+[2025-10-29 09:33:40] Consulta de próximos cumpleaños
+[2025-10-29 09:33:40] Fecha de nacimiento inválida para Oscar
+[2025-10-29 09:33:40] Fecha de nacimiento inválida para Alejandro
+[2025-10-29 09:33:40] Fecha de nacimiento inválida para Marcela Soledad
+[2025-10-29 09:33:40] Fecha de nacimiento inválida para Juan Manuel
+[2025-10-29 09:33:40] Fecha de nacimiento inválida para Damian
+[2025-10-29 09:33:40] Fecha de nacimiento inválida para Joaquin Ezequiel 
+[2025-10-29 09:33:40] Fecha de nacimiento inválida para Maria Soledad
+[2025-10-29 09:33:40] Fecha de nacimiento inválida para Gonzalo Ariel
+[2025-10-29 09:33:40] Fecha de nacimiento inválida para Camila
+[2025-10-29 09:33:40] Fecha de nacimiento inválida para Juan Manuel
+[2025-10-29 09:33:40] Fecha de nacimiento inválida para Maria Juliana
+[2025-10-29 09:33:40] Fecha de nacimiento inválida para Lucas
+[2025-10-29 09:33:40] Fecha de nacimiento inválida para Hugo Emmanuel
+[2025-10-29 09:33:40] Fecha de nacimiento inválida para Valentin
+[2025-10-29 09:33:53] Empleados activos cargados correctamente
+[2025-10-29 09:33:53] Visualización de todos los empleados
+[2025-10-29 09:33:58] Entrando a editar empleado 176
+[2025-10-29 09:34:02] Empleados activos cargados correctamente
+[2025-10-29 09:34:02] Visualización de todos los empleados
+[2025-10-29 10:27:28] Empleados activos cargados correctamente
+[2025-10-29 10:27:28] Visualización de todos los empleados
+[2025-10-29 15:08:25] Acceso a portada
+[2025-10-29 15:08:27] Acceso a panel
