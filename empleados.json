@@ -689,13 +689,13 @@
         "estado": "Activo",
         "prestamo": {
             "fecha_prestamo": "",
-            "monto": 700000.0,
-            "cuotas": 6,
-            "cancelado": 580000.0,
-            "pendiente": -120000.0,
-            "proxima_cuota": 116000.0,
+            "monto": 390104.0,
+            "cuotas": 1,
+            "cancelado": 0.0,
+            "pendiente": -390104.0,
+            "proxima_cuota": 390104.0,
             "cuotas_pendientes": 1,
-            "fecha_cancelacion": "08-10-2025"
+            "fecha_cancelacion": "01-11-2025"
         },
         "gastos_agrupados": {},
         "legajo": "109",
@@ -1451,7 +1451,17 @@
         "email": "rodri012011@gmail.com",
         "vacaciones": 7,
         "estado": "Activo",
-        "gastos_agrupados": {}
+        "gastos_agrupados": {},
+        "prestamo": {
+            "fecha_prestamo": "",
+            "monto": 200000.0,
+            "cuotas": 2,
+            "cancelado": 0.0,
+            "pendiente": -200000.0,
+            "proxima_cuota": 100000.0,
+            "cuotas_pendientes": 2,
+            "fecha_cancelacion": "01-12-2025"
+        }
     },
     "242": {
         "legajo": "242",
