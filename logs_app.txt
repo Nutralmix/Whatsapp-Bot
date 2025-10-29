@@ -3651,3 +3651,11 @@
 [2025-10-29 08:07:35] Acceso a panel
 [2025-10-29 08:20:11] Empleados activos cargados correctamente
 [2025-10-29 08:20:11] Visualización de todos los empleados
+[2025-10-29 08:20:20] Acceso a panel
+[2025-10-29 08:22:34] Entrando a editar empleado 1
+[2025-10-29 08:22:39] Empleados activos cargados correctamente
+[2025-10-29 08:22:39] Visualización de todos los empleados
+[2025-10-29 08:41:54] Acceso a panel
+[2025-10-29 08:41:56] Acceso a panel
+[2025-10-29 08:41:57] Acceso a panel
+[2025-10-29 08:41:58] Acceso a panel
