@@ -1217,25 +1217,7 @@
         "email": "",
         "vacaciones": 21,
         "estado": "Activo",
-        "gastos_agrupados": {
-            "2025-10": {
-                "total_mes": 765532.0,
-                "por_articulo": {
-                    "123": {
-                        "total": 765532.0,
-                        "items": [
-                            {
-                                "fecha": "2025-10-28",
-                                "proveedor": "zarasa",
-                                "comprobante": "123",
-                                "leyenda": "Prueba desc",
-                                "importe": 765532.0
-                            }
-                        ]
-                    }
-                }
-            }
-        }
+        "gastos_agrupados": {}
     },
     "204": {
         "legajo": "204",

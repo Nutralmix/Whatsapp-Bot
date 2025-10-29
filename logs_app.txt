@@ -3707,3 +3707,5 @@
 [2025-10-29 15:12:26] Fecha de nacimiento inválida para Hugo Emmanuel
 [2025-10-29 15:12:26] Fecha de nacimiento inválida para Valentin
 [2025-10-29 15:13:40] Acceso a panel
+[2025-10-29 16:04:06] Acceso a panel
+[2025-10-29 16:05:27] Acceso a panel
