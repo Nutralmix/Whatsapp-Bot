@@ -11,9 +11,7 @@
         "email": "tewalr@hotmail.com",
         "vacaciones": 35,
         "estado": "Activo",
-        "gastos_agrupados": {},
-        "legajo": "1",
-        "rol": "empleado"
+        "gastos_agrupados": {}
     },
     "2": {
         "apellido": "Gavalda",
@@ -27,9 +25,7 @@
         "email": "mauricionutralmix@gmail.com",
         "vacaciones": 35,
         "estado": "Activo",
-        "gastos_agrupados": {},
-        "legajo": "2",
-        "rol": "empleado"
+        "gastos_agrupados": {}
     },
     "4": {
         "legajo": "4",
@@ -63,9 +59,7 @@
         "email": "",
         "vacaciones": 35,
         "estado": "Activo",
-        "gastos_agrupados": {},
-        "legajo": "1002",
-        "rol": "empleado"
+        "gastos_agrupados": {}
     },
     "1003": {
         "apellido": "Corrao",
@@ -79,9 +73,7 @@
         "email": "",
         "vacaciones": 35,
         "estado": "Activo",
-        "gastos_agrupados": {},
-        "legajo": "1003",
-        "rol": "empleado"
+        "gastos_agrupados": {}
     },
     "9": {
         "apellido": "Cañas",
@@ -95,9 +87,7 @@
         "email": "pablodc_10@hotmail.com",
         "vacaciones": 63,
         "estado": "Activo",
-        "gastos_agrupados": {},
-        "legajo": "9",
-        "rol": "empleado"
+        "gastos_agrupados": {}
     },
     "10": {
         "apellido": "Gonzalez",
@@ -111,9 +101,7 @@
         "email": "gustavog@nutralmix.com.ar",
         "vacaciones": 121,
         "estado": "Activo",
-        "gastos_agrupados": {},
-        "legajo": "10",
-        "rol": "empleado"
+        "gastos_agrupados": {}
     },
     "11": {
         "apellido": "Garcia",
@@ -127,9 +115,7 @@
         "email": "marianomgarcia@hotmail.com",
         "vacaciones": 28,
         "estado": "Activo",
-        "gastos_agrupados": {},
-        "legajo": "11",
-        "rol": "empleado"
+        "gastos_agrupados": {}
     },
     "12": {
         "apellido": "Bai",
@@ -143,9 +129,7 @@
         "email": "sebabai82@gmail.com",
         "vacaciones": 69,
         "estado": "Activo",
-        "gastos_agrupados": {},
-        "legajo": "12",
-        "rol": "empleado"
+        "gastos_agrupados": {}
     },
     "14": {
         "apellido": "Montalbano",
@@ -159,9 +143,7 @@
         "email": "camilamontalbano@gmail.com",
         "vacaciones": 75,
         "estado": "Activo",
-        "gastos_agrupados": {},
-        "legajo": "14",
-        "rol": "empleado"
+        "gastos_agrupados": {}
     },
     "15": {
         "apellido": "Gonzalez",
@@ -186,8 +168,7 @@
             "proxima_cuota": 127470.11,
             "cuotas_pendientes": 3,
             "fecha_cancelacion": "01-12-2025"
-        },
-        "legajo": "15"
+        }
     },
     "16": {
         "legajo": "16",
@@ -226,7 +207,7 @@
         "gastos_agrupados": {}
     },
     "24": {
-        "legajo": "24",
+        "legajo":"24",
         "apellido": "Lopez",
         "nombre": "Juan Franco",
         "cuil": "20-30692075-9",
@@ -248,11 +229,10 @@
             "cuotas_pendientes": 1,
             "fecha_cancelacion": "20-10-2025"
         },
-        "gastos_agrupados": {},
-        "rol": "empleado"
+        "gastos_agrupados": {}
     },
     "25": {
-        "legajo": "25",
+        "legajo":"25",
         "apellido": "Laoretani",
         "nombre": "Dalmiro Lautaro",
         "cuil": "20-37122856-0",
@@ -280,8 +260,7 @@
         "email": "joni_medi_45@hotmail.com",
         "vacaciones": 35,
         "estado": "Activo",
-        "gastos_agrupados": {},
-        "legajo": "22"
+        "gastos_agrupados": {}
     },
     "23": {
         "apellido": "Nieto",
@@ -296,8 +275,7 @@
         "email": "fabrinieto16@gmail.com",
         "vacaciones": 70,
         "estado": "Activo",
-        "gastos_agrupados": {},
-        "legajo": "23"
+        "gastos_agrupados": {}
     },
     "35": {
         "apellido": "Atia",
@@ -312,8 +290,7 @@
         "email": "sebaatia@gmail.com",
         "vacaciones": 75,
         "estado": "Activo",
-        "gastos_agrupados": {},
-        "legajo": "35"
+        "gastos_agrupados": {}
     },
     "39": {
         "apellido": "Acuña",
@@ -327,12 +304,10 @@
         "email": "eltiri096@gmail.com",
         "vacaciones": 42,
         "estado": "Activo",
-        "gastos_agrupados": {},
-        "legajo": "39",
-        "rol": "empleado"
+        "gastos_agrupados": {}
     },
     "43": {
-        "legajo": "43",
+        "legajo":"43",
         "apellido": "Callegaro",
         "nombre": "Diego Hernán",
         "cuil": "20-25153103-0",
@@ -359,9 +334,7 @@
         "email": "diegojuanquiroga@hotmail.com",
         "vacaciones": 42,
         "estado": "Activo",
-        "gastos_agrupados": {},
-        "legajo": "29",
-        "rol": "empleado"
+        "gastos_agrupados": {}
     },
     "46": {
         "legajo": "46",
@@ -435,9 +408,7 @@
         "email": "equiponuevo40200@gmail.com",
         "vacaciones": 32,
         "estado": "Activo",
-        "gastos_agrupados": {},
-        "legajo": "66",
-        "rol": "empleado"
+        "gastos_agrupados": {}
     },
     "71": {
         "apellido": "Cingolani",
@@ -451,9 +422,7 @@
         "email": "cotongocingolani@gmail.com",
         "vacaciones": 21,
         "estado": "Activo",
-        "gastos_agrupados": {},
-        "legajo": "71",
-        "rol": "empleado"
+        "gastos_agrupados": {}
     },
     "400": {
         "apellido": "Thurler",
@@ -467,9 +436,7 @@
         "email": "agusth@live.com.ar",
         "vacaciones": 34,
         "estado": "Activo",
-        "gastos_agrupados": {},
-        "legajo": "400",
-        "rol": "empleado"
+        "gastos_agrupados": {}
     },
     "74": {
         "legajo": "74",
@@ -503,9 +470,7 @@
         "email": "jpvanerio@gmail.com",
         "vacaciones": 51,
         "estado": "Activo",
-        "gastos_agrupados": {},
-        "legajo": "76",
-        "rol": "empleado"
+        "gastos_agrupados": {}
     },
     "81": {
         "legajo": "81",
@@ -579,9 +544,7 @@
         "email": "sebavazquez.cdba@gmail.com",
         "vacaciones": 31,
         "estado": "Activo",
-        "gastos_agrupados": {},
-        "legajo": "92",
-        "rol": "empleado"
+        "gastos_agrupados": {}
     },
     "93": {
         "legajo": "93",
@@ -625,9 +588,7 @@
             "cuotas_pendientes": 3,
             "fecha_cancelacion": "01-12-2025"
         },
-        "gastos_agrupados": {},
-        "legajo": "99",
-        "rol": "empleado"
+        "gastos_agrupados": {}
     },
     "106": {
         "apellido": "Gonzalez",
@@ -651,9 +612,7 @@
             "cuotas_pendientes": 5,
             "fecha_cancelacion": "01-03-2026"
         },
-        "gastos_agrupados": {},
-        "legajo": "106",
-        "rol": "empleado"
+        "gastos_agrupados": {}
     },
     "104": {
         "legajo": "104",
@@ -697,9 +656,7 @@
             "cuotas_pendientes": 1,
             "fecha_cancelacion": "08-10-2025"
         },
-        "gastos_agrupados": {},
-        "legajo": "109",
-        "rol": "empleado"
+        "gastos_agrupados": {}
     },
     "113": {
         "apellido": "Diaz",
@@ -723,9 +680,7 @@
             "proxima_cuota": 225000.0,
             "cuotas_pendientes": 2,
             "fecha_cancelacion": "08-12-2025"
-        },
-        "legajo": "113",
-        "rol": "empleado"
+        }
     },
     "121": {
         "legajo": "121",
@@ -849,9 +804,7 @@
             "cuotas_pendientes": 6,
             "fecha_cancelacion": "01-03-2026"
         },
-        "gastos_agrupados": {},
-        "legajo": "125",
-        "rol": "empleado"
+        "gastos_agrupados": {}
     },
     "129": {
         "legajo": "129",
@@ -914,9 +867,7 @@
         "email": "marioandressegovia9@gmail.com",
         "vacaciones": 21,
         "estado": "Activo",
-        "gastos_agrupados": {},
-        "legajo": "136",
-        "rol": "empleado"
+        "gastos_agrupados": {}
     },
     "137": {
         "legajo": "137",
@@ -959,9 +910,7 @@
         "email": "",
         "vacaciones": 21,
         "estado": "Activo",
-        "gastos_agrupados": {},
-        "legajo": "141",
-        "rol": "empleado"
+        "gastos_agrupados": {}
     },
     "139": {
         "apellido": "Campo",
@@ -975,9 +924,7 @@
         "email": "",
         "vacaciones": 21,
         "estado": "Activo",
-        "gastos_agrupados": {},
-        "legajo": "139",
-        "rol": "empleado"
+        "gastos_agrupados": {}
     },
     "144": {
         "legajo": "144",
@@ -1020,9 +967,7 @@
             "cuotas_pendientes": 1,
             "fecha_cancelacion": "04-10-2025"
         },
-        "gastos_agrupados": {},
-        "legajo": "145",
-        "rol": "empleado"
+        "gastos_agrupados": {}
     },
     "147": {
         "legajo": "147",
@@ -1056,9 +1001,7 @@
         "email": "crisercoreca06@gmail.com",
         "vacaciones": 14,
         "estado": "Activo",
-        "gastos_agrupados": {},
-        "legajo": "160",
-        "rol": "empleado"
+        "gastos_agrupados": {}
     },
     "163": {
         "apellido": "Carballo",
@@ -1072,9 +1015,7 @@
         "email": "alejandro22carballo@gmail.com",
         "vacaciones": 7,
         "estado": "Activo",
-        "gastos_agrupados": {},
-        "legajo": "163",
-        "rol": "empleado"
+        "gastos_agrupados": {}
     },
     "166": {
         "legajo": "166",
@@ -1118,9 +1059,7 @@
             "cuotas_pendientes": 4,
             "fecha_cancelacion": "01-01-2026"
         },
-        "gastos_agrupados": {},
-        "legajo": "169",
-        "rol": "empleado"
+        "gastos_agrupados": {}
     },
     "176": {
         "legajo": "176",
@@ -1309,9 +1248,7 @@
             "proxima_cuota": 100000.0,
             "cuotas_pendientes": 3,
             "fecha_cancelacion": "01-02-2026"
-        },
-        "legajo": "213",
-        "rol": "empleado"
+        }
     },
     "217": {
         "legajo": "217",
@@ -1449,7 +1386,7 @@
         "telefono": "2317558529",
         "direccion": "",
         "email": "rodri012011@gmail.com",
-        "vacaciones": 7,
+        "vacaciones": 14,
         "estado": "Activo",
         "gastos_agrupados": {}
     },
@@ -1544,9 +1481,7 @@
             "proxima_cuota": 100000.0,
             "cuotas_pendientes": 3,
             "fecha_cancelacion": "01-12-2025"
-        },
-        "legajo": "251",
-        "rol": "empleado"
+        }
     },
     "236": {
         "legajo": "236",
@@ -1589,9 +1524,7 @@
         "email": "raulpellegrotti@yahoo.com.ar",
         "vacaciones": 14,
         "estado": "Activo",
-        "gastos_agrupados": {},
-        "legajo": "263",
-        "rol": "empleado"
+        "gastos_agrupados": {}
     },
     "264": {
         "legajo": "264",
@@ -1681,9 +1614,7 @@
         "email": "juan_212_209@hotmail.com",
         "vacaciones": 14,
         "estado": "Activo",
-        "gastos_agrupados": {},
-        "legajo": "249",
-        "rol": "empleado"
+        "gastos_agrupados": {}
     },
     "250": {
         "apellido": "Sosa",
@@ -1697,9 +1628,7 @@
         "email": "",
         "vacaciones": 14,
         "estado": "Activo",
-        "gastos_agrupados": {},
-        "legajo": "250",
-        "rol": "empleado"
+        "gastos_agrupados": {}
     },
     "276": {
         "legajo": "276",
@@ -1753,9 +1682,7 @@
         "email": "nahuelportela2018@gmail.com",
         "vacaciones": 14,
         "estado": "Activo",
-        "gastos_agrupados": {},
-        "legajo": "273",
-        "rol": "empleado"
+        "gastos_agrupados": {}
     },
     "288": {
         "legajo": "288",
@@ -1789,9 +1716,7 @@
         "email": "joakcastro12345@gmail.com",
         "vacaciones": 14,
         "estado": "Activo",
-        "gastos_agrupados": {},
-        "legajo": "290",
-        "rol": "empleado"
+        "gastos_agrupados": {}
     },
     "292": {
         "apellido": "Del Pino",
@@ -1806,8 +1731,7 @@
         "email": "soledaddelpino321@gmail.com",
         "vacaciones": 14,
         "estado": "Activo",
-        "gastos_agrupados": {},
-        "legajo": "292"
+        "gastos_agrupados": {}
     },
     "297": {
         "apellido": "Lazarte",
@@ -1821,9 +1745,7 @@
         "email": "lazartegonzalo72@gmail.com",
         "vacaciones": 6,
         "estado": "Activo",
-        "gastos_agrupados": {},
-        "legajo": "297",
-        "rol": "empleado"
+        "gastos_agrupados": {}
     },
     "295": {
         "apellido": "Moreno",
@@ -1837,9 +1759,7 @@
         "email": "cami.morenocucurull@gmail.com",
         "vacaciones": 6,
         "estado": "Activo",
-        "gastos_agrupados": {},
-        "legajo": "295",
-        "rol": "empleado"
+        "gastos_agrupados": {}
     },
     "299": {
         "apellido": "Fimiani",
@@ -1853,9 +1773,7 @@
         "email": "jmfim@hotmail.com",
         "vacaciones": 14,
         "estado": "Activo",
-        "gastos_agrupados": {},
-        "legajo": "299",
-        "rol": "empleado"
+        "gastos_agrupados": {}
     },
     "300": {
         "apellido": "Ferrer",
@@ -1869,9 +1787,7 @@
         "email": "ferrerjuli@gmail.com",
         "vacaciones": 5,
         "estado": "Activo",
-        "gastos_agrupados": {},
-        "legajo": "300",
-        "rol": "empleado"
+        "gastos_agrupados": {}
     },
     "253": {
         "apellido": "Mortarini",
@@ -1885,9 +1801,7 @@
         "email": "lucasmortarini05@gmail.com",
         "vacaciones": 14,
         "estado": "Activo",
-        "gastos_agrupados": {},
-        "legajo": "253",
-        "rol": "empleado"
+        "gastos_agrupados": {}
     },
     "301": {
         "apellido": "Arango",
@@ -1901,9 +1815,7 @@
         "email": "me_manu92@hotmail.com",
         "vacaciones": 4,
         "estado": "Activo",
-        "gastos_agrupados": {},
-        "legajo": "301",
-        "rol": "empleado"
+        "gastos_agrupados": {}
     },
     "287": {
         "apellido": "Marciano",
@@ -1916,8 +1828,6 @@
         "direccion": "Levalle 344",
         "email": "valentinmarciano123@gmail.com",
         "vacaciones": 14,
-        "estado": "Activo",
-        "legajo": "287",
-        "rol": "empleado"
+        "estado": "Activo"
     }
 }
