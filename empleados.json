@@ -1918,6 +1918,7 @@
         "vacaciones": 14,
         "estado": "Activo",
         "legajo": "287",
-        "rol": "empleado"
+        "rol": "empleado",
+        "gastos_agrupados": {}
     }
 }
