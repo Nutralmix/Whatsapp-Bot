@@ -399,7 +399,16 @@
         "telefono": "2317405463",
         "rol": "empleado",
         "notas": "",
-        "prestamo": {},
+        "prestamo": {
+            "fecha_prestamo": "",
+            "monto": 323785.0,
+            "cuotas": 3,
+            "cancelado": 0.0,
+            "pendiente": -323785.0,
+            "proxima_cuota": 107928.33,
+            "cuotas_pendientes": 3,
+            "fecha_cancelacion": "01-01-2026"
+        },
         "vacaciones": 28,
         "gastos_agrupados": {}
     },
