@@ -3709,3 +3709,7 @@
 [2025-10-29 15:13:40] Acceso a panel
 [2025-10-29 16:04:06] Acceso a panel
 [2025-10-29 16:05:27] Acceso a panel
+[2025-10-29 16:05:38] Acceso a panel
+[2025-10-30 10:38:15] Acceso a portada
+[2025-10-30 10:38:16] Acceso a panel
+[2025-10-30 10:38:19] Acceso a panel
