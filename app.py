@@ -9,10 +9,12 @@ from utils import calcular_antiguedad
 import subprocess
 from flask import redirect
 import sys
-print("✅ Ejecutando con:", sys.executable)
 
-
-
+# para que stdout/stderr usen UTF-8 aunque Windows no lo tenga por defecto
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8")
+if hasattr(sys.stderr, "reconfigure"):
+    sys.stderr.reconfigure(encoding="utf-8")
 
 # ---------------------------
 # Función para normalizar texto

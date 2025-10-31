@@ -3726,3 +3726,11 @@
 [2025-10-30 10:46:40] Consulta de todos los préstamos
 [2025-10-30 10:46:40] Empleados activos cargados correctamente
 [2025-10-30 10:46:41] Acceso a panel
+[2025-10-30 10:46:54] Acceso a panel
+[2025-10-30 11:24:43] Acceso a portada
+[2025-10-30 11:24:44] Acceso a panel
+[2025-10-30 11:24:46] Consulta de todos los préstamos
+[2025-10-30 11:24:46] Empleados activos cargados correctamente
+[2025-10-30 11:24:53] Consulta de préstamo para 56
+[2025-10-31 11:18:17] Acceso a portada
+[2025-10-31 11:18:19] Acceso a panel
