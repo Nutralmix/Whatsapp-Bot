@@ -3758,3 +3758,5 @@
 [2025-10-31 11:23:28] Visualización de todos los empleados
 [2025-10-31 11:24:40] Empleados activos cargados correctamente
 [2025-10-31 11:24:40] Visualización de todos los empleados
+[2025-10-31 11:32:17] Empleados activos cargados correctamente
+[2025-10-31 11:32:17] Visualización de todos los empleados
