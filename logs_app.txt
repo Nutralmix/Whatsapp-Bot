@@ -3765,3 +3765,12 @@
 [2025-11-04 09:30:04] Empleados activos cargados correctamente
 [2025-11-04 09:30:04] Visualización de todos los empleados
 [2025-11-04 09:30:11] Acceso a panel
+[2025-11-04 10:38:45] Consulta de todos los préstamos
+[2025-11-04 10:38:45] Empleados activos cargados correctamente
+[2025-11-04 10:38:46] Consulta de todos los préstamos
+[2025-11-04 10:38:46] Empleados activos cargados correctamente
+[2025-11-04 10:38:49] Acceso a panel
+[2025-11-04 10:38:50] Acceso a panel
+[2025-11-04 10:40:08] Acceso a panel
+[2025-11-04 10:45:17] Acceso a panel
+[2025-11-04 11:37:45] Acceso a panel
