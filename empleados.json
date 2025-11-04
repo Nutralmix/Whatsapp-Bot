@@ -1377,7 +1377,7 @@
         "telefono": "2317537021",
         "direccion": "",
         "email": "eltiri096@gmail.com",
-        "vacaciones": 42,
+        "vacaciones": 35,
         "estado": "Activo",
         "gastos_agrupados": {
             "2025-09": {
@@ -2704,7 +2704,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 36,
+        "vacaciones": 26,
         "gastos_agrupados": {
             "2025-09": {
                 "total_mes": 321376.0,

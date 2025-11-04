@@ -41,3 +41,12 @@ LookupError: unknown encoding: UTF-8;PYTHONUTF8=1
 Current thread 0x0000108c (most recent call first):
   <no Python frame>
 INFO:waitress:Serving on http://0.0.0.0:10000
+WARNING:waitress.queue:Task queue depth is 1
+WARNING:waitress.queue:Task queue depth is 2
+WARNING:waitress.queue:Task queue depth is 3
+WARNING:waitress.queue:Task queue depth is 1
+WARNING:waitress.queue:Task queue depth is 1
+WARNING:waitress.queue:Task queue depth is 2
+WARNING:waitress.queue:Task queue depth is 1
+INFO:waitress:Serving on http://0.0.0.0:10000
+INFO:waitress:Serving on http://0.0.0.0:10000
