@@ -3777,3 +3777,7 @@
 [2025-11-05 09:58:53] Acceso a portada
 [2025-11-05 09:58:57] Acceso a portada
 [2025-11-05 09:58:58] Acceso a panel
+[2025-11-05 10:03:35] Servidor Flask iniciado
+[2025-11-05 10:06:12] Servidor Flask iniciado
+[2025-11-05 10:06:18] Acceso a portada
+[2025-11-05 10:06:19] Acceso a panel
