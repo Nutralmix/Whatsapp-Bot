@@ -3788,3 +3788,13 @@
 [2025-11-05 10:08:25] Acceso a panel
 [2025-11-05 10:08:41] Acceso a panel
 [2025-11-05 10:08:49] Acceso a panel
+[2025-11-05 10:09:00] Acceso a panel
+[2025-11-05 10:14:22] Consulta de todos los préstamos
+[2025-11-05 10:14:22] Empleados activos cargados correctamente
+[2025-11-05 10:15:17] Acceso a panel
+[2025-11-05 10:15:42] Consulta de todos los préstamos
+[2025-11-05 10:15:42] Empleados activos cargados correctamente
+[2025-11-05 10:15:46] Consulta de todos los préstamos
+[2025-11-05 10:15:46] Empleados activos cargados correctamente
+[2025-11-05 13:36:28] Acceso a portada
+[2025-11-05 13:36:29] Acceso a panel
