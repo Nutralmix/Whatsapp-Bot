@@ -3798,3 +3798,113 @@
 [2025-11-05 10:15:46] Empleados activos cargados correctamente
 [2025-11-05 13:36:28] Acceso a portada
 [2025-11-05 13:36:29] Acceso a panel
+[2025-11-05 13:36:41] Acceso a panel
+[2025-11-06 08:51:35] Acceso a portada
+[2025-11-06 08:51:36] Acceso a panel
+[2025-11-06 08:52:14] Consulta de todos los préstamos
+[2025-11-06 08:52:14] Empleados activos cargados correctamente
+[2025-11-07 08:32:39] Servidor Flask iniciado
+[2025-11-07 14:44:08] Servidor Flask iniciado
+[2025-11-14 15:49:37] Servidor Flask iniciado
+[2025-11-14 15:49:46] Acceso a portada
+[2025-11-14 15:49:52] Acceso a panel
+[2025-11-14 15:49:58] Consulta de todos los préstamos
+[2025-11-14 15:49:58] Empleados activos cargados correctamente
+[2025-11-14 15:50:10] Consulta de préstamo para 106
+[2025-11-14 16:22:28] Servidor Flask iniciado
+[2025-11-17 08:08:47] Servidor Flask iniciado
+[2025-11-17 16:06:18] Acceso a panel
+[2025-11-17 17:21:10] Servidor Flask iniciado
+[2025-11-20 09:54:43] Acceso a portada
+[2025-11-20 09:54:44] Acceso a panel
+[2025-11-20 09:55:04] Acceso a portada
+[2025-11-20 09:55:05] Acceso a panel
+[2025-11-20 09:55:08] Empleados activos cargados correctamente
+[2025-11-20 09:55:08] Visualización de todos los empleados
+[2025-11-20 09:55:24] Consulta de préstamo para 124
+[2025-11-20 09:55:30] Consulta de préstamo para 124
+[2025-11-20 09:55:31] Consulta de todos los préstamos
+[2025-11-20 09:55:31] Empleados activos cargados correctamente
+[2025-11-20 09:55:35] Consulta de todos los préstamos
+[2025-11-20 09:55:35] Empleados activos cargados correctamente
+[2025-11-20 09:55:36] Acceso a panel
+[2025-11-20 09:55:39] Acceso a panel
+[2025-11-20 09:55:46] Empleados activos cargados correctamente
+[2025-11-20 09:55:46] Visualización de todos los empleados
+[2025-11-20 10:15:34] Empleados activos cargados correctamente
+[2025-11-20 10:15:34] Visualización de todos los empleados
+[2025-11-20 17:06:22] Acceso a portada
+[2025-11-20 17:06:26] Acceso a panel
+[2025-11-20 17:06:35] Empleados activos cargados correctamente
+[2025-11-20 17:06:35] Visualización de todos los empleados
+[2025-11-25 08:24:32] Servidor Flask iniciado
+[2025-11-25 08:24:36] Acceso a portada
+[2025-11-25 08:25:02] Acceso a portada
+[2025-11-25 08:27:41] Acceso a portada
+[2025-11-25 08:27:43] Acceso a panel
+[2025-11-25 08:27:45] Empleados activos cargados correctamente
+[2025-11-25 08:27:45] Visualización de todos los empleados
+[2025-11-25 08:34:40] Acceso a portada
+[2025-11-25 08:37:00] Acceso a portada
+[2025-11-25 08:37:17] Acceso a panel
+[2025-11-25 08:37:29] Acceso a panel
+[2025-11-25 09:05:50] Acceso a portada
+[2025-11-25 09:05:52] Acceso a panel
+[2025-11-25 09:06:00] Acceso a panel
+[2025-11-25 09:06:05] Consulta de info iniciada
+[2025-11-25 09:06:05] Empleados activos cargados correctamente
+[2025-11-25 09:06:09] Consulta de info iniciada
+[2025-11-25 09:06:09] Empleados activos cargados correctamente
+[2025-11-25 09:06:09] Búsqueda de: diaz
+[2025-11-25 09:06:17] Acceso a panel
+[2025-11-25 10:20:03] Acceso a portada
+[2025-11-25 10:20:05] Acceso a panel
+[2025-11-25 10:20:06] Empleados activos cargados correctamente
+[2025-11-25 10:20:06] Visualización de todos los empleados
+[2025-11-26 08:06:18] Acceso a portada
+[2025-11-26 08:06:29] Acceso a portada
+[2025-11-26 09:58:50] Acceso a portada
+[2025-11-26 10:18:54] Acceso a panel
+[2025-11-26 10:19:10] Acceso a panel
+[2025-11-26 10:20:21] Acceso a panel
+[2025-11-26 10:24:45] Consulta de todos los préstamos
+[2025-11-26 10:24:45] Empleados activos cargados correctamente
+[2025-11-26 10:25:04] Empleados activos cargados correctamente
+[2025-11-26 10:25:04] Visualización de todos los empleados
+[2025-11-26 10:25:14] Acceso a panel
+[2025-11-26 10:25:18] Empleados activos cargados correctamente
+[2025-11-26 10:25:18] Consulta de próximos cumpleaños
+[2025-11-26 10:25:18] Fecha de nacimiento inválida para Maria Soledad
+[2025-11-26 10:25:18] Fecha de nacimiento inválida para Camila
+[2025-11-26 10:25:18] Fecha de nacimiento inválida para Juan Manuel
+[2025-11-26 10:25:18] Fecha de nacimiento inválida para Maria Juliana
+[2025-11-26 10:25:18] Fecha de nacimiento inválida para Hugo Emmanuel
+[2025-11-26 10:25:18] Fecha de nacimiento inválida para Valentin
+[2025-11-26 10:34:10] Acceso a panel
+[2025-11-26 10:39:54] Acceso a panel
+[2025-11-26 10:39:56] Acceso a panel
+[2025-11-26 10:40:05] Acceso a panel
+[2025-11-26 10:40:08] Empleados activos cargados correctamente
+[2025-11-26 10:40:08] Visualización de todos los empleados
+[2025-11-26 10:41:02] Acceso a panel
+[2025-11-26 15:10:51] Acceso a portada
+[2025-11-26 15:11:06] Acceso a portada
+[2025-11-28 10:35:20] Acceso a portada
+[2025-11-28 10:35:22] Acceso a panel
+[2025-12-01 09:24:35] Acceso a portada
+[2025-12-01 09:24:38] Acceso a panel
+[2025-12-01 11:54:28] Acceso a portada
+[2025-12-01 11:54:29] Acceso a panel
+[2025-12-01 11:54:41] Acceso a panel
+[2025-12-01 11:54:48] Acceso a panel
+[2025-12-01 11:54:54] Acceso a panel
+[2025-12-01 12:01:17] Acceso a portada
+[2025-12-01 12:01:18] Acceso a panel
+[2025-12-01 15:38:55] Acceso a portada
+[2025-12-01 15:38:56] Acceso a panel
+[2025-12-01 15:39:10] Acceso a panel
+[2025-12-01 15:45:11] Acceso a panel
+[2025-12-01 15:45:48] Acceso a panel
+[2025-12-01 15:45:58] Acceso a panel
+[2025-12-01 15:49:42] Servidor Flask iniciado
+[2025-12-01 15:50:08] Acceso a panel

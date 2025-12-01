@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <title>WhatsApp Bot – RRHH / Grupos – Estado y QR</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+
+   .actions {
+      margin-top: 12px;
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+    }
+    .btn {
+      border: none;
+      border-radius: 999px;
+      padding: 6px 14px;
+      font-size: 12px;
+      cursor: pointer;
+      background: #e53935;
+      color: #fff;
+      font-weight: 500;
+    }
+    .btn:disabled {
+      opacity: 0.6;
+      cursor: default;
+    }
+  
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+    .container {
+      background: #fff;
+      margin-top: 40px;
+      padding: 24px 28px;
+      border-radius: 16px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+      max-width: 460px;
+      width: 100%;
+      text-align: center;
+    }
+    h1 {
+      font-size: 20px;
+      margin-bottom: 4px;
+    }
+    p.subtitle {
+      font-size: 13px;
+      color: #666;
+      margin-top: 0;
+      margin-bottom: 18px;
+    }
+    .badge {
+      display: inline-block;
+      padding: 4px 12px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+    .badge.waiting { background: #fff7e6; color: #b57400; }
+    .badge.connected { background: #e6ffed; color: #138000; }
+    .badge.error { background: #ffeaea; color: #b00020; }
+
+    .qr-box {
+      margin-top: 16px;
+      padding: 12px 0 4px;
+    }
+    .qr-box img {
+      width: 220px;
+      height: 220px;
+      object-fit: contain;
+      border-radius: 12px;
+      border: 1px solid #eee;
+      background: #fafafa;
+    }
+    .muted {
+      font-size: 11px;
+      color: #888;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>WhatsApp Bot – RRHH / Grupos</h1>
+    <p class="subtitle">
+      Escaneá el código QR con el número del bot para vincular la sesión.
+    </p>
+
+    <div id="status-badge" class="badge waiting">Estado: consultando…</div>
+
+    <div class="actions">
+      <button id="logout-btn" class="btn" type="button" onclick="logoutSession()">
+        Desconectar sesión
+      </button>
+    </div>
+
+    <div class="qr-box" id="qr-box" style="display:none;">
+      <img id="qr-img" alt="QR de WhatsApp" />
+    </div>
+
+    <p class="muted">
+      La página se actualiza sola cada 3 segundos.<br>
+      Mantené este panel abierto mientras uses el bot.
+    </p>
+  </div>
+
+  <script>
+    async function fetchStatus() {
+      try {
+        const res = await fetch('/health');
+        const data = await res.json();
+        const badge = document.getElementById('status-badge');
+
+        if (!data.ok) {
+          badge.textContent = 'Estado: error';
+          badge.className = 'badge error';
+          return;
+        }
+
+        if (data.wa_connected) {
+          badge.textContent = 'Estado: conectado';
+          badge.className = 'badge connected';
+        } else {
+          badge.textContent = 'Estado: reintentando conexión…';
+          badge.className = 'badge waiting';
+        }
+      } catch (e) {
+        const badge = document.getElementById('status-badge');
+        badge.textContent = 'Estado: error de conexión';
+        badge.className = 'badge error';
+      }
+    }
+
+    async function fetchQR() {
+      try {
+        const res = await fetch('/qr');
+        const data = await res.json();
+        const box = document.getElementById('qr-box');
+        const img = document.getElementById('qr-img');
+
+        if (data.ok && data.qr) {
+          img.src = data.qr;
+          box.style.display = 'block';
+        } else {
+          // si no hay QR (por ejemplo ya está conectado), ocultamos
+          box.style.display = 'none';
+        }
+      } catch (e) {
+        // ignorar errores del QR
+      }
+    }
+
+    async function logoutSession() {
+      const btn = document.getElementById('logout-btn');
+      const qrBox = document.getElementById('qr-box');
+      const qrImg = document.getElementById('qr-img');
+
+      btn.disabled = true;
+      btn.textContent = 'Desconectando…';
+
+      try {
+        const res = await fetch('/logout', { method: 'POST' });
+        const data = await res.json().catch(() => ({}));
+
+        if (data.ok) {
+          // Limpiamos visualmente el QR; el polling volverá a pedir uno nuevo
+          qrImg.src = '';
+          qrBox.style.display = 'none';
+        } else {
+          alert('No se pudo desconectar la sesión.');
+        }
+      } catch (e) {
+        console.error(e);
+        alert('Error al desconectar la sesión.');
+      } finally {
+        btn.disabled = false;
+        btn.textContent = 'Desconectar sesión';
+      }
+    }
+
+    // primera carga
+    fetchStatus();
+    fetchQR();
+
+    // refrescar cada 3 segundos
+    setInterval(() => {
+      fetchStatus();
+      fetchQR();
+    }, 3000);
+  </script>
+</body>
+</html>
