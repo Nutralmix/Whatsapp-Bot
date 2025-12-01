@@ -25,6 +25,16 @@ if not git_path:
 else:
     log(f"✅ Git está disponible en: {git_path}")
 
+    # 🔒 Verificar si existe index.lock y eliminarlo
+    lock_path = os.path.join(os.getcwd(), ".git", "index.lock")
+    if os.path.exists(lock_path):
+        try:
+            os.remove(lock_path)
+            log("⚠️ Se eliminó .git/index.lock para continuar.")
+        except Exception as e:
+            log(f"❌ No se pudo eliminar .git/index.lock: {e}")
+            exit(1)
+
     ejecutar_comando("git add .")
 
     fecha_hora = datetime.now().strftime("%Y-%m-%d %H:%M")
@@ -40,7 +50,6 @@ else:
     resultado_push = ejecutar_comando("git push origin main")
     if resultado_push.returncode != 0:
         log("❌ El push normal falló. Intentando con --force...")
-        # Intentamos hacer push forzado como último recurso
         resultado_force = ejecutar_comando("git push origin main --force")
         if resultado_force.returncode != 0:
             log("❌ Push forzado también falló. Se requiere intervención manual.")

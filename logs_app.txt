@@ -3908,3 +3908,4 @@
 [2025-12-01 15:45:58] Acceso a panel
 [2025-12-01 15:49:42] Servidor Flask iniciado
 [2025-12-01 15:50:08] Acceso a panel
+[2025-12-01 16:01:10] Acceso a panel
