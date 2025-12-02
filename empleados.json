@@ -1328,7 +1328,7 @@
         "rol": "empleado",
         "direccion": "General Belgrano s/n",
         "email": "betoderosso1@gmail.com",
-        "vacaciones": 33,
+        "vacaciones": 22,
         "estado": "Activo",
         "gastos_agrupados": {
             "2025-10": {
@@ -2395,7 +2395,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 44,
+        "vacaciones": 36,
         "gastos_agrupados": {}
     },
     "76": {
@@ -2645,7 +2645,7 @@
         "telefono": "2317415639",
         "direccion": "",
         "email": "sebavazquez.cdba@gmail.com",
-        "vacaciones": 31,
+        "vacaciones": 16,
         "estado": "Activo",
         "gastos_agrupados": {
             "2025-10": {
@@ -2809,7 +2809,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 28,
+        "vacaciones": 21,
         "gastos_agrupados": {
             "2025-10": {
                 "total_mes": 361388.43,
