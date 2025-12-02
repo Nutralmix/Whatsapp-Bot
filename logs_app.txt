@@ -3997,3 +3997,44 @@
 [2025-12-02 08:49:02] Acceso a panel
 [2025-12-02 08:49:12] Acceso a panel
 [2025-12-02 08:49:19] Acceso a panel
+[2025-12-02 08:49:29] Acceso a panel
+[2025-12-02 08:55:29] Acceso a panel
+[2025-12-02 08:55:32] Acceso a panel
+[2025-12-02 09:47:30] Acceso a portada
+[2025-12-02 09:47:35] Acceso a panel
+[2025-12-02 09:47:37] Empleados activos cargados correctamente
+[2025-12-02 09:47:37] Visualización de todos los empleados
+[2025-12-02 09:47:54] Acceso a panel
+[2025-12-02 09:47:58] Empleados activos cargados correctamente
+[2025-12-02 09:47:58] Visualización de todos los empleados
+[2025-12-02 09:48:17] Acceso a panel
+[2025-12-02 09:48:30] Empleados activos cargados correctamente
+[2025-12-02 09:48:30] Visualización de todos los empleados
+[2025-12-02 09:50:19] Acceso a panel
+[2025-12-02 09:50:21] Empleados activos cargados correctamente
+[2025-12-02 09:50:21] Visualización de todos los empleados
+[2025-12-02 09:53:03] Acceso a portada
+[2025-12-02 09:53:04] Acceso a panel
+[2025-12-02 09:53:05] Empleados activos cargados correctamente
+[2025-12-02 09:53:05] Visualización de todos los empleados
+[2025-12-02 09:53:42] Acceso a panel
+[2025-12-02 09:53:44] Empleados activos cargados correctamente
+[2025-12-02 09:53:44] Visualización de todos los empleados
+[2025-12-02 09:54:23] Entrando a editar empleado 301
+[2025-12-02 09:54:29] Entrando a editar empleado 301
+[2025-12-02 09:54:29] Empleado 301 actualizado
+[2025-12-02 09:54:29] Empleados activos cargados correctamente
+[2025-12-02 09:54:29] Visualización de todos los empleados
+[2025-12-02 09:54:37] Entrando a editar empleado 287
+[2025-12-02 09:54:42] Entrando a editar empleado 287
+[2025-12-02 09:54:42] Empleado 287 actualizado
+[2025-12-02 09:54:42] Empleados activos cargados correctamente
+[2025-12-02 09:54:42] Visualización de todos los empleados
+[2025-12-02 09:54:49] Entrando a editar empleado 96
+[2025-12-02 09:54:52] Entrando a editar empleado 96
+[2025-12-02 09:54:52] Empleado 96 actualizado
+[2025-12-02 09:54:52] Empleados activos cargados correctamente
+[2025-12-02 09:54:52] Visualización de todos los empleados
+[2025-12-02 09:55:16] Empleados activos cargados correctamente
+[2025-12-02 09:55:16] Visualización de todos los empleados
+[2025-12-02 09:55:18] Acceso a panel
