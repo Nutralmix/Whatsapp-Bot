@@ -4039,3 +4039,4 @@
 [2025-12-02 09:55:16] Visualización de todos los empleados
 [2025-12-02 09:55:18] Acceso a panel
 [2025-12-02 09:55:27] Acceso a panel
+[2025-12-02 09:55:33] Acceso a panel
