@@ -6796,5 +6796,28 @@
         "legajo": "10002",
         "rol": "empleado",
         "gastos_agrupados": {}
+    },
+    "96": {
+        "apellido": "Montero",
+        "nombre": "Hugo Hector",
+        "cuil": "20-26736809-1",
+        "sector": "Mantenimiento",
+        "fecha_ingreso": "2017-07-07",
+        "fecha_nacimiento": "1984-07-26",
+        "telefono": " 2317 622491",
+        "direccion": "Rafael Obligado 924",
+        "email": "hugohectormontero@yahoo.com.ar",
+        "vacaciones": 28,
+        "estado": "Activo",
+        "prestamo": {
+            "fecha_prestamo": "",
+            "monto": 700000.0,
+            "cuotas": 5,
+            "cancelado": 280000.0,
+            "pendiente": -420000.0,
+            "proxima_cuota": 140000.0,
+            "cuotas_pendientes": 3,
+            "fecha_cancelacion": "01-01-2026"
+        }
     }
 }
