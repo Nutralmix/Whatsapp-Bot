@@ -3975,3 +3975,21 @@
 [2025-12-02 08:35:10] Acceso a panel
 [2025-12-02 08:35:26] Acceso a panel
 [2025-12-02 08:35:44] Acceso a panel
+[2025-12-02 08:35:51] Acceso a panel
+[2025-12-02 08:37:22] Servidor Flask iniciado
+[2025-12-02 08:38:09] Acceso a panel
+[2025-12-02 08:38:11] Empleados activos cargados correctamente
+[2025-12-02 08:38:11] Visualización de todos los empleados
+[2025-12-02 08:38:18] Consulta de préstamo para 205
+[2025-12-02 08:38:21] Consulta de todos los préstamos
+[2025-12-02 08:38:21] Empleados activos cargados correctamente
+[2025-12-02 08:38:32] Acceso a panel
+[2025-12-02 08:38:33] Empleados activos cargados correctamente
+[2025-12-02 08:38:33] Visualización de todos los empleados
+[2025-12-02 08:38:46] Eliminando empleado 205
+[2025-12-02 08:38:46] Empleado 205 eliminado
+[2025-12-02 08:38:46] Empleados activos cargados correctamente
+[2025-12-02 08:38:46] Visualización de todos los empleados
+[2025-12-02 08:39:55] Empleados activos cargados correctamente
+[2025-12-02 08:39:55] Visualización de todos los empleados
+[2025-12-02 08:40:39] Acceso a panel

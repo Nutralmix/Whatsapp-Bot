@@ -4729,64 +4729,6 @@
             }
         }
     },
-    "205": {
-        "legajo": "205",
-        "rol": "empleado",
-        "apellido": "Montenovo",
-        "nombre": "Valentino",
-        "cuil": "20-44112951-4",
-        "sector": "Operaciones",
-        "fecha_ingreso": "09-01-2023",
-        "fecha_nacimiento": "27-03-2002",
-        "telefono": "2317401052",
-        "direccion": "",
-        "email": "valenmontenovo@gmail.com",
-        "vacaciones": 14,
-        "estado": "Activo",
-        "gastos_agrupados": {
-            "2025-10": {
-                "total_mes": 54568.06,
-                "por_articulo": {
-                    "Combustibles": {
-                        "total": 54568.06,
-                        "items": [
-                            {
-                                "fecha": "2025-10-15",
-                                "proveedor": "DJGM COMBUSTIBLES S.A",
-                                "comprobante": "FGAS 6 23410",
-                                "leyenda": "VALENTINO MONTENOVO",
-                                "importe": 54568.06
-                            }
-                        ]
-                    }
-                }
-            },
-            "2025-11": {
-                "total_mes": 127252.66,
-                "por_articulo": {
-                    "Gastos de comida": {
-                        "total": 127252.66,
-                        "items": [
-                            {
-                                "fecha": "2025-11-03",
-                                "proveedor": "COMPAÑIA URSO HERMANOS SA",
-                                "comprobante": "FGAS 1 8284",
-                                "leyenda": "URSO 10/2025",
-                                "importe": 127476.14
-                            },
-                            {
-                                "fecha": "2025-11-10",
-                                "proveedor": "AUTOSERVICIO MAYORISTA DIARCO SA",
-                                "comprobante": "FGAS 3704 1833",
-                                "leyenda": "CASTELLANOS - PAGO",
-                                "importe": -223.48
-                            }
-                        ]
-                    }
-                }
-            }
-        }
-    },
     "206": {
         "rol": "empleado",
         "legajo": "206",
