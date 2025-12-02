@@ -6818,6 +6818,54 @@
             "proxima_cuota": 140000.0,
             "cuotas_pendientes": 3,
             "fecha_cancelacion": "01-01-2026"
+        },
+        "gastos_agrupados": {
+            "2025-10": {
+                "total_mes": 233664.84,
+                "por_articulo": {
+                    "Combustibles": {
+                        "total": 16918.75,
+                        "items": [
+                            {
+                                "fecha": "2025-10-31",
+                                "proveedor": "YPF SOCIEDAD ANONIMA",
+                                "comprobante": "FGAS 2172 1867380",
+                                "leyenda": "COMBUSTIBLE YPF EN RUTA",
+                                "importe": 16918.75
+                            }
+                        ]
+                    },
+                    "Gastos de comida": {
+                        "total": 216746.09,
+                        "items": [
+                            {
+                                "fecha": "2025-10-29",
+                                "proveedor": "ATRES S.A.",
+                                "comprobante": "FGAS 12 253",
+                                "leyenda": "SUP. ACTUAL 10/2025",
+                                "importe": 216746.09
+                            }
+                        ]
+                    }
+                }
+            },
+            "2025-11": {
+                "total_mes": 138643.9,
+                "por_articulo": {
+                    "Gastos de comida": {
+                        "total": 138643.9,
+                        "items": [
+                            {
+                                "fecha": "2025-11-03",
+                                "proveedor": "COMPAÑIA URSO HERMANOS SA",
+                                "comprobante": "FGAS 1 8284",
+                                "leyenda": "URSO 10/2025",
+                                "importe": 138643.9
+                            }
+                        ]
+                    }
+                }
+            }
         }
     }
 }
