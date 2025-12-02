@@ -1181,117 +1181,16 @@
     },
     "15": {
         "apellido": "Gonzalez",
-        "nombre": "José Luis",
+        "nombre": "Jose Luis",
         "cuil": "20-27380018-3",
         "sector": "Logistica",
         "fecha_ingreso": "30-12-2010",
         "fecha_nacimiento": "23-05-1979",
         "telefono": "2317449822",
-        "rol": "empleado",
         "direccion": "Braile 938",
         "email": "stefaniapapasso@live.com",
         "vacaciones": 7,
         "estado": "Activo",
-        "gastos_agrupados": {
-            "2025-10": {
-                "total_mes": 516414.82999999996,
-                "por_articulo": {
-                    "Combustibles": {
-                        "total": 103191.69,
-                        "items": [
-                            {
-                                "fecha": "2025-10-15",
-                                "proveedor": "DJGM COMBUSTIBLES S.A",
-                                "comprobante": "FGAS 6 23404",
-                                "leyenda": "COMBUSTIBLE JOSE GONZALEZ",
-                                "importe": 10388.63
-                            },
-                            {
-                                "fecha": "2025-10-15",
-                                "proveedor": "DJGM COMBUSTIBLES S.A",
-                                "comprobante": "FGAS 6 23403",
-                                "leyenda": "COMBUSTIBLE JOSE GONZALEZ",
-                                "importe": 77066.95
-                            },
-                            {
-                                "fecha": "2025-10-15",
-                                "proveedor": "DJGM COMBUSTIBLES S.A",
-                                "comprobante": "FGAS 6 23404",
-                                "leyenda": "COMBUSTIBLE JOSE GONZALEZ",
-                                "importe": 2225.02
-                            },
-                            {
-                                "fecha": "2025-10-30",
-                                "proveedor": "DJGM COMBUSTIBLES S.A",
-                                "comprobante": "FGAS 6 23993",
-                                "leyenda": "COMBUSTIBLE GONZALEZ JOSE",
-                                "importe": 2386.17
-                            },
-                            {
-                                "fecha": "2025-10-30",
-                                "proveedor": "DJGM COMBUSTIBLES S.A",
-                                "comprobante": "FGAS 6 23993",
-                                "leyenda": "COMBUSTIBLE JOSE GONZALEZ",
-                                "importe": 11124.92
-                            }
-                        ]
-                    },
-                    "Gastos de comida": {
-                        "total": 413223.14,
-                        "items": [
-                            {
-                                "fecha": "2025-10-29",
-                                "proveedor": "ATRES S.A.",
-                                "comprobante": "FGAS 12 253",
-                                "leyenda": "SUP. ACTUAL 10/2025",
-                                "importe": 413223.14
-                            }
-                        ]
-                    }
-                }
-            },
-            "2025-11": {
-                "total_mes": 755095.9,
-                "por_articulo": {
-                    "Combustibles": {
-                        "total": 12165.15,
-                        "items": [
-                            {
-                                "fecha": "2025-11-14",
-                                "proveedor": "DJGM COMBUSTIBLES S.A",
-                                "comprobante": "FGAS 6 24342",
-                                "leyenda": "COMBUSTIBLE JOSE CTA CTE",
-                                "importe": 12165.15
-                            }
-                        ]
-                    },
-                    "Gastos de comida": {
-                        "total": 263591.91,
-                        "items": [
-                            {
-                                "fecha": "2025-11-03",
-                                "proveedor": "COMPAÑIA URSO HERMANOS SA",
-                                "comprobante": "FGAS 1 8284",
-                                "leyenda": "URSO 10/2025",
-                                "importe": 263591.91
-                            }
-                        ]
-                    },
-                    "Mantenimiento": {
-                        "total": 479338.84,
-                        "items": [
-                            {
-                                "fecha": "2025-11-08",
-                                "proveedor": "VERGARA MARIA SOL",
-                                "comprobante": "FGAS 1 150",
-                                "leyenda": "TAPA PEUGEOT JOSE GONZALEZ CTA CTE",
-                                "importe": 479338.84
-                            }
-                        ]
-                    }
-                }
-            }
-        },
         "prestamo": {
             "fecha_prestamo": "",
             "monto": 3059282.67,
@@ -1301,8 +1200,7 @@
             "proxima_cuota": 127470.11,
             "cuotas_pendientes": 2,
             "fecha_cancelacion": "01-12-2025"
-        },
-        "legajo": "15"
+        }
     },
     "16": {
         "legajo": "16",

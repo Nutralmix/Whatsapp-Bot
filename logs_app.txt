@@ -3927,3 +3927,17 @@
 [2025-12-02 08:20:04] Visualización de todos los empleados
 [2025-12-02 08:20:26] Acceso a panel
 [2025-12-02 08:20:42] Acceso a panel
+[2025-12-02 08:20:53] Acceso a panel
+[2025-12-02 08:24:27] Acceso a portada
+[2025-12-02 08:24:28] Acceso a panel
+[2025-12-02 08:25:36] Acceso a panel
+[2025-12-02 08:25:37] Empleados activos cargados correctamente
+[2025-12-02 08:25:37] Visualización de todos los empleados
+[2025-12-02 08:25:47] Entrando a editar empleado 15
+[2025-12-02 08:25:52] Entrando a editar empleado 15
+[2025-12-02 08:25:52] Empleado 15 actualizado
+[2025-12-02 08:25:52] Empleados activos cargados correctamente
+[2025-12-02 08:25:52] Visualización de todos los empleados
+[2025-12-02 08:25:58] Empleados activos cargados correctamente
+[2025-12-02 08:25:58] Visualización de todos los empleados
+[2025-12-02 08:26:03] Acceso a panel
