@@ -3943,3 +3943,33 @@
 [2025-12-02 08:26:03] Acceso a panel
 [2025-12-02 08:26:13] Acceso a panel
 [2025-12-02 08:26:19] Acceso a panel
+[2025-12-02 08:26:27] Acceso a panel
+[2025-12-02 08:28:01] Acceso a panel
+[2025-12-02 08:28:03] Empleados activos cargados correctamente
+[2025-12-02 08:28:03] Visualización de todos los empleados
+[2025-12-02 08:28:05] Entrando a editar empleado 4
+[2025-12-02 08:28:14] Entrando a editar empleado 4
+[2025-12-02 08:28:14] Empleado 4 actualizado
+[2025-12-02 08:28:14] Empleados activos cargados correctamente
+[2025-12-02 08:28:14] Visualización de todos los empleados
+[2025-12-02 08:28:42] Eliminando empleado 10000
+[2025-12-02 08:28:42] Empleado 10000 eliminado
+[2025-12-02 08:28:42] Empleados activos cargados correctamente
+[2025-12-02 08:28:42] Visualización de todos los empleados
+[2025-12-02 08:28:47] Entrando a editar empleado 10001
+[2025-12-02 08:28:55] Eliminando empleado 10001
+[2025-12-02 08:28:55] Empleado 10001 eliminado
+[2025-12-02 08:28:55] Empleados activos cargados correctamente
+[2025-12-02 08:28:55] Visualización de todos los empleados
+[2025-12-02 08:29:18] Entrando a editar empleado 10002
+[2025-12-02 08:32:01] Empleados activos cargados correctamente
+[2025-12-02 08:32:01] Visualización de todos los empleados
+[2025-12-02 08:32:09] Eliminando empleado 10002
+[2025-12-02 08:32:09] Empleado 10002 eliminado
+[2025-12-02 08:32:09] Empleados activos cargados correctamente
+[2025-12-02 08:32:09] Visualización de todos los empleados
+[2025-12-02 08:32:14] Acceso a panel
+[2025-12-02 08:35:05] Nuevo empleado agregado: 302 - Alejo Jesus
+[2025-12-02 08:35:05] Empleados activos cargados correctamente
+[2025-12-02 08:35:05] Visualización de todos los empleados
+[2025-12-02 08:35:10] Acceso a panel

@@ -560,23 +560,17 @@
         "rol": "empleado"
     },
     "4": {
-        "legajo": "4",
-        "cuil": "23-11607908-9",
         "apellido": "Dillon",
-        "nombre": "José María",
+        "nombre": "Jose Maria",
+        "cuil": "23-11607908-9",
         "sector": "Comercial",
-        "sede": "9 de Julio",
         "fecha_ingreso": "01-06-2004",
-        "estado": "Activo",
-        "fecha_baja": "",
-        "motivo_baja": "",
         "fecha_nacimiento": "13-06-1956",
-        "edad": 0,
         "telefono": "2215540184",
-        "rol": "empleado",
-        "notas": "",
-        "prestamo": {},
+        "direccion": "",
+        "email": "",
         "vacaciones": 35,
+        "estado": "Activo",
         "gastos_agrupados": {
             "2025-10": {
                 "total_mes": 423136.13,
@@ -6768,33 +6762,6 @@
         "rol": "empleado",
         "gastos_agrupados": {}
     },
-    "10000": {
-        "apellido": "Baque",
-        "nombre": "Fernando",
-        "fecha_nacimiento": "01-05-1976",
-        "estado": "Activo",
-        "legajo": "10000",
-        "rol": "empleado",
-        "gastos_agrupados": {}
-    },
-    "10001": {
-        "apellido": "Maby",
-        "nombre": "Russolo",
-        "fecha_nacimiento": "20-11-1970",
-        "estado": "Activo",
-        "legajo": "10001",
-        "rol": "empleado",
-        "gastos_agrupados": {}
-    },
-    "10002": {
-        "apellido": "Alejo",
-        "nombre": "Perez",
-        "fecha_nacimiento": "19-11-2001",
-        "estado": "Activo",
-        "legajo": "10002",
-        "rol": "empleado",
-        "gastos_agrupados": {}
-    },
     "96": {
         "apellido": "Montero",
         "nombre": "Hugo Hector",
@@ -6865,5 +6832,19 @@
                 }
             }
         }
+    },
+    "302": {
+        "apellido": "Perez",
+        "nombre": "Alejo Jesus",
+        "cuil": "20-43799756-0",
+        "sector": "Operaciones",
+        "fecha_ingreso": "2025-11-03",
+        "fecha_nacimiento": "2001-11-19",
+        "telefono": "2317539958",
+        "direccion": "Sarmiento 177",
+        "email": "alejoperez539958@gmail.com",
+        "vacaciones": 2,
+        "estado": "Activo",
+        "gastos_agrupados": {}
     }
 }
