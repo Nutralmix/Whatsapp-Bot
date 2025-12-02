@@ -6687,6 +6687,8 @@
         "gastos_agrupados": {}
     },
     "287": {
+        "legajo": "287",
+        "rol": "empleado",
         "apellido": "Marciano",
         "nombre": "Valentin",
         "cuil": "20-47011393-7",

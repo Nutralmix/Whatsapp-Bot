@@ -4093,3 +4093,25 @@
 [2025-12-02 10:35:23] Empleados activos cargados correctamente
 [2025-12-02 10:35:23] Visualización de todos los empleados
 [2025-12-02 10:35:29] Acceso a panel
+[2025-12-02 10:35:37] Acceso a panel
+[2025-12-02 10:35:39] Empleados activos cargados correctamente
+[2025-12-02 10:35:39] Visualización de todos los empleados
+[2025-12-02 10:35:58] Acceso a panel
+[2025-12-02 10:35:59] Empleados activos cargados correctamente
+[2025-12-02 10:35:59] Visualización de todos los empleados
+[2025-12-02 10:37:28] Acceso a portada
+[2025-12-02 10:37:29] Acceso a panel
+[2025-12-02 10:37:32] Consulta de info iniciada
+[2025-12-02 10:37:32] Empleados activos cargados correctamente
+[2025-12-02 10:37:35] Consulta de info iniciada
+[2025-12-02 10:37:35] Empleados activos cargados correctamente
+[2025-12-02 10:37:35] Búsqueda de: marci
+[2025-12-02 10:38:49] Empleados activos cargados correctamente
+[2025-12-02 10:38:49] Visualización de todos los empleados
+[2025-12-02 10:38:50] Empleados activos cargados correctamente
+[2025-12-02 10:38:50] Visualización de todos los empleados
+[2025-12-02 10:38:58] Empleados activos cargados correctamente
+[2025-12-02 10:38:58] Visualización de todos los empleados
+[2025-12-02 10:38:58] Empleados activos cargados correctamente
+[2025-12-02 10:38:58] Visualización de todos los empleados
+[2025-12-02 10:38:59] Acceso a panel
