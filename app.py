@@ -96,6 +96,8 @@ def ver_todos():
 def agregar():
     if request.method == 'POST':
         nuevo_empleado = {
+            "legajo": request.form["legajo"],
+            "rol": "empleado",
             "apellido": request.form["apellido"],
             "nombre": request.form["nombre"],
             "cuil": request.form["cuil"],

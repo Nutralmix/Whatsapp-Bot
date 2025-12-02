@@ -6701,7 +6701,9 @@
         "gastos_agrupados": {}
     },
     "96": {
+        "legajo": "96",
         "apellido": "Montero",
+        "rol": "empleado",
         "nombre": "Hugo Hector",
         "cuil": "20-26736809-1",
         "sector": "Mantenimiento",
@@ -6772,17 +6774,18 @@
         }
     },
     "302": {
+        "legajo": "302",
+        "rol": "empleado",
         "apellido": "Perez",
         "nombre": "Alejo Jesus",
         "cuil": "20-43799756-0",
         "sector": "Operaciones",
         "fecha_ingreso": "2025-11-03",
         "fecha_nacimiento": "2001-11-19",
-        "telefono": "2317539958",
+        "telefono": " 2317539958",
         "direccion": "Sarmiento 177",
         "email": "alejoperez539958@gmail.com",
         "vacaciones": 2,
-        "estado": "Activo",
-        "gastos_agrupados": {}
+        "estado": "Activo"
     }
 }

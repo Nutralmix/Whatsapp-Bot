@@ -4040,3 +4040,56 @@
 [2025-12-02 09:55:18] Acceso a panel
 [2025-12-02 09:55:27] Acceso a panel
 [2025-12-02 09:55:33] Acceso a panel
+[2025-12-02 09:55:42] Acceso a panel
+[2025-12-02 09:55:49] Empleados activos cargados correctamente
+[2025-12-02 09:55:49] Visualización de todos los empleados
+[2025-12-02 10:03:50] Acceso a portada
+[2025-12-02 10:03:51] Acceso a panel
+[2025-12-02 10:03:53] Empleados activos cargados correctamente
+[2025-12-02 10:03:53] Visualización de todos los empleados
+[2025-12-02 10:04:06] Acceso a portada
+[2025-12-02 10:04:07] Acceso a panel
+[2025-12-02 10:04:09] Empleados activos cargados correctamente
+[2025-12-02 10:04:09] Visualización de todos los empleados
+[2025-12-02 10:04:23] Acceso a portada
+[2025-12-02 10:04:24] Acceso a panel
+[2025-12-02 10:04:26] Empleados activos cargados correctamente
+[2025-12-02 10:04:26] Visualización de todos los empleados
+[2025-12-02 10:04:35] Acceso a panel
+[2025-12-02 10:04:36] Empleados activos cargados correctamente
+[2025-12-02 10:04:36] Visualización de todos los empleados
+[2025-12-02 10:08:38] Acceso a portada
+[2025-12-02 10:08:49] Acceso a panel
+[2025-12-02 10:08:53] Empleados activos cargados correctamente
+[2025-12-02 10:08:53] Visualización de todos los empleados
+[2025-12-02 10:09:16] Acceso a panel
+[2025-12-02 10:13:33] Acceso a portada
+[2025-12-02 10:13:37] Acceso a panel
+[2025-12-02 10:13:39] Empleados activos cargados correctamente
+[2025-12-02 10:13:39] Visualización de todos los empleados
+[2025-12-02 10:13:48] Entrando a editar empleado 302
+[2025-12-02 10:13:57] Empleados activos cargados correctamente
+[2025-12-02 10:13:57] Visualización de todos los empleados
+[2025-12-02 10:15:11] Acceso a panel
+[2025-12-02 10:27:56] Acceso a portada
+[2025-12-02 10:27:58] Acceso a panel
+[2025-12-02 10:28:05] Empleados activos cargados correctamente
+[2025-12-02 10:28:05] Visualización de todos los empleados
+[2025-12-02 10:31:36] Servidor Flask iniciado
+[2025-12-02 10:31:41] Acceso a portada
+[2025-12-02 10:31:42] Acceso a panel
+[2025-12-02 10:31:44] Consulta de info iniciada
+[2025-12-02 10:31:44] Empleados activos cargados correctamente
+[2025-12-02 10:31:47] Consulta de info iniciada
+[2025-12-02 10:31:47] Empleados activos cargados correctamente
+[2025-12-02 10:31:47] Búsqueda de: pere
+[2025-12-02 10:31:49] Acceso a panel
+[2025-12-02 10:32:17] Acceso a portada
+[2025-12-02 10:32:18] Acceso a panel
+[2025-12-02 10:32:21] Empleados activos cargados correctamente
+[2025-12-02 10:32:21] Visualización de todos los empleados
+[2025-12-02 10:32:28] Acceso a panel
+[2025-12-02 10:35:23] Nuevo empleado agregado: 302 - Alejo Jesus
+[2025-12-02 10:35:23] Empleados activos cargados correctamente
+[2025-12-02 10:35:23] Visualización de todos los empleados
+[2025-12-02 10:35:29] Acceso a panel
