@@ -6673,6 +6673,8 @@
         "rol": "empleado"
     },
     "301": {
+        "legajo": "301",
+        "rol": "empleado",
         "apellido": "Arango",
         "nombre": "Hugo Emmanuel",
         "cuil": "20-36770401-3",
