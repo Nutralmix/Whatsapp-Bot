@@ -6788,6 +6788,7 @@
         "direccion": "Sarmiento 177",
         "email": "alejoperez539958@gmail.com",
         "vacaciones": 2,
-        "estado": "Activo"
+        "estado": "Activo",
+        "gastos_agrupados": {}
     }
 }
