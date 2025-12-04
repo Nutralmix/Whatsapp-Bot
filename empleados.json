@@ -1174,6 +1174,8 @@
         "rol": "empleado"
     },
     "15": {
+        "legajo": "15",
+        "rol": "empleado",
         "apellido": "Gonzalez",
         "nombre": "Jose Luis",
         "cuil": "20-27380018-3",
