@@ -6792,5 +6792,35 @@
         "vacaciones": 2,
         "estado": "Activo",
         "gastos_agrupados": {}
+    },
+    "10000": {
+        "legajo": "10000",
+        "rol": "empleado",
+        "apellido": "Baque",
+        "nombre": "Fernando",
+        "cuil": "",
+        "sector": "Administración",
+        "fecha_ingreso": "",
+        "fecha_nacimiento": "1976-05-01",
+        "telefono": "",
+        "direccion": "",
+        "email": "",
+        "vacaciones": 0,
+        "estado": "Activo"
+    },
+    "10001": {
+        "legajo": "10001",
+        "rol": "empleado",
+        "apellido": "Russolo",
+        "nombre": "Maby",
+        "cuil": "",
+        "sector": "",
+        "fecha_ingreso": "",
+        "fecha_nacimiento": "1970-11-20",
+        "telefono": "",
+        "direccion": "",
+        "email": "",
+        "vacaciones": 0,
+        "estado": "Activo"
     }
 }

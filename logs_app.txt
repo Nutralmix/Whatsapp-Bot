@@ -4130,3 +4130,20 @@
 [2025-12-02 10:39:49] Acceso a panel
 [2025-12-02 10:39:51] Empleados activos cargados correctamente
 [2025-12-02 10:39:51] Visualización de todos los empleados
+[2025-12-02 10:45:14] Acceso a panel
+[2025-12-04 14:40:54] Acceso a portada
+[2025-12-04 14:40:55] Acceso a panel
+[2025-12-04 14:43:26] Nuevo empleado agregado: 1000 - Fernando
+[2025-12-04 14:43:26] Empleados activos cargados correctamente
+[2025-12-04 14:43:26] Visualización de todos los empleados
+[2025-12-04 14:43:51] Entrando a editar empleado 1000
+[2025-12-04 14:44:38] Empleados activos cargados correctamente
+[2025-12-04 14:44:38] Visualización de todos los empleados
+[2025-12-04 14:44:46] Acceso a panel
+[2025-12-04 14:45:48] Nuevo empleado agregado: 10001 - Maby
+[2025-12-04 14:45:48] Empleados activos cargados correctamente
+[2025-12-04 14:45:48] Visualización de todos los empleados
+[2025-12-04 14:48:34] Empleados activos cargados correctamente
+[2025-12-04 14:48:34] Visualización de todos los empleados
+[2025-12-04 14:48:53] Empleados activos cargados correctamente
+[2025-12-04 14:48:53] Visualización de todos los empleados
