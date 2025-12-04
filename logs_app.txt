@@ -4147,3 +4147,4 @@
 [2025-12-04 14:48:34] Visualización de todos los empleados
 [2025-12-04 14:48:53] Empleados activos cargados correctamente
 [2025-12-04 14:48:53] Visualización de todos los empleados
+[2025-12-04 14:49:17] Acceso a panel
