@@ -6806,7 +6806,8 @@
         "direccion": "",
         "email": "",
         "vacaciones": 0,
-        "estado": "Activo"
+        "estado": "Activo",
+        "gastos_agrupados": {}
     },
     "10001": {
         "legajo": "10001",
@@ -6821,6 +6822,7 @@
         "direccion": "",
         "email": "",
         "vacaciones": 0,
-        "estado": "Activo"
+        "estado": "Activo",
+        "gastos_agrupados": {}
     }
 }
