@@ -61,46 +61,67 @@
 </head>
 <body>
 
-  <h1>👤 Agregar Nuevo Empleado</h1>
+  <form action="/agregar" method="POST" id="form-empleado">
+  <label>Nombre</label>
+  <input type="text" name="nombre" required>
 
-  <form action="/agregar" method="POST">
-    <label>Nombre</label>
-    <input type="text" name="nombre" required>
+  <label>Apellido</label>
+  <input type="text" name="apellido" required>
 
-    <label>Apellido</label>
-    <input type="text" name="apellido" required>
+  <label>CUIL</label>
+  <input type="text" name="cuil" required>
 
-    <label>CUIL</label>
-    <input type="text" name="cuil" required>
+  <label>Legajo</label>
+  <input type="text" name="legajo" required>
 
-    <label>Legajo</label>
-    <input type="text" name="legajo" required>
+  <label>Sector</label>
+  <input type="text" name="sector" required>
 
-    <label>Sector</label>
-    <input type="text" name="sector" required>
+  <label>Fecha de ingreso</label>
+  <!-- campo visible (formato nativo) -->
+  <input type="date" name="fecha_ingreso_raw">
+  <!-- campo oculto que se envía al backend en dd/MM/aaaa -->
+  <input type="hidden" name="fecha_ingreso">
 
-    <label>Fecha de ingreso</label>
-    <input type="date" name="fecha_ingreso">
+  <label>Fecha de nacimiento</label>
+  <!-- campo visible -->
+  <input type="date" name="fecha_nacimiento_raw">
+  <!-- campo oculto en dd/MM/aaaa -->
+  <input type="hidden" name="fecha_nacimiento">
 
-    <label>Fecha de nacimiento</label>
-    <input type="date" name="fecha_nacimiento">
+  <label>Teléfono</label>
+  <input type="text" name="telefono">
 
-    <label>Teléfono</label>
-    <input type="text" name="telefono">
+  <label>Dirección</label>
+  <input type="text" name="direccion">
 
-    <label>Dirección</label>
-    <input type="text" name="direccion">
+  <label>Email</label>
+  <input type="email" name="email">
 
-    <label>Email</label>
-    <input type="email" name="email">
+  <label>Días de vacaciones disponibles</label>
+  <input type="number" name="vacaciones" value="0" min="0">
 
-    <label>Días de vacaciones disponibles</label>
-    <input type="number" name="vacaciones" value="0" min="0">
+  <button type="submit">Guardar Empleado</button>
+</form>
 
-    <button type="submit">Guardar Empleado</button>
-  </form>
+<script>
+  document.getElementById('form-empleado').addEventListener('submit', function () {
+    function formatear(iso) {
+      if (!iso) return '';
+      const [yyyy, mm, dd] = iso.split('-');
+      return `${dd}-${mm}-${yyyy}`;
+    }
 
-  <a href="/panel" class="volver">⬅️ Volver al Panel</a>
+    const fIngRaw = this.elements['fecha_ingreso_raw'].value;
+    const fNacRaw = this.elements['fecha_nacimiento_raw'].value;
+
+    this.elements['fecha_ingreso'].value = formatear(fIngRaw);
+    this.elements['fecha_nacimiento'].value = formatear(fNacRaw);
+  });
+</script>
+
+
+<a href="/panel" class="volver">⬅️ Volver al Panel</a>
 
 </body>
 </html>

@@ -36,6 +36,15 @@
       border: 1px solid #ccc;
       border-radius: 5px;
     }
+
+    select {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
     button {
       margin-top: 20px;
       background-color: #1976d2;
@@ -89,8 +98,16 @@
   <label>Email</label>
   <input type="email" name="email" value="{{ empleado.email }}">
 
+  
   <label>Días de vacaciones</label>
   <input type="number" name="vacaciones" value="{{ empleado.vacaciones or 0 }}">
+
+  <label>Estado</label>
+    <select name="estado">
+      <option value="Activo" {% if empleado.estado == "Activo" %}selected{% endif %}>Activo</option>
+      <option value="Inactivo" {% if empleado.estado == "Inactivo" %}selected{% endif %}>Inactivo</option>
+    </select>
+    
 
   <button type="submit">Guardar Cambios</button>
 </form>

@@ -4156,3 +4156,127 @@
 [2025-12-04 15:08:07] Acceso a panel
 [2025-12-04 15:08:18] Acceso a panel
 [2025-12-04 15:10:54] Acceso a panel
+[2025-12-04 15:11:11] Acceso a panel
+[2025-12-05 08:13:54] Acceso a portada
+[2025-12-05 08:13:55] Acceso a panel
+[2025-12-05 08:14:49] Nuevo empleado agregado: 10002 - Juan
+[2025-12-05 08:14:49] Empleados activos cargados correctamente
+[2025-12-05 08:14:49] Visualización de todos los empleados
+[2025-12-05 08:15:11] Acceso a panel
+[2025-12-05 08:24:06] Servidor Flask iniciado
+[2025-12-05 08:24:24] Acceso a portada
+[2025-12-05 08:24:26] Acceso a portada
+[2025-12-05 08:24:28] Acceso a panel
+[2025-12-05 08:25:02] Nuevo empleado agregado: 10002 - Juan
+[2025-12-05 08:25:02] Empleados activos cargados correctamente
+[2025-12-05 08:25:02] Visualización de todos los empleados
+[2025-12-05 08:26:18] Acceso a panel
+[2025-12-05 08:26:26] Acceso a panel
+[2025-12-05 08:26:28] Empleados activos cargados correctamente
+[2025-12-05 08:26:28] Visualización de todos los empleados
+[2025-12-05 08:26:39] Eliminando empleado 10002
+[2025-12-05 08:26:39] Empleado 10002 eliminado
+[2025-12-05 08:26:40] Empleados activos cargados correctamente
+[2025-12-05 08:26:40] Visualización de todos los empleados
+[2025-12-05 08:35:12] Servidor Flask iniciado
+[2025-12-05 08:35:23] Acceso a panel
+[2025-12-05 08:35:25] Acceso a panel
+[2025-12-05 08:35:56] Nuevo empleado agregado: 10002 - Juan
+[2025-12-05 08:35:56] Empleados activos cargados correctamente
+[2025-12-05 08:35:56] Visualización de todos los empleados
+[2025-12-05 08:37:13] Empleados activos cargados correctamente
+[2025-12-05 08:37:13] Visualización de todos los empleados
+[2025-12-08 10:35:23] Servidor Flask iniciado
+[2025-12-10 08:07:32] Acceso a portada
+[2025-12-10 08:07:34] Acceso a panel
+[2025-12-10 08:07:37] Empleados activos cargados correctamente
+[2025-12-10 08:07:37] Visualización de todos los empleados
+[2025-12-10 08:07:53] Entrando a editar empleado 117
+[2025-12-10 08:08:22] Empleados activos cargados correctamente
+[2025-12-10 08:08:22] Visualización de todos los empleados
+[2025-12-10 08:09:52] Entrando a editar empleado 2
+[2025-12-10 08:27:19] Entrando a editar empleado 2
+[2025-12-10 08:27:32] Entrando a editar empleado 2
+[2025-12-10 08:28:16] Servidor Flask iniciado
+[2025-12-10 08:28:18] Entrando a editar empleado 2
+[2025-12-10 08:28:22] Entrando a editar empleado 2
+[2025-12-10 08:28:27] Empleados activos cargados correctamente
+[2025-12-10 08:28:27] Visualización de todos los empleados
+[2025-12-10 08:28:31] Entrando a editar empleado 2
+[2025-12-10 08:28:41] Servidor Flask iniciado
+[2025-12-10 08:28:48] Servidor Flask iniciado
+[2025-12-10 08:28:52] Entrando a editar empleado 2
+[2025-12-10 08:29:33] Servidor Flask iniciado
+[2025-12-10 08:29:37] Entrando a editar empleado 2
+[2025-12-10 08:29:43] Empleados activos cargados correctamente
+[2025-12-10 08:29:43] Visualización de todos los empleados
+[2025-12-10 08:29:45] Entrando a editar empleado 15
+[2025-12-10 08:31:26] Acceso a portada
+[2025-12-10 08:31:29] Acceso a panel
+[2025-12-10 08:31:31] Empleados activos cargados correctamente
+[2025-12-10 08:31:31] Visualización de todos los empleados
+[2025-12-10 08:31:33] Entrando a editar empleado 1
+[2025-12-10 08:31:49] Empleados activos cargados correctamente
+[2025-12-10 08:31:49] Visualización de todos los empleados
+[2025-12-10 08:31:53] Entrando a editar empleado 2
+[2025-12-10 08:31:58] Empleados activos cargados correctamente
+[2025-12-10 08:31:58] Visualización de todos los empleados
+[2025-12-10 08:32:31] Entrando a editar empleado 10000
+[2025-12-10 08:32:36] Empleados activos cargados correctamente
+[2025-12-10 08:32:36] Visualización de todos los empleados
+[2025-12-10 08:32:41] Empleados activos cargados correctamente
+[2025-12-10 08:32:41] Visualización de todos los empleados
+[2025-12-10 08:32:45] Acceso a panel
+[2025-12-10 08:32:53] Acceso a panel
+[2025-12-10 08:33:08] Entrando a editar empleado 15
+[2025-12-10 08:33:14] Empleados activos cargados correctamente
+[2025-12-10 08:33:14] Visualización de todos los empleados
+[2025-12-10 08:33:16] Entrando a editar empleado 1002
+[2025-12-10 08:33:38] Acceso a panel
+[2025-12-10 08:33:39] Acceso a panel
+[2025-12-10 08:33:39] Acceso a panel
+[2025-12-10 08:33:39] Acceso a panel
+[2025-12-10 08:33:40] Acceso a panel
+[2025-12-10 08:33:40] Acceso a panel
+[2025-12-10 08:33:40] Acceso a panel
+[2025-12-10 08:33:42] Acceso a portada
+[2025-12-10 08:33:44] Acceso a panel
+[2025-12-10 08:33:45] Empleados activos cargados correctamente
+[2025-12-10 08:33:45] Visualización de todos los empleados
+[2025-12-10 08:33:47] Empleados activos cargados correctamente
+[2025-12-10 08:33:47] Visualización de todos los empleados
+[2025-12-10 08:35:51] Servidor Flask iniciado
+[2025-12-10 08:36:11] Entrando a editar empleado 1002
+[2025-12-10 08:37:15] Entrando a editar empleado 1002
+[2025-12-10 08:37:44] Entrando a editar empleado 1002
+[2025-12-10 08:37:50] Entrando a editar empleado 1002
+[2025-12-10 08:37:53] Entrando a editar empleado 1002
+[2025-12-10 08:38:00] Entrando a editar empleado 1002
+[2025-12-10 08:39:03] Servidor Flask iniciado
+[2025-12-10 08:39:06] Entrando a editar empleado 1002
+[2025-12-10 08:49:25] Entrando a editar empleado 1002
+[2025-12-10 08:52:32] Servidor Flask iniciado
+[2025-12-10 08:52:34] Entrando a editar empleado 1002
+[2025-12-10 08:52:42] Empleados activos cargados correctamente
+[2025-12-10 08:52:42] Visualización de todos los empleados
+[2025-12-10 08:52:46] Entrando a editar empleado 117
+[2025-12-10 08:52:50] Entrando a editar empleado 117
+[2025-12-10 08:52:50] Empleado 117 actualizado
+[2025-12-10 08:52:50] Empleados activos cargados correctamente
+[2025-12-10 08:52:50] Visualización de todos los empleados
+[2025-12-10 08:54:00] Entrando a editar empleado 1002
+[2025-12-10 08:54:08] Empleados activos cargados correctamente
+[2025-12-10 08:54:08] Visualización de todos los empleados
+[2025-12-10 08:54:40] Acceso a panel
+[2025-12-10 08:54:43] Consulta de info iniciada
+[2025-12-10 08:54:43] Empleados activos cargados correctamente
+[2025-12-10 08:54:47] Consulta de info iniciada
+[2025-12-10 08:54:47] Empleados activos cargados correctamente
+[2025-12-10 08:54:47] Búsqueda de: celes
+[2025-12-10 08:54:51] Consulta de info iniciada
+[2025-12-10 08:54:51] Empleados activos cargados correctamente
+[2025-12-10 08:54:51] Búsqueda de: eze
+[2025-12-10 08:54:53] Entrando a editar empleado 23
+[2025-12-10 08:54:59] Empleados activos cargados correctamente
+[2025-12-10 08:54:59] Visualización de todos los empleados
+[2025-12-10 08:55:16] Acceso a panel
