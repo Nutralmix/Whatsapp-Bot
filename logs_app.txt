@@ -4280,3 +4280,157 @@
 [2025-12-10 08:54:59] Empleados activos cargados correctamente
 [2025-12-10 08:54:59] Visualización de todos los empleados
 [2025-12-10 08:55:16] Acceso a panel
+[2025-12-10 08:56:21] Acceso a panel
+[2025-12-10 09:40:01] Acceso a portada
+[2025-12-10 09:40:02] Acceso a panel
+[2025-12-10 09:40:05] Empleados activos cargados correctamente
+[2025-12-10 09:40:05] Visualización de todos los empleados
+[2025-12-10 09:40:22] Acceso a portada
+[2025-12-10 09:40:23] Acceso a panel
+[2025-12-10 10:35:54] Consulta de todos los préstamos
+[2025-12-10 10:35:54] Empleados activos cargados correctamente
+[2025-12-10 10:36:00] Consulta de préstamo para 213
+[2025-12-10 10:36:08] Consulta de todos los préstamos
+[2025-12-10 10:36:08] Empleados activos cargados correctamente
+[2025-12-10 11:39:40] Acceso a portada
+[2025-12-10 11:39:42] Acceso a panel
+[2025-12-10 11:39:54] Acceso a panel
+[2025-12-10 11:39:56] Empleados activos cargados correctamente
+[2025-12-10 11:39:56] Visualización de todos los empleados
+[2025-12-11 08:46:02] Acceso a portada
+[2025-12-11 08:46:07] Acceso a panel
+[2025-12-11 08:46:47] Empleados activos cargados correctamente
+[2025-12-11 08:46:47] Visualización de todos los empleados
+[2025-12-11 08:46:53] Entrando a editar empleado 1
+[2025-12-11 08:47:44] Empleados activos cargados correctamente
+[2025-12-11 08:47:44] Visualización de todos los empleados
+[2025-12-11 08:47:57] Acceso a panel
+[2025-12-11 08:47:59] Empleados activos cargados correctamente
+[2025-12-11 08:47:59] Visualización de todos los empleados
+[2025-12-11 08:48:02] Vista web de archivos para 1
+[2025-12-11 08:48:03] Acceso a panel
+[2025-12-11 08:48:05] Consulta de info iniciada
+[2025-12-11 08:48:05] Empleados activos cargados correctamente
+[2025-12-11 08:48:09] Acceso a panel
+[2025-12-11 08:48:11] Empleados activos cargados correctamente
+[2025-12-11 08:48:11] Consulta de próximos cumpleaños
+[2025-12-11 08:48:38] Acceso a subir archivo público
+[2025-12-11 08:48:45] Acceso a panel
+[2025-12-12 08:37:30] Servidor Flask iniciado
+[2025-12-12 17:30:11] Servidor Flask iniciado
+[2025-12-16 13:58:33] Servidor Flask iniciado
+[2025-12-18 10:45:08] Acceso a portada
+[2025-12-18 10:45:10] Acceso a panel
+[2025-12-19 09:28:29] Servidor Flask iniciado
+[2025-12-19 15:36:17] Acceso a portada
+[2025-12-19 15:36:20] Acceso a panel
+[2025-12-19 16:21:56] Acceso a panel
+[2025-12-19 16:24:22] Empleados activos cargados correctamente
+[2025-12-19 16:24:22] Visualización de todos los empleados
+[2025-12-19 16:25:43] Empleados activos cargados correctamente
+[2025-12-19 16:25:43] Visualización de todos los empleados
+[2025-12-19 16:36:14] Acceso a panel
+[2025-12-19 16:36:14] Acceso a panel
+[2025-12-19 16:36:14] Acceso a panel
+[2025-12-19 16:36:15] Acceso a panel
+[2025-12-19 16:36:15] Acceso a panel
+[2025-12-19 16:36:15] Acceso a panel
+[2025-12-19 16:36:15] Acceso a panel
+[2025-12-19 16:36:39] Servidor Flask iniciado
+[2025-12-19 16:36:44] Acceso a panel
+[2025-12-19 16:42:35] Servidor Flask iniciado
+[2025-12-19 16:42:44] Acceso a portada
+[2025-12-19 16:42:47] Acceso a panel
+[2025-12-19 16:43:48] Acceso a portada
+[2025-12-19 16:43:52] Acceso a panel
+[2025-12-19 16:44:43] Acceso a portada
+[2025-12-19 16:44:46] Acceso a portada
+[2025-12-19 16:44:46] Acceso a portada
+[2025-12-19 16:44:46] Acceso a portada
+[2025-12-19 16:44:47] Acceso a portada
+[2025-12-19 16:44:48] Acceso a panel
+[2025-12-19 16:45:10] Servidor Flask iniciado
+[2025-12-19 16:45:12] Servidor Flask iniciado
+[2025-12-19 16:45:17] Acceso a panel
+[2025-12-19 16:45:17] Acceso a panel
+[2025-12-19 16:45:17] Acceso a panel
+[2025-12-19 16:45:17] Acceso a panel
+[2025-12-19 16:45:17] Acceso a panel
+[2025-12-19 16:45:19] Acceso a panel
+[2025-12-19 16:45:20] Acceso a panel
+[2025-12-19 16:45:28] Acceso a panel
+[2025-12-19 16:45:47] Acceso a panel
+[2025-12-22 08:03:19] Acceso a portada
+[2025-12-22 08:03:20] Acceso a panel
+[2025-12-22 08:41:50] Servidor Flask iniciado
+[2025-12-22 09:21:18] Servidor Flask iniciado
+[2025-12-22 09:21:45] Acceso a portada
+[2025-12-22 09:21:47] Acceso a panel
+[2025-12-22 09:22:15] Servidor Flask iniciado
+[2025-12-22 09:24:34] Servidor Flask iniciado
+[2025-12-22 09:26:59] Acceso a portada
+[2025-12-22 09:27:00] Acceso a panel
+[2025-12-22 09:39:16] Servidor Flask iniciado
+[2025-12-22 09:40:35] Servidor Flask iniciado
+[2025-12-22 10:47:29] Servidor Flask iniciado
+[2025-12-22 10:53:21] Servidor Flask iniciado
+[2025-12-22 10:57:00] Servidor Flask iniciado
+[2025-12-22 11:13:33] Acceso a panel
+[2025-12-22 11:20:01] Servidor Flask iniciado
+[2025-12-22 11:21:39] Servidor Flask iniciado
+[2025-12-22 11:22:57] Servidor Flask iniciado
+[2025-12-22 11:23:28] Servidor Flask iniciado
+[2025-12-22 11:27:56] Servidor Flask iniciado
+[2025-12-22 11:28:48] Servidor Flask iniciado
+[2025-12-22 11:31:34] Servidor Flask iniciado
+[2025-12-22 11:34:19] Acceso a panel
+[2025-12-22 11:36:39] Servidor Flask iniciado
+[2025-12-22 11:42:32] Servidor Flask iniciado
+[2025-12-22 11:49:06] Servidor Flask iniciado
+[2025-12-22 11:49:54] Servidor Flask iniciado
+[2025-12-22 11:51:51] Acceso a portada
+[2025-12-22 11:51:52] Acceso a panel
+[2025-12-22 11:52:13] Servidor Flask iniciado
+[2025-12-22 11:53:43] Servidor Flask iniciado
+[2025-12-22 11:59:34] Servidor Flask iniciado
+[2025-12-22 15:54:49] Acceso a panel
+[2025-12-22 15:54:52] Acceso a panel
+[2025-12-22 16:46:42] Acceso a portada
+[2025-12-22 16:46:44] Acceso a panel
+[2025-12-23 08:07:37] Servidor Flask iniciado
+[2025-12-23 16:44:36] Acceso a panel
+[2025-12-23 16:58:22] Acceso a panel
+[2025-12-24 08:51:44] Acceso a portada
+[2025-12-24 11:54:42] Acceso a portada
+[2025-12-24 11:54:43] Acceso a panel
+[2025-12-24 12:18:20] Servidor Flask iniciado
+[2025-12-24 12:19:05] Acceso a portada
+[2025-12-24 12:19:05] Acceso a panel
+[2025-12-26 08:10:00] Acceso a portada
+[2025-12-26 08:10:02] Acceso a panel
+[2025-12-26 11:41:26] Acceso a portada
+[2025-12-26 13:59:08] Acceso a portada
+[2025-12-26 13:59:09] Acceso a panel
+[2025-12-26 15:06:46] Acceso a panel
+[2025-12-26 15:06:48] Empleados activos cargados correctamente
+[2025-12-26 15:06:48] Visualización de todos los empleados
+[2025-12-26 15:07:09] Acceso a panel
+[2025-12-26 15:07:13] Empleados activos cargados correctamente
+[2025-12-26 15:07:13] Consulta de próximos cumpleaños
+[2025-12-26 15:17:47] Acceso a portada
+[2025-12-26 15:48:28] Acceso a portada
+[2025-12-26 15:48:32] Acceso a panel
+[2025-12-26 15:50:16] Acceso a panel
+[2025-12-30 16:18:12] Acceso a portada
+[2025-12-30 16:18:14] Acceso a panel
+[2025-12-30 16:33:44] Acceso a portada
+[2025-12-30 16:33:46] Acceso a panel
+[2026-01-04 10:18:45] Acceso a portada
+[2026-01-04 10:18:48] Acceso a panel
+[2026-01-04 10:18:54] Empleados activos cargados correctamente
+[2026-01-04 10:18:54] Visualización de todos los empleados
+[2026-01-05 08:10:46] Acceso a portada
+[2026-01-05 08:10:48] Acceso a panel
+[2026-01-05 09:19:08] Acceso a portada
+[2026-01-05 09:19:09] Acceso a panel
+[2026-01-05 09:22:29] Acceso a panel

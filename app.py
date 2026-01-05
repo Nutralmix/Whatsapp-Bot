@@ -273,6 +273,10 @@ def cumples():
 
     return render_template("cumples.html", empleados=empleados_cumples, restantes=cumples_restantes)
 
+@app.route("/Chat_Bot")
+def Chat_Bot():
+    return render_template("Chat_Bot.html")
+
 @app.route("/logout")
 def logout():
     log_debug("Logout desde panel web")

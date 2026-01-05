@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RRHH Bot - Asistente Inteligente</title>
+  <link rel="icon" href="/static/img/favicon.ico" type="image/x-icon" />
+
+  <!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    :root{
+      --nm-green:#004442;
+      --nm-bg:#f1f5f9;          /* slate-100 */
+      --nm-border:#e2e8f0;      /* slate-200 */
+      --nm-text:#0f172a;        /* slate-900 */
+      --nm-muted:#334155;       /* slate-700 */
+      --nm-muted2:#64748b;      /* slate-500 */
+      --nm-gold:#cda043;        /* opcional */
+    }
+
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+    .animate-bounce { animation: bounce 1s infinite; }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .fade-in { animation: fadeIn 0.3s ease-out; }
+
+    .emoji-bot{
+      width: 38px;
+      height: 38px;
+      display: inline-block;
+      vertical-align: middle;
+      object-fit: contain;
+    }
+
+  </style>
+</head>
+
+<body class="bg-[var(--nm-bg)] text-[var(--nm-text)]">
+  <!-- Header Nutralmix (igual al panel) -->
+  <header class="bg-[var(--nm-green)] h-20 px-10 flex items-center shadow-[0_2px_10px_rgba(0,0,0,0.18)]">
+    <a href="/panel" class="inline-flex items-center gap-3">
+      <!-- Logo igual que tu panel (Flask) -->
+      <img src="{{ url_for('static', filename='img/logo.png') }}" alt="Nutralmix" class="h-12 w-auto" />
+    </a>
+  </header>
+
+  <!-- App -->
+  <div id="app" class="flex h-[calc(100vh-80px)]">
+    <!-- Panel lateral -->
+    <aside class="w-80 bg-white border-r border-[var(--nm-border)] shadow-sm flex flex-col">
+      <!-- Header lateral -->
+      <div class="p-6 border-b border-[var(--nm-border)]">
+        <div class="flex items-center space-x-3 mb-2">
+          <div class="flex-shrink-0 Fw-10 h-10 rounded-xl flex items-center justify-center">
+            <img src="{{ url_for('static', filename='img/rrhh_bot.png') }}" class="emoji-bot" alt="Bot" />
+          </div>
+          <div>
+            <h1 class="text-xl font-bold text-[var(--nm-text)]">RRHH Bot</h1>
+            <p class="text-xs text-[var(--nm-muted2)]">Asistente Inteligente</p>
+          </div>
+        </div>
+
+        <!-- Botón volver al panel -->
+        <a href="/panel"
+           class="mt-4 inline-flex items-center gap-2 text-sm font-medium text-[var(--nm-green)]
+                  hover:underline">
+          ⬅️ Volver al Panel
+        </a>
+      </div>
+
+      <!-- Estado de conexión -->
+      <div class="px-6 py-4">
+        <div id="connectionStatus" class="p-3 rounded-xl border bg-green-50 border-green-200">
+          <div class="flex items-center">
+            <div class="w-2 h-2 rounded-full mr-2 bg-green-500 animate-pulse"></div>
+            <span class="text-sm font-medium text-green-700">✓ Sistema conectado</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Consultas rápidas -->
+      <div class="flex-1 overflow-y-auto px-6 pb-6">
+        <h3 class="text-xs font-semibold text-[var(--nm-muted2)] uppercase tracking-wider mb-3">
+          Consultas sugeridas
+        </h3>
+
+        <div class="space-y-2">
+          <button onclick="askQuestion('Top 10 candidatos para Acopio')"
+            class="w-full text-left px-4 py-3 text-sm text-[var(--nm-muted)]
+                   bg-slate-50 hover:bg-slate-100 rounded-xl transition-all
+                   border border-[var(--nm-border)] hover:shadow-md group">
+            <div class="flex items-center space-x-3">
+              <span class="text-lg">🏆</span>
+              <div class="flex-1">
+                <div class="font-medium group-hover:text-[var(--nm-green)]">Top 10 candidatos Acopio</div>
+                <div class="text-xs text-[var(--nm-muted2)]">Mejor puntuación general</div>
+              </div>
+            </div>
+          </button>
+
+          <button onclick="askQuestion('Top 10 Candidatos bilingües')"
+            class="w-full text-left px-4 py-3 text-sm text-[var(--nm-muted)]
+                   bg-slate-50 hover:bg-slate-100 rounded-xl transition-all
+                   border border-[var(--nm-border)] hover:shadow-md group">
+            <div class="flex items-center space-x-3">
+              <span class="text-lg">🌎</span>
+              <div class="flex-1">
+                <div class="font-medium group-hover:text-[var(--nm-green)]">Candidatos bilingües</div>
+                <div class="text-xs text-[var(--nm-muted2)]">Dominio de idiomas</div>
+              </div>
+            </div>
+          </button>
+
+          <button onclick="askQuestion('Top 10 candidatos Administrativos / Facturacion')"
+            class="w-full text-left px-4 py-3 text-sm text-[var(--nm-muted)]
+                   bg-slate-50 hover:bg-slate-100 rounded-xl transition-all
+                   border border-[var(--nm-border)] hover:shadow-md group">
+            <div class="flex items-center space-x-3">
+              <span class="text-lg">💻</span>
+              <div class="flex-1">
+                <div class="font-medium group-hover:text-[var(--nm-green)]">Top 10 administrativos</div>
+                <div class="text-xs text-[var(--nm-muted2)]">Nivel senior</div>
+              </div>
+            </div>
+          </button>
+
+          <button onclick="askQuestion('Candidatos en el área de Marketing')"
+            class="w-full text-left px-4 py-3 text-sm text-[var(--nm-muted)]
+                   bg-slate-50 hover:bg-slate-100 rounded-xl transition-all
+                   border border-[var(--nm-border)] hover:shadow-md group">
+            <div class="flex items-center space-x-3">
+              <span class="text-lg">📊</span>
+              <div class="flex-1">
+                <div class="font-medium group-hover:text-[var(--nm-green)]">Perfiles de Marketing</div>
+                <div class="text-xs text-[var(--nm-muted2)]">Todas las especialidades</div>
+              </div>
+            </div>
+          </button>
+        </div>
+      </div>
+
+      <!-- Footer lateral -->
+      <div class="p-6 border-t border-[var(--nm-border)]">
+        <div class="flex items-center justify-between text-xs text-[var(--nm-muted2)]">
+          <span>Powered by n8n</span>
+          <div class="flex items-center space-x-1">
+            <div class="w-1.5 h-1.5 bg-green-500 rounded-full animate-pulse"></div>
+            <span>Online</span>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Área de chat -->
+    <section class="flex-1 flex flex-col">
+      <!-- Header del chat -->
+      <div class="bg-white border-b border-[var(--nm-border)] px-6 py-4 shadow-sm">
+        <div class="flex items-center justify-between">
+          <div>
+            <h2 class="text-lg font-semibold text-[var(--nm-text)]">Chat de Consultas</h2>
+            <p class="text-sm text-[var(--nm-muted2)]">Busca y analiza candidatos en tiempo real</p>
+          </div>
+          <button onclick="clearChat()"
+            class="px-4 py-2 text-sm text-[var(--nm-muted)]
+                   hover:text-[var(--nm-text)] hover:bg-slate-100 rounded-lg transition-colors">
+            🔄 Nueva conversación
+          </button>
+        </div>
+      </div>
+
+      <!-- Mensajes -->
+      <div id="messages" class="flex-1 overflow-y-auto p-6 space-y-4">
+        <div class="flex justify-start fade-in">
+          <div class="max-w-3xl">
+            <div class="flex items-start space-x-3">
+              <div class="flex-shrink-0 w-10 h-10 rounded-xl flex items-center justify-center">
+                <img src="{{ url_for('static', filename='img/rrhh_bot.png') }}" class="emoji-bot" alt="Bot" />
+              </div>
+              <div class="bg-white rounded-2xl rounded-tl-md px-6 py-4 shadow-sm border border-[var(--nm-border)]">
+                <div class="whitespace-pre-wrap leading-relaxed text-[var(--nm-muted)]">¡Hola! 👋🏻 Soy tu asistente inteligente de RRHH.
+
+<span class="font-semibold text-[var(--nm-text)]">Puedo ayudarte con:</span>
+
+• <strong>Rankings:</strong> "Top 10 candidatos Administrativos"
+• <strong>Filtros múltiples:</strong> "Senior en Marketing que hable inglés"
+• <strong>Comparaciones:</strong> "Compara estos 3 candidatos"
+• <strong>CVs disponibles:</strong> Puedo buscar y proporcionarte los currículums, incluso puedo enviarlos por mail
+
+¿Qué necesitás buscar hoy?</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Input -->
+      <div class="border-t border-[var(--nm-border)] bg-white p-6 shadow-[0_-6px_18px_rgba(0,0,0,0.06)]">
+        <div class="max-w-4xl mx-auto">
+          <div class="flex items-center space-x-3">
+            <div class="flex-1">
+              <div class="relative">
+                <input
+                  type="text"
+                  id="messageInput"
+                  placeholder="Escribe tu consulta aquí..."
+                  class="w-full px-6 py-4 bg-slate-50 border border-[var(--nm-border)] rounded-2xl
+                         focus:outline-none focus:ring-2 focus:ring-[var(--nm-green)] focus:border-transparent
+                         text-[var(--nm-text)] placeholder-slate-400 pr-12"
+                  onkeypress="handleKeyPress(event)"
+                >
+                <div class="absolute right-4 top-1/2 -translate-y-1/2 text-slate-400 text-sm">
+                  Enter ↵
+                </div>
+              </div>
+            </div>
+
+            <button
+              onclick="sendMessage()"
+              id="sendButton"
+              class="bg-[var(--nm-green)] hover:brightness-110 disabled:bg-slate-300
+                     text-white p-4 rounded-2xl transition-all shadow-lg hover:shadow-xl
+                     disabled:shadow-none transform hover:scale-105 disabled:scale-100
+                     disabled:cursor-not-allowed flex-shrink-0"
+              title="Enviar consulta"
+            >
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"></path>
+              </svg>
+            </button>
+          </div>
+
+          <p class="text-xs text-[var(--nm-muted2)] mt-2 px-2">
+            💡 Ejemplo: "Busca candidatos para administración"
+          </p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script>
+    // ======= CONFIGURACIÓN =======
+    const WEBHOOK_URL = 'https://bot.nutralmix.com.ar:8443/webhook/rrhh-bot';
+    const WEBHOOK_TOKEN = 'rrhh_9f3cA7D2eB8KQmX4ZP1LJH0sYwRkN6UuVgT5MFCbE';
+
+    // ======= STATE =======
+    let conversationHistory = [];
+    let sessionId = localStorage.getItem('rrhh_session_id');
+
+    if (!sessionId) {
+      sessionId = (crypto?.randomUUID?.() || String(Date.now()) + '-' + Math.random().toString(16).slice(2));
+      localStorage.setItem('rrhh_session_id', sessionId);
+    }
+
+    // ======= FUNCIONES =======
+    function clearChat() {
+      if (confirm('¿Deseas iniciar una nueva conversación?')) {
+        conversationHistory = [];
+        const messagesDiv = document.getElementById('messages');
+        messagesDiv.innerHTML = `
+          <div class="flex justify-start fade-in">
+            <div class="max-w-3xl">
+              <div class="flex items-start space-x-3">
+                <div class="flex-shrink-0 w-10 h-10 rounded-xl flex items-center justify-center">
+                  <img src="{{ url_for('static', filename='img/rrhh_bot.png') }}" class="emoji-bot" alt="Bot" />
+                </div>
+                <div class="bg-white rounded-2xl rounded-tl-md px-6 py-4 shadow-sm border border-[var(--nm-border)]">
+                  <div class="whitespace-pre-wrap leading-relaxed text-[var(--nm-muted)]">¡Hola! 👋🏻 Soy tu asistente inteligente de RRHH.
+
+<span class="font-semibold text-[var(--nm-text)]">Puedo ayudarte con:</span>
+
+• <strong>Rankings:</strong> "Top 10 candidatos con mejor score"
+• <strong>Filtros múltiples:</strong> "Senior en Marketing que hable inglés"
+• <strong>Comparaciones:</strong> "Compara estos 3 candidatos"
+• <strong>CVs disponibles:</strong> Puedo buscar y proporcionarte los currículums, incluso puedo enviarlos por mail
+
+¿Qué necesitás buscar hoy?</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        `;
+      }
+    }
+
+    function askQuestion(question) {
+      document.getElementById('messageInput').value = question;
+      sendMessage();
+    }
+
+    function handleKeyPress(event) {
+      if (event.key === 'Enter' && !event.shiftKey) {
+        event.preventDefault();
+        sendMessage();
+      }
+    }
+
+    function escapeHtml(str) {
+      return String(str ?? '')
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#039;');
+    }
+
+    function extractDownloadsFromText(text) {
+      const t = String(text || '');
+      const results = [];
+      const regex1 = /([A-ZÁÉÍÓÚÑ a-z0-9_.-]+\.(pdf|docx))[\s\S]*?(?:id=|\/file\/d\/)([a-zA-Z0-9_-]{10,})/gi;
+
+      let match;
+      while ((match = regex1.exec(t)) !== null) {
+        const archivo = match[1].trim();
+        const id = match[3];
+        results.push({
+          archivo,
+          downloadUrl: `https://drive.google.com/uc?export=download&id=${id}`,
+          previewUrl: `https://drive.google.com/file/d/${id}/view`,
+        });
+      }
+
+      if (results.length === 0) {
+        const regex2 = /(?:export=download&id=|\/file\/d\/)([a-zA-Z0-9_-]{10,})/g;
+        while ((match = regex2.exec(t)) !== null) {
+          const id = match[1];
+          const contextBefore = t.substring(Math.max(0, match.index - 100), match.index);
+          const nameMatch = contextBefore.match(/([A-ZÁÉÍÓÚÑ a-z0-9_.-]+\.(pdf|docx))/i);
+          const archivo = nameMatch ? nameMatch[1] : 'Curriculum Vitae.pdf';
+
+          results.push({
+            archivo,
+            downloadUrl: `https://drive.google.com/uc?export=download&id=${id}`,
+            previewUrl: `https://drive.google.com/file/d/${id}/view`,
+          });
+        }
+      }
+      return results;
+    }
+
+    function sanitizeCvLinksIfButtons(text, downloads) {
+      if (!downloads || !Array.isArray(downloads) || downloads.length === 0) return String(text ?? '');
+
+      return String(text ?? '')
+        .replace(/^\s*📄\s*[^\n]*$/gmi, '')
+        .replace(/^\s*🔗?\s*Descargar:\s*https?:\/\/\S+\s*$/gmi, '')
+        .replace(/^\s*👁️?\s*Ver:\s*https?:\/\/\S+\s*$/gmi, '')
+        .replace(/^\s*\d+\.\s*[^\n]+\.(pdf|docx)\s*$/gmi, '')
+        .replace(/https?:\/\/drive\.google\.com[^\s]+/gi, '')
+        .replace(/\n{3,}/g, '\n\n')
+        .trim();
+    }
+
+    function addMessage(role, content, downloads = []) {
+      const messagesDiv = document.getElementById('messages');
+      const messageDiv = document.createElement('div');
+      messageDiv.className = `flex ${role === 'user' ? 'justify-end' : 'justify-start'} fade-in`;
+
+      const cleanedText = sanitizeCvLinksIfButtons(content, downloads);
+      const safeText = escapeHtml(cleanedText);
+
+      const downloadsHtml = (Array.isArray(downloads) && downloads.length)
+        ? `
+          <div class="mt-4 space-y-2">
+            ${downloads.map((d, i) => {
+              const archivo = escapeHtml(d.archivo || d.nombre || `CV ${i + 1}`);
+              const downloadUrl = d.downloadUrl || d.url_descarga || d.url || '';
+              const previewUrl  = d.previewUrl  || d.url_ver      || '';
+
+              return `
+                <div class="p-4 rounded-xl border border-[var(--nm-border)] bg-slate-50">
+                  <div class="flex items-center justify-between gap-3">
+                    <div class="flex items-center space-x-3 min-w-0">
+                      <div class="w-10 h-10 bg-white rounded-lg flex items-center justify-center shadow-sm border border-[var(--nm-border)]">
+                        <span class="text-xl">📄</span>
+                      </div>
+                      <div class="min-w-0">
+                        <div class="text-sm font-semibold text-[var(--nm-text)] truncate">${archivo}</div>
+                        <div class="text-xs text-[var(--nm-muted2)]">Curriculum Vitae</div>
+                      </div>
+                    </div>
+                    <div class="flex gap-2 flex-shrink-0">
+                      ${downloadUrl ? `
+                        <a href="${downloadUrl}" target="_blank" rel="noopener"
+                           class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[var(--nm-green)] text-white hover:brightness-110 transition text-sm font-medium shadow-sm hover:shadow-md">
+                          ⬇️ Descargar
+                        </a>` : ''
+                      }
+                      ${previewUrl ? `
+                        <a href="${previewUrl}" target="_blank" rel="noopener"
+                           class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-white text-[var(--nm-muted)]
+                                  hover:bg-slate-50 border border-[var(--nm-border)] transition text-sm font-medium shadow-sm hover:shadow-md">
+                          👁️ Ver
+                        </a>` : ''
+                      }
+                    </div>
+                  </div>
+                </div>
+              `;
+            }).join('')}
+          </div>
+        `
+        : '';
+
+      if (role === 'user') {
+        messageDiv.innerHTML = `
+          <div class="max-w-3xl">
+            <div class="flex items-start space-x-3 justify-end">
+              <div class="bg-[var(--nm-green)] rounded-2xl rounded-tr-md px-6 py-4 shadow-md">
+                <div class="whitespace-pre-wrap leading-relaxed text-white">${safeText}</div>
+              </div>
+              <div class="w-8 h-8 bg-slate-200 rounded-lg flex items-center justify-center flex-shrink-0 border border-[var(--nm-border)]">
+                <span class="text-sm">👤</span>
+              </div>
+            </div>
+          </div>
+        `;
+      } else {
+        messageDiv.innerHTML = `
+          <div class="max-w-3xl">
+            <div class="flex items-start gap-3">
+              <div class="flex-shrink-0 w-11 h-11 rounded-xl flex items-center justify-center">
+                <img src="{{ url_for('static', filename='img/rrhh_bot.png') }}" class="emoji-bot" alt="Bot" />
+              </div>
+              <div class="bg-white rounded-2xl rounded-tl-md px-6 py-4 shadow-sm border border-[var(--nm-border)]">
+                <div class="whitespace-pre-wrap leading-relaxed text-[var(--nm-muted)]">${safeText}</div>
+                ${downloadsHtml}
+              </div>
+            </div>
+          </div>
+        `;
+      }
+
+      messagesDiv.appendChild(messageDiv);
+      messagesDiv.scrollTop = messagesDiv.scrollHeight;
+    }
+
+    function showLoading() {
+      const messagesDiv = document.getElementById('messages');
+      const loadingDiv = document.createElement('div');
+      loadingDiv.id = 'loading';
+      loadingDiv.className = 'flex justify-start fade-in';
+      loadingDiv.innerHTML = `
+        <div class="max-w-3xl">
+          <div class="flex items-start gap-3">
+            <div class="flex-shrink-0 w-11 h-11 rounded-xl flex items-center justify-center">
+                <img src="{{ url_for('static', filename='img/rrhh_bot.png') }}" class="emoji-bot" alt="Bot" />
+            </div>
+            <div class="bg-white rounded-2xl rounded-tl-md px-6 py-4 shadow-sm border border-[var(--nm-border)]">
+              <div class="flex items-center space-x-3">
+                <div class="flex space-x-2">
+                  <div class="w-2 h-2 bg-[var(--nm-green)] rounded-full animate-bounce"></div>
+                  <div class="w-2 h-2 bg-[var(--nm-green)] rounded-full animate-bounce" style="animation-delay: 0.1s"></div>
+                  <div class="w-2 h-2 bg-[var(--nm-green)] rounded-full animate-bounce" style="animation-delay: 0.2s"></div>
+                </div>
+                <span class="text-sm text-[var(--nm-muted2)]"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      `;
+      messagesDiv.appendChild(loadingDiv);
+      messagesDiv.scrollTop = messagesDiv.scrollHeight;
+    }
+
+    function hideLoading() {
+      const loading = document.getElementById('loading');
+      if (loading) loading.remove();
+    }
+
+    async function sendMessage() {
+      const input = document.getElementById('messageInput');
+      const message = input.value.trim();
+      if (!message) return;
+
+      addMessage('user', message);
+      conversationHistory.push({ role: 'user', content: message });
+
+      input.value = '';
+      document.getElementById('sendButton').disabled = true;
+      showLoading();
+
+      try {
+        const headers = { 'Content-Type': 'application/json' };
+
+        if (WEBHOOK_TOKEN) headers['X-Webhook-Token'] = WEBHOOK_TOKEN;
+
+        const response = await fetch(WEBHOOK_URL, {
+          method: 'POST',
+          headers,
+          body: JSON.stringify({
+            query: message,
+            history: conversationHistory,
+            sessionId,
+            token: WEBHOOK_TOKEN,
+            authorization: WEBHOOK_TOKEN,
+          }),
+        });
+
+        hideLoading();
+
+        if (!response.ok) {
+          throw new Error(`Error HTTP ${response.status}`);
+        }
+
+        const data = await response.json();
+
+        if (!data || data.success === false) {
+          throw new Error(data?.error || 'Error desconocido');
+        }
+
+        const downloads = [];
+        if (data.downloadUrl || data.previewUrl) {
+          downloads.push({
+            archivo: data.fileName || data.name || 'Curriculum Vitae.pdf',
+            downloadUrl: data.downloadUrl || null,
+            previewUrl: data.previewUrl || null,
+          });
+        }
+        if (
+          downloads.length === 0 &&
+          data.response &&
+          !data.downloadUrl &&
+          !data.previewUrl
+        ) {
+          downloads.push(...extractDownloadsFromText(data.response));
+        }
+
+        let textToShow = data.response ?? 'Sin respuesta';
+
+        if (downloads.length) {
+          textToShow = downloads.length === 1
+            ? '✅ He encontrado el CV que buscabas:'
+            : `✅ He encontrado ${downloads.length} CVs que coinciden con tu búsqueda:`;
+        }
+
+        addMessage('assistant', textToShow, downloads);
+        conversationHistory.push({ role: 'assistant', content: data.response ?? '' });
+
+      } catch (error) {
+        hideLoading();
+        addMessage('assistant', `❌ Error al conectar con el sistema:\n\n${error.message}\n\nPor favor, intenta nuevamente en unos momentos.`);
+      }
+
+      document.getElementById('sendButton').disabled = false;
+      input.focus();
+    }
+
+    // Inicializar
+    document.getElementById('messageInput').focus();
+  </script>
+</body>
+</html>
