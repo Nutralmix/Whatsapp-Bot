@@ -4434,3 +4434,5 @@
 [2026-01-05 09:19:08] Acceso a portada
 [2026-01-05 09:19:09] Acceso a panel
 [2026-01-05 09:22:29] Acceso a panel
+[2026-01-05 09:57:03] Acceso a portada
+[2026-01-05 09:57:04] Acceso a panel
