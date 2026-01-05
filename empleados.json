@@ -748,7 +748,7 @@
         "telefono": "2317508259",
         "direccion": "Frondizi 942",
         "email": "pablodc_10@hotmail.com",
-        "vacaciones": 63,
+        "vacaciones": 49,
         "estado": "Activo",
         "gastos_agrupados": {
             "2025-11": {
@@ -901,7 +901,7 @@
         "telefono": "2317474481",
         "direccion": "Matheu 425",
         "email": "sebabai82@gmail.com",
-        "vacaciones": 69,
+        "vacaciones": 50,
         "estado": "Activo",
         "gastos_agrupados": {
             "2025-11": {
@@ -1334,7 +1334,7 @@
         "rol": "empleado",
         "direccion": "San Luis 343",
         "email": "joni_medi_45@hotmail.com",
-        "vacaciones": 35,
+        "vacaciones": 21,
         "estado": "Activo",
         "gastos_agrupados": {
             "2025-11": {
@@ -1426,7 +1426,7 @@
         "rol": "empleado",
         "direccion": "Martin Fierro 1652",
         "email": "sebaatia@gmail.com",
-        "vacaciones": 75,
+        "vacaciones": 63,
         "estado": "Activo",
         "gastos_agrupados": {
             "2025-11": {
@@ -1942,7 +1942,7 @@
             "cuotas_pendientes": 3,
             "fecha_cancelacion": "01-01-2026"
         },
-        "vacaciones": 28,
+        "vacaciones": 7,
         "gastos_agrupados": {
             "2025-11": {
                 "total_mes": 233637.48,
@@ -2247,7 +2247,7 @@
         "telefono": "1161076080",
         "direccion": "",
         "email": "jpvanerio@gmail.com",
-        "vacaciones": 51,
+        "vacaciones": 37,
         "estado": "Activo",
         "gastos_agrupados": {
             "2025-11": {
@@ -2474,7 +2474,7 @@
         "telefono": "2317415639",
         "direccion": "",
         "email": "sebavazquez.cdba@gmail.com",
-        "vacaciones": 16,
+        "vacaciones": 12,
         "estado": "Activo",
         "gastos_agrupados": {
             "2025-11": {
@@ -2726,7 +2726,7 @@
         "telefono": "2317532468",
         "direccion": "",
         "email": "flooor.g29@gmail.com",
-        "vacaciones": 28,
+        "vacaciones": 14,
         "estado": "Activo",
         "prestamo": {
             "fecha_prestamo": "",
@@ -2813,7 +2813,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 21,
+        "vacaciones": 28,
         "gastos_agrupados": {
             "2025-11": {
                 "total_mes": 475138.76,
@@ -3094,7 +3094,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 48,
+        "vacaciones": 38,
         "gastos_agrupados": {
             "2025-11": {
                 "total_mes": 248944.47,
@@ -3595,7 +3595,7 @@
         "telefono": "2392531248",
         "direccion": "",
         "email": "",
-        "vacaciones": 21,
+        "vacaciones": 14,
         "estado": "Activo",
         "gastos_agrupados": {
             "2025-12": {
@@ -3754,7 +3754,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 40,
+        "vacaciones": 37,
         "gastos_agrupados": {
             "2025-11": {
                 "total_mes": 462667.98,
@@ -3941,7 +3941,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 22,
+        "vacaciones": 8,
         "gastos_agrupados": {
             "2025-11": {
                 "total_mes": 361532.31999999995,
@@ -5178,7 +5178,7 @@
         "telefono": "2317508235",
         "direccion": "Azcuenaga 704",
         "email": "totaronymona@gmail.com",
-        "vacaciones": 14,
+        "vacaciones": 7,
         "estado": "Activo",
         "gastos_agrupados": {
             "2025-11": {
@@ -5782,7 +5782,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 14,
+        "vacaciones": 7,
         "gastos_agrupados": {
             "2025-11": {
                 "total_mes": 149353.41999999998,
@@ -6150,7 +6150,7 @@
         "telefono": " 2317622491",
         "direccion": "Rafael Obligado 924",
         "email": "hugohectormontero@yahoo.com.ar",
-        "vacaciones": 28,
+        "vacaciones": 21,
         "estado": "Activo",
         "prestamo": {
             "fecha_prestamo": "",
