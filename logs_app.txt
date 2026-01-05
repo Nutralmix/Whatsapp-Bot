@@ -4436,3 +4436,6 @@
 [2026-01-05 09:22:29] Acceso a panel
 [2026-01-05 09:57:03] Acceso a portada
 [2026-01-05 09:57:04] Acceso a panel
+[2026-01-05 09:57:16] Acceso a panel
+[2026-01-05 10:04:33] Acceso a portada
+[2026-01-05 10:04:34] Acceso a panel
