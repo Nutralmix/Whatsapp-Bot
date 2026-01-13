@@ -4461,3 +4461,13 @@
 [2026-01-13 10:37:07] Acceso a panel
 [2026-01-13 10:37:33] Acceso a panel
 [2026-01-13 10:37:43] Acceso a panel
+[2026-01-13 10:37:54] Acceso a panel
+[2026-01-13 10:38:54] Acceso a panel
+[2026-01-13 10:38:57] Consulta de todos los préstamos
+[2026-01-13 10:38:57] Empleados activos cargados correctamente
+[2026-01-13 10:39:16] Consulta de préstamo para 213
+[2026-01-13 10:39:36] Consulta de todos los préstamos
+[2026-01-13 10:39:36] Empleados activos cargados correctamente
+[2026-01-13 10:39:41] Consulta de préstamo para 124
+[2026-01-13 11:16:19] Acceso a portada
+[2026-01-13 11:16:31] Acceso a panel

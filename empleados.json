@@ -5352,7 +5352,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 0,
+        "vacaciones": 7,
         "gastos_agrupados": {
             "2025-11": {
                 "total_mes": 126045.95,
