@@ -4471,3 +4471,6 @@
 [2026-01-13 10:39:41] Consulta de préstamo para 124
 [2026-01-13 11:16:19] Acceso a portada
 [2026-01-13 11:16:31] Acceso a panel
+[2026-01-13 11:16:43] Acceso a panel
+[2026-01-13 11:17:05] Empleados activos cargados correctamente
+[2026-01-13 11:17:05] Consulta de próximos cumpleaños
