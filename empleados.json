@@ -1192,7 +1192,7 @@
         "rol": "empleado",
         "direccion": "General Belgrano s/n",
         "email": "betoderosso1@gmail.com",
-        "vacaciones": 22,
+        "vacaciones": 12,
         "estado": "Activo",
         "gastos_agrupados": {
             "2025-11": {
@@ -1371,7 +1371,7 @@
         "rol": "empleado",
         "direccion": "Rio iv 287",
         "email": "fabrinieto16@gmail.com",
-        "vacaciones": 70,
+        "vacaciones": 63,
         "estado": "Activo",
         "gastos_agrupados": {
             "2025-11": {
@@ -2475,7 +2475,7 @@
         "telefono": "2317415639",
         "direccion": "",
         "email": "sebavazquez.cdba@gmail.com",
-        "vacaciones": 12,
+        "vacaciones": 13,
         "estado": "Activo",
         "gastos_agrupados": {
             "2025-11": {
@@ -2647,7 +2647,7 @@
         "telefono": "2317582468",
         "direccion": "",
         "email": "juanmartingallo24@gmail.com",
-        "vacaciones": 21,
+        "vacaciones": 0,
         "estado": "Activo",
         "prestamo": {},
         "gastos_agrupados": {
@@ -2805,7 +2805,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 28,
+        "vacaciones": 21,
         "gastos_agrupados": {
             "2025-11": {
                 "total_mes": 475138.76,
@@ -2897,7 +2897,7 @@
         "telefono": "2317504260",
         "direccion": "",
         "email": "oscardiazuma22@gmail.com",
-        "vacaciones": 21,
+        "vacaciones": 7,
         "estado": "Activo",
         "gastos_agrupados": {
             "2025-11": {
@@ -3136,7 +3136,7 @@
             "cuotas_pendientes": 5,
             "fecha_cancelacion": "01-05-2026"
         },
-        "vacaciones": 27,
+        "vacaciones": 18,
         "gastos_agrupados": {
             "2025-11": {
                 "total_mes": 45253.97,
@@ -3174,7 +3174,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 21,
+        "vacaciones": 7,
         "gastos_agrupados": {
             "2025-11": {
                 "total_mes": 483059.76,
@@ -3332,7 +3332,7 @@
             "cuotas_pendientes": 0,
             "fecha_cancelacion": "01-01-2026"
         },
-        "vacaciones": 21,
+        "vacaciones": 7,
         "gastos_agrupados": {
             "2025-11": {
                 "total_mes": 409390.61,
@@ -3389,7 +3389,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 21,
+        "vacaciones": 14,
         "gastos_agrupados": {
             "2025-11": {
                 "total_mes": 72594.78,
@@ -3526,7 +3526,7 @@
         "telefono": "2392493707",
         "direccion": "",
         "email": "",
-        "vacaciones": 21,
+        "vacaciones": 7,
         "estado": "Activo",
         "gastos_agrupados": {
             "2025-11": {
@@ -3613,7 +3613,7 @@
         "telefono": "2317525966",
         "direccion": "",
         "email": "fercanepa.1902@gmail.com",
-        "vacaciones": 21,
+        "vacaciones": 7,
         "estado": "Activo",
         "prestamo": {
             "fecha_prestamo": "",
@@ -3805,7 +3805,7 @@
         "telefono": "2317530596",
         "direccion": "",
         "email": "crisercoreca06@gmail.com",
-        "vacaciones": 14,
+        "vacaciones": 7,
         "estado": "Activo",
         "gastos_agrupados": {
             "2025-11": {
@@ -3990,7 +3990,7 @@
         "telefono": "2317581658",
         "direccion": "",
         "email": "gastonbuldain@hotmail.com",
-        "vacaciones": 14,
+        "vacaciones": 0,
         "estado": "Activo",
         "prestamo": {
             "fecha_prestamo": "",
@@ -4067,7 +4067,7 @@
             "cuotas_pendientes": 2,
             "fecha_cancelacion": "01-02-2026"
         },
-        "vacaciones": 14,
+        "vacaciones": 0,
         "gastos_agrupados": {}
     },
     "179": {
@@ -4082,7 +4082,7 @@
         "telefono": "2345535406",
         "direccion": "",
         "email": "pablooscarpacheco@outlook.com.ar",
-        "vacaciones": 14,
+        "vacaciones": 7,
         "estado": "Activo",
         "prestamo": {
             "fecha_prestamo": "",
@@ -4174,7 +4174,7 @@
         "telefono": "2317537282",
         "direccion": "",
         "email": "santigocanepa@gmail.com",
-        "vacaciones": 14,
+        "vacaciones": 0,
         "estado": "Activo",
         "prestamo": {
             "fecha_prestamo": "",
@@ -4366,7 +4366,7 @@
         "telefono": "2317571969",
         "direccion": "",
         "email": "valentinoromanorivera@gmail.com",
-        "vacaciones": 14,
+        "vacaciones": 0,
         "estado": "Activo",
         "gastos_agrupados": {}
     },
@@ -4437,7 +4437,7 @@
         "telefono": "2317403039",
         "direccion": "Rioja 2634",
         "email": "marceleguizamon@live.com.ar",
-        "vacaciones": 10,
+        "vacaciones": 3,
         "estado": "Activo",
         "gastos_agrupados": {
             "2025-11": {
@@ -4597,7 +4597,7 @@
         "telefono": "3512254029",
         "direccion": "Mitre 948 2°D",
         "email": "nachomerlo88@gmail.com",
-        "vacaciones": 14,
+        "vacaciones": 6,
         "estado": "Activo",
         "gastos_agrupados": {
             "2025-11": {
@@ -4707,7 +4707,7 @@
         "telefono": "2317400309",
         "direccion": "",
         "email": "martin-toledo@hotmail.com",
-        "vacaciones": 14,
+        "vacaciones": 7,
         "estado": "Activo",
         "gastos_agrupados": {
             "2025-11": {
@@ -5005,7 +5005,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 14,
+        "vacaciones": 7,
         "gastos_agrupados": {
             "2025-11": {
                 "total_mes": 374144.55,
@@ -5134,7 +5134,7 @@
         "telefono": "2317508235",
         "direccion": "Azcuenaga 704",
         "email": "totaronymona@gmail.com",
-        "vacaciones": 7,
+        "vacaciones": 0,
         "estado": "Activo",
         "gastos_agrupados": {
             "2025-11": {
@@ -5197,7 +5197,7 @@
             "cuotas_pendientes": 0,
             "fecha_cancelacion": "08-01-2026"
         },
-        "vacaciones": 14,
+        "vacaciones": 0,
         "gastos_agrupados": {
             "2025-11": {
                 "total_mes": 268438.07,
@@ -5410,7 +5410,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 14,
+        "vacaciones": 7,
         "gastos_agrupados": {
             "2025-11": {
                 "total_mes": 78485.15,
@@ -5493,7 +5493,7 @@
         "telefono": "2317503299",
         "direccion": "",
         "email": "",
-        "vacaciones": 0,
+        "vacaciones": 14,
         "estado": "Activo",
         "gastos_agrupados": {
             "2025-11": {
@@ -5814,7 +5814,7 @@
         "telefono": "2317538456",
         "direccion": "Echeverría 1363",
         "email": "joakcastro12345@gmail.com",
-        "vacaciones": 14,
+        "vacaciones": 0,
         "estado": "Activo",
         "gastos_agrupados": {
             "2025-11": {
@@ -6083,7 +6083,7 @@
         "telefono": "2317446433",
         "direccion": "Levalle 344",
         "email": "valentinmarciano123@gmail.com",
-        "vacaciones": 14,
+        "vacaciones": 0,
         "estado": "Activo",
         "gastos_agrupados": {}
     },
@@ -6099,7 +6099,7 @@
         "telefono": " 2317622491",
         "direccion": "Rafael Obligado 924",
         "email": "hugohectormontero@yahoo.com.ar",
-        "vacaciones": 21,
+        "vacaciones": 7,
         "estado": "Activo",
         "prestamo": {
             "fecha_prestamo": "",
