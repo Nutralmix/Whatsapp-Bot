@@ -4440,3 +4440,22 @@
 [2026-01-05 10:04:33] Acceso a portada
 [2026-01-05 10:04:34] Acceso a panel
 [2026-01-05 10:04:49] Acceso a panel
+[2026-01-05 10:04:58] Acceso a panel
+[2026-01-05 10:05:56] Empleados activos cargados correctamente
+[2026-01-05 10:05:56] Visualización de todos los empleados
+[2026-01-07 09:50:28] Acceso a portada
+[2026-01-08 10:16:47] Acceso a portada
+[2026-01-09 09:04:03] Acceso a portada
+[2026-01-09 11:15:03] Acceso a portada
+[2026-01-09 11:15:05] Acceso a panel
+[2026-01-09 11:17:05] Acceso a panel
+[2026-01-09 11:17:10] Logout desde panel web
+[2026-01-09 12:56:48] Acceso a portada
+[2026-01-09 12:56:51] Acceso a panel
+[2026-01-09 13:03:38] Acceso a panel
+[2026-01-09 13:03:41] Logout desde panel web
+[2026-01-09 17:59:32] Acceso a portada
+[2026-01-09 17:59:34] Acceso a panel
+[2026-01-12 09:27:30] Acceso a portada
+[2026-01-13 10:37:05] Acceso a portada
+[2026-01-13 10:37:07] Acceso a panel
