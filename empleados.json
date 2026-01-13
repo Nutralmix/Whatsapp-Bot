@@ -5855,7 +5855,17 @@
             }
         },
         "legajo": "290",
-        "rol": "empleado"
+        "rol": "empleado",
+        "prestamo": {
+            "fecha_prestamo": "",
+            "monto": 450000.0,
+            "cuotas": 3,
+            "cancelado": 0.0,
+            "pendiente": -450000.0,
+            "proxima_cuota": 150000.0,
+            "cuotas_pendientes": 3,
+            "fecha_cancelacion": "01-03-2026"
+        }
     },
     "292": {
         "apellido": "Del Pino",

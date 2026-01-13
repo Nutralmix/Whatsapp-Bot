@@ -4474,3 +4474,11 @@
 [2026-01-13 11:16:43] Acceso a panel
 [2026-01-13 11:17:05] Empleados activos cargados correctamente
 [2026-01-13 11:17:05] Consulta de próximos cumpleaños
+[2026-01-13 11:17:27] Acceso a panel
+[2026-01-13 11:17:37] Acceso a panel
+[2026-01-13 11:33:54] Consulta de todos los préstamos
+[2026-01-13 11:33:54] Empleados activos cargados correctamente
+[2026-01-13 11:33:58] Consulta de préstamo para 179
+[2026-01-13 11:34:35] Consulta de todos los préstamos
+[2026-01-13 11:34:35] Empleados activos cargados correctamente
+[2026-01-13 11:34:39] Acceso a panel
