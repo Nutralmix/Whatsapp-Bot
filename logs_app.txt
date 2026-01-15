@@ -4482,3 +4482,35 @@
 [2026-01-13 11:34:35] Consulta de todos los préstamos
 [2026-01-13 11:34:35] Empleados activos cargados correctamente
 [2026-01-13 11:34:39] Acceso a panel
+[2026-01-13 11:34:51] Acceso a panel
+[2026-01-13 11:35:00] Consulta de todos los préstamos
+[2026-01-13 11:35:00] Empleados activos cargados correctamente
+[2026-01-13 11:35:04] Consulta de todos los préstamos
+[2026-01-13 11:35:04] Empleados activos cargados correctamente
+[2026-01-13 11:35:07] Consulta de todos los préstamos
+[2026-01-13 11:35:07] Empleados activos cargados correctamente
+[2026-01-13 11:35:08] Consulta de todos los préstamos
+[2026-01-13 11:35:08] Empleados activos cargados correctamente
+[2026-01-13 11:35:12] Consulta de préstamo para 179
+[2026-01-13 11:35:37] Consulta de todos los préstamos
+[2026-01-13 11:35:37] Empleados activos cargados correctamente
+[2026-01-13 11:35:41] Consulta de todos los préstamos
+[2026-01-13 11:35:41] Empleados activos cargados correctamente
+[2026-01-13 11:36:11] Consulta de préstamo para 179
+[2026-01-13 11:36:15] Consulta de todos los préstamos
+[2026-01-13 11:36:15] Empleados activos cargados correctamente
+[2026-01-13 16:32:20] Acceso a portada
+[2026-01-13 16:32:22] Acceso a panel
+[2026-01-13 16:32:23] Empleados activos cargados correctamente
+[2026-01-13 16:32:23] Visualización de todos los empleados
+[2026-01-13 16:36:49] Acceso a portada
+[2026-01-13 16:36:50] Acceso a panel
+[2026-01-13 16:36:51] Empleados activos cargados correctamente
+[2026-01-13 16:36:51] Visualización de todos los empleados
+[2026-01-13 16:55:15] Acceso a portada
+[2026-01-13 16:55:17] Acceso a panel
+[2026-01-13 16:55:18] Consulta de todos los préstamos
+[2026-01-13 16:55:18] Empleados activos cargados correctamente
+[2026-01-13 16:55:21] Consulta de préstamo para 23
+[2026-01-15 11:18:11] Acceso a portada
+[2026-01-15 11:18:12] Acceso a panel

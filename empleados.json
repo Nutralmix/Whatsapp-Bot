@@ -1325,7 +1325,7 @@
         "rol": "empleado",
         "direccion": "San Luis 343",
         "email": "joni_medi_45@hotmail.com",
-        "vacaciones": 21,
+        "vacaciones": 14,
         "estado": "Activo",
         "gastos_agrupados": {
             "2025-11": {
@@ -1826,7 +1826,7 @@
         "telefono": "2317536400",
         "direccion": "8 de febrero s/n",
         "email": "diegojuanquiroga@hotmail.com",
-        "vacaciones": 42,
+        "vacaciones": 28,
         "estado": "Activo",
         "gastos_agrupados": {
             "2025-11": {
@@ -1879,7 +1879,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 51,
+        "vacaciones": 37,
         "gastos_agrupados": {
             "2025-11": {
                 "total_mes": 50766.04,
@@ -2604,7 +2604,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 21,
+        "vacaciones": 14,
         "gastos_agrupados": {
             "2025-11": {
                 "total_mes": 380710.0,
@@ -3212,7 +3212,7 @@
         "telefono": "2317571857",
         "direccion": "",
         "email": "ignciotoledo@gmail.com",
-        "vacaciones": 21,
+        "vacaciones": 7,
         "estado": "Activo",
         "prestamo": {
             "fecha_prestamo": "",
@@ -3420,7 +3420,7 @@
         "telefono": "2392484152",
         "direccion": "Wisoski Oeste 350",
         "email": "marioandressegovia9@gmail.com",
-        "vacaciones": 0,
+        "vacaciones": 14,
         "estado": "Activo",
         "gastos_agrupados": {
             "2025-11": {
@@ -3858,7 +3858,7 @@
         "telefono": "2317534669",
         "direccion": "Emilio Naudin 647",
         "email": "alejandro22carballo@gmail.com",
-        "vacaciones": 7,
+        "vacaciones": 0,
         "estado": "Activo",
         "gastos_agrupados": {
             "2025-11": {
@@ -4746,7 +4746,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 14,
+        "vacaciones": 7,
         "gastos_agrupados": {
             "2025-11": {
                 "total_mes": 66804.36,
@@ -5441,7 +5441,7 @@
         "telefono": "2392548263",
         "direccion": "",
         "email": "juan_212_209@hotmail.com",
-        "vacaciones": 14,
+        "vacaciones": 0,
         "estado": "Activo",
         "gastos_agrupados": {
             "2025-11": {
@@ -5493,7 +5493,7 @@
         "telefono": "2317503299",
         "direccion": "",
         "email": "",
-        "vacaciones": 14,
+        "vacaciones": 7,
         "estado": "Activo",
         "gastos_agrupados": {
             "2025-11": {
@@ -5653,7 +5653,7 @@
         "telefono": "2392541242",
         "direccion": "",
         "email": "nahuelportela2018@gmail.com",
-        "vacaciones": 14,
+        "vacaciones": 0,
         "estado": "Activo",
         "gastos_agrupados": {
             "2025-11": {
@@ -6059,7 +6059,7 @@
         "telefono": "2317409670",
         "direccion": "San Luis s/n",
         "email": "lucasmortarini05@gmail.com",
-        "vacaciones": 14,
+        "vacaciones": 7,
         "estado": "Activo",
         "gastos_agrupados": {},
         "legajo": "253",
