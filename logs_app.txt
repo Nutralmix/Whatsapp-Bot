@@ -4546,3 +4546,4 @@
 [2026-01-22 09:11:23] Consulta de próximos cumpleaños
 [2026-01-22 14:50:40] Acceso a portada
 [2026-01-22 14:51:21] Acceso a panel
+[2026-01-22 14:51:54] Acceso a panel
