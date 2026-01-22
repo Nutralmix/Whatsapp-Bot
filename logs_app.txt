@@ -4514,3 +4514,35 @@
 [2026-01-13 16:55:21] Consulta de préstamo para 23
 [2026-01-15 11:18:11] Acceso a portada
 [2026-01-15 11:18:12] Acceso a panel
+[2026-01-15 11:18:28] Acceso a panel
+[2026-01-15 11:38:50] Acceso a portada
+[2026-01-15 11:38:52] Acceso a panel
+[2026-01-15 11:38:58] Acceso a panel
+[2026-01-15 12:29:45] Acceso a portada
+[2026-01-15 12:29:47] Acceso a panel
+[2026-01-15 12:29:47] Empleados activos cargados correctamente
+[2026-01-15 12:29:47] Visualización de todos los empleados
+[2026-01-15 12:29:51] Empleados activos cargados correctamente
+[2026-01-15 12:29:51] Visualización de todos los empleados
+[2026-01-15 16:03:28] Acceso a portada
+[2026-01-15 16:03:31] Acceso a panel
+[2026-01-15 16:03:37] Acceso a subir archivo a empleado (privado)
+[2026-01-15 16:03:41] Acceso a subir archivo a empleado (privado)
+[2026-01-15 16:03:47] Acceso a panel
+[2026-01-16 12:49:39] Acceso a portada
+[2026-01-16 12:49:43] Acceso a panel
+[2026-01-16 12:49:47] Empleados activos cargados correctamente
+[2026-01-16 12:49:47] Visualización de todos los empleados
+[2026-01-16 12:49:56] Acceso a panel
+[2026-01-16 12:51:17] Acceso a panel
+[2026-01-16 15:03:24] Acceso a portada
+[2026-01-16 15:03:25] Acceso a panel
+[2026-01-19 17:21:26] Servidor Flask iniciado
+[2026-01-21 11:47:50] Acceso a portada
+[2026-01-21 11:47:51] Acceso a panel
+[2026-01-22 09:11:19] Acceso a portada
+[2026-01-22 09:11:21] Acceso a panel
+[2026-01-22 09:11:23] Empleados activos cargados correctamente
+[2026-01-22 09:11:23] Consulta de próximos cumpleaños
+[2026-01-22 14:50:40] Acceso a portada
+[2026-01-22 14:51:21] Acceso a panel

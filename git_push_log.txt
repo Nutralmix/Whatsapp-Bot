@@ -20160,3 +20160,277 @@ To https://github.com/Nutralmix/Whatsapp-Bot.git
 
 [2026-01-15 11:18:20] ✅ Git está disponible en: C:\Program Files\Git\cmd\git.EXE
 [2026-01-15 11:18:20] === Ejecutando: git add . ===
+[2026-01-15 11:18:22] === Ejecutando: git commit -m "Actualización automática - 2026-01-15 11:18" ===
+[2026-01-15 11:18:23] STDOUT:
+[main 695a36f6] ActualizaciÃ³n automÃ¡tica - 2026-01-15 11:18
+ Committer: unknown <Administrador@NUTRALMIX.LOCAL>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 546 files changed, 607 insertions(+), 332 deletions(-)
+ delete mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-1442.json
+ delete mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-1566.json
+ delete mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2371.json
+ delete mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2408.json
+ delete mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2685.json
+ delete mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2687.json
+ delete mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2692.json
+ delete mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2694.json
+ delete mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2697.json
+ delete mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2701.json
+ delete mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2705.json
+ delete mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2708.json
+ delete mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2710.json
+ delete mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2712.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2721.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2722.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2723.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2724.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2725.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2726.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2728.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2732.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2733.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2735.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2737.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2738.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2740.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2741.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2742.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2743.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2744.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2749.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2750.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2751.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2753.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2756.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2757.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2758.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2759.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2760.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2762.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2763.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2764.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2768.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2769.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2770.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2771.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2772.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2773.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2774.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2776.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2778.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2779.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2780.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2782.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2783.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2784.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2785.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2786.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2787.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2790.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2791.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2794.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2795.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2798.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2802.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2803.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2804.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2805.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2806.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2808.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2809.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2810.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2813.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2818.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2819.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2820.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2821.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2822.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2823.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2824.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2825.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2826.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2827.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2836.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2837.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2838.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2840.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2846.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2848.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2850.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2853.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2854.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2856.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2860.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2861.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2862.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2863.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2865.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2866.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2869.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2871.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2872.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2876.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2877.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2879.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2881.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2882.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2884.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2886.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2887.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2888.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2889.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2890.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2892.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2895.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2896.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2898.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2899.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2900.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2901.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2903.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2904.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2905.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2906.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2907.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2909.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2910.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2911.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2912.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2913.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2914.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2915.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2916.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2917.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2919.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2920.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2923.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2924.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2925.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2926.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2927.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2928.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2929.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2930.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2931.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2933.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2934.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2935.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2938.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2939.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2941.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2942.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2943.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2945.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2948.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2949.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-2950.json
+ delete mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-636.json
+ delete mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/pre-key-652.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/sender-key-120363160404734367@g.us--238091629506587--19.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/sender-key-120363160404734367@g.us--42571933982961--84.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/sender-key-120363160404734367@g.us--515479994495--51.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/sender-key-120363400406908661@g.us--245083718848676--0.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/sender-key-120363400406908661@g.us--47661268910108--0.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/sender-key-120363400406908661@g.us--6829048373339--9.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/sender-key-120363400406908661@g.us--73894962716676--44.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/sender-key-120363400406908661@g.us--99733502689340--0.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/sender-key-120363400704853622@g.us--152939641466922--41.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/sender-key-120363400704853622@g.us--154339733700761--0.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/sender-key-120363400704853622@g.us--222840150335706--70.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/sender-key-120363400704853622@g.us--223329759834289--0.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/sender-key-120363400704853622@g.us--261284520005705--8.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/sender-key-120363400704853622@g.us--267473702137975--17.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/sender-key-120363400704853622@g.us--395304767511--46.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/sender-key-120363418021321341@g.us--208954621734951--0.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/sender-key-5492317471567-1593173537@g.us--109749400002736--27.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/sender-key-5492494343997-1443200588@g.us--189674513522725--50.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/sender-key-5492494343997-1443200588@g.us--19537890127873--0.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/sender-key-5492494520943-1475542133@g.us--199303729520799--0.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/sender-key-5492494520943-1475542133@g.us--214546618781724--0.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/sender-key-5492494520943-1475542133@g.us--225245483028693--0.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/sender-key-5492494520943-1475542133@g.us--79796281327771--0.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/sender-key-5492494520943-1475542133@g.us--8345289240650--0.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/sender-key-5492494520943-1475542133@g.us--87913786245217--0.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/sender-key-5492494648769-1455891012@g.us--121027917005027--0.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/sender-key-5492494648769-1455891012@g.us--170403028848720--0.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/sender-key-5492494648769-1455891012@g.us--246441079513277--0.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/sender-key-5492494648769-1455891012@g.us--5132502716457--0.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/sender-key-5492494648769-1455891012@g.us--54288437002381--0.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/sender-key-5492494648769-1455891012@g.us--60894113456144--0.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/sender-key-5492494648769-1455891012@g.us--85452719702265--0.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/sender-key-5492494648769-1455891012@g.us--99523049353320--81.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/sender-key-status@broadcast--19190081704143--40.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/sender-key-status@broadcast--218231717527577--0.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/sender-key-status@broadcast--5491158540305--0.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/sender-key-status@broadcast--5492317484395--0.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/sender-key-status@broadcast--5492317581658--0.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/sender-key-status@broadcast--5492357430686--0.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/sender-key-status@broadcast--5492494637717--0.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/session-121027917005027.0.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/session-128140433195244.37.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/session-152939641466922.41.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/session-170403028848720.0.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/session-189674513522725.50.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/session-19190081704143.40.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/session-19537890127873.0.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/session-199303729520799.0.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/session-208954621734951.0.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/session-214602520514699.0.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/session-218231717527577.0.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/session-222840150335706.70.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/session-223329759834289.0.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/session-225245483028693.0.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/session-234427988897975.0.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/session-238091629506587.19.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/session-261284520005705.8.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/session-395304767511.46.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/session-42571933982961.84.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/session-47661268910108.0.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/session-5132502716457.0.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/session-54288437002381.0.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/session-5491158540305.0.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/session-5492317406487.0.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/session-5492317484395.0.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/session-5492317581658.0.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/session-5492357430686.0.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/session-5492494637717.0.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/session-60894113456144.0.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/session-6829048373339.9.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/session-73894962716676.44.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/session-79796281327771.0.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/session-80616586530946.0.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/session-8345289240650.0.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/session-85452719702265.0.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/session-89885797003274.0.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/session-99523049353320.81.json
+ create mode 100644 whatsapp-grupos/auth-SERVER-DM-whatsapp-grupos/session-99733502689340.0.json
+
+[2026-01-15 11:18:23] === Ejecutando: git pull origin main --no-edit ===
+[2026-01-15 11:18:24] STDOUT:
+Already up to date.
+
+[2026-01-15 11:18:24] STDERR:
+From https://github.com/Nutralmix/Whatsapp-Bot
+ * branch              main       -> FETCH_HEAD
+
+[2026-01-15 11:18:24] === Ejecutando: git push origin main ===
+[2026-01-15 11:18:28] STDERR:
+To https://github.com/Nutralmix/Whatsapp-Bot.git
+   6c685170..695a36f6  main -> main
+
+[2026-01-15 11:18:28] ✅ Push exitoso.
+[2026-01-15 11:18:28] 📤 Finalizó script de git_push.py
+
+[2026-01-22 14:51:30] ✅ Git está disponible en: C:\Program Files\Git\cmd\git.EXE
+[2026-01-22 14:51:30] === Ejecutando: git add . ===
