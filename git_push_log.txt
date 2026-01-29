@@ -21870,3 +21870,119 @@ may have crashed in this repository earlier:
 remove the file manually to continue.
 
 [2026-01-29 12:01:14] === Ejecutando: git commit -m "Actualización automática - 2026-01-29 12:01" ===
+[2026-01-29 12:01:14] STDERR:
+fatal: Unable to create 'C:/Bot_RRHH/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+
+[2026-01-29 12:01:14] === Ejecutando: git pull origin main --no-edit ===
+[2026-01-29 12:01:14] === Ejecutando: git commit -m "Actualización automática - 2026-01-29 12:01" ===
+[2026-01-29 12:01:14] STDOUT:
+[main 4c43cc2b] ActualizaciÃ³n automÃ¡tica - 2026-01-29 12:01
+ Committer: unknown <Administrador@NUTRALMIX.LOCAL>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 3679 insertions(+), 2382 deletions(-)
+
+[2026-01-29 12:01:14] === Ejecutando: git pull origin main --no-edit ===
+[2026-01-29 12:01:17] STDERR:
+From https://github.com/Nutralmix/Whatsapp-Bot
+ * branch              main       -> FETCH_HEAD
+warning: fetch updated the current branch head.
+fast-forwarding your working tree from
+commit 50931ea6898ee2af0b97947ee664366a483ffef3.
+error: Your local changes to the following files would be overwritten by merge:
+	empleados.json
+	gastos.xlsx
+	git_push_log.txt
+	vacaciones.xlsx
+Please commit your changes or stash them before you merge.
+Aborting
+fatal: Cannot fast-forward your working tree.
+After making sure that you saved anything precious from
+$ git diff 50931ea6898ee2af0b97947ee664366a483ffef3
+output, run
+$ git reset --hard
+to recover.
+
+[2026-01-29 12:01:17] ⚠️ Falló el 'git pull'. Intentando continuar de todas formas...
+[2026-01-29 12:01:17] === Ejecutando: git push origin main ===
+[2026-01-29 12:01:17] STDERR:
+From https://github.com/Nutralmix/Whatsapp-Bot
+ * branch              main       -> FETCH_HEAD
+warning: fetch updated the current branch head.
+fast-forwarding your working tree from
+commit 50931ea6898ee2af0b97947ee664366a483ffef3.
+error: Your local changes to the following files would be overwritten by merge:
+	empleados.json
+	gastos.xlsx
+	git_push_log.txt
+	vacaciones.xlsx
+Please commit your changes or stash them before you merge.
+Aborting
+fatal: Cannot fast-forward your working tree.
+After making sure that you saved anything precious from
+$ git diff 50931ea6898ee2af0b97947ee664366a483ffef3
+output, run
+$ git reset --hard
+to recover.
+
+[2026-01-29 12:01:17] ⚠️ Falló el 'git pull'. Intentando continuar de todas formas...
+[2026-01-29 12:01:17] === Ejecutando: git push origin main ===
+[2026-01-29 12:01:17] STDOUT:
+Already up to date.
+
+[2026-01-29 12:01:17] STDERR:
+From https://github.com/Nutralmix/Whatsapp-Bot
+ * branch              main       -> FETCH_HEAD
+
+[2026-01-29 12:01:17] === Ejecutando: git push origin main ===
+[2026-01-29 12:01:27] STDERR:
+To https://github.com/Nutralmix/Whatsapp-Bot.git
+   3690486b..4c43cc2b  main -> main
+
+[2026-01-29 12:01:27] ✅ Push exitoso.
+[2026-01-29 12:01:27] 📤 Finalizó script de git_push.py
+
+[2026-01-29 12:01:27] STDERR:
+To https://github.com/Nutralmix/Whatsapp-Bot.git
+ ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at 4c43cc2b7682485ed34b7748427d0c50f9b80a68 but expected 3690486bb7331faafa18fc745c72558e6e325c9c)
+error: failed to push some refs to 'https://github.com/Nutralmix/Whatsapp-Bot.git'
+
+[2026-01-29 12:01:27] ❌ El push normal falló. Intentando con --force...
+[2026-01-29 12:01:27] === Ejecutando: git push origin main --force ===
+[2026-01-29 12:01:28] STDERR:
+To https://github.com/Nutralmix/Whatsapp-Bot.git
+ ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at 4c43cc2b7682485ed34b7748427d0c50f9b80a68 but expected 3690486bb7331faafa18fc745c72558e6e325c9c)
+error: failed to push some refs to 'https://github.com/Nutralmix/Whatsapp-Bot.git'
+
+[2026-01-29 12:01:28] ❌ El push normal falló. Intentando con --force...
+[2026-01-29 12:01:28] === Ejecutando: git push origin main --force ===
+[2026-01-29 12:01:29] STDERR:
+Everything up-to-date
+
+[2026-01-29 12:01:29] ✅ Push forzado exitoso.
+[2026-01-29 12:01:29] 📤 Finalizó script de git_push.py
+
+[2026-01-29 12:01:30] STDERR:
+Everything up-to-date
+
+[2026-01-29 12:01:30] ✅ Push forzado exitoso.
+[2026-01-29 12:01:30] 📤 Finalizó script de git_push.py
+
+[2026-01-29 12:10:30] ✅ Git está disponible en: C:\Program Files\Git\cmd\git.EXE
+[2026-01-29 12:10:30] === Ejecutando: git add . ===
