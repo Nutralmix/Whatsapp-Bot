@@ -1221,7 +1221,7 @@
         "cuil": "20-30692075-9",
         "sector": "Administracion",
         "fecha_ingreso": "09-01-2012",
-        "fecha_nacimiento": "17-12-1984",
+        "fecha_nacimiento": "26-01-1984",
         "telefono": "2317450257",
         "direccion": "Cavallari 308",
         "email": "juanchilopez1984@gmail.com",
@@ -2857,7 +2857,16 @@
         "email": "santiagosusseret70@gmail.com",
         "vacaciones": 21,
         "estado": "Activo",
-        "prestamo": {},
+        "prestamo": {
+            "fecha_prestamo": "",
+            "monto": 800000.0,
+            "cuotas": 4,
+            "cancelado": 0.0,
+            "pendiente": -800000.0,
+            "proxima_cuota": 200000.0,
+            "cuotas_pendientes": 4,
+            "fecha_cancelacion": "01-04-2026"
+        },
         "gastos_agrupados": {
             "2025-11": {
                 "total_mes": 499799.07,
