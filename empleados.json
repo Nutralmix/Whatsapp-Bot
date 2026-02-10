@@ -4666,7 +4666,7 @@
             "monto": 2485430.64,
             "cuotas": 10,
             "cancelado": 2000000.0,
-            "pendiente": -485430.64,
+            "pendiente": -485430.64000000013,
             "proxima_cuota": 250000.0,
             "cuotas_pendientes": 1,
             "fecha_cancelacion": "27-02-2026"
@@ -5726,7 +5726,7 @@
             "monto": 1194338.44,
             "cuotas": 9,
             "cancelado": 1064000.0,
-            "pendiente": -130338.44,
+            "pendiente": -130338.43999999994,
             "proxima_cuota": 133000.0,
             "cuotas_pendientes": 0,
             "fecha_cancelacion": "08-01-2026"
@@ -6121,7 +6121,17 @@
             }
         },
         "legajo": "250",
-        "rol": "empleado"
+        "rol": "empleado",
+        "prestamo": {
+            "fecha_prestamo": "",
+            "monto": 300000.0,
+            "cuotas": 3,
+            "cancelado": 0.0,
+            "pendiente": -300000.0,
+            "proxima_cuota": 100000.0,
+            "cuotas_pendientes": 3,
+            "fecha_cancelacion": "01-03-2026"
+        }
     },
     "276": {
         "legajo": "276",
