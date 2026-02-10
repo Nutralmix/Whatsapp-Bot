@@ -6066,7 +6066,16 @@
         },
         "legajo": "249",
         "rol": "empleado",
-        "prestamo": {}
+        "prestamo": {
+            "fecha_prestamo": "",
+            "monto": 500000.0,
+            "cuotas": 2,
+            "cancelado": 0.0,
+            "pendiente": -500000.0,
+            "proxima_cuota": 250000.0,
+            "cuotas_pendientes": 2,
+            "fecha_cancelacion": "01-03-2026"
+        }
     },
     "250": {
         "apellido": "Sosa",
