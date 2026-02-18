@@ -1811,7 +1811,7 @@
         "rol": "empleado",
         "direccion": "Huidobro s/n",
         "email": "laoretani@gmail.com",
-        "vacaciones": 28,
+        "vacaciones": 21,
         "estado": "Activo",
         "gastos_agrupados": {
             "2025-12": {
@@ -2034,7 +2034,7 @@
         "telefono": "2317537021",
         "direccion": "",
         "email": "eltiri096@gmail.com",
-        "vacaciones": 35,
+        "vacaciones": 21,
         "estado": "Activo",
         "gastos_agrupados": {
             "2025-12": {
@@ -3437,7 +3437,7 @@
         "telefono": "2317576730",
         "direccion": "",
         "email": "santiagosusseret70@gmail.com",
-        "vacaciones": 21,
+        "vacaciones": 7,
         "estado": "Activo",
         "prestamo": {
             "fecha_prestamo": "",
@@ -4850,7 +4850,7 @@
         "rol": "empleado",
         "direccion": "",
         "email": "",
-        "vacaciones": 19,
+        "vacaciones": 20,
         "estado": "Activo",
         "gastos_agrupados": {
             "2025-12": {

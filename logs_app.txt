@@ -4621,3 +4621,4 @@
 [2026-02-18 11:10:20] Servidor Flask iniciado
 [2026-02-18 11:23:57] Acceso a portada
 [2026-02-18 11:23:59] Acceso a panel
+[2026-02-18 11:24:16] Acceso a panel
