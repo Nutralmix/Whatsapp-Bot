@@ -1135,7 +1135,7 @@
         "telefono": "2317449596",
         "direccion": "Uruguay 145 Dto 1 ",
         "email": "gustavog@nutralmix.com.ar",
-        "vacaciones": 121,
+        "vacaciones": 114,
         "estado": "Activo",
         "gastos_agrupados": {
             "2025-12": {
@@ -1512,7 +1512,7 @@
         "telefono": "2317465115",
         "direccion": "Azcuénaga 1245 casa 2 ",
         "email": "camilamontalbano@gmail.com",
-        "vacaciones": 75,
+        "vacaciones": 61,
         "estado": "Activo",
         "gastos_agrupados": {
             "2025-12": {
@@ -2923,7 +2923,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 49,
+        "vacaciones": 35,
         "gastos_agrupados": {
             "2025-12": {
                 "total_mes": 67067.19,
@@ -5083,7 +5083,7 @@
         "rol": "empleado",
         "notas": "",
         "prestamo": {},
-        "vacaciones": 7,
+        "vacaciones": 0,
         "gastos_agrupados": {
             "2025-12": {
                 "total_mes": 412815.13,
