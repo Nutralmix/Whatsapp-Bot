@@ -4622,3 +4622,16 @@
 [2026-02-18 11:23:57] Acceso a portada
 [2026-02-18 11:23:59] Acceso a panel
 [2026-02-18 11:24:16] Acceso a panel
+[2026-02-18 11:24:28] Consulta de todos los préstamos
+[2026-02-18 11:24:28] Empleados activos cargados correctamente
+[2026-02-24 17:29:28] Servidor Flask iniciado
+[2026-02-24 17:30:56] Servidor Flask iniciado
+[2026-02-25 15:37:22] Acceso a portada
+[2026-02-25 15:37:24] Acceso a panel
+[2026-02-25 15:37:25] Empleados activos cargados correctamente
+[2026-02-25 15:37:25] Visualización de todos los empleados
+[2026-02-26 10:38:45] Acceso a portada
+[2026-02-26 10:38:47] Acceso a panel
+[2026-02-26 11:37:13] Acceso a portada
+[2026-02-26 11:37:17] Acceso a panel
+[2026-02-26 11:37:19] Acceso a panel
