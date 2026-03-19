@@ -5739,5 +5739,20 @@
         "vacaciones": 0,
         "estado": "Activo",
         "gastos_agrupados": {}
+    },
+    "306": {
+        "legajo": "306",
+        "rol": "empleado",
+        "apellido": "Sanchis",
+        "nombre": "Segundo Jose",
+        "cuil": "20-41857354-7",
+        "sector": "Comercial",
+        "fecha_ingreso": "02-03-2026",
+        "fecha_nacimiento": "22-04-1999",
+        "telefono": "2302563630",
+        "direccion": "Laprida 1209",
+        "email": "sjsanchis3@gmail.com",
+        "vacaciones": 0,
+        "estado": "Activo"
     }
 }
