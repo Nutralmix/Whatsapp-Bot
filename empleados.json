@@ -1544,10 +1544,10 @@
             "fecha_prestamo": "",
             "monto": 2100000.0,
             "cuotas": 6,
-            "cancelado": 700000.0,
-            "pendiente": -1400000.0,
+            "cancelado": 1050000.0,
+            "pendiente": -1050000.0,
             "proxima_cuota": 350000.0,
-            "cuotas_pendientes": 4,
+            "cuotas_pendientes": 3,
             "fecha_cancelacion": "01-06-2026"
         }
     },
@@ -2730,10 +2730,10 @@
             "fecha_prestamo": "",
             "monto": 300000.0,
             "cuotas": 3,
-            "cancelado": 0.0,
-            "pendiente": -300000.0,
+            "cancelado": 100000.0,
+            "pendiente": -200000.0,
             "proxima_cuota": 100000.0,
-            "cuotas_pendientes": 3,
+            "cuotas_pendientes": 2,
             "fecha_cancelacion": "01-05-2026"
         },
         "vacaciones": 14,
@@ -2897,16 +2897,7 @@
         "email": "flooor.g29@gmail.com",
         "vacaciones": 14,
         "estado": "Activo",
-        "prestamo": {
-            "fecha_prestamo": "",
-            "monto": 942148.76,
-            "cuotas": 5,
-            "cancelado": 753719.0,
-            "pendiente": -188429.76,
-            "proxima_cuota": 188429.75,
-            "cuotas_pendientes": 1,
-            "fecha_cancelacion": "01-03-2026"
-        },
+        "prestamo": {},
         "gastos_agrupados": {
             "2026-02": {
                 "total_mes": 418003.44999999995,
@@ -3066,10 +3057,10 @@
             "fecha_prestamo": "",
             "monto": 800000.0,
             "cuotas": 4,
-            "cancelado": 400000.0,
-            "pendiente": -400000.0,
+            "cancelado": 600000.0,
+            "pendiente": -200000.0,
             "proxima_cuota": 200000.0,
-            "cuotas_pendientes": 2,
+            "cuotas_pendientes": 1,
             "fecha_cancelacion": "01-04-2026"
         },
         "gastos_agrupados": {
@@ -3332,10 +3323,10 @@
             "fecha_prestamo": "",
             "monto": 1000000.0,
             "cuotas": 5,
-            "cancelado": 400000.0,
-            "pendiente": -600000.0,
+            "cancelado": 600000.0,
+            "pendiente": -400000.0,
             "proxima_cuota": 200000.0,
-            "cuotas_pendientes": 3,
+            "cuotas_pendientes": 2,
             "fecha_cancelacion": "01-05-2026"
         },
         "vacaciones": 18,
@@ -3398,16 +3389,7 @@
         "email": "ignciotoledo@gmail.com",
         "vacaciones": 7,
         "estado": "Activo",
-        "prestamo": {
-            "fecha_prestamo": "",
-            "monto": 810000.0,
-            "cuotas": 6,
-            "cancelado": 675000.0,
-            "pendiente": -135000.0,
-            "proxima_cuota": 135000.0,
-            "cuotas_pendientes": 1,
-            "fecha_cancelacion": "01-03-2026"
-        },
+        "prestamo": {},
         "gastos_agrupados": {
             "2026-02": {
                 "total_mes": 642185.17,
@@ -3820,10 +3802,10 @@
             "fecha_prestamo": "",
             "monto": 1500000.0,
             "cuotas": 6,
-            "cancelado": 1000000.0,
-            "pendiente": -500000.0,
+            "cancelado": 1250000.0,
+            "pendiente": -250000.0,
             "proxima_cuota": 250000.0,
-            "cuotas_pendientes": 2,
+            "cuotas_pendientes": 1,
             "fecha_cancelacion": "01-04-2026"
         },
         "gastos_agrupados": {
@@ -4322,10 +4304,10 @@
             "fecha_prestamo": "",
             "monto": 1000000.0,
             "cuotas": 3,
-            "cancelado": 0.0,
-            "pendiente": -1000000.0,
+            "cancelado": 333333.33,
+            "pendiente": -666666.67,
             "proxima_cuota": 333333.33,
-            "cuotas_pendientes": 3,
+            "cuotas_pendientes": 2,
             "fecha_cancelacion": "01-05-2026"
         },
         "gastos_agrupados": {
@@ -4414,10 +4396,10 @@
             "fecha_prestamo": "",
             "monto": 6730514.9,
             "cuotas": 30,
-            "cancelado": 2692206.0,
-            "pendiente": -4038308.9,
+            "cancelado": 2916556.5,
+            "pendiente": -3813958.4,
             "proxima_cuota": 224350.5,
-            "cuotas_pendientes": 17,
+            "cuotas_pendientes": 16,
             "fecha_cancelacion": "07-08-2027"
         },
         "gastos_agrupados": {
@@ -4750,10 +4732,10 @@
             "fecha_prestamo": "",
             "monto": 1300000.0,
             "cuotas": 10,
-            "cancelado": 390000.0,
-            "pendiente": -910000.0,
+            "cancelado": 520000.0,
+            "pendiente": -780000.0,
             "proxima_cuota": 130000.0,
-            "cuotas_pendientes": 7,
+            "cuotas_pendientes": 6,
             "fecha_cancelacion": "01-09-2026"
         },
         "legajo": "213",
@@ -4779,10 +4761,10 @@
             "fecha_prestamo": "",
             "monto": 3000000.0,
             "cuotas": 10,
-            "cancelado": 0.0,
-            "pendiente": -3000000.0,
+            "cancelado": 300000.0,
+            "pendiente": -2700000.0,
             "proxima_cuota": 300000.0,
-            "cuotas_pendientes": 10,
+            "cuotas_pendientes": 9,
             "fecha_cancelacion": "01-12-2026"
         },
         "vacaciones": 0,
@@ -5217,10 +5199,10 @@
             "fecha_prestamo": "",
             "monto": 1000000.0,
             "cuotas": 5,
-            "cancelado": 0.0,
-            "pendiente": -1000000.0,
+            "cancelado": 200000.0,
+            "pendiente": -800000.0,
             "proxima_cuota": 200000.0,
-            "cuotas_pendientes": 5,
+            "cuotas_pendientes": 4,
             "fecha_cancelacion": "01-07-2026"
         }
     },
@@ -5360,10 +5342,10 @@
             "fecha_prestamo": "",
             "monto": 6732285.52,
             "cuotas": 30,
-            "cancelado": 2692205.0,
-            "pendiente": -4040080.52,
+            "cancelado": 2916555.5,
+            "pendiente": -3815730.02,
             "proxima_cuota": 224350.5,
-            "cuotas_pendientes": 18,
+            "cuotas_pendientes": 17,
             "fecha_cancelacion": "07-08-2027"
         },
         "vacaciones": 7,
@@ -5470,10 +5452,10 @@
             "fecha_prestamo": "",
             "monto": 1000000.0,
             "cuotas": 5,
-            "cancelado": 200000.0,
-            "pendiente": -800000.0,
+            "cancelado": 400000.0,
+            "pendiente": -600000.0,
             "proxima_cuota": 200000.0,
-            "cuotas_pendientes": 4,
+            "cuotas_pendientes": 3,
             "fecha_cancelacion": "01-06-2026"
         },
         "vacaciones": 0,
@@ -5792,16 +5774,7 @@
         },
         "legajo": "249",
         "rol": "empleado",
-        "prestamo": {
-            "fecha_prestamo": "",
-            "monto": 500000.0,
-            "cuotas": 2,
-            "cancelado": 250000.0,
-            "pendiente": -250000.0,
-            "proxima_cuota": 250000.0,
-            "cuotas_pendientes": 1,
-            "fecha_cancelacion": "01-03-2026"
-        }
+        "prestamo": {}
     },
     "250": {
         "apellido": "Sosa",
@@ -5857,13 +5830,13 @@
         "rol": "empleado",
         "prestamo": {
             "fecha_prestamo": "",
-            "monto": 300000.0,
-            "cuotas": 3,
-            "cancelado": 200000.0,
-            "pendiente": -100000.0,
+            "monto": 500000.0,
+            "cuotas": 5,
+            "cancelado": 0.0,
+            "pendiente": -500000.0,
             "proxima_cuota": 100000.0,
-            "cuotas_pendientes": 1,
-            "fecha_cancelacion": "01-03-2026"
+            "cuotas_pendientes": 5,
+            "fecha_cancelacion": "01-08-2026"
         }
     },
     "276": {
@@ -6162,16 +6135,7 @@
         },
         "legajo": "290",
         "rol": "empleado",
-        "prestamo": {
-            "fecha_prestamo": "",
-            "monto": 450000.0,
-            "cuotas": 3,
-            "cancelado": 300000.0,
-            "pendiente": -150000.0,
-            "proxima_cuota": 150000.0,
-            "cuotas_pendientes": 1,
-            "fecha_cancelacion": "01-03-2026"
-        }
+        "prestamo": {}
     },
     "292": {
         "apellido": "Del Pino",
@@ -6217,10 +6181,10 @@
             "fecha_prestamo": "",
             "monto": 800000.0,
             "cuotas": 5,
-            "cancelado": 320000.0,
-            "pendiente": -480000.0,
+            "cancelado": 480000.0,
+            "pendiente": -320000.0,
             "proxima_cuota": 160000.0,
-            "cuotas_pendientes": 3,
+            "cuotas_pendientes": 2,
             "fecha_cancelacion": "01-05-2026"
         }
     },
@@ -6464,6 +6428,16 @@
                     }
                 }
             }
+        },
+        "prestamo": {
+            "fecha_prestamo": "",
+            "monto": 2000000.0,
+            "cuotas": 8,
+            "cancelado": 0.0,
+            "pendiente": -2000000.0,
+            "proxima_cuota": 250000.0,
+            "cuotas_pendientes": 8,
+            "fecha_cancelacion": "01-11-2026"
         }
     },
     "287": {
