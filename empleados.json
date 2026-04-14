@@ -6632,5 +6632,21 @@
         "vacaciones": 0,
         "estado": "Activo",
         "gastos_agrupados": {}
+    },
+    "309": {
+        "legajo": "309",
+        "rol": "empleado",
+        "apellido": "Gastañaga",
+        "nombre": "Jorge Atilio",
+        "cuil": "20-23035752-9",
+        "sector": "Administracion",
+        "fecha_ingreso": "20-04-2026",
+        "fecha_nacimiento": "05-10-1972",
+        "telefono": "2954443077",
+        "direccion": "Catamarca 217- Carlos Casares",
+        "email": "atilio.gastanaga@hotmail.com",
+        "vacaciones": 21,
+        "estado": "Activo",
+        "gastos_agrupados": {}
     }
 }

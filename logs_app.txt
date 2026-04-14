@@ -4732,3 +4732,10 @@
 [2026-04-14 08:41:32] Acceso a panel
 [2026-04-14 08:41:39] Empleados activos cargados correctamente
 [2026-04-14 08:41:39] Visualización de todos los empleados
+[2026-04-14 08:46:04] Acceso a panel
+[2026-04-14 11:05:00] Acceso a portada
+[2026-04-14 11:05:02] Acceso a panel
+[2026-04-14 11:08:03] Nuevo empleado agregado: 309 - Jorge Atilio
+[2026-04-14 11:08:04] Empleados activos cargados correctamente
+[2026-04-14 11:08:04] Visualización de todos los empleados
+[2026-04-14 11:08:21] Acceso a panel
